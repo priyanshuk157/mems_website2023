@@ -1,0 +1,408 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-source-sans-pro: "Source Sans Pro";
+  --font-oswald: Oswald;
+  --font-inherit: inherit;
+
+  /* font sizes */
+  --font-size-base: 16px;
+  --font-size-xl: 20px;
+
+  /* Colors */
+  --color-limegreen: #55bb11;
+  --color-darkslategray: #333;
+  --color-black: #000;
+  --color-gainsboro-100: #d9d9d9;
+  --color-gainsboro-200: rgba(217, 217, 217, 0.6);
+  --color-royalblue: #4875fe;
+
+  /* Paddings */
+  --padding-2xl: 21px;
+
+  /* border radiuses */
+  --br-4xl: 23px;
+}
+.acad-card{
+    background-color: #fff;
+    height: 300px;
+    margin-top: 600px;
+    
+}
+.admission,
+.mtech21 {
+  position: absolute;
+  border-radius: var(--br-4xl);
+}
+.admission {
+  text-decoration: none;
+  top: 1222px;
+  left: 212px;
+  background-color: var(--color-gainsboro-100);
+  width: 977px;
+  height: 77px;
+}
+.mtech21 {
+  top: 0;
+  left: 0;
+  background-color: var(--color-gainsboro-200);
+  width: 1003px;
+  height: 135px;
+}
+.mtechWithSpecialization {
+  margin: 0;
+  padding-left: var(--padding-2xl);
+}
+.mispelledStrongContainer {
+  position: absolute;
+  top: 20.14px;
+  left: 31px;
+  line-height: 25.6px;
+  display: flex;
+  align-items: center;
+  width: 933px;
+  height: 20px;
+}
+.mtech2 {
+  position: absolute;
+  top: 747.06px;
+  left: -32px;
+  width: 1003px;
+  height: 135px;
+}
+.mispelledStrongContainer1 {
+  margin: 0;
+  position: absolute;
+  top: 13px;
+  left: 43px;
+  line-height: 25.6px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  width: 379px;
+  height: 20px;
+}
+.phd {
+  position: absolute;
+  top: 916.2px;
+  left: -27px;
+  width: 1003px;
+  height: 135px;
+}
+.strongDualContainer {
+  margin: 0;
+  position: absolute;
+  top: 17px;
+  left: 35px;
+  line-height: 25.6px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  width: 919px;
+  height: 20px;
+}
+.mtech1 {
+  position: absolute;
+  top: 572.06px;
+  left: -35px;
+  width: 1003px;
+  height: 135px;
+  
+}
+.mispelledStrongContainer2 {
+  margin: 0;
+  position: absolute;
+  top: 18px;
+  left: 31px;
+  line-height: 25.6px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  width: 610px;
+  height: 20px;
+}
+.btech {
+  position: absolute;
+  top: 416.2px;
+  left: -32px;
+  width: 1003px;
+  height: 135px;
+}
+.degreeProgramsOffered {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  line-height: 25.6px;
+  display: flex;
+  align-items: center;
+  width: 932.7px;
+  height: 45.6px;
+}
+.admission1,
+.p {
+  position: absolute;
+  font-family: var(--font-source-sans-pro);
+}
+.p {
+  top: 348.18px;
+  left: 0;
+  width: 960px;
+  height: 51.19px;
+  font-size: var(--font-size-base);
+  color: var(--color-darkslategray);
+}
+.admission1 {
+  margin: 0;
+  /* top: 1140.2px; */
+  left: 16px;
+  font-size: var(--font-size-xl);
+  line-height: 25.6px;
+  font-weight: 700;
+  color: #e42222;
+  /* display: flex;
+  align-items: center; */
+  width: 944px;
+  height: 30px;
+}
+.image1Icon {
+  position: absolute;
+  top: -24.8px;
+  left: -1px;
+  width: 969px;
+  height: 373px;
+  object-fit: cover;
+}
+.divprograms {
+  position: absolute;
+  top: 102.8px;
+  left: 0;
+  width: 960px;
+  height: 1170.03px;
+}
+.divpageTitle,
+.heading1 {
+  position: absolute;
+  left: 15px;
+}
+.heading1 {
+  margin: 0;
+  top: 2.14px;
+  font-size: inherit;
+  line-height: 41.8px;
+  font-weight: 500;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  width: 229px;
+  height: 56px;
+}
+.divpageTitle {
+  top: 10px;
+  border-bottom: 1px dashed #ccc;
+  box-sizing: border-box;
+  width: 930px;
+  height: 82.8px;
+  font-size: 38px;
+  color: #1944c5;
+  font-family: var(--font-oswald);
+}
+.divcontainer1 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 491px);
+  width: 1003px;
+  height: 1171px;
+  font-size: var(--font-inherit);
+  color: var(--color-royalblue);
+  font-family: var(--font-inherit);
+}
+.cal,
+.curriculum {
+  position: absolute;
+  top: 1370px;
+  left: 240px;
+  border-radius: var(--br-4xl);
+  background-color: var(--color-gainsboro-100);
+  width: 455px;
+  height: 83px;
+}
+.curriculum {
+  top: 1372px;
+  left: 748px;
+  width: 441px;
+  height: 81px;
+}
+.academicCalenderFor {
+  margin: 0;
+}
+.academicCalenderForContainer1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.academicCalenderForContainer,
+.curriculumLink {
+  text-decoration: none;
+  position: absolute;
+  /* top: 1372px; */
+  left: 50px;
+  line-height: 25.6px;
+  font-weight: 700;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  width: 396px;
+  height: 81px;
+}
+.curriculumLink {
+  /* top: 1388px; */
+  left: 50px;
+  width: 407px;
+  height: 32px;
+}
+.divcontainer {
+  top: 384px;
+  background-color: #fff;
+  width: 1440px;
+  height: 6477px;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+
+
+
+
+
+/* .wwwiitbacinByHtmltodesi {
+  position: relative;
+  width: 100%;
+  height: 2783px;
+  background-image: url(/public/wwwiitbacin-by-htmltodesign--free-version--27052023-234949-gmt10@3x.png);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-limegreen);
+  font-family: var(--font-source-sans-pro);
+} */
+@media screen and (max-width: 1200px) {
+  .btech,
+  .mtech21,
+  .admission {
+    width: 980px;
+    height: 160px;
+    
+  }
+  .admission{
+    margin-left: -129px;
+  }
+  .image1Icon {
+    opacity: 1;
+  }
+  .image1Icon.animate {
+    animation: 1s ease 0s 1 normal forwards scale-down-center;
+  }
+  .mtech1{
+    margin-top: 50px;
+  }
+  .mtech2{
+    margin-top: 50px;
+  }
+  .phd,
+.admission{
+    margin-top: 50px;
+  }
+  .cal,
+.curriculum {
+  margin-top: 81px;
+  margin-left: -135px;
+}
+  @keyframes scale-down-center {
+    0% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+    to {
+      -webkit-transform: scale(0.5);
+      transform: scale(0.5);
+    }
+  }
+  .divcontainer1 {
+    width: 900px;
+    height: 1171px;
+  }
+  .divcontainer {
+    width: 1200px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .mtech21 {
+    width: 900px;
+    height: 200px;
+    left: 118px;
+    margin-bottom: 50px ;
+  }
+  .btech {
+    height: 120px;
+    
+  }
+  
+  .mispelledStrongContainer2,
+  .strongDualContainer,
+  .mispelledStrongContainer,
+  .mispelledStrongContainer1 {
+left: 115px;  
+  }
+  .btech,
+  .divcontainer1,
+  .divprograms,
+  .image1Icon,
+  .admission {
+    width: 900px;
+  }
+  .divcontainer {
+    width: 960px;
+  }
+  .degreeProgramsOffered{
+    left: 81px;
+  }
+  .curriculum{
+    width: 365px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .btech,
+  .mtech21 {
+    width: 695px;
+    height: 250px;
+  
+
+  }
+  .btech,
+  .mtech1,
+  .mtech2,
+  .phd {
+    width: 695px;
+    left: 250px;
+  }
+  
+  .divprograms {
+    width: 300px;
+  }
+  .divcontainer1 {
+    display: flex;
+    width: 380px;
+  }
+  .curriculum {
+    width: 200px;
+    cursor: pointer;
+  }
+  .divcontainer {
+    width: 420px;
+    left: 130px;
+  }
+}
+
+

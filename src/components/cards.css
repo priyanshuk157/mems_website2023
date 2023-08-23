@@ -1,0 +1,45 @@
+.card-body{
+   
+    margin-top: 40px;
+    background: white;
+
+}
+.card-height{
+    height:20px;
+}
+.cards{
+    margin-top: 100px;
+display: grid; 
+justify-items: center;
+grid-template-rows: 1fr 1fr;
+grid-template-columns: 1fr 1fr;
+gap: 20px;
+   padding-left: 200px;
+   padding-right: 200px;
+   row-gap: 100px;
+   column-gap: -40px;
+}
+.color-button{
+    background-color: darkslategray ;
+    
+}
+@media(max-width: 1100px){
+    .cards{
+    margin-top : 100px;
+    display: grid; 
+    justify-items: center;
+    grid-template-rows: 1fr     ;
+    grid-template-columns: 1fr ;
+    gap: 20px;
+       padding-left: 200px;
+       padding-right: 200px;
+       row-gap: 100px;
+       column-gap: -40px;
+    }
+    
+}
+@media (max-width:600px){
+    .card-height{
+        height: 10rem;
+    }
+}

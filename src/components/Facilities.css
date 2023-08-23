@@ -1,0 +1,9 @@
+.facilities-items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.facilities-items img{
+   width: 10rem;
+   height: 10rem;
+}

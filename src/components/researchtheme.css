@@ -1,0 +1,277 @@
+.themes-main-1{
+    display: flex;
+    flex-direction: column;
+ 
+  
+   gap: 3rem;
+   
+}
+.themes-main-1 a{
+  text-decoration: none;
+   
+}
+.research-theme-main{
+    display: flex;
+    align-items: center;
+   margin-top: 1rem;
+    justify-content: center;
+    gap: 7rem;
+}  
+.themes-main-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+   
+   gap: 19rem;
+   
+    
+
+    
+
+}
+.themes-main-2 a{
+ 
+text-decoration: none;
+    
+
+}
+.themes-blocks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  
+position: relative;
+top: 0;
+    width: 116px;
+    height:200px;
+    background-color: #005A9C;
+
+   padding: 20px;
+   text-align: center;
+  transform: rotate(0deg);
+  transition: all .3s ease-in-out;
+   z-index: 0 ;
+   
+}
+
+.themes-blocks:hover{
+  cursor: pointer;
+  z-index: 0;
+top: -1rem;
+   box-shadow: 0px 13px 30px rgb(44, 43, 43);
+   
+}
+
+.themes-blocks::before{
+    content: "";
+    position: absolute;
+
+    width: inherit;
+    height: inherit;
+    background-color: inherit;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+   padding: 20px;
+   text-align: center;
+   transform: rotate(60deg);
+   transition: all .3s ease-in-out;
+   top:0;
+   left: 0;
+
+z-index: -1;
+
+   
+}
+.themes-blocks::after{
+   content: "";
+   position: absolute;
+   top:0;
+   left: 0;
+    width:inherit;
+    height: inherit;
+    background-color: inherit;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+   padding: 20px;
+   text-align: center;
+   transition: all .3s ease-in-out;
+   z-index: -1;
+   transform: rotate(-60deg);
+   
+
+   
+}
+
+.research-logo{
+    display: flex;
+    
+ 
+    
+    position: absolute;
+
+    width: 133px;
+    height: 230px;
+    background-color: #f8e6cc;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+   padding: 20px;
+   text-align: center;
+ 
+  transition: all .3s ease-in-out;
+   
+   
+    z-index: 0;
+} 
+.research-logo::after{
+    content: "";
+    position: absolute;
+    top:0;
+    left: 0;
+     width: inherit;
+     height: inherit;
+     background-color: #f8e6cc;
+     display: flex;
+     flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: center;
+    
+    transform: rotate(-60deg);
+    z-index: -1;
+ 
+    
+} 
+.research-logo::before{
+    content: "";
+    position: absolute;
+
+    width: inherit;
+    height: inherit;
+    background-color: #f8e6cc;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+   padding: 20px;
+   text-align: center;
+   transform: rotate(60deg);
+   top:0;
+   left: 0;
+z-index: -1;
+} 
+.research-logo img{
+    position: relative;
+    top: 20%;
+    height: 100px;
+    width:  auto;
+}
+.theme-heads{
+    /* position: relative;
+    top: 22%; */
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 800;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+@media (max-width: 600px) {
+    .themes-blocks{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+      
+    position: relative;
+    top: 0;
+        width: 46px;
+        height:80px;
+        background-color: #005A9C;
+    
+       padding: 20px;
+       text-align: center;
+      transform: rotate(0deg);
+      transition: all .3s ease-in-out;
+       z-index: 0 ;
+       
+    }
+    .research-logo{
+        display: flex;
+        
+     
+        
+        position: absolute;
+    
+        width: 50px;
+        height: 90px;
+        background-color: #f8e6cc;
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+       justify-content: space-between;
+       padding: 20px;
+       text-align: center;
+     
+      transition: all .3s ease-in-out;
+       
+       
+        z-index: 0;
+    } 
+    .themes-main-1{
+        display: flex;
+        flex-direction: column;
+     
+      
+       gap: .8rem;
+       
+    }
+    .themes-main-1 a{
+      text-decoration: none;
+       
+    }
+    .research-theme-main{
+        display: flex;
+        align-items: center;
+       margin-top: 1rem;
+        justify-content: center;
+        gap: 2.5rem;
+    }  
+    .themes-main-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+       
+       gap: 7rem;
+       
+        
+    
+        
+    
+    }
+    .theme-heads{
+        /* position: relative;
+        top: 22%; */
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 8px;
+        font-weight: 1000;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    .research-logo img{
+        position: relative;
+        top: 20%;
+        height: 50px;
+        width:  auto;
+    }
+}
