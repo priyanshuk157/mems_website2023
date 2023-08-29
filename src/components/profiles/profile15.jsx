@@ -34,7 +34,7 @@ const Profile15 = () => {
             <ul>
               <li>Designation	: Assistant Professor</li>
               <li>Office		: 1D(POD-Chromium Building)-306</li>
-              <li>Email	 (<i><FaEnvelope/></i>)	: bashada@iiti.ac.i </li>
+              <li>Email	 (<i><FaEnvelope/></i>)	: bashada@iiti.ac.in </li>
               <li>Contact  (<i><FaPhone/></i>)		: +917316603516</li>
             <div className="fac-links">
              <a href="http://mems.iiti.ac.in/Faculty.html" target="_blank" rel="noreferrer"> <i><FaHome/></i></a>
