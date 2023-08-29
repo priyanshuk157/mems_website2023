@@ -4,6 +4,7 @@ import "./section.css"
 import Newssection from './news-section'
 
 import Stats from './stats'
+import { FaEnvelope } from 'react-icons/fa'
 
 
 const section = () => {
@@ -12,6 +13,15 @@ const section = () => {
     <div className='sec'>
       <div className='sec2'>    <div className='sec-img'>
         <img src="https://iiti.ac.in/people/~ajaykk/ajaykk.jpg" alt="" />
+        <hr />
+        <div className="hodtext1">
+                <div className="name">Prof. Ajay Kumar Kushwaha</div>
+                <div className="post"> HoD & Associate Professor </div>
+                <div className="post"> Office		: 1D-610  </div>
+                <div className="post"> Email	 (<i><FaEnvelope/></i>)	:akk@iiti.ac.in</div>
+                
+               
+              </div>
         </div>
        
         <div className='sec-cont'>

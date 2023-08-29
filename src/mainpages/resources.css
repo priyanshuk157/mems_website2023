@@ -1,11 +1,11 @@
 .resources-main{
     width: 100%;
     padding: 0 8rem;
-    font-size: 20px;
+    font-size: var(--content1);
 
 }
 .res-header{
-    font-size: 30px;
+    font-size: var(--content2);
     font-weight: 800;
     color: #c44536;
 }
@@ -19,7 +19,7 @@
 }
 .res-acc-body a{
    text-decoration: none;
-   font-size: 14px;
+   font-size: var(--content1);
    color: white;
 }
 .res-acc-body {
@@ -49,7 +49,7 @@
     list-style: none;
 }
 .resource-block ul li {
-    font-size: 19px;
+    font-size: var(--content1);
     line-height: 24px;
     font-weight: 600;
     
@@ -59,7 +59,7 @@
     color: red;
     display: flex;
     justify-content: center;
-    font-size: 25px;
+    font-size: var(--content2);
     font-weight: 700;
 }
 @media(max-width:600px){

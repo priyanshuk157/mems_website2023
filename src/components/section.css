@@ -39,7 +39,7 @@
 
    color: black;
     line-height: 40px;
-   font-size: 20px;
+   font-size: var(--content2);
     background: white;
     border-radius: 5px;
     box-shadow: 0px 0px 20px rgb(79, 77, 77);

@@ -6,7 +6,7 @@
   border-radius: 10px;
  
    align-items: right;
-   font-size: 15px;
+   font-size:var(--content1);
    font-weight: 8   00;
  background-color: rgba(199, 202, 237, 0.5);
    height: 100%;
@@ -16,6 +16,10 @@
    padding: 30px;
   
 
+}
+.research-heads div h2{
+    font-size: var(--head1);
+    font-weight: 600;
 }
 .heads-1{
     position: relative;
@@ -38,6 +42,7 @@
     cursor: pointer;
     text-decoration: none;
     color: rgb(200, 1, 1);
+    
     
 
     
@@ -74,7 +79,8 @@
 
 }
 .research-content-head{
-    font-size: 3rem;
+    font-size: var(--head1);
+    margin: 2rem 0;
 }
 .prof-names{
     border-radius: 10px;
@@ -82,6 +88,7 @@
     display: flex;
     flex-direction: column;
     padding: 10px;
+    font-size: var(--content1);
     width: 20%;
 }
 
@@ -119,7 +126,12 @@
     width: 40vw;
     text-align: justify;
     justify-content: space-evenly;
-   
+    font-size: var(--content1);
+  
+}
+.faculty-involved  h3{
+    font-size: var(--head1);
+    font-weight: 600;
 }
 
 

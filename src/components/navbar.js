@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./navbar.css";
 import { FaBars } from "react-icons/fa";
 import { useRef } from "react";
+import logo from "./images/mems-logo.png"
 
 import Dropdown from 'react-bootstrap/Dropdown';
 import { Button, ButtonGroup } from "react-bootstrap";
@@ -60,11 +61,11 @@ const Navbar = () => {
         <div className="main-nav active">
           <div className="iiti-logo">
             <img
-              src="https://upload.wikimedia.org/wikipedia/en/c/c4/Indian_Institute_of_Technology%2C_Indore_Logo.png "
+              src={logo}
               alt=" okl"
             ></img>
           </div>
-          <div className="nav-2">
+          {/* <div className="nav-2">
             <div className="logo">
               <div className="mems">
                 <span className="typo">M</span>etallurgical{" "}
@@ -73,9 +74,8 @@ const Navbar = () => {
                 <span className="typo">S</span>cience
               </div>
               <div className="iiti">Indian Institute of Technology Indore</div>
-              {/* <img src="./images/img1234.png" alt=""/> */}
             </div>
-          </div>
+          </div> */}
           <div className="menu-link">
             <ul className="menu-link-ul   " ref={navRef}>
               <li>

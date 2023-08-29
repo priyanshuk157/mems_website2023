@@ -30,13 +30,13 @@
   margin: 2rem;
   display: flex;
   flex-direction: column;
- 
+ font-size: var(--content1);
   width: 80rem;
   
 }
 .acad-head1{
   color: #C44536;
-  font-size: 25px
+  font-size: var(--content2)
 }
 @media(max-width:600px){
   .acad-body{

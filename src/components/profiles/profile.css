@@ -11,7 +11,7 @@
 .pc2{
    
    
-    font-size: 20px;
+    font-size: var(--content2);
     position: relative;
     width: 100%;
     padding: 40px;
@@ -38,7 +38,7 @@
 }
 .profileimg-name{
     position: relative;
-    font-size: 30px;
+    font-size: var(--content2);
 }
 .profile-img img{
     height: auto;
@@ -60,13 +60,13 @@
     width: auto;
     font-weight: bolder;
     color: red;
-    font-size: 8rem;
+    font-size: var(--head1);
     height: 10rem;
   }
 .pc1{
     margin:     0px 0 ;
    
-    font-size: 20px;
+    font-size: var(--content2);
     position: relative;
     width: 100%;
     padding: 10px;
@@ -76,7 +76,7 @@
 }
 .pc3{
     padding:   40px;
-    font-size: 17px;
+    font-size: var(--content2);
     position: relative; 
     width: 100%;
     border-radius: 10px; 
@@ -85,7 +85,7 @@
 }
 .back-button a  {
     position: relative;
-   top:-11px    ;
+   top:-11px;
     color: red;
 }
 .pc1 ul{
@@ -97,7 +97,7 @@
     display: flex;
 
     padding: 20px 0;
-    font-size: 40px;
+    font-size: var(--head2);
     color: #C44536;
 }
 .pm-head{
@@ -105,7 +105,7 @@
     text-align: center;
     justify-content: center;
     padding: 20px;
-    font-size: 40px;
+    font-size: var(--head2);
     color: #C44536;
 }
 .profile-main{
@@ -162,13 +162,13 @@
         display: flex;
         justify-content: center;
         text-align: justify;
-        font-size: 20px;
+        font-size: var(--content2);
         color: brown;
     }
     .pm-head{
         margin-top: 0;
         text-align: justify;
-        font-size: 20px;
+        font-size: var(--content2);
         color: brown;
     }
     .back-button a  {
@@ -186,12 +186,12 @@
         width: auto;
         font-weight: bolder;
         color: red;
-        font-size: 3rem;
+        font-size: var(--head2);
         height: 6rem;
       }
       .pc2{
         
-    font-size: 15px;
+    font-size: var(--content1);
     position: relative;
     width: 100%;
     padding: 0px;

@@ -351,10 +351,10 @@ const faculty = () => {
             <div className="hodtext">
               <div className="hodtext1">
                 <div className="name">Prof. Venkata Vamsi Koruprolu</div>
-                <div className="post"> kvvamsi@iiti.ac.in </div>
-                <div className="post"> kvvamsi@iiti.ac.in </div>
-                <div className="post"> kvvamsi@iiti.ac.in </div>
-                <div className="post"> kvvamsi@iiti.ac.in </div>
+                <div className="post">Assistant Professor</div>
+                <div className="post"> Office		: #211(b), Hub Building</div>
+                <div className="post"> Email	 (<i><FaEnvelope/></i>)	: kvvamsi@iiti.ac.in </div>
+                <div className="post"> Contact  (<i><FaPhone/></i>)		: +91-731-660-3333 ext: 5568 </div>
                 <div className="post-button">
                   <a href="profile18"> view profile</a>{" "}
                 </div>
@@ -380,7 +380,7 @@ const faculty = () => {
             <div className="hodtext">
               <div className="hodtext1">
                 <div className="name">Prof. N B Ballal</div>
-                <div className="post"> nbb@iitb.ac.in </div>
+                <div className="post"> Assistant Professor </div>
                 <div className="post"> nbb@iitb.ac.in </div>
                 <div className="post"> nbb@iitb.ac.in </div>
                 <div className="post"> nbb@iitb.ac.in </div>

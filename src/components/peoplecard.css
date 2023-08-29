@@ -13,6 +13,7 @@ p {
 .faculty-main1 {
   display: flex;
   justify-content: center;
+  
 
  
   
@@ -20,11 +21,11 @@ p {
 .faculty-width{
   display: flex;
   flex-wrap: wrap;
-  justify-content: left;
+  justify-content: center;
   column-gap: 50px;
   row-gap: 3rem;
   padding: 6rem;
- 
+  font-size: var(--content1);
   max-width: 1400px;
 }
 .faculty-width1{
