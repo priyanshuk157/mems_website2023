@@ -1,0 +1,36 @@
+.phd-name{
+    color: #c44536;
+    font-size: var(--content2);
+    font-weight: 800;
+}
+.phd-card{
+    background-color: #f8e6cc;
+    width: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+
+}
+.phd-card img{
+    
+    width: 250px;
+    
+}
+.card-wrap{
+    display: flex;
+    justify-content: center ;
+    gap: 30px;
+    max-width: 1300px;
+
+}
+.phd-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    /* justify-content: center */
+     
+}

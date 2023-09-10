@@ -367,6 +367,7 @@ const faculty = () => {
       <div className="faculty-head-2">
        
         Visiting Faculty
+
       </div>
       <div className="faculty-main1">
         <div className="faculty-width1">
@@ -381,9 +382,10 @@ const faculty = () => {
               <div className="hodtext1">
                 <div className="name">Prof. N B Ballal</div>
                 <div className="post"> Assistant Professor </div>
-                <div className="post"> nbb@iitb.ac.in </div>
-                <div className="post"> nbb@iitb.ac.in </div>
-                <div className="post"> nbb@iitb.ac.in </div>
+                <div className="post"> Office		: Room No. 211 (G), CITC </div>
+                <div className="post"> Email	 (<i><FaEnvelope/></i>)	: nbb@iitb.ac.in </div>
+                <div className="post"> Contact  (<i><FaPhone/></i>)	+91-22-2576-7610 </div>
+               
                 <div className="post-button">
                   <a href="profile19"> view profile</a>{" "}
                 </div>

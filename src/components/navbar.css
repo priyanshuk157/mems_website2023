@@ -10,6 +10,7 @@
 
 }
 
+
 * {
   margin: 0;
   padding: 0;
@@ -19,9 +20,58 @@
   /* font-family: "Inter", sans-serif; */
   font-family: 'Inter', sans-serif;
 /* font-family: 'Quicksand', sans-serif; */
-font-family: 'Abel', sans-serif;
-font-family: 'Inter', sans-serif;
+/* font-family: 'Abel', sans-serif;
+font-family: 'Inter', sans-serif; */
 font-family: 'Quicksand', sans-serif;
+}
+.nav-logos{
+  height: 20px;
+  background-color: #005a9c;
+}
+.navlogo-imag{
+  width: 100%;
+}
+.shape1{
+  height: 50px;
+  float: right;
+  width: 30%;
+  top: 40%;
+  background-color: #005a9c;
+  clip-path: polygon(0% 0%, 100%  0% ,100% 100% , 10% 100%);
+  
+}
+.shape2{
+  height: 30px;
+  float: right;
+  width: 2%;
+  background-color: #005a9c;
+  transform: rotate(45deg);
+  position: relative;
+
+  left: 33px;
+  top:-20px;
+}
+.navbar-logos1{
+  padding-right: 20px;
+  display:flex ;
+  flex-direction: row;
+float: right;
+  color: white;
+  text-decoration: none;
+  gap: 50px;
+}
+.navbar-logos1 div{
+  float: right;
+  display:flex ;
+    color: white;
+    text-decoration: none;
+    gap: 20px;
+}
+.navbar-logos1 div a{
+  color: white;
+    font-size: 30px;
+    text-decoration: none;
+    gap: 20px;
 }
 .navbar1 {
   position: relative;
@@ -50,13 +100,14 @@ font-family: 'Quicksand', sans-serif;
   /* border: 1px solid; */
 }
 .dropinactive {
-  visibility: visible;
+  
+  visibility: hidden;
   flex-direction: column;
   /* justify-content: center;  */
   position: fixed;
   background-color: rgb(255, 255, 255);
   left: rem;
-  top: 8rem;
+  top: 11rem;
   z-index: -1;
   border-radius: 10px;
   box-shadow: 0px 2px 10px black;
@@ -91,7 +142,7 @@ font-family: 'Quicksand', sans-serif;
   background-color: rgb(255, 255, 255);
   left: rem;
 
-  top: 8rem;
+  top: 11rem;
   z-index: 99;
   border-radius: 10px;
   box-shadow: 0px 2px 5px black;
@@ -126,12 +177,15 @@ font-family: 'Quicksand', sans-serif;
 
 }
 .drpdwn-menu{
+  position: absolute !important;
   
-
-
+transform: translateX(none) !important;
 }
 .menu-item{
-  font-size: var(--content1);}
+  font-size: var(--content1);
+ 
+
+}
 
 .dropactive div:hover {
   cursor: pointer;

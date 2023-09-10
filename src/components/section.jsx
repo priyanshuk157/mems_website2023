@@ -18,7 +18,7 @@ const section = () => {
                 <div className="name">Prof. Ajay Kumar Kushwaha</div>
                 <div className="post"> HoD & Associate Professor </div>
                 <div className="post"> Office		: 1D-610  </div>
-                <div className="post"> Email	 (<i><FaEnvelope/></i>)	:akk@iiti.ac.in</div>
+                <div className="post"> Email	 (<i><FaEnvelope/></i>)	:hodmems@iiti.ac.in</div>
                 
                
               </div>

@@ -1,173 +1,59 @@
-.national img {
-    height: 100px;
-    width: auto;
-}
 
-.national {
+.ind-section{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 2rem;
-    padding: 2rem 8rem;
-}
-
-.international {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 2rem;
-    padding: 2rem 8rem;
-}
-
-.international img {
-    height: 100px;
-    width: auto;
-}
-
-.industrycolab img {
-    height: 150px;
-    width: auto;
-}
-
-.industrycolab {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 2rem;
-    padding: 2rem 8rem;
-}
-
-.intrntnl-head {
-    font-size: 4rem;
-    color: red;
-    padding: 2rem 8rem;
-}
-
-.ntnl-head {
-    font-size: 4rem;
-    color: red;
-    padding: 2rem 8rem;
-}
-
-.ind-head {
-    font-size: 4rem;
-    color: red;
-    padding: 2rem 8rem;
-}
-
-.placements,
-.ongoing,
-.blank {
-    padding: 1rem 8rem;
-    border-color: black;
-    border-radius: 10px;
-}
-
-.cardtext {
-    font-size: 18px;
-    padding:    0px 40px;
+    padding: 0 130px;
     
 }
-.connect-with{
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    color: red;
-    font-size: 20px;
+.sub-ind-sec1{
+      
+    padding: 40px;
+    width: 100%;
+    margin:3rem 0;
+    color: white;
+    font-size: var(--content1);
+    background-color: #005a9c;
+
 }
-.title {
-    font-size: 2rem;
-    color: red;
-    padding: 1rem 8rem;
+.sub-ind-sec2{
+      
+    padding: 10px;
+    width: 30%;
+    margin:3rem 0;
+
 }
-.place-image{
-    height: fit-content ;
-   width: 800px !important; 
-    display: flex;
-    justify-content: center;
+.sub-ind-sec3{
+      
+    padding: 10px;
+    width: 90%;
+    margin:3rem 0;
+
+}
+.sub-ind-sec4{
+      
+    padding: 0px;
+    width: 40%;
     
-    
+
 }
-.place-image img{ 
-    height: 400px;
-   
+.sub-ind-sec5{
+      
+    padding: 10px;
+    width: 50%;
+    margin:3rem 0;
+
 }
+.sub-ind-sec6{
+      
+    padding: 10px;
+    width: 50%;
+    margin:3rem 0;
 
-@media (max-width:600px) {
-    .national img {
-        height: 50px;
-        width: auto;
-    }
-
-    .national {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 2rem;
-        padding: 0rem 2rem;
-    }
-
-    .ntnl-head {
-        text-align: center;
-        font-size: 1rem;
-        color: red;
-        padding: 4rem;
-    }
-
-    .international {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 2rem;
-        padding: 2rem 2rem;
-    }
-
-    .international img {
-        height: 50px;
-        width: auto;
-    }
-
-    .intrntnl-head {
-        text-align: center;
-
-        font-size: 1rem;
-        color: red;
-        padding: 2rem 2rem;
-    }
-
-    .industrycolab img {
-        height: 50px;
-        width: auto;
-    }
-
-    .industrycolab {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 2rem;
-        padding: 2rem 2rem;
-    }
-
-    .ind-head {
-        text-align: center;
-
-        font-size: 1rem;
-        color: red;
-        padding: 2rem 2rem;
-    }
-
-    .placements,
-    .ongoing,
-    .blank {
-        padding: 0rem 2rem;
-        border-color: black;
-        border-radius: 10px;
-    }
-
-    .cardtext {
-        margin: 1rem;
-    }
-
-    .title {
-        font-size: 1rem;
-        color: red;
-        padding: 1rem 2rem;
-    }
+}
+.ind-head{
+  font-size: var(--head1);  
+  margin: 1rem;
+}
+.industry-vid{
+    width: 400px;
+    height: auto;
 }

@@ -2,6 +2,7 @@ import React from 'react'
 import "./researchtheme.css";
 import Navbar from './navbar'
 import Footer from "../components/footer";
+import logo from "./images/Screenshot 2023-09-07 133537.png";
 
 
 const ResearchThemes = () => {
@@ -39,7 +40,7 @@ const ResearchThemes = () => {
     </div>
     </a>
     <div className='research-logo'>
-    <img src="https://upload.wikimedia.org/wikipedia/en/c/c4/Indian_Institute_of_Technology%2C_Indore_Logo.png" alt="ok" />
+    <img src={logo} alt="ok" />
   </div>
   <a href="researchcomponent1">
     <div className="themes-blocks">

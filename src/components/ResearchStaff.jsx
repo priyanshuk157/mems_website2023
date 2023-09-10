@@ -9,7 +9,7 @@ import pshrimal from "./staffimages/PranjalShrimal.png"
 import sverma from "./staffimages/ShubhamVerma.jpg"
 import kthapa from "./staffimages/KulbahadurThapa.jpg"
 
-const ResearchStaff = () => {
+const DepartmentalStaff = () => {
     return (
         <>
             <div className='body'>
@@ -155,4 +155,4 @@ PGDMM, PGDHRM, DMSP (Pursuing)
     )
 }
 
-export default ResearchStaff
+export default DepartmentalStaff    
