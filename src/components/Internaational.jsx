@@ -1,7 +1,14 @@
 import React from 'react'
+import Navbar from './navbar'
+import Footer from '../components/footer'
+
 
 const Internaational = () => {
   return (
+    <>
+    <div>
+      <Navbar/>
+    </div>
     <div>
          <div className='ntnl-head'>NATIONAL COLLABORATION</div>
             <div className='national'>
@@ -43,6 +50,10 @@ const Internaational = () => {
             </div>
       
     </div>
+    <div>
+      <Footer/>
+    </div>
+    </>
   )
 }
 
