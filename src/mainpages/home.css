@@ -41,7 +41,7 @@
     padding: 60px;
     gap: 10rem;
     background-color:#f8e6cc;
-   margin: 4rem 8rem;
+   margin: 2rem 8rem;
 }
 .sec-cont{
     /* display: flex;
@@ -61,7 +61,7 @@
     align-items: center;
     padding: 3rem 3rem;
     background-color: #f8e6cc;
-    margin: 2rem 7rem;
+    margin: 1rem 7rem;
     /* border:  6rem   solid white; */
     /* color: white; */
     font-size: var(--content1);

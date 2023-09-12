@@ -25,20 +25,22 @@ const section = () => {
         </div>
        
         <div className='sec-cont'>
-        <div ><h2>About The Department</h2></div>
+        <div className='sec-conthead'>About The Department</div>
         Welcome to the home page of Department of Metallurgical Engineering and Materials Science! <br />
-
-The Department of MEMS was initially started as a Center for Materials Science Engineering comprising of faculty from Schools of basic sciences and engineering. Upon its progress in short period of time, the center for MSE was made in to full fledged Department of Metallurgical Engineering and Materials Science from 2016. <br />
+<br />
+The Department of MEMS was initially started as a Center for Materials Science Engineering comprising of faculty from Schools of basic sciences and engineering. Upon its progress in short period of time, the center for MSE was made in to full fledged Department of Metallurgical Engineering and Materials Science from 2016.
+ <br />
+ <br />
 Materials continue to play a vital role in almost every technological advancement since the beginning of civilization. The emphasis of the Department is to promote multidisciplinary research to find amicable solutions for the real- world problems and work on the cutting-edge research problems that benefits society. The key research focus of the Department is to understand the processing, structure of several classes of materials and correlate them to the properties and thus enhancing their performance.
         </div></div>
    
         <div className='vision'>
-      <div ><h2>VISION AND MISSION</h2></div>
+        <div className='sec-conthead'>VISION AND MISSION</div>
       To be among the institutes of world-class by educating and mentoring the next generation of engineers, scientists, and entrepreneurs in order to contribute to the economic and social development of India & world. 
- <br />
- Educate our students in fundamental-to-advanced topics in materials & metallurgical engineering to enable them with necessary skills to succeed in academia and industry. <br /> 
-Innovative research focused on design, processing, characterization, and application of novel materials. <br />
-Encourage innovation & entrepreneurship and provide conducive environment for translational research by collaborating with relevant industries. <br />
+ <br /> <br /> 
+ Educate our students in fundamental-to-advanced topics in materials & metallurgical engineering to enable them with necessary skills to succeed in academia and industry. <br />  <br /> 
+Innovative research focused on design, processing, characterization, and application of novel materials. <br /> <br /> 
+Encourage innovation & entrepreneurship and provide conducive environment for translational research by collaborating with relevant industries. <br /> <br /> 
 Engage with broader community via outreach programs to promote science & technology awareness
 
     </div>
@@ -50,13 +52,14 @@ Engage with broader community via outreach programs to promote science & technol
 
    
     <div className='sub-rank' >  <div className='ranking'>
-      <div ><h2>NEWS</h2></div>
+    <div className='sec-conthead'>NEWS</div>
+      
    <div className='ranking-news-main'>
     <Newssection/>
    </div>
     </div>
     <div className='ranking'>
-      <div ><h2>STATISTICS</h2></div>
+    <div className='sec-conthead'>STATISTICS</div>
    <div className='ranking-main'>
    <Stats/>
    </div>
@@ -175,14 +178,14 @@ Engage with broader community via outreach programs to promote science & technol
       <div className='section4'>
     
         <div className="events1">
-          <h1>EVENTS</h1>
+        <div className='sec-conthead'>EVENTS</div>
           click here to explore our Events
           <div className='event-button'>
              <a href="resources">view</a>
             </div>
         </div>
         <div className="events1">
-        <h1>RESOURCES</h1>
+        <div className='sec-conthead'>RESOURCES</div>
 
 click here to check our RESOURCES
           <div className='event-button'>
@@ -190,7 +193,7 @@ click here to check our RESOURCES
             </div>
         </div>
           <div className="events1">
-            <h1>Gallery </h1>
+          <div className='sec-conthead'>GALLERY</div>
 <div className='gallery-grid'>
   <img src="https://ionicframework.com/docs/img/demos/thumbnail.svg" alt="" />
 

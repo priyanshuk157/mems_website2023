@@ -1,21 +1,25 @@
 import React from 'react'
-import img from '../image.png'
+import photo1 from './images/group_photo1.jpg'
+import photo2 from './images/group_photo2.jpg'
+import photo3 from './images/group_photo3.jpg'
+import photo4 from './images/group_photo4.jpg'
+import photo5 from './images/group_photo5.jpg'
+import photo6 from './images/convocation.jpg'
+import  "./gallery.css"
+
 
 function Gallery() {
   return (
-    <div className='container d-flex justify-center align-center flex-wrap gap-3'>
-       <div >
-        <img src={img} alt="afk" />
-       </div>
-       <div>
-        <img src={img} alt="afk" />
-       </div>
-       <div >
-        <img src={img} alt="afk" />
-       </div>
-       <div >
-        <img src={img} alt="afk" />
-       </div>       
+    <div className='gallery'>
+      
+        <img src={photo1} alt="afk" />
+        <img src={photo2} alt="afk" />
+        <img src={photo3} alt="afk" />
+        <img src={photo4} alt="afk" />
+        <img src={photo5} alt="afk" />
+        <img src={photo6} alt="afk" />
+      
+      
     </div>
   )
 }

@@ -68,7 +68,7 @@ const Navbar = () => {
             <div><a href="https://twitter.com/outreach_mems" target="_blank" rel="noopener noreferrer"><i>< FaTwitterSquare/></i> </a></div>
             <div><a href="https://www.instagram.com/outreach_mems/" target="_blank" rel="noopener noreferrer"><i><FaInstagram/></i> </a></div>
             <div><a href="https://www.researchgate.net/profile/Metallurgical-Engineering-And-Materials-Science-Iit-Indore" target="_blank" rel="noopener noreferrer"><i>< FaResearchgate/></i> </a></div>
-            <div><a href="https://www.researchgate.net/profile/Metallurgical-Engineering-And-Materials-Science-Iit-Indore" target="_blank" rel="noopener noreferrer"><i>< FaFacebook/></i> </a></div>
+            <div><a href="https://www.facebook.com/profile.php?id=100092114204325" target="_blank" rel="noopener noreferrer"><i>< FaFacebook/></i> </a></div>
             </div></div>
             {/* <div className="shape2">  </div> */}
         
@@ -76,10 +76,14 @@ const Navbar = () => {
 
         <div className="main-nav active">
           <div className="iiti-logo">
-            <img
+            <a href="/  " target="_blank" rel="noopener noreferrer"><img
               src={logo}
               alt=" okl"
-            ></img>
+            ></img></a>
+            {/* <img
+              src={logo}
+              alt=" okl"
+            ></img> */}
           </div>
           {/* <div className="nav-2">
             <div className="logo">
@@ -120,7 +124,7 @@ const Navbar = () => {
 
       <Dropdown.Menu  className="drpdwn-menu" >
         
-        <Dropdown.Item className="menu-item" href="#/action-2"> <a href="ReasearchStaff">Departmental Staff</a></Dropdown.Item>
+        <Dropdown.Item className="menu-item" href="#/action-2"> <a href="DepartmentalStaff">Departmental Staff</a></Dropdown.Item>
         <Dropdown.Item className="menu-item" href="#/action-1"> <a href="ReasearchStaff">Research Staff</a> </Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown>

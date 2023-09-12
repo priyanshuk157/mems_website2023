@@ -14,12 +14,14 @@
   justify-content: space-evenly;
 
   
-  height: 30rem;
+  height: 40rem;
+  
 }
 .acad-image img{
   max-width: 1300px;
   width: 100%;
-  height: 30rem;
+  height: auto;
+  
 }
 .acad-body{
   display: flex;

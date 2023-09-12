@@ -59,8 +59,8 @@ p {
 .name {
 
   font-weight: bolder;
-  font-size: large;
-  color: red;
+  font-size: var(--content2);
+  color: var(--red);
 }
 
 .peoplecont {
@@ -113,7 +113,8 @@ p {
 }
 .faculty-head-2{
   margin-top: 1rem;
-  font-size: 5rem;
+  font-size: var(--head1);
+  color: var(--red);
   text-align: center;
 }
 .post-button{

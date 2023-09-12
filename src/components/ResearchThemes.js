@@ -2,7 +2,7 @@ import React from 'react'
 import "./researchtheme.css";
 import Navbar from './navbar'
 import Footer from "../components/footer";
-import logo from "./images/Screenshot 2023-09-07 133537.png";
+import logo from "./images/mems_logo2.png";
 
 
 const ResearchThemes = () => {

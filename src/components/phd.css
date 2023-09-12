@@ -5,7 +5,7 @@
 }
 .phd-card{
     background-color: #f8e6cc;
-    width: 300px;
+    width: 250px;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -16,7 +16,7 @@
 }
 .phd-card img{
     
-    width: 250px;
+    width: 200px;
     
 }
 .card-wrap{

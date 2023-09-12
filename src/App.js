@@ -18,7 +18,6 @@ import Researchcomponent3 from './components/researchcomponent3'
 import Researchcomponent4 from './components/researchcomponent4'
 import Researchcomponent5 from './components/researchcomponent5'
 import Researchcomponent6 from './components/researchcomponent6'
-import ReasearchStaff from './components/ResearchStaff'
 import Phd from './components/phd'
 import Profile1 from './components/profiles/profile1'
 import Profile2 from './components/profiles/profile2'
@@ -41,7 +40,7 @@ import Profile18 from './components/profiles/profile18'
 import Profile19 from './components/profiles/profile19'
 import International from './components/Internaational'
 import Industryrelation from './mainpages/industryrelation'
-import ResearchStaff from './components/ResearchStaff';
+import DepartmentalStaff from './components/DepartmentalStaff';
 
 // import Home from './components/Home'
 const App = () => {
@@ -65,7 +64,7 @@ const App = () => {
         <Route path='resources' element={<Resources/>}></Route>
         <Route path='faculty' element={<Faculty/>}></Route>
         <Route path='Postdoc' element={<PostDoc/>}></Route>
-        <Route path='staff' element={<ResearchStaff/>}></Route>
+        <Route path='staff' element={<DepartmentalStaff/>}></Route>
         <Route path='Postdoc' element={<PostDoc/>}></Route>
         <Route path='collab' element={<International/>}></Route>
         <Route path='ajkj' element={<Researchcomponent1/>}></Route>
@@ -94,7 +93,7 @@ const App = () => {
  <Route path='researchcomponent4' element={<Researchcomponent4/>}></Route>
  <Route path='researchcomponent5' element={<Researchcomponent5/>}></Route>
  <Route path='researchcomponent6' element={<Researchcomponent6/>}></Route>
- <Route path='ReasearchStaff' element={<ReasearchStaff/>}></Route>
+ <Route path='DepartmentalStaff' element={<DepartmentalStaff/>}></Route>
  <Route path='Phd' element={<Phd/>}></Route>
 
         <Route path='industry' element={<Industryrelation/>}></Route>

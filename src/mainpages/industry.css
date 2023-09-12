@@ -6,55 +6,73 @@
 }
 .sub-ind-sec1{
       
-    padding: 40px;
+    padding: 20px;
     width: 100%;
-    margin:3rem 0;
-    color: white;
+    margin:1rem 0;
+    color: black;
     font-size: var(--content1);
-    background-color: #005a9c;
+    background-color: var(--yellow);
 
 }
 .sub-ind-sec2{
-      
-    padding: 10px;
-    width: 30%;
-    margin:3rem 0;
+    background-color: var(--yellow);
+    padding: 0 20px ;
+    width: 50%;
+    margin:2rem 0rem 0rem 1rem;   
 
 }
 .sub-ind-sec3{
-      
-    padding: 10px;
-    width: 90%;
-    margin:3rem 0;
+ 
+    background-color: var(--yellow);
+    padding: 0 20px ;
+    width: 50%;
+    margin:3rem 01rem 0rem 0rem; 
+    height: auto;
 
 }
 .sub-ind-sec4{
-      
-    padding: 0px;
-    width: 40%;
-    
+    display: flex;
+    justify-content: center;
+    background-color: var(--yellow);
+    padding: 0 20px ;
+    width: 46%;
+    margin:3rem 0rem 0rem 1rem; 
+    height: auto;
 
 }
 .sub-ind-sec5{
-      
-    padding: 10px;
+    background-color: var(--yellow);
+    padding: 0 20px ;
     width: 50%;
-    margin:3rem 0;
+    margin:3rem 1rem 0rem 0rem; 
+    height: auto;
 
 }
 .sub-ind-sec6{
-      
-    padding: 10px;
+    background-color: var(--yellow);
+    padding: 0 20px ;
     width: 50%;
-    margin:3rem 0;
+    height: auto;
+    margin:3rem 0rem 0rem 1rem;     
+    height: auto;
+
+}
+.sub-ind-sec9{
+    background-color: var(--yellow);
+    padding: 10px;
+    width: 100%;
+    margin:3rem 0rem 0rem 0rem;     
 
 }
 .ind-head{
   font-size: var(--head1);  
-  margin: 1rem;
+  color: var(--red);
+  display: flex;
+  justify-content: left;
+  margin: 2rem 0rem ;
 }
 .industry-vid{
-    width: 400px;
+    width: 350px;
     height: auto;
 }
 .national img {
@@ -84,26 +102,43 @@
 }
 
 .industrycolab img {
-    height: 150px;
+    height: 80px;
     width: auto;
 }
 
 .industrycolab {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 2rem;
-    padding: 2rem 8rem;
+   
+    justify-content: left;
+    gap: 1rem;
+    
 }
 
 .intrntnl-head {
-    font-size: 4rem;
-    color: red;
+    font-size: var(--head1);
+    color: var(--red);
     padding: 2rem 8rem;
 }
 
 .ntnl-head {
-    font-size: 4rem;
-    color: red;
+    font-size: var(--head1);
+    color: var(--red);
     padding: 2rem 8rem;
+}
+.footprints-logos{
+    background-color: var(--yellow);
+    display: flex;
+    flex-wrap: wrap;
+     gap: 1rem;
+     justify-content: center;
+}
+.footprints-logos img{
+    width: auto;
+    height: 80px;
+    padding: 10px;   
+}
+.stats{
+    width: auto;
+    height: auto;
+    padding: 20px;
 }

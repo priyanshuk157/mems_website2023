@@ -7,6 +7,9 @@
 --content2: 25px;
 --head1: 35px;
 --head2: 40px;
+--blue:#005a9c;
+--yellow:#f8e6cc;
+--red: #c44536;
 
 }
 
@@ -178,10 +181,34 @@ float: right;
 }
 .drpdwn-menu{
   position: absolute !important;
+ 
   
 transform: translateX(none) !important;
+
+}
+.drpdwn-menu:hover{
+ background-color: white  !important;
 }
 .menu-item{
+  font-size: var(--content1) !important;
+  padding: 10px 0 !important;
+
+}
+.menu-item:hover{
+background-color:white !important;
+  font-size: var(--content1);
+ 
+
+}
+.menu-item a{
+  
+ 
+  font-size: var(--content1);
+ 
+
+}
+.menu-item a:hover{
+background-color:white !important;
   font-size: var(--content1);
  
 
