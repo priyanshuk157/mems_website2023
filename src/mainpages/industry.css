@@ -142,3 +142,16 @@
     height: auto;
     padding: 20px;
 }
+.national-images{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    height: 120px ;
+    width: 120px;
+    text-align: center;
+    font-weight: 600;
+}
+.national-img{
+    height: 100px;
+    width: auto;
+}

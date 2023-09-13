@@ -40,7 +40,10 @@ import Profile18 from './components/profiles/profile18'
 import Profile19 from './components/profiles/profile19'
 import International from './components/Internaational'
 import Industryrelation from './mainpages/industryrelation'
-import DepartmentalStaff from './components/DepartmentalStaff';
+import DepartmentalStaff from './components/DepartmentalStaff'
+import ResearchStaff from './components/ResearchStaff'
+import Ug from './components/UG'
+import Pg from './components/PG'
 
 // import Home from './components/Home'
 const App = () => {
@@ -94,7 +97,11 @@ const App = () => {
  <Route path='researchcomponent5' element={<Researchcomponent5/>}></Route>
  <Route path='researchcomponent6' element={<Researchcomponent6/>}></Route>
  <Route path='DepartmentalStaff' element={<DepartmentalStaff/>}></Route>
+ <Route path='ResearchStaff' element={<ResearchStaff/>}></Route>
  <Route path='Phd' element={<Phd/>}></Route>
+ <Route path='UG' element={<Ug/>}></Route>
+ <Route path='PG' element={<Pg/>}></Route>
+
 
         <Route path='industry' element={<Industryrelation/>}></Route>
       </Routes>

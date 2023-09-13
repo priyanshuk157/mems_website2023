@@ -1,0 +1,13 @@
+.ug-body{
+      padding: 0 8rem;
+    justify-content: center;
+}
+.ug-tble{
+ 
+  
+}
+.batch{
+    color: var(--red);
+    font-size: var(--content2);
+    font-weight: 600;
+}

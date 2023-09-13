@@ -58,7 +58,7 @@ p {
 
 .name {
 
-  font-weight: bolder;
+  font-weight: 900 !important;
   font-size: var(--content2);
   color: var(--red);
 }

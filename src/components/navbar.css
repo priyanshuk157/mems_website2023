@@ -1,10 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300&family=Quicksand:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Inter:wght@100;200;300&family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
 :root{
   --Primary: #ffffff;
---content1: 18px;
---content2: 25px;
+--content1: 19px;
+--content2: 23px;
 --head1: 35px;
 --head2: 40px;
 --blue:#005a9c;
@@ -19,7 +22,7 @@
   padding: 0;
   --nav-height: 14rem;
   /* color: black !important; */
-  font-weight: 600;
+  font-weight: 500;
   /* font-family: "Inter", sans-serif; */
   font-family: 'Inter', sans-serif;
 /* font-family: 'Quicksand', sans-serif; */

@@ -9,7 +9,7 @@ import { useState } from 'react';
 
 
 const Researchcomponent2 = () => {
-  const [toggleState, setToggleState] = useState(1);
+  const [toggleState, setToggleState] = useState(2);
 
   const toggleTab = (index) => {
     setToggleState(index);
@@ -20,15 +20,11 @@ const Researchcomponent2 = () => {
     <><div>
       <Navbar />
     </div>
-    <div className="head">
-
-        RESEARCH
-
-      </div>
-      <div className='research-main'>
+    <div className='research-main'>
+        
 
         <div className='research-heads'>
-          <div className=''><h2>Research Areas</h2></div>
+          <div className=''><h2>Research Themes</h2></div>
 
           <div className='heads-1' onClick={() => toggleTab(1)}><i className={toggleState === 1 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Alloy design, development, and deformation</div>
           <div className='heads-1' onClick={() => toggleTab(2)}><i className={toggleState === 2 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Surface engineering & Materials degradation</div>
@@ -36,85 +32,182 @@ const Researchcomponent2 = () => {
           <div className='heads-1' onClick={() => toggleTab(4)}><i className={toggleState === 4 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Electronics & Photonics</div>
           <div className='heads-1' onClick={() => toggleTab(5)}><i className={toggleState === 5 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Nano & Soft materials</div>
           <div className='heads-1' onClick={() => toggleTab(6)}><i className={toggleState === 6 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Energy & Environment</div>
+          <div className='heads-1' > <a href="collab">Collaborations</a></div>
+         
 
 
         </div>
         <div className={toggleState === 1 ? " active-content1" : " research-content"}>
-          <div className="research-content-head">content 1</div>
-          - Materials:
-Steels, Titanium alloys,
-High entropy alloys,
-Magnesium Alloys, magnetic materials and Composite materials
-- Metal Processing: Casting, powder metallurgy, surface modification, joining, forming, additive manufacturing
-- Structure: engineering of microstructure and surface properties
-* Properties: mechanical, fatigue, creep, corrosion, wear, oxidation
+          <div className="research-content-head">Research Areas</div>
+          <ul>
+            <li> Alloy Design
 
+</li>
+            <li> 
+Process-Structure-Property (P-S-P) correlations and Materials Modelling
+</li>
+            <li>
+Thermodynamics & Phase transformation
+</li>
+<li>Indentation Mechanics
+</li>
+<li>Mechanics of Materials
+</li>
+<li>Crystallographic texture
+</li>
+<li>Integrated  Computational Materials Engineering (ICME)
+</li>
+<li>Materials Informatics (AI/ML)
+</li>
+<li>Extreme Materials
+</li>
+          </ul>
+         
 
-
-        </div>
-        <div className={toggleState === 2 ? " active-content1" : " research-content"}>
-          <div className="research-content-head">content 2</div>
-          - Batteries & Supercapacitors
-• Green Hydrogen Production & Fuel Cells
-- Solar Cells
 
 
         </div>
         <div className={toggleState === 3 ? " active-content1" : " research-content"}>
-          <div className="research-content-head">content 3</div>
-         - Electrocatalysis, CO,Capture, Sensors
-- Luminescent Soft-materials
-• Magnetic and Superconducting Properties
-• Electronics and Optoelectronic Devices
-
+          <div className="research-content-head">Research Areas</div>
+       
+<ul>
+  <li>Light weight alloys
+</li>
+  <li>Multi-principal element alloys (MPEAs)
+</li>
+  <li>Metallic glasses
+</li>
+  <li>High temperature alloys : Superalloys
+</li>
+  <li>Ceramics
+</li>
+  <li>Cryogenic material
+</li>
+</ul>
 
         </div>
-        <div className={toggleState === 4 ? " active-content1" : " research-content"}>
-          <div className="research-content-head">content 4</div>
-          . Theoretical and Computational Material Science
-• Integrated Computational Materials Engineering
-
-
-        </div>
-        <div className={toggleState === 5 ? " active-content1" : " research-content"}>
-          <div className="research-content-head">content 4</div>
-          . Theoretical and Computational Material Science
-• Integrated Computational Materials Engineering
+        <div className={toggleState === 2 ? " active-content1" : " research-content"}>
+          <div className="research-content-head">Research Areas</div>
+         <ul>
+          <li>         Corrosion & prevention
+</li>
+          <li>Oxidation
+</li>
+          <li>Fatigue & Fracture
+</li>
+          <li>Metal joining
+</li>
+          <li>Thin films & coatings
+</li>
+          <li>Surface treatments
+</li>
+         </ul>
 
 
         </div>
         <div className={toggleState === 6 ? " active-content1" : " research-content"}>
-          <div className="research-content-head">content 4</div>
-          . Theoretical and Computational Material Science
-• Integrated Computational Materials Engineering
+          <div className="research-content-head">Research Areas</div>
+          <ul>
+            <li>          New Generation Solar Cell Batteries
+</li>
+            <li>Fuel Cells and Supercapacitors
+</li>
+            <li>Hydrogen Generation and Storage Water Splitting
+</li>
+            <li>Photocatalysis and Solar Fuels Electrocatalysis
+</li>
+            <li>Thermoelectrics & Pezoelectronics
+</li>
+            <li>Carbon capture, utilization and conversion
+</li>
+            <li>Environmental Sensors
+</li>
+            <li>Water purification and waste-water treatment
+
+</li>
+          </ul>
+
+
+        </div>
+        <div className={toggleState === 4 ? " active-content1" : " research-content"}>
+          <div className="research-content-head">Research Areas</div>
+          <ul>
+            <li>          Thin films deposition
+</li>
+            <li>Wide bandgap semiconducting oxides
+</li>
+            <li>Optical and transport properties
+</li>
+            <li>Memory devices 
+</li>
+            <li>Power electronics devices 
+</li>
+            <li>Spintronics
+</li>
+            <li>Photo-active materials
+</li>
+            <li>Optoelectronics
+
+</li>
+          </ul>
+
+
+
+        </div>
+        <div className={toggleState === 5 ? " active-content1" : " research-content"}>
+          <div className="research-content-head">Research Areas</div>
+          <ul>
+            <li>          Design and Growth of Nanostructure
+</li>
+            <li>0D,1D, 2D materials and Applications 
+</li>
+            <li>Nano-hetero-architectures
+</li>
+            <li>Optical and transport properties of semiconducting nanostructures
+</li>
+            <li>Design and Synthesis of multifunctional metallogels
+</li>
+            <li>Colloidal crystals, glasses and gels
+</li>
+            <li>Self-Assembly of Soft Matter
+</li>
+            <li>Polymers and polymeric nanocomposites
+</li>
+          </ul>
+
+
 
 
         </div>
         <div  className={toggleState === 1 ? "prof-names" : " no-profnames"}  >
           <div className="faculty-involved"><h3>FACULTIES</h3> </div>
           <ul>
-            <li><a href="aas">Dr. Sumanta Samal</a> </li>
-            <li><a href="aas">Dr. Ajay Kumar Kushwaha</a> </li>
-            <li><a href="aas">Dr. Abhijit Ghosh</a> </li>
-            <li><a href="aas">Dr. Dudekula Althaf Basha</a> </li>
-            <li><a href="aas">Dr. Vinod Kumar</a> </li>
-            <li><a href="aas">Dr. Jayaprakash Murugesan</a> </li>
-            <li><a href="aas">Dr. Santosh S. Hosmani</a> </li>
-            <li><a href="aas">Dr. Dhirendra Kumar Rai</a> </li>
-            <li><a href="aas">Dr. Hemant Borkar</a> </li>
-                        
+            <li><a href="profile9">Prof. S. Samal</a> </li>
+            <li><a href="profile7">Prof. V. Kumar</a> </li>
+            <li><a href="profile6">Prof. E. P. Korimilli</a> </li>
+            <li><a href="profile11">Prof. A. Ghosh</a> </li>
+            <li><a href="profile12">Prof. H. Borkar</a> </li>
+            <li><a href="profile15">Prof. D. Basha</a> </li>
+            <li><a href="profile14">Prof. R.S Maurya</a> </li>
+            <li><a href="profile18">Prof. K.V. Vamsi</a> </li>
+            <li><a href="profile16">Prof. C. Haldar</a> </li>
+           
+            
+           
+
 
           </ul>
 
         </div>
         <div  className={toggleState === 2 ? "prof-names" : " no-profnames"}  >
           <div className="faculty-involved"><h3>FACULTIES</h3> </div>
-          <ul>  <li><a href="aas">Dr. Vinod Kumar</a> </li>
-            <li><a href="aas">Dr. Jayaprakash Murugesan</a> </li>
-            <li><a href="aas">Dr. Santosh S. Hosmani</a> </li>
-            <li><a href="aas">Dr. Dhirendra Kumar Rai</a> </li>
-            <li><a href="aas">Dr. Hemant Borkar</a> </li>
-                        
+          <ul>  <li><a href="profile4">Prof. S. Hosmani</a> </li>
+            <li><a href="profile8">Prof. J. Murugesan</a> </li>
+            <li><a href="profile17">Prof. N. K. Prasad</a> </li>
+            <li><a href="profile5">Prof. M. Dubey</a> </li>
+            <li><a href="profile7">Prof. V. Kumar</a> </li>
+            <li><a href="profile15"> Prof. D. Basha</a> </li>
+           
 
           </ul>
 
@@ -122,9 +215,10 @@ Magnesium Alloys, magnetic materials and Composite materials
         <div  className={toggleState === 3? "prof-names" : " no-profnames"}  >
           <div className="faculty-involved"><h3>FACULTIES</h3> </div>
           <ul>
-            <li><a href="aas">Dr. Sumanta Samal</a> </li>
-            <li><a href="aas">Dr. Ajay Kumar Kushwaha</a> </li>
-            <li><a href="aas">Dr. Abhijit Ghosh</a> </li>
+            <li><a href="profile9"> Prof. S Samal</a> </li>
+            <li><a href="profile1">Prof. Ajay K Kushwaha</a> </li>
+            <li><a href="profile11">Prof
+            . Abhijit Ghosh</a> </li>
 
 
           </ul>
@@ -133,14 +227,12 @@ Magnesium Alloys, magnetic materials and Composite materials
         <div  className={toggleState === 4? "prof-names" : " no-profnames"}  >
           <div className="faculty-involved"><h3>FACULTIES</h3> </div>
           <ul>
-            <li><a href="aas">Dr. Sumanta Samal</a> </li>
-            <li><a href="aas">Dr. Ajay Kumar Kushwaha</a> </li>
-            <li><a href="aas">Dr. Abhijit Ghosh</a> </li>
-            <li><a href="aas">Dr. Dudekula Althaf Basha</a> </li>
-            <li><a href="aas">Dr. Vinod Kumar</a> </li>
-            <li><a href="aas">Dr. Jayaprakash Murugesan</a> </li>
-        
-                        
+            <li><a href="profile1">Prof. Ajay K. Kushwaha</a> </li>
+            <li><a href="profile2">Prof. Parasharam M. Shirage</a> </li>
+            <li><a href="profile3">Prof. Rupesh Devan</a> </li>
+       
+      
+
 
           </ul>
 
@@ -148,14 +240,14 @@ Magnesium Alloys, magnetic materials and Composite materials
         <div  className={toggleState === 5? "prof-names" : " no-profnames"}  >
           <div className="faculty-involved"><h3>FACULTIES</h3> </div>
           <ul>
-            <li><a href="aas">Dr. Sumanta Samal</a> </li>
-            <li><a href="aas">Dr. Ajay Kumar Kushwaha</a> </li>
-            <li><a href="aas">Dr. Abhijit Ghosh</a> </li>
-            <li><a href="aas">Dr. Dudekula Althaf Basha</a> </li>
-            <li><a href="aas">Dr. Vinod Kumar</a> </li>
-            <li><a href="aas">Dr. Jayaprakash Murugesan</a> </li>
+            <li><a href="profile2">Prof. Parasharam M. Shirage</a> </li>
+            <li><a href="profile1">Prof. Ajay K. Kushwaha</a> </li>
+            <li><a href="profile3">Prof. Rupesh Devan</a> </li>
+            <li><a href="profile10">Prof. Dhirendra K. Rai</a> </li>
+            <li><a href="profile9">Prof. S. Samal</a> </li>
+            <li><a href="profile7">Prof. Vinod Kumar</a> </li>
+            <li><a href="profile5"> Prof. M. Dubey</a> </li>
         
-                        
 
           </ul>
 
@@ -163,14 +255,13 @@ Magnesium Alloys, magnetic materials and Composite materials
         <div  className={toggleState === 6? "prof-names" : " no-profnames"}  >
           <div className="faculty-involved"><h3>FACULTIES</h3> </div>
           <ul>
-            <li><a href="aas">Dr. Sumanta Samal</a> </li>
-            <li><a href="aas">Dr. Ajay Kumar Kushwaha</a> </li>
-            <li><a href="aas">Dr. Abhijit Ghosh</a> </li>
-            <li><a href="aas">Dr. Dudekula Althaf Basha</a> </li>
-            <li><a href="aas">Dr. Vinod Kumar</a> </li>
-            <li><a href="aas">Dr. Jayaprakash Murugesan</a> </li>
+            <li><a href="profile2">Prof. P. M. Shirage</a> </li>
+            <li><a href="profile13">Prof. Sunil Kumar</a> </li>
+            <li><a href="profile3">Prof. Rupesh Devan</a> </li>
+            <li><a href="profile1">Prof. Ajay K. Kushwaha</a> </li>
+            <li><a href="profile10">Prof. Dhirendra K. Rai   </a> </li>
         
-                        
+
 
           </ul>
 

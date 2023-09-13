@@ -44,8 +44,8 @@ text-decoration: none;
   
 position: relative;
 top: 0;
-    width: 116px;
-    height:200px;
+    width: 146px;
+    height:253px;
     background-color: #005A9C;
 
    padding: 20px;
@@ -179,7 +179,7 @@ z-index: -1;
     top: 22%; */
     text-align: center;
     color: rgb(255, 255, 255);
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 800;
     text-decoration: none;
     text-transform: uppercase;

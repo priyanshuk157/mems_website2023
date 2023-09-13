@@ -1,10 +1,17 @@
 import React from 'react'
-
+import Navbar from './navbar'
+import Footer from './footer'
 const PostDoc = () => {
   return (
-    <div>
-      <h1>website under Construstion</h1>
-    </div>
+  <>
+  <div>
+    <Navbar/>
+   </div>
+   
+   <div>
+    <Footer/>
+   </div>
+  </>
   )
 }
 

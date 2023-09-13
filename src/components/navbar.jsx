@@ -125,7 +125,7 @@ const Navbar = () => {
       <Dropdown.Menu  className="drpdwn-menu" >
         
         <Dropdown.Item className="menu-item" href="#/action-2"> <a href="DepartmentalStaff">Departmental Staff</a></Dropdown.Item>
-        <Dropdown.Item className="menu-item" href="#/action-1"> <a href="ReasearchStaff">Research Staff</a> </Dropdown.Item>
+        <Dropdown.Item className="menu-item" href="#/action-1"> <a href="ResearchStaff">Research Staff</a> </Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown>
                   
@@ -138,8 +138,8 @@ const Navbar = () => {
       <Dropdown.Menu    className="drpdwn-menu">
         
         <Dropdown.Item className="menu-item" href="#/action-2"> <a href="Phd">PhD</a></Dropdown.Item>
-        <Dropdown.Item className="menu-item" href="#/action-2" > <a href="ReasearchStaff">UG</a> </Dropdown.Item>
-        <Dropdown.Item className="menu-item"  href="#/action-2"> <a href="ReasearchStaff">PG</a> </Dropdown.Item>
+        <Dropdown.Item className="menu-item" href="#/action-2" > <a href="UG">UG</a> </Dropdown.Item>
+        <Dropdown.Item className="menu-item"  href="#/action-2"> <a href="PG">PG</a> </Dropdown.Item>
         
         
       </Dropdown.Menu>
