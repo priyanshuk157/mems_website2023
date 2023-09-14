@@ -20,7 +20,8 @@ const Researchcomponent2 = () => {
     <><div>
       <Navbar />
     </div>
-    <div className='research-main'>
+    <div className="research-body">
+      <div className='research-main'>
         
 
         <div className='research-heads'>
@@ -266,7 +267,9 @@ Thermodynamics & Phase transformation
           </ul>
 
         </div>
-      </div><div>
+      </div>
+      </div>
+      <div>
         <Footer />
       </div></>
 

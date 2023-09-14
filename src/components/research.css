@@ -91,6 +91,10 @@
     font-size: var(--content1);
     width: 20%;
 }
+.research-body{
+    display: flex;
+    justify-content: center;
+}
 
 .no-profnames{
     
