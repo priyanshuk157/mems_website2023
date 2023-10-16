@@ -75,7 +75,7 @@
 }
 
 @media(max-width:600px){
-    .sec-img img{
+   .sec-img img{
    
         height: auto;
         width: 200px;

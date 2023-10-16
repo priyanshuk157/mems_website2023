@@ -1,14 +1,14 @@
 .img-hgt{
 
-    height: 550px;
+    height: 450px;
     border-radius: 10px;
     
 
 }
 .carousel-main{
     margin: auto;
-    max-width: 900px;
-    height: 550px;
+    max-width: 750px;
+    height: 450px;
     box-shadow: 0px 0px 10px  #000;
     border-radius: 10px;
     
