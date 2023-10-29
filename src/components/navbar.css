@@ -172,9 +172,11 @@ float: right;
 .drpdwn-main{
   /* margin: -5px; */
   margin: -7px 0px;
+  cursor: pointer;
   /* overflow: hidden; */
 
 }
+
 .drpdwn-btn{
   font-size: var(--content1);
   margin: -28px;
@@ -191,6 +193,7 @@ transform: translateX(none) !important;
 }
 .drpdwn-menu:hover{
  background-color: white  !important;
+
 }
 .menu-item{
   font-size: var(--content1) !important;
@@ -645,3 +648,5 @@ background-color:white !important;
   
   }
 }
+
+

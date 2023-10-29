@@ -30,8 +30,6 @@
     text-decoration: none;
     color: rgb(200, 1, 1);
     
-
-    
     
 }
 .heads-1 a{
@@ -42,11 +40,11 @@
     cursor: pointer;
     text-decoration: none;
     color: rgb(200, 1, 1);
-    
-    
 
     
-    
+}
+.heads-1:hover{
+    color: rgb(254, 120, 17);
 }
 .indicator1{
     display: none;
@@ -87,7 +85,7 @@
     background-color:#f8e6cc;
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 30px;
     font-size: var(--content1);
     width: 20%;
 }
@@ -104,7 +102,6 @@
         flex-direction: column;
         padding: 30px;
     
-    
        
     }
 
@@ -116,11 +113,11 @@
     gap: 10px;
     justify-content: center;
     list-style: none;
-
+    margin-left: -32px;
  
 }
 .prof-names ul li a{
-    color: black;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 
  
@@ -176,7 +173,7 @@
         background-color: blanchedalmond;
         display: flex;
         flex-direction: column;
-        padding: 10px;
+        padding: 30px;
         width: 100%;
     }
     
