@@ -182,7 +182,7 @@ Thermodynamics & Phase transformation
 
         </div>
         <div  className={toggleState === 1 ? "prof-names" : " no-profnames"}  >
-          <div className="faculty-involved"><h3>FACULTIES</h3> </div>
+          <div className="faculty-involved"><h3>Faculties</h3> </div>
           <ul>
             <li><a href="profile9">Prof. S. Samal</a> </li>
             <li><a href="profile7">Prof. V. Kumar</a> </li>
@@ -202,7 +202,7 @@ Thermodynamics & Phase transformation
 
         </div>
         <div  className={toggleState === 2 ? "prof-names" : " no-profnames"}  >
-          <div className="faculty-involved"><h3>FACULTIES</h3> </div>
+          <div className="faculty-involved"><h3>Faculties</h3> </div>
           <ul>  <li><a href="profile4">Prof. S. Hosmani</a> </li>
             <li><a href="profile8">Prof. J. Murugesan</a> </li>
             <li><a href="profile17">Prof. N. K. Prasad</a> </li>
@@ -215,7 +215,7 @@ Thermodynamics & Phase transformation
 
         </div>
         <div  className={toggleState === 3? "prof-names" : " no-profnames"}  >
-          <div className="faculty-involved"><h3>FACULTIES</h3> </div>
+          <div className="faculty-involved"><h3>Faculties</h3> </div>
           <ul>
             <li><a href="profile9"> Prof. S Samal</a> </li>
             <li><a href="profile1">Prof. Ajay K Kushwaha</a> </li>
@@ -227,7 +227,7 @@ Thermodynamics & Phase transformation
 
         </div>
         <div  className={toggleState === 4? "prof-names" : " no-profnames"}  >
-          <div className="faculty-involved"><h3>FACULTIES</h3> </div>
+          <div className="faculty-involved"><h3>Faculties</h3> </div>
           <ul>
             <li><a href="profile1">Prof. Ajay K. Kushwaha</a> </li>
             <li><a href="profile2">Prof. Parasharam M. Shirage</a> </li>
@@ -240,7 +240,7 @@ Thermodynamics & Phase transformation
 
         </div>
         <div  className={toggleState === 5? "prof-names" : " no-profnames"}  >
-          <div className="faculty-involved"><h3>FACULTIES</h3> </div>
+          <div className="faculty-involved"><h3>Faculties</h3> </div>
           <ul>
             <li><a href="profile2">Prof. Parasharam M. Shirage</a> </li>
             <li><a href="profile1">Prof. Ajay K. Kushwaha</a> </li>
@@ -255,7 +255,7 @@ Thermodynamics & Phase transformation
 
         </div>
         <div  className={toggleState === 6? "prof-names" : " no-profnames"}  >
-          <div className="faculty-involved"><h3>FACULTIES</h3> </div>
+          <div className="faculty-involved"><h3>Faculties</h3> </div>
           <ul>
             <li><a href="profile2">Prof. P. M. Shirage</a> </li>
             <li><a href="profile13">Prof. Sunil Kumar</a> </li>
