@@ -15,25 +15,25 @@ const ResearchThemes = () => {
  
   <div className="research-theme-main">
   <div className='themes-main-1'>
-  <a href="researchcomponent2">
+  <a href="researchcomponent1">
     <div className="themes-blocks">
-        <div className='theme-heads'>Surface engineering & Materials degradation</div>
+        <div className='theme-heads'>Alloy design, development, and deformation</div>
      
         
     </div>
     </a>
-    <a href="researchcomponent3">
+    <a href="researchcomponent2">
     <div className="themes-blocks">
-        <div className='theme-heads'>Strategic Materials</div>
+        <div className='theme-heads'>Surface engineering & Materials degradation</div>
         
         
     </div>
     </a>
     </div>
     <div className='themes-main-2'>
-    <a href="researchcomponent1">
+    <a href="researchcomponent3">
     <div className="themes-blocks">
-        <div className='theme-heads'>Alloy design, development, and deformation
+        <div className='theme-heads'>Strategic Materials
 </div>
        
         
@@ -42,9 +42,9 @@ const ResearchThemes = () => {
     <div className='research-logo'>
     <img src={logo} alt="ok" />
   </div>
-  <a href="researchcomponent5">
+  <a href="researchcomponent4">
     <div className="themes-blocks">
-    <div className='theme-heads'>Nano & Soft Materials</div>
+    <div className='theme-heads'>Electronics & Photonics</div>
        
         
     </div>
@@ -52,9 +52,9 @@ const ResearchThemes = () => {
     </div>
   
     <div className='themes-main-1'>
-    <a href="researchcomponent4">
+    <a href="researchcomponent5">
     <div className="themes-blocks">
-        <div className='theme-heads'>Electronics & Photonics</div>
+        <div className='theme-heads'>Nano & Soft materials</div>
     
         
     </div>

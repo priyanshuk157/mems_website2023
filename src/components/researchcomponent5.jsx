@@ -25,14 +25,14 @@ const Researchcomponent5 = () => {
         
 
         <div className='research-heads'>
-          <div className=''><h2>Themes</h2></div>
+          <div className=''><h2>Research Themes</h2></div>
 
           <div className='heads-1' onClick={() => toggleTab(1)}><i className={toggleState === 1 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Alloy design, development, and deformation</div>
-          <div className='heads-1' onClick={() => toggleTab(4)}><i className={toggleState === 4 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Electronics & Photonics</div>
-          <div className='heads-1' onClick={() => toggleTab(6)}><i className={toggleState === 6 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Energy & Environment</div>
-          <div className='heads-1' onClick={() => toggleTab(5)}><i className={toggleState === 5 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Nano & Soft materials</div>
-          <div className='heads-1' onClick={() => toggleTab(3)}><i className={toggleState === 3 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Strategic Materials</div>
           <div className='heads-1' onClick={() => toggleTab(2)}><i className={toggleState === 2 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Surface engineering & Materials degradation</div>
+          <div className='heads-1' onClick={() => toggleTab(3)}><i className={toggleState === 3 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Strategic Materials</div>
+          <div className='heads-1' onClick={() => toggleTab(4)}><i className={toggleState === 4 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Electronics & Photonics</div>
+          <div className='heads-1' onClick={() => toggleTab(5)}><i className={toggleState === 5 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Nano & Soft materials</div>
+          <div className='heads-1' onClick={() => toggleTab(6)}><i className={toggleState === 6 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Energy & Environment</div>
           <div className='heads-1' > <a href="collab">Collaborations</a></div>
          
 
@@ -181,7 +181,7 @@ Thermodynamics & Phase transformation
 
         </div>
         <div  className={toggleState === 1 ? "prof-names" : " no-profnames"}  >
-          <div className="faculty-involved"><h3>Faculties</h3> </div>
+          <div className="faculty-involved"><h3>FACULTIES</h3> </div>
           <ul>
             <li><a href="profile9">Prof. S. Samal</a> </li>
             <li><a href="profile7">Prof. V. Kumar</a> </li>
@@ -201,7 +201,7 @@ Thermodynamics & Phase transformation
 
         </div>
         <div  className={toggleState === 2 ? "prof-names" : " no-profnames"}  >
-          <div className="faculty-involved"><h3>Faculties</h3> </div>
+          <div className="faculty-involved"><h3>FACULTIES</h3> </div>
           <ul>  <li><a href="profile4">Prof. S. Hosmani</a> </li>
             <li><a href="profile8">Prof. J. Murugesan</a> </li>
             <li><a href="profile17">Prof. N. K. Prasad</a> </li>
@@ -214,7 +214,7 @@ Thermodynamics & Phase transformation
 
         </div>
         <div  className={toggleState === 3? "prof-names" : " no-profnames"}  >
-          <div className="faculty-involved"><h3>Faculties</h3> </div>
+          <div className="faculty-involved"><h3>FACULTIES</h3> </div>
           <ul>
             <li><a href="profile9"> Prof. S Samal</a> </li>
             <li><a href="profile1">Prof. Ajay K Kushwaha</a> </li>
@@ -226,7 +226,7 @@ Thermodynamics & Phase transformation
 
         </div>
         <div  className={toggleState === 4? "prof-names" : " no-profnames"}  >
-          <div className="faculty-involved"><h3>Faculties</h3> </div>
+          <div className="faculty-involved"><h3>FACULTIES</h3> </div>
           <ul>
             <li><a href="profile1">Prof. Ajay K. Kushwaha</a> </li>
             <li><a href="profile2">Prof. Parasharam M. Shirage</a> </li>
@@ -239,7 +239,7 @@ Thermodynamics & Phase transformation
 
         </div>
         <div  className={toggleState === 5? "prof-names" : " no-profnames"}  >
-          <div className="faculty-involved"><h3>Faculties</h3> </div>
+          <div className="faculty-involved"><h3>FACULTIES</h3> </div>
           <ul>
             <li><a href="profile2">Prof. Parasharam M. Shirage</a> </li>
             <li><a href="profile1">Prof. Ajay K. Kushwaha</a> </li>
@@ -254,7 +254,7 @@ Thermodynamics & Phase transformation
 
         </div>
         <div  className={toggleState === 6? "prof-names" : " no-profnames"}  >
-          <div className="faculty-involved"><h3>Faculties</h3> </div>
+          <div className="faculty-involved"><h3>FACULTIES</h3> </div>
           <ul>
             <li><a href="profile2">Prof. P. M. Shirage</a> </li>
             <li><a href="profile13">Prof. Sunil Kumar</a> </li>
