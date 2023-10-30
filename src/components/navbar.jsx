@@ -133,18 +133,9 @@ const Navbar = () => {
      
                     <Dropdown className="drpdwn-main" as={ButtonGroup}>
       <Button  variant="Primary"><div className="drpdwn-btn">Students</div></Button>
-      <div onMouseEnter={() => toggleTab(1)}>People </div>{" "}
-                <div className={dropdownStateCheck}>
-                  <div>
-                    {" "}
-                    <a href="faculty"> Faculty Members</a>{" "}
-                  </div>
-                  <div>
-                    {" "}
-                    <a href="PostDoc"> PostDoc.</a>{" "}
-                  </div></div>
+     
 
-      {/*<Dropdown.Toggle split variant="Primary" id="dropdown-split-basic" />
+      <Dropdown.Toggle split variant="Primary" id="dropdown-split-basic" />
 
       <Dropdown.Menu    className="drpdwn-menu">
       
@@ -154,7 +145,7 @@ const Navbar = () => {
         <Dropdown.Item className="menu-item"  href="#/action-2"> <a href="PG">PG</a> </Dropdown.Item>
         
         
-      </Dropdown.Menu>*/}
+      </Dropdown.Menu>
     </Dropdown>
      
                     
