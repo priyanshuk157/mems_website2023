@@ -6,6 +6,10 @@ import Newssection from './news-section'
 import Stats from './stats'
 import { FaEnvelope } from 'react-icons/fa'
 import prof20 from "./profiles/profimages/prof20.jpeg"
+import convopic from "./profiles/profimages/convocation.jpg"
+import re from "./profiles/profimages/re.jpg"
+
+
 
 
 const section = () => {
@@ -180,9 +184,20 @@ Engage with broader community via outreach programs to promote science & technol
       <div className='section4'>
     
         <div className="events1">
-        <div className='eventimage'><img src="src\components\images\group_photo2.jpg" alt="" /></div>
-        <div className='sec-conthead'>EVENTS</div>
-          click here to explore our Events
+        
+        <div className='sec-conthead'>EVENTS
+        </div>
+        <div className='gallery-grid2'>
+  
+
+
+  <img className='grid-itemx' src={convopic} alt="" />
+  
+
+
+
+</div>
+          <div class="eventx">Conference/Seminar/Courses</div>
           <div className='event-button'>
             
              <a href="resources">view</a>
@@ -190,8 +205,19 @@ Engage with broader community via outreach programs to promote science & technol
         </div>
         <div className="events1">
         <div className='sec-conthead'>RESOURCES</div>
+        <div className='gallery-grid2'>
+  
 
-click here to check our RESOURCES
+
+  <img className='grid-itemx' src={re} alt="" />
+  
+
+
+
+</div>
+        
+
+<div class="eventx">click here to check our RESOURCES</div>
           <div className='event-button'>
              <a href="resources">view</a>
             </div>

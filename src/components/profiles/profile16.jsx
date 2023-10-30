@@ -4,6 +4,8 @@ import Footer from "../footer";
 import "./profile.css";
 import { FaAngleLeft } from "react-icons/fa";
 import Table from "react-bootstrap/Table";
+import { FaEnvelope, FaHome, FaLinkedin, FaPhone, FaResearchgate,  FaTwitterSquare } from "react-icons/fa";
+import {SiGooglescholar } from "react-icons/si";
 
 const profile16 = () => {
   return (
@@ -24,27 +26,36 @@ const profile16 = () => {
       <div className="profile-main">
         <div className="profile-section-1">
           <div className="profile-img">
-            <img src="https://iiti.ac.in/people/~ajaykk/ajaykk.jpg" alt="sd" />
+            <img src="http://mems.iiti.ac.in/images/Dr%20Chandan%20Halder_%20MEMS.jpg" alt="sd" />
           </div>
           {/* pc=profile content */}
 
           <div className="pc2">
-            <span className="pc1-head">Prof. Ajay Kumar Kushwaha</span>
+            <span className="pc1-head">Prof. Chandan Halder
+</span>
 
             <ul>
-              <li>Email : akk@iiti.ac.in</li>
-              <li>Office : pod 305 </li>
-              <li>
-                webpage :{" "}
-                <a href="https://iiti.ac.in/people/~ajaykk/index.html">
-                  {" "}
-                  visit page
-                </a>
-              </li>
-              <li>contact : +91 731 660 3250</li>
+            <li>Email	 (<i><FaEnvelope/></i>)	:chalder@iiti.ac.in </li>
+              <li>Contact  (<i><FaPhone/></i>)		: Room No. 211 (G), CITC</li>
+
+           
+              <li>contact : +91 0731 660 3182</li>
+              <div className="fac-links">
+             <a href="https://iiti.ac.in/people/~ajaykk " target="_blank" rel="noreferrer"> <i><FaHome/></i></a>
+             <a href=" https://scholar.google.com/citations?user=Jc4fgVQAAAAJ&hl=en"target="_blank"  rel="noreferrer"> <i><SiGooglescholar/></i></a>
+             <a href="https://www.researchgate.net/profile/Chandan-Halder"target="_blank"  rel="noreferrer"><i><FaResearchgate/></i></a>
+             
+             <a href="www.linkedin.com/in/dr-chandan-halder-0408042b"target="_blank"  rel="noreferrer"> <i><FaLinkedin/></i></a>
+             
+             
+              
+              
+             
+            </div>
             </ul>
           </div>
         </div>
+      
         <div className="pc1">
           <span className="pc1-head">ACADEMIC BACKGROUND</span>
           <Table>
@@ -57,44 +68,85 @@ const profile16 = () => {
             </thead>
             <tbody>
               <tr>
-                <td>IIT, Bombay</td>
-                <td>Ph.D. </td>
-                <td>2014</td>
+                <td>IIT Kharagpur, 2016</td>
+                <td>Ph.D. Department of Metallurgical and Materials Engineering</td>
+                <td>2016</td>
               </tr>
               <tr>
-                <td>C.S.J.M University, Kanpur</td>
-                <td>M.Sc. Physics (Electronics) </td>
-                <td>2006</td>
+                <td>IIT Kharagpur</td>
+                <td>M.Tech, Department of Metallurgical and Materials Engineering</td>
+                <td>2011</td>
               </tr>
               <tr>
-                <td>C.S.J.M University, Kanpur</td>
-                <td>B.Sc. (Physics & Maths) </td>
-                <td>2003</td>
+                <td>NIT Durgapur</td>
+                <td>B.Tech, Department of Metallurgical and Materials Engineering</td>
+                <td>2009</td>
               </tr>
             </tbody>
           </Table>
           <br />
         </div>
+
+
+
+
+
+
         <div className="pc1">
-          <span className="pc1-head">POSITIONS HELD</span>
-          <ul>
-            <li>
-              Supervised 4 Ph.D students, 6 M.Tech and 11 B.tech students.
-            </li>
-            <li>Completed 2 Research Projects.</li>
-            <li>
-              Published 65 Journals, 10 conferences, 281 citations, 28 h-index,
-              44 i10-index.
-            </li>
-            <li>
-              Organised 3 workshops, 6 training programs, 2 short-term courses.{" "}
-            </li>
-            <li>
-              Given 10 Invited/Contributory talk in national / international
-              conferences.
-            </li>
-          </ul>
+          <span className="pc1-head">Research Interests
+</span>
+          <div>
+            <Table>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>
+                    {" "}
+                    Mechanistic Diffusion Modeling
+                  </td>
+                  
+                </tr>
+                <tr><td>2</td>
+                  <td>
+                    {" "}
+                    Multi-Scale Finite Element Modeling
+                  </td></tr>
+
+
+                  <tr>
+                  <td>3</td>
+                  <td>
+                    {" "}
+                    Modeling and Simulation of Microstructure Evolution
+                  </td>
+                  
+                </tr>
+
+
+                <tr>
+                  <td>4</td>
+                  <td>
+                    {" "}
+                    Neural-Network based Alloy Design
+                  </td>
+                  
+                </tr>
+              </tbody>
+            </Table>
+          </div>
         </div>
+
+
+
+
+
+
+
+
+
+
+
+
 
         <div className="pc1">
           <span className="pc1-head">PUBLICATIONS</span>
@@ -110,33 +162,47 @@ const profile16 = () => {
                 <tr>
                   <td>1</td>
                   <td>
-                    G. K. Dalapati, S. M.-Panah, R. S. Moakhar, S. Chakrabortty,
-                    S. Ghosh, R. Katal, C. S. Chua, G. Xiao, S. Tripathy,
-                    S.Ramakrishna Ajay Kushwaha, Nanoengineered Advanced
-                    Materials for Enabling Hydrogen Economy: Functionalized
-                    Graphene�Incorporated Cupric Oxide Catalyst for Efficient
-                    Solar Hydrogen Production , Global Challenges , 2020, 4 (3),
-                    2070031 , Impact Factor: 5.13.
+                  C. Halder, L. Madej & M. Pietrzyk, “Discrete micro-scale cellular automata model for modelling phase   
+   transformation during heating of dual phase steels”, Archives of Civil and Mechanical Engineering, 14(1),  
+   (2014) 96-103, https://doi.org/10.1016/j.acme.2013.07.001
+
                   </td>
                 </tr>
                 <tr>
                   <td>2</td>
                   <td>
-                    N. Mukurala, R.K. Mishra, S.H. Jin, and Ajay Kushwaha,
-                    Sulphur precursor dependent crystallinity and optical
-                    properties of solution grown Cu2FeSnS4 particles , Materials
-                    Research Express , 6 (8), 085099 (2019), Impact Factor: 1.44
-                    .
+                  C. Halder, A. Karmakar, Sk. Md. Hasan, D. Chakrabarti, M. Pietrzyk & N. Chakraborti, “Effect of Carbon 
+   Distribution During the Microstructure Evolution of Dual-Phase Steels Studied Using Cellular Automata, Genetic  
+   Algorithms, and Experimental Strategies”, Metallurgical and Materials Transaction A, 47, (2016), 5890-5906, 
+   https://doi.org/10.1007/s11661-016-3725-y
+
                   </td>
                 </tr>
                 <tr>
                   <td>3</td>
                   <td>
                     {" "}
-                    N. Mukurala, S. Suman and Ajay Kushwaha, Effect of solvents
-                    on structural, morphological and optical properties of
-                    solvothermally grown Cu2FeSnS4 particles , AIP Conference
-                    Proceedings , 2115 (1), 030603 (2019).
+                    C. Halder, D. Bachniak, L. Madej, N. Chakraborti & M. Pietrzyk, “Sensitivity analysis of the finite difference 2-D 
+   cellular automata model for phase transformation during heating”, ISIJ International, 55(1), (2015) 285-292,  
+   2015. https://doi.org/10.2355/isijinternational.55.285.
+                  </td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>
+                  C. Halder, L. Madej, M. Pietrzyk & N. Chakraborti, “Optimization of cellular automata model for the heating of 
+    dual-phase steel by genetic algorithm and genetic programming”, Materials and Manufacturing Processes,
+    30(4), (2015), 552-562, https://doi.org/10.1080/10426914.2014.994765.
+                  </td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>
+                  C.Halder, K.L. Prasanna; S. Dixit, S. Pal & S.K. Jha, “Bi-objective Optimization of Maraging Steel Produced by 
+    Vacuum Induction Melting Using Evolutionary Algorithms”, Transactions of the Indian Institute of Metals, 74(5),  
+    (2021), 1193-1201, https://doi.org/10.1007/s12666-020-02153-x.
+
+
                   </td>
                 </tr>
               </tbody>
@@ -144,7 +210,8 @@ const profile16 = () => {
           </div>
         </div>
         <div className="pc1">
-          <span className="pc1-head">PATENTS</span>
+          <span className="pc1-head">Professional Experience
+</span>
           <div>
             <Table>
               <tbody>
@@ -152,33 +219,22 @@ const profile16 = () => {
                   <td>1</td>
                   <td>
                     {" "}
-                    Amorphous Metal Oxide films, (Technology is licensed) ;
-                    K.L.G. Goh, H.Q. Le, and Ajay Kushwaha, Patent Publication
-                    Number: 20170259300,US Patent (Patent number: 10668500):
-                    Date of Patent: June 2, 2020
+                    Assistant Professor, MEMS Department, IIT Indore, 2022 – present
                   </td>
+                  
                 </tr>
+                <tr><td>2</td>
+                  <td>
+                    {" "}
+                    Industrial : Senior Manager, R&D, Mishra Dhatu Nigam Limited, Hyderabad, 2016 – 2022
+                  </td></tr>
               </tbody>
             </Table>
           </div>
         </div>
 
-        <div className="pc1">
-          <span className="pc1-head">AWARDS AND ACHIEVEMENTS</span>
-          <div>
-            General Chair: International Conference on Frontiers of Materials
-            Engineering
-          </div>
-        </div>
-        <div className="pc1">
-          <span className="pc1-head">RESEARCH INTEREST</span>
-          <div>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque ab
-            sed earum doloribus rem eius id consequuntur reiciendis sunt!
-            Dolorum cumque quaerat natus aliquam aperiam amet ipsam, laudantium
-            officia error?
-          </div>
-        </div>
+      
+        
       </div>
 
       <div>

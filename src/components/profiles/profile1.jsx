@@ -1,11 +1,12 @@
-
-
 import React from "react";
 import Navbar from "../navbar";
 import Footer from "../footer";
 import "./profile.css";
+
 import { FaEnvelope, FaHome, FaLinkedin, FaPhone, FaResearchgate,  FaTwitterSquare } from "react-icons/fa";
 import {SiGooglescholar } from "react-icons/si";
+
+
 
 const Profile18 = () => {
   return (
@@ -24,9 +25,9 @@ const Profile18 = () => {
       <div className="pm-head">Prof. Ajay Kumar Kushwaha</div>
       <div className="profile-main">
         <div className="profile-section-1">
-          <div className="profile-img">
-            <img src="https://iiti.ac.in/people/~ajaykk/ajaykk.jpg" alt="sd" />
-          </div>
+          /*<div className="profile-img">
+            <img src alt="sd" />
+          </div>*/
           {/* pc=profile content */}
 
           <div className="pc2">

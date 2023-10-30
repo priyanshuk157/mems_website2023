@@ -3,7 +3,8 @@ import "./navbar.css";
 import { FaBars } from "react-icons/fa";
 import { useRef } from "react";
 import logo from "./images/mems-logo.png"
-// import navlogo from "./images/navlogos.png"
+
+
 
 import Dropdown from 'react-bootstrap/Dropdown';
 import { Button, ButtonGroup } from "react-bootstrap";
@@ -104,7 +105,7 @@ const Navbar = () => {
               </li>
               <li>
                 {" "}
-                <div onClick={() => toggleTab(1)}>People </div>{" "}
+                <div onMouseEnter={() => toggleTab(1)}>People </div>{" "}
                 <div className={dropdownStateCheck}>
                   <div>
                     {" "}
@@ -132,17 +133,28 @@ const Navbar = () => {
      
                     <Dropdown className="drpdwn-main" as={ButtonGroup}>
       <Button  variant="Primary"><div className="drpdwn-btn">Students</div></Button>
+      <div onMouseEnter={() => toggleTab(1)}>People </div>{" "}
+                <div className={dropdownStateCheck}>
+                  <div>
+                    {" "}
+                    <a href="faculty"> Faculty Members</a>{" "}
+                  </div>
+                  <div>
+                    {" "}
+                    <a href="PostDoc"> PostDoc.</a>{" "}
+                  </div></div>
 
-      <Dropdown.Toggle split variant="Primary" id="dropdown-split-basic" />
+      {/*<Dropdown.Toggle split variant="Primary" id="dropdown-split-basic" />
 
       <Dropdown.Menu    className="drpdwn-menu">
-        
+      
+      
         <Dropdown.Item className="menu-item" href="#/action-2"> <a href="Phd">PhD</a></Dropdown.Item>
         <Dropdown.Item className="menu-item" href="#/action-2" > <a href="UG">UG</a> </Dropdown.Item>
         <Dropdown.Item className="menu-item"  href="#/action-2"> <a href="PG">PG</a> </Dropdown.Item>
         
         
-      </Dropdown.Menu>
+      </Dropdown.Menu>*/}
     </Dropdown>
      
                     
@@ -201,7 +213,7 @@ const Navbar = () => {
             </ul>
           </div>
 
-          <div className="nav-ham" onClick={showNavbar}>
+          <div className="nav-ham" onMouseEnter={showNavbar}>
             <FaBars />
           </div>
         </div>
@@ -211,6 +223,7 @@ const Navbar = () => {
       {}
     </>
   );
+  
 };
 
 export default Navbar;

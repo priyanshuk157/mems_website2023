@@ -29,7 +29,8 @@ const profile7 = () => {
           {/* pc=profile content */}
 
           <div className="pc2">
-            <span className="pc1-head">Prof. Ajay Kumar Kushwaha</span>
+            <span className="pc1-head">Prof. Vinod Kumar
+</span>
 
             <ul>
               <li>Email : akk@iiti.ac.in</li>

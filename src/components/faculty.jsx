@@ -9,7 +9,7 @@ import prof18 from "./profiles/profimages/prof18.jpg";
 import prof19 from "./profiles/profimages/prof19.jpg";
 import prof11 from "./profiles/profimages/prof11.jpg";
 import prof2 from "./profiles/profimages/prof2.jpg";
-import prof20 from "./profiles/profimages/prof20.jpeg"
+import prof20 from "./profiles/profimages/prof20.jpeg";
 import "./peoplecard.css"
 import { FaEnvelope, FaPhone } from "react-icons/fa";
 
@@ -269,28 +269,6 @@ const faculty = () => {
               </div>
             </div>
           </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
