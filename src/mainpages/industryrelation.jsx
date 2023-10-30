@@ -41,7 +41,7 @@ const industryrelation = () => {
                 <div className="sub-ind-sec1">
                     <div className='ind-head'> WHY MEMS ?   </div>
              
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa reiciendis amet vero quibusdam consequatur reprehenderit iste ab natus nesciunt minus commodi harum ut quidem exercitationem, nam sit perspiciatis delectus aperiam.
+                    MEMS is a multidisciplinary department that covers a wide range of topics related to the design, synthesis, characterization, and application of various materials, such as metals, ceramics, polymers, composites, nanomaterials, biomaterials, etc. You can learn about the fundamental principles and advanced techniques of materials science and engineering, as well as the latest developments and innovations in the field
                 </div>
                 {/* <div className="sub-ind-sec2">
                 <div className='ind-head'> BROCHURE</div>

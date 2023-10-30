@@ -22,16 +22,17 @@ const Facilities = () => {
           <h1>Instruments In Use</h1>{" "}
         </div>
         <div className="facilities-items">
-          <div className="facility-images">
+         {/*<div className="facility-images">
             {" "}
             <img src={dma} alt="" />
             DMA{" "}
           </div>
+          
           <div className="facility-images">
-            <img src={creeptest} alt="" /> creepTestingMachine
+            <img src={creeptest} alt="" /> Creep Testing Machine
           </div>
           <div className="facility-images">
-            <img src={electrochemical} alt="" /> ElecterochemicalWorkStation
+            <img src={electrochemical} alt="" /> Electerochemical Work Station
           </div> 
           <div className="facility-images">
             {" "}
@@ -41,41 +42,49 @@ const Facilities = () => {
           <div className="facility-images">
             {" "}
             <img src={fretting} alt="" />
-            frettingWearMachine
+            Fretting Wear Machine
           </div>
           <div className="facility-images">
             {" "}
             <img src={invertoptical} alt="" />
-            invertOpticalMicroscope
+            Invert Optical Microscope
           </div>
           <div className="facility-images">
             {" "}
             <img src={solarcell} alt="" />
-            solarcellsimulator
+            Solar Cell Simulator
           </div>
           <div className="facility-images">
             {" "}
-            <img src={hopkinson} alt="" /> spliHopkinsonPressureBar
+            <img src={hopkinson} alt="" /> SpliHopkinson Pressure Bar
           </div>
           <div className="facility-images">
             {" "}
             <img src={tempcontrolledutm} alt="" />
-            TemperatureControlledUTM
+            Temperature Controlled UTM
           </div>
           <div className="facility-images">
             {" "}
-            <img src={thremoanalyser} alt="" /> Thermo_analyser
+            <img src={thremoanalyser} alt="" /> Thermo Analyser
           </div>
           <div className="facility-images">
             {" "}
             <img src={uvspectro} alt="" />
-            UVspectrometer
+            UV Spectrometer
           </div>
           <div className="facility-images">
             {" "}
             <img src={xraydiff} alt="" />
-            Xraydiff
-          </div>
+            X-ray diff
+          </div>*/}
+
+
+<div class="polaroid">
+  <img src={creeptest} alt="Norway"  />
+  <div class="container">
+    <p>Hardanger, Norway</p>
+  </div>
+</div>
         </div>
       </div>
     </>

@@ -20,7 +20,7 @@ const Newssection = () => {
    
   }}    
       autoplay={{
-        delay: 2500,
+        delay: 4000,
         disableOnInteraction: false,
       }}
         slidesPerView={1}
