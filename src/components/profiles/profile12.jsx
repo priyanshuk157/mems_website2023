@@ -4,7 +4,7 @@ import Footer from "../footer";
 import "./profile.css";
 import { FaEnvelope, FaHome, FaLinkedin, FaPhone, FaResearchgate,  } from "react-icons/fa";
 import {SiGooglescholar } from "react-icons/si";
-import prof12 from "./profimages/prof18.jpg"
+// import prof12 from "./profimages/prof18.jpg"
 
 const Profile12 = () => {
   return (

@@ -25,9 +25,9 @@ const Profile18 = () => {
       <div className="pm-head">Prof. Ajay Kumar Kushwaha</div>
       <div className="profile-main">
         <div className="profile-section-1">
-          /*<div className="profile-img">
+          <div className="profile-img">
             <img src alt="sd" />
-          </div>*/
+          </div>
           {/* pc=profile content */}
 
           <div className="pc2">

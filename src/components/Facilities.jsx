@@ -22,7 +22,7 @@ const Facilities = () => {
           <h1>Instruments In Use</h1>{" "}
         </div>
         <div className="facilities-items">
-         {/*<div className="facility-images">
+         <div className="facility-images">
             {" "}
             <img src={dma} alt="" />
             DMA{" "}
@@ -76,7 +76,7 @@ const Facilities = () => {
             {" "}
             <img src={xraydiff} alt="" />
             X-ray diff
-          </div>*/}
+          </div>
 
 
 <div class="polaroid">

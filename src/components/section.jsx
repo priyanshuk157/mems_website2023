@@ -17,7 +17,7 @@ const section = () => {
     <>
     <div className='sec'>
       <div className='sec2'>    <div className='sec-img'>
-        <img src={prof20} />
+        <img src={prof20}  alt='we'/>
         <hr />
         <div className="hodtext1">
                 <div className="name">Prof. Ajay Kumar Kushwaha</div>
