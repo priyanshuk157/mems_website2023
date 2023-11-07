@@ -6,7 +6,7 @@ import mcbairwa from "./staffimages/MaheshChandBairwa.jpg"
 import mdhake from "./staffimages/MayurDhake.jpg"
 import bdwivedi from "./staffimages/BrajeshDwivedi.png"
 import pshrimal from "./staffimages/PranjalShrimal.png"
-// import sverma from "./staffimages/ShubhamVerma.jpg"
+import sverma from "./staffimages/ShubhamVerma.jpg"
 import kthapa from "./staffimages/KulbahadurThapa.jpg"
 import { FaEnvelope } from 'react-icons/fa';
 import mukul from "./staffimages/mukul_kumar.png"
@@ -144,7 +144,7 @@ const DepartmentalStaff = () => {
           </div>
           <div className="hodsec">
             <img
-               src={mukul}
+               src={sverma}
               className="hodimg"
               alt="okf"
             />
