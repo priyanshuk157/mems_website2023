@@ -3,8 +3,11 @@ import Navbar from "../navbar";
 import Footer from "../footer";
 import "./profile.css";
 
+
 import { FaEnvelope, FaHome, FaLinkedin, FaPhone, FaResearchgate,  FaTwitterSquare } from "react-icons/fa";
 import {SiGooglescholar } from "react-icons/si";
+
+
 
 
 
@@ -26,7 +29,7 @@ const Profile18 = () => {
       <div className="profile-main">
         <div className="profile-section-1">
           /*<div className="profile-img">
-            <img src alt="sd" />
+            <img src  alt="sd" />
           </div>*/
           {/* pc=profile content */}
 
@@ -35,7 +38,7 @@ const Profile18 = () => {
 
             <ul>
               <li>HoD & Associate Professor</li>
-              <li>Office		: 1D-610 </li>
+              <li>Office		: Pod 1-D 305</li>
               <li>Email	 (<i><FaEnvelope/></i>)	:akk@iiti.ac.in </li>
               <li>Contact  (<i><FaPhone/></i>)		: 3250</li>
             <div className="fac-links">

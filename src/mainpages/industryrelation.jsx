@@ -61,7 +61,7 @@ const industryrelation = () => {
                 </div> */}
 
             </div>
-           {/* <div className='ind-section'>
+          <div className='ind-section'>
                 <div className="sub-ind-sec3">
                 <div className='ind-head'> INDUSTRIAL COLLABORATION</div>
                 <div className="collabb">
@@ -82,7 +82,7 @@ const industryrelation = () => {
 
                 </div>
 
-            </div>*/}
+            </div>
             <div className='ind-section'>
                 <div className="sub-ind-sec5">
                 <div className='ind-head'> PLACEMENT STATS</div>
