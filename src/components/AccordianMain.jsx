@@ -183,6 +183,35 @@ committee</span></Accordion.Header>
 
         </Accordion.Body>
       </Accordion.Item>
+      <Accordion.Item eventKey="4">
+        <Accordion.Header><span className='res-header'>Other Facilities</span></Accordion.Header>
+        <Accordion.Body>
+         
+         
+       <br />Gravity-related apparatus
+       <br />
+       <br />Thermal Conductivity Detector (TCD)
+       <br />
+       <br />Microscopy and Imaging Apparatus
+       <br />
+       <br />Young’s modulus apparatus
+       <br />
+       <br />Parallelogram apparatus
+       <br />
+       <br />Anderson Bridge
+       <br />
+       <br />Triple beam balance
+       <br />
+       <br />Ballistic Galvanometer
+       <br />
+       <br />Centrifuge Machine
+       <br />
+       <br />Resonance apparatus
+       <br />
+
+
+        </Accordion.Body>
+      </Accordion.Item>
     </Accordion>
     </div>
   )
