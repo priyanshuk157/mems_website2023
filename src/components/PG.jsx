@@ -15,7 +15,195 @@ const PG = () => {
    
    
    <Accordion>
-      <Accordion.Item eventKey="0">
+   <Accordion.Item eventKey="0">
+        <Accordion.Header> <div className="batch">BATCH 2023</div> </Accordion.Header>
+        <Accordion.Body>
+        <div className='ug-tble'>
+    <Table striped>
+      <thead>
+        <tr>
+          <th>Sr. No.</th>
+          <th> Name</th>
+          <th>Roll No.</th>
+        
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Dharmendra Kumar</td>
+          <td>2302105004</td>
+        
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Pratik Prakash Pawar</td>
+          <td>2302105005</td>
+        
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Snehungsu Sahana</td>
+          <td>2302105006</td>
+        
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Sourabh Goswami</td>
+          <td>2302105008</td>
+        
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Dharavath Venkatesh</td>
+          <td>2302105009</td>
+        
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>Akash Kumar</td>
+          <td>2302105016</td>
+        
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>Anik Chatterjee</td>
+          <td>2302105017</td>
+        
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>Gaurav Rajput</td>
+          <td>2302105018</td>
+        
+        </tr>
+        <tr>
+          <td>9</td>
+          <td>Mohit Tiwari</td>
+          <td>2302105020</td>
+        
+        </tr>
+        <tr>
+          <td>10</td>
+          <td>S. Sridharan</td>
+          <td>2302105021</td>
+        
+        </tr>
+        <tr>
+          <td>11</td>
+          <td>Adi Raj</td>
+          <td>2302105022</td>
+        
+        </tr>
+        <tr>
+          <td>12</td>
+          <td>Aditya Dattu Girge</td>
+          <td>2302105023</td>
+        
+        </tr>
+
+       
+        
+      </tbody>
+    </Table>
+    </div>
+        </Accordion.Body>
+      </Accordion.Item>
+   <Accordion.Item eventKey="1">
+        <Accordion.Header> <div className="batch">BATCH 2022</div> </Accordion.Header>
+        <Accordion.Body>
+        <div className='ug-tble'>
+    <Table striped>
+      <thead>
+        <tr>
+          <th>Sr. No.</th>
+          <th> Name</th>
+          <th>Roll No.</th>
+        
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Rishav Sharma</td>
+          <td>2202105001</td>
+        
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Neha</td>
+          <td>2202105002</td>
+        
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Shantanu Dilip Gagare</td>
+          <td>2202105004</td>
+        
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Shaikh Azaharuddin</td>
+          <td>2202105005</td>
+        
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Shubham Garg</td>
+          <td>2202105006</td>
+        
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>Prosenjit Mondal</td>
+          <td>2202105008</td>
+        
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>Shubham Jain</td>
+          <td>2202105009</td>
+        
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>M Sudharsana Raj</td>
+          <td>2202105020</td>
+        
+        </tr>
+        <tr>
+          <td>9</td>
+          <td>Ramamoorthy V</td>
+          <td>2202105021</td>
+        
+        </tr>
+        <tr>
+          <td>10</td>
+          <td>Mohammed Musaib Mohd</td>
+          <td>2202105022</td>
+        
+        </tr>
+        <tr>
+          <td>11</td>
+          <td>Abhinav Singhal</td>
+          <td>2202105024</td>
+        
+        </tr>
+        <tr>
+          <td>12</td>
+          <td>Kumar Aman</td>
+          <td>2202105025</td>
+        
+        </tr>
+
+       
+        
+      </tbody>
+    </Table>
+    </div>
+        </Accordion.Body>
+      </Accordion.Item>
+   <Accordion.Item eventKey="2">
         <Accordion.Header> <div className="batch">BATCH 2021</div> </Accordion.Header>
         <Accordion.Body>
         <div className='ug-tble'>
@@ -121,7 +309,7 @@ const PG = () => {
     </div>
         </Accordion.Body>
       </Accordion.Item>
-      <Accordion.Item eventKey="1">
+      <Accordion.Item eventKey="3">
         <Accordion.Header><div className="batch">BATCH 2020</div> </Accordion.Header>
         <Accordion.Body>
         <div className='ug-tble'>
@@ -268,7 +456,7 @@ const PG = () => {
     </div>
         </Accordion.Body>
       </Accordion.Item>
-      <Accordion.Item eventKey="2">
+      <Accordion.Item eventKey="4">
         <Accordion.Header><div className="batch">BATCH 2019</div> </Accordion.Header>
         <Accordion.Body>
         <div className='ug-tble'>
@@ -397,7 +585,7 @@ const PG = () => {
     </div>
         </Accordion.Body>
       </Accordion.Item>
-      <Accordion.Item eventKey="3">
+      <Accordion.Item eventKey="5">
         <Accordion.Header><div className="batch">BATCH 2018</div> </Accordion.Header>
         <Accordion.Body>
         <div className='ug-tble'>
@@ -536,7 +724,7 @@ const PG = () => {
     </div>
         </Accordion.Body>
       </Accordion.Item>
-      <Accordion.Item eventKey="4">
+      <Accordion.Item eventKey="6">
         <Accordion.Header><div className="batch">BATCH 2017</div> </Accordion.Header>
         <Accordion.Body>
         <div className='ug-tble'>
@@ -617,7 +805,7 @@ const PG = () => {
     </div>
         </Accordion.Body>
       </Accordion.Item>
-      <Accordion.Item eventKey="5">
+      <Accordion.Item eventKey="7">
         <Accordion.Header><div className="batch">BATCH 2016</div> </Accordion.Header>
         <Accordion.Body>
         <div className='ug-tble'>
@@ -686,7 +874,7 @@ const PG = () => {
     </div>
         </Accordion.Body>
       </Accordion.Item>
-      <Accordion.Item eventKey="6">
+      <Accordion.Item eventKey="8">
         <Accordion.Header><div className="batch">BATCH 2015</div> </Accordion.Header>
         <Accordion.Body>
         <div className='ug-tble'>
