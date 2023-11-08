@@ -410,10 +410,10 @@ const faculty = () => {
             <div className="hodtext">
               <div className="hodtext1">
                 <div className="name">Prof. Vinod Kumar</div>
-                <div className="post"> vkt@iiti.ac.in </div>
-                <div className="post"> vkt@iiti.ac.in </div>
-                <div className="post"> vkt@iiti.ac.in </div>
-                <div className="post"> vkt@iiti.ac.in </div>
+                <div className="post"> Associate Professor </div>
+                <div className="post"> Office		:Room No. 412, POD – 1D </div>
+                <div className="post">  Email	 (<i><FaEnvelope/></i>)	: vkt@iiti.ac.in </div>
+                <div className="post"> Contact  (<i><FaPhone/></i>)		: + 91-7324-306-3251 ext: 5568 </div>
                 <div className="post-button">
                   <a href="profile7"> view profile</a>{" "}
                 </div>

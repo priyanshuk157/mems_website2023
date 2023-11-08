@@ -175,20 +175,7 @@ const industryrelation = () => {
 
     </div>
            
-            {/*<div className='ind-section'>
-                <div className="sub-ind-sec9">
-                <div className='ind-head'> ONGOING CONSULTING PROJECT   </div>
-                    <ul>
-                        <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus similique quam corrupti laudantium, ipsam </li>
-                        <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus similique quam corrupti laudantium, ipsam </li>
-                        <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus similique quam corrupti laudantium, ipsam </li>
-                        <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus similique quam corrupti laudantium, ipsam </li>
-                       
-                    </ul>
-                </div>
-                
-
-</div>*/}
+            
 
 
 
@@ -283,7 +270,8 @@ const industryrelation = () => {
 
 
             <div class="student">
-            <h1>WORK WITH US</h1>
+              <div class="work_with_us">
+            <h1>WORK WITH US</h1></div>
                 </div>
 
                 <div class="aa">

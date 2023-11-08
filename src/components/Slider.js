@@ -1,58 +1,49 @@
-import Carousel from 'react-bootstrap/Carousel';
-import "./Slider.css"
-//import jai from "./images/yeih.jpg"
-import jai1 from "./images/statimg.jpg"
-import jai2 from "./images/statimg2.jpg"
-import jai3 from "./images/homeimage_1.jpg"
+import React from 'react'
+import { Swiper, SwiperSlide } from "swiper/react"; 
+import { Autoplay, Pagination, Navigation } from "swiper";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import convo from "./images/convocation.jpg"
+import subhash from "./images/subhash.jpg"
+import isro from "./images/isro.jpg"
 
 
-function CarouselFadeExample() {
-  
+
+
+const Slider = () => {
   return (
-    <>
-    <div className='carousel-main'>
-    <Carousel fade >
-      <Carousel.Item interval={4000}> 
-        <img
-          className="d-block w-100 img-hgt"
-          src={jai3}
-          alt="First slide"
-        />
-        <Carousel.Caption>
-          {/* <h3>First slide label</h3> */}
-          {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item interval={4000}>
-        <img
-          className="d-block w-100 img-hgt"
-          src={jai1}
-          alt="Second slide"
-        />
-
-        <Carousel.Caption>
-          {/* <h3>Second slide label</h3> */}
-          {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item interval={4000}>
-        <img
-          className="d-block w-100 img-hgt"
-          src={jai2}
-          alt="Third slide"
-        />
-
-        <Carousel.Caption>
-          {/* <h3>Third slide label</h3> */}
-          {/* <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p> */}
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
-    </div>
-    </>
-  );
+   <>
+   <Swiper
+   style={{
+    "--swiper-navigation-color": "#000",
+    "--swiper-navigation-size": "0px",
+   
+  }}    
+      autoplay={{
+        delay: 4000,
+        disableOnInteraction: false,
+      }}
+        slidesPerView={1}
+        spaceBetween={30}
+        loop={true}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        modules={[Pagination, Navigation , Autoplay]}
+        className="mySwiper"
+      >
+        <div class="slidercss">
+        <SwiperSlide><div className='swiper-cont'> <img src={subhash} alt='oky' /> </div></SwiperSlide>
+        <SwiperSlide><div className='swiper-cont'>  <img src={isro} alt='oky' /> </div> </SwiperSlide>
+        <SwiperSlide><div className='swiper-cont'> <img src={convo} alt='oky' /> 
+</div></SwiperSlide></div>
+      
+        
+      </Swiper>
+   </>
+  )
 }
 
-export default CarouselFadeExample;
+export default Slider

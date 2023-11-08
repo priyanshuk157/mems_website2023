@@ -176,6 +176,10 @@ committee</span></Accordion.Header>
         <Accordion.Header><span className='res-header'>Facilities</span></Accordion.Header>
         <Accordion.Body>
          <Facilities/>
+         <br/>
+         <br/>
+       
+
 
         </Accordion.Body>
       </Accordion.Item>
