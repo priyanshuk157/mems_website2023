@@ -8,7 +8,7 @@ const peoplecard = () => {
 
       
       <div className="container mt-5 peoplecont">
-        <div className="faculty ">
+        <div className="faculty22 ">
           <div className="m-auto text-center">
             FACULTY
             <br />
