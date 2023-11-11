@@ -1,23 +1,19 @@
-import React from 'react'
-import { Swiper, SwiperSlide } from "swiper/react"; 
-import { Autoplay, Pagination, Navigation } from "swiper";
-
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-import convo from "./images/convocation.jpg"
-import subhash from "./images/subhash.jpg"
-import isro from "./images/isro.jpg"
+import Carousel from 'react-bootstrap/Carousel';
 import "./Slider.css"
+import jai from "./images/yeih.jpg"
+import jai1 from "./images/statimg.jpg"
+import jai2 from "./images/statimg2.jpg"
 
-
-
-const Slider = () => {
-  <div className='carousel-main'>
+function CarouselFadeExample() {
+  
+  return (
+    <>
+    <div className='carousel-main'>
     <Carousel fade >
       <Carousel.Item interval={4000}> 
         <img
           className="d-block w-100 img-hgt"
-          src={jai3}
+          src={jai}
           alt="First slide"
         />
         <Carousel.Caption>
@@ -52,7 +48,9 @@ const Slider = () => {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
-        </div>
+    </div>
+    </>
+  );
 }
 
-export default Slider
+export default CarouselFadeExample;
