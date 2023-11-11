@@ -19,12 +19,13 @@ const Facilities = () => {
   return (
     <>
       <div>
-        <div className="facilities-head">
+        
           {" "}
           <br />
-          <h1>Instruments In Use</h1>{" "}
+          <span className="Instruments_In_Use">
+          <h1>Instruments In Use</h1>{" "}</span>
           <br />
-        </div>
+        
         <div className="facilities-items">
          <div className="facility-images">
             {" "}

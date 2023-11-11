@@ -15,12 +15,15 @@
 
   
   height: 40rem;
-  
+
+  border: black;
 }
 .acad-image img{
   max-width: 1300px;
   width: 100%;
   height: auto;
+  border-radius: 10px;
+  
   
 }
 .acad-body{
@@ -68,5 +71,6 @@
   .acad-image img{
     width: 100%;
     height: 15rem;
+    border-radius: 10px;
   }
 }

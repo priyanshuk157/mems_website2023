@@ -188,25 +188,25 @@ committee</span></Accordion.Header>
         <Accordion.Body>
          
          
-       <br />Gravity-related apparatus
+       <br /><span>&#8226;</span> Gravity-related apparatus
        <br />
-       <br />Thermal Conductivity Detector (TCD)
+       <br /><span>&#8226;</span> Thermal Conductivity Detector (TCD)
        <br />
-       <br />Microscopy and Imaging Apparatus
+       <br /><span>&#8226;</span> Microscopy and Imaging Apparatus
        <br />
-       <br />Young’s modulus apparatus
+       <br /><span>&#8226;</span> Young’s modulus apparatus
        <br />
-       <br />Parallelogram apparatus
+       <br /><span>&#8226;</span> Parallelogram apparatus
        <br />
-       <br />Anderson Bridge
+       <br /><span>&#8226;</span> Anderson Bridge
        <br />
-       <br />Triple beam balance
+       <br /><span>&#8226;</span> Triple beam balance
        <br />
-       <br />Ballistic Galvanometer
+       <br /><span>&#8226;</span> Ballistic Galvanometer
        <br />
-       <br />Centrifuge Machine
+       <br /><span>&#8226;</span> Centrifuge Machine
        <br />
-       <br />Resonance apparatus
+       <br /><span>&#8226;</span> Resonance apparatus
        <br />
 
 
