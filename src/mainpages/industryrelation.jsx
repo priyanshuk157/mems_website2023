@@ -42,9 +42,10 @@ const industryrelation = () => {
             </div>
 
 
-            <div class="student">
-                <h1>FOR STUDENTS</h1>
-                </div>
+        
+              <span class="wwu">
+                <h1>FOR STUDENTS</h1></span>
+               
             <div className='ind-section'>
                 <div className="sub-ind-sec1">
                     <div className='ind-head'> WHY MEMS ?   </div>
@@ -269,9 +270,10 @@ const industryrelation = () => {
 
 
 
-            <div class="student">
+         
               <div class="work_with_us">
-            <h1>WORK WITH US</h1></div>
+                <span class="wwu">
+            <h1>WORK WITH US</h1></span>
                 </div>
 
                 <div class="aa">

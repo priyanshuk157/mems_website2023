@@ -61,10 +61,27 @@
     background-color: var(--yellow);
     padding: 0 20px ;
     width: 49.245%;
+
+  
     margin:3rem 1rem 0rem 0rem; 
-    height: auto;
+    height:350px;
+
 
 }
+
+
+.stats-content{
+    display: grid;
+    position: relative;
+    width: 300px;
+    height: 225px;
+    gap: 200px;
+    align-items: center;
+    position: relative;
+  
+
+}
+
 .sub-ind-sec6{
     background-color: var(--yellow);
     padding: 0 20px ;
@@ -242,9 +259,11 @@
 
 
 
-
-
-
+.wwu{
+    color: #ff870e;
+    text-align: center;
+    background-color: blue;
+}
 
 
 

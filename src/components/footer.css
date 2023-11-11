@@ -60,28 +60,23 @@
     display: flex;
     align-items: center;
     align-content: center;
-    font-size: 30px;
+    font-size: 25px;
     
     font-family: 'Poppins', sans-serif;
     font-style: italic;
-    background: linear-gradient(90deg, #ff0000, #ffff00, #ff00f3, #00ff55, #ff00c4, #ff0000);
+    
 
-	background-size: 500%;
-
+	background-size: 100%;
 	
 
 	
-font-weight: 800;
+font-weight: 200;
 	
 
 
 	word-spacing: 4px;
 
-	-webkit-text-fill-color: transparent;
 
-	-webkit-background-clip: text;
-
-	animation: animate 40s linear infinite;
 
 }
 

@@ -44,6 +44,10 @@ import DepartmentalStaff from './components/DepartmentalStaff'
 import ResearchStaff from './components/ResearchStaff'
 import Ug from './components/UG'
 import Pg from './components/PG'
+import events from './components/Events'
+import Events from './components/Events';
+import homepageslider from './components/homepageslider';
+
 
 // import Home from './components/Home'
 const App = () => {
@@ -101,6 +105,8 @@ const App = () => {
  <Route path='Phd' element={<Phd/>}></Route>
  <Route path='UG' element={<Ug/>}></Route>
  <Route path='PG' element={<Pg/>}></Route>
+ <Route path='events' element={<Events/>}></Route>
+ <Route path='homepageslider' element={<homepageslider/>}></Route>
 
 
         <Route path='industry' element={<Industryrelation/>}></Route>

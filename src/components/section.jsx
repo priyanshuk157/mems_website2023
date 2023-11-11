@@ -102,7 +102,7 @@ Engage with broader community via outreach programs to promote science & technol
           <div class="eventx">Conference/Seminar/Courses</div>
           <div className='event-button'>
             
-             <a href="event">view</a>
+             <a href="events">view</a>
             </div>
         </div>
         <div className="events1">
