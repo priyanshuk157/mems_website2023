@@ -120,7 +120,7 @@ const industryrelation = () => {
 
 
 
-            <div className="sub-ind-sec5">
+            <div className="sub-ind-sec6">
                 <div className='ind-head'> PUBLICATION STATS</div>
                
       <Swiper

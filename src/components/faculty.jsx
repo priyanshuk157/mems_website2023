@@ -10,6 +10,7 @@ import prof19 from "./profiles/profimages/prof19.jpg";
 import prof11 from "./profiles/profimages/prof11.jpg";
 import prof2 from "./profiles/profimages/prof2.jpg";
 import prof20 from "./profiles/profimages/prof20.jpeg";
+import drpaul from "./profiles/profimages/drpaul.jpg";
 import "./peoplecard.css"
 import { FaEnvelope, FaPhone } from "react-icons/fa";
 
@@ -19,8 +20,10 @@ const faculty = () => {
       <div>
         <Navbar />
       </div>
+      <span class="Faculty"><h1>Faculty</h1></span>
      
       <div className="faculty-main">
+      
         <div className="faculty-width">
 
         <div className="hodsec  ">
@@ -451,7 +454,27 @@ const faculty = () => {
               </div>
             </div>
           </div>
-         
+          <div className="hodsec">
+            <img
+              src={drpaul}
+              className="hodimg"
+              alt="okf"
+            />
+
+            <div className="hodtext">
+              <div className="hodtext1">
+                <div className="name">Prof. Dr. Ahoutou Paul</div>
+                <div className="post"> Assistant Professor </div>
+                <div className="post"> Office		: Room No. 211 (G), CITC </div>
+                <div className="post"> Email	 (<i><FaEnvelope/></i>)	: nbb@iitb.ac.in </div>
+                <div className="post"> Contact  (<i><FaPhone/></i>)	+91-22-2576-7610 </div>
+               
+                <div className="post-button">
+                  <a href="profile19"> view profile</a>{" "}
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
