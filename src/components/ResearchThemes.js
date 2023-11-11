@@ -3,6 +3,7 @@ import "./researchtheme.css";
 import Navbar from './navbar'
 import Footer from "../components/footer";
 import logo from "./images/mems_logo2.png";
+import photo1 from './images/group_photo1.jpg'
 
 
 const ResearchThemes = () => {
@@ -69,7 +70,39 @@ const ResearchThemes = () => {
     </a>
     </div>
    
-    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    
 
 

@@ -1,12 +1,29 @@
+.student{
+    
+    position: relative;
+    display: flex;
+    left: 580px;
 
+    
+    
+    padding-left: 20px;
+    padding-right: 20px;
+   
+    
+    font-weight: 200;
+    color:#ff870e;
+}
+.img{
+    width: 100px;
+}
 .ind-section{
     display: flex;
-    padding: 0 130px;
+    padding: 0 100px;
     
 }
 .sub-ind-sec1{
       
-    padding: 20px;
+    padding: 10px;
     width: 100%;
     margin:1rem 0;
     color: black;
@@ -25,7 +42,7 @@
  
     background-color: var(--yellow);
     padding: 0 20px ;
-    width: 50%;
+    width: 49%;
     margin:3rem 01rem 0rem 0rem; 
     height: auto;
 
@@ -43,7 +60,7 @@
 .sub-ind-sec5{
     background-color: var(--yellow);
     padding: 0 20px ;
-    width: 50%;
+    width: 49.245%;
     margin:3rem 1rem 0rem 0rem; 
     height: auto;
 
@@ -68,8 +85,10 @@
   font-size: var(--head1);  
   color: var(--red);
   display: flex;
+  
   justify-content: center;
-  margin: 2rem 0rem ;
+ 
+  margin: 1rem 0rem ;
 }
 .industry-vid{
     width: 350px;
@@ -143,10 +162,10 @@
     padding: 20px;
 }
 .national-images{
-    display: flex;
+    display: grid;
     flex-direction: column;
-    gap: 5px;
-    height: 120px ;
+    gap: 0px;
+    height: 180px ;
     width: 120px;
     text-align: center;
     font-weight: 600;
@@ -155,6 +174,78 @@
     height: 100px;
     width: auto;
 }
+
+
+.slider{
+    background-color: var(--yellow);
+    padding: 0 20px ;
+    width: 50%;
+    height: auto;
+    margin:3rem 0rem 0rem 1rem;     
+    height: auto;
+    
+}
+.slide-track{
+    
+    position: relative;
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    padding: auto;
+    gap: 50px;
+    
+  
+    
+
+    
+}
+
+
+
+.marquee {
+    width: 100%;
+    overflow: hidden;
+   
+}
+.aa{
+    
+  
+    position: relative;
+    padding: 20px;
+    align-items: center;
+    width: 86.5%;
+    left: 7%;
+    
+
+
+ 
+  
+}
+
+
+.ss{
+    
+    font-size: 20px;
+}
+.concon{
+    display: flex;
+    background-color: var(--yellow);
+    padding: 25px;
+    font-size: 18px;
+}
+
+.work_with_us{
+ 
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
 
 
 

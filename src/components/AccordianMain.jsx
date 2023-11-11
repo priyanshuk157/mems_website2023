@@ -13,6 +13,7 @@ const AccordianMain = () => {
         
         </Accordion.Body>
       </Accordion.Item>
+      
       <Accordion.Item eventKey="1">
         <Accordion.Header><span className='res-header'>Accomodation facilities in IITI</span></Accordion.Header>
         <Accordion.Body>IIT Indore is a residential Institute that mandates students of all teaching programs to stay in the Hostels. This is a home away from home where students develop lifelong relationships, camaraderie, and wonderful experiences that give them a different kind of grooming. Many of our alumni inform us that it is in these hostels where they learned life skills that are taking them a long way. At the moment, IIT Indore has six hostels, out of which one is reserved for female residents and other for married students. All hostels are located close to each other, lie amidst the flora and fauna of the campus and have adjacent playgrounds which are always buzzing with physical activity. These are also close to the Academic Pods, which houses all research and undergraduate labs, the backbone of this Institute.
@@ -175,6 +176,39 @@ committee</span></Accordion.Header>
         <Accordion.Header><span className='res-header'>Facilities</span></Accordion.Header>
         <Accordion.Body>
          <Facilities/>
+         <br/>
+         <br/>
+       
+
+
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="4">
+        <Accordion.Header><span className='res-header'>Other Facilities</span></Accordion.Header>
+        <Accordion.Body>
+         
+         
+       <br />Gravity-related apparatus
+       <br />
+       <br />Thermal Conductivity Detector (TCD)
+       <br />
+       <br />Microscopy and Imaging Apparatus
+       <br />
+       <br />Young’s modulus apparatus
+       <br />
+       <br />Parallelogram apparatus
+       <br />
+       <br />Anderson Bridge
+       <br />
+       <br />Triple beam balance
+       <br />
+       <br />Ballistic Galvanometer
+       <br />
+       <br />Centrifuge Machine
+       <br />
+       <br />Resonance apparatus
+       <br />
+
 
         </Accordion.Body>
       </Accordion.Item>

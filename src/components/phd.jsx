@@ -7,6 +7,55 @@ import { FaEnvelope} from 'react-icons/fa';
 import mukul from "./staffimages/mukul_kumar.png"
 import samina from "./staffimages/sameena_rapphik.jpg"
 import ankush from "./staffimages/ankush_marodkar.png"
+import lok from "./staffimages/lok.jpg"
+import girish from "./staffimages/girish.png"
+import Mayank from "./staffimages/mayank.jpg"
+import vik from "./staffimages/vikesh.jpg"
+import Suman from "./staffimages/suman.jpg"
+import SOURAV from "./staffimages/sourav.png"
+import som from "./staffimages/somnathji.png"
+import Shrish from "./staffimages/shrish.jpg"
+import Sheetal from "./staffimages/sheetal.jpg"
+import sexena from "./staffimages/sexena.jpg"
+import sahu from "./staffimages/sahu.png"
+import rajore from "./staffimages/rajore.jpg"
+import PIYUSH from "./staffimages/pyush.jpg"
+import Patil from "./staffimages/patil.jpg"
+import NILESH from "./staffimages/nilesh.png"
+import myk from "./staffimages/mykmishra.png"
+import MULANI from "./staffimages/mulani.jpg"
+import Mukherjee from "./staffimages/mukherjee.png"
+import MUKESH from "./staffimages/mukesh.jpg"
+import mpillai from "./staffimages/mpillai.jpg"
+import mkt from "./staffimages/mkt.jpg"
+import myka from "./staffimages/mayank.jpg"
+import MANISH from "./staffimages/manish.jpg"
+import Man from "./staffimages/man.jpg"
+
+import l from "./staffimages/L.jpg"
+import KANWADE from "./staffimages/kanwade.png"
+import Hari from "./staffimages/hari.png"
+import Gopi from "./staffimages/gopi.jpg"
+import Dubey from "./staffimages/dubey.png"
+import dpk from "./staffimages/dpk.jpg"
+import david from "./staffimages/david.png"
+import Bimli from "./staffimages/bimli.png"
+import Bhowmik from "./staffimages/bhowmik.png"
+import BEHERA from "./staffimages/behera.jpg"
+import as from "./staffimages/as.jpg"
+import ALIS from "./staffimages/alis.jpg"
+import ask from "./staffimages/aks.png"
+import Adarsh from "./staffimages/adarsh.jpg"
+import adk from "./staffimages/akd.jpg"
+import aks from "./staffimages/aks.png"
+import vikesh from "./staffimages/vikesh.jpg"
+
+
+
+
+
+
+
 
 
 const Phd = () => {
@@ -73,7 +122,7 @@ const Phd = () => {
           </div>
           <div className="hodsec">
             <img
-               src={mukul}
+               src={PIYUSH}
               className="hodimg"
               alt="okf"
             />
@@ -91,7 +140,7 @@ const Phd = () => {
           </div>
           <div className="hodsec">
             <img
-                   src={mukul}
+                   src={girish}
               className="hodimg"
               alt="okf"
             />
@@ -109,7 +158,7 @@ const Phd = () => {
           </div>
           <div className="hodsec">
             <img
-                     src={mukul}
+                     src={Patil}
               className="hodimg"
               alt="okf"
             />
@@ -127,7 +176,7 @@ const Phd = () => {
           </div>
           <div className="hodsec">
             <img
-                   src={mukul}
+                   src={Mayank}
               className="hodimg"
               alt="okf"
             />
@@ -145,7 +194,7 @@ const Phd = () => {
           </div>
           <div className="hodsec">
             <img
-                    src={mukul}
+                    src={rajore}
               className="hodimg"
               alt="okf"
             />
@@ -163,7 +212,7 @@ const Phd = () => {
           </div>
           <div className="hodsec">
             <img
-                  src={mukul}
+                  src={Shrish}
               className="hodimg"
               alt="okf"
             />
@@ -205,7 +254,7 @@ const Phd = () => {
 
           <div className="hodsec">
             <img
-                  src={mukul}
+                  src={Mukherjee}
               className="hodimg"
               alt="okf"
             />
@@ -226,7 +275,7 @@ const Phd = () => {
 
           <div className="hodsec">
             <img
-                  src={mukul}
+                  src={lok}
               className="hodimg"
               alt="okf"
             />
@@ -248,7 +297,7 @@ const Phd = () => {
 
           <div className="hodsec">
             <img
-                  src={mukul}
+                  src={Sheetal}
               className="hodimg"
               alt="okf"
             />
@@ -270,7 +319,7 @@ const Phd = () => {
 
           <div className="hodsec">
             <img
-                  src={mukul}
+                  src={sahu}
               className="hodimg"
               alt="okf"
             />
@@ -292,7 +341,7 @@ const Phd = () => {
 
           <div className="hodsec">
             <img
-                  src={mukul}
+                  src={Gopi}
               className="hodimg"
               alt="okf"
             />
@@ -315,7 +364,7 @@ const Phd = () => {
 
           <div className="hodsec">
             <img
-                  src={mukul}
+                  src={as}
               className="hodimg"
               alt="okf"
             />
@@ -338,7 +387,7 @@ const Phd = () => {
 
           <div className="hodsec">
             <img
-                  src={mukul}
+                  src={KANWADE}
               className="hodimg"
               alt="okf"
             />
@@ -364,7 +413,7 @@ const Phd = () => {
 
           <div className="hodsec">
             <img
-                  src={mukul}
+                  src={NILESH}
               className="hodimg"
               alt="okf"
             />
@@ -394,7 +443,7 @@ const Phd = () => {
 
           <div className="hodsec">
             <img
-                  src={mukul}
+                  src={MUKESH}
               className="hodimg"
               alt="okf"
             />
@@ -426,7 +475,7 @@ const Phd = () => {
 
           <div className="hodsec">
             <img
-                  src={mukul}
+                  src={Man}
               className="hodimg"
               alt="okf"
             />
@@ -458,7 +507,7 @@ const Phd = () => {
 
           <div className="hodsec">
             <img
-                  src={mukul}
+                  src={Man}
               className="hodimg"
               alt="okf"
             />
@@ -490,7 +539,7 @@ const Phd = () => {
 
           <div className="hodsec">
             <img
-                  src={mukul}
+                  src={som}
               className="hodimg"
               alt="okf"
             />
@@ -522,7 +571,7 @@ const Phd = () => {
 
           <div className="hodsec">
             <img
-                  src={mukul}
+                  src={SOURAV}
               className="hodimg"
               alt="okf"
             />
@@ -551,7 +600,7 @@ const Phd = () => {
 
           <div className="hodsec">
             <img
-                  src={mukul}
+                  src={adk}
               className="hodimg"
               alt="okf"
             />
@@ -585,7 +634,7 @@ const Phd = () => {
 
           <div className="hodsec">
             <img
-                  src={mukul}
+                  src={mpillai}
               className="hodimg"
               alt="okf"
             />
@@ -618,7 +667,7 @@ const Phd = () => {
 
           <div className="hodsec">
             <img
-                  src={mukul}
+                  src={aks}
               className="hodimg"
               alt="okf"
             />
@@ -656,7 +705,7 @@ const Phd = () => {
 
           <div className="hodsec">
             <img
-                  src={mukul}
+                  src={dpk}
               className="hodimg"
               alt="okf"
             />
@@ -685,7 +734,7 @@ const Phd = () => {
 
           <div className="hodsec">
             <img
-                  src={mukul}
+                  src={Patil}
               className="hodimg"
               alt="okf"
             />
@@ -719,7 +768,7 @@ const Phd = () => {
 
           <div className="hodsec">
             <img
-                  src={mukul}
+                  src={Patil}
               className="hodimg"
               alt="okf"
             />
@@ -749,7 +798,7 @@ const Phd = () => {
 
           <div className="hodsec">
             <img
-                  src={mukul}
+                  src={BEHERA}
               className="hodimg"
               alt="okf"
             />
@@ -780,7 +829,7 @@ const Phd = () => {
 
           <div className="hodsec">
             <img
-                  src={mukul}
+                  src={Bimli}
               className="hodimg"
               alt="okf"
             />
@@ -811,7 +860,7 @@ const Phd = () => {
 
           <div className="hodsec">
             <img
-                  src={mukul}
+                  src={vikesh}
               className="hodimg"
               alt="okf"
             />
@@ -874,7 +923,7 @@ const Phd = () => {
 
           <div className="hodsec">
             <img
-                  src={mukul}
+                  src={MANISH}
               className="hodimg"
               alt="okf"
             />
@@ -904,7 +953,7 @@ const Phd = () => {
 
           <div className="hodsec">
             <img
-                  src={mukul}
+                  src={l}
               className="hodimg"
               alt="okf"
             />
@@ -936,7 +985,7 @@ const Phd = () => {
 
           <div className="hodsec">
             <img
-                  src={mukul}
+                  src={Hari}
               className="hodimg"
               alt="okf"
             />
@@ -970,7 +1019,7 @@ const Phd = () => {
 
           <div className="hodsec">
             <img
-                  src={mukul}
+                  src={sexena}
               className="hodimg"
               alt="okf"
             />
@@ -1003,7 +1052,7 @@ const Phd = () => {
 
           <div className="hodsec">
             <img
-                  src={mukul}
+                  src={Dubey}
               className="hodimg"
               alt="okf"
             />
@@ -1037,7 +1086,7 @@ const Phd = () => {
 
           <div className="hodsec">
             <img
-                  src={mukul}
+                  src={sahu}
               className="hodimg"
               alt="okf"
             />
@@ -1074,7 +1123,7 @@ const Phd = () => {
 
           <div className="hodsec">
             <img
-                  src={mukul}
+                  src={Mayank}
               className="hodimg"
               alt="okf"
             />
@@ -1106,7 +1155,7 @@ const Phd = () => {
 
           <div className="hodsec">
             <img
-                  src={mukul}
+                  src={rajore}
               className="hodimg"
               alt="okf"
             />
@@ -1139,7 +1188,7 @@ const Phd = () => {
 
           <div className="hodsec">
             <img
-                  src={mukul}
+                  src={Suman}
               className="hodimg"
               alt="okf"
             />
@@ -1173,7 +1222,7 @@ const Phd = () => {
 
           <div className="hodsec">
             <img
-                  src={mukul}
+                  src={Bhowmik}
               className="hodimg"
               alt="okf"
             />
@@ -1208,7 +1257,7 @@ const Phd = () => {
 
           <div className="hodsec">
             <img
-                  src={mukul}
+                  src={Adarsh}
               className="hodimg"
               alt="okf"
             />

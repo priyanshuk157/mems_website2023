@@ -269,7 +269,7 @@ Thermodynamics & Phase transformation
 
         </div>
       </div>
-      </div>
+  </div>
       
       <div>
         <Footer />
