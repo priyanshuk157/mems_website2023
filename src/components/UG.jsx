@@ -41,295 +41,289 @@ const UG = () => {
         </tr>
         <tr>
           <td>2</td>
-          <td>Aditi Mishra</td>
+          <td>Abhinav Gurrapu</td>
           <td>230005002</td>
         
         </tr>
         <tr>
           <td>3</td>
-          <td>Aditya Handa</td>
+          <td>Aditya Kumar Prasad</td>
           <td>230005003</td>
         
         </tr>
         <tr>
           <td>4</td>
-          <td>Akshita Mittal</td>
+          <td>Amruthansh Gupta</td>
           <td>230005004</td>
         
         </tr>
         <tr>
           <td>5</td>
-          <td>Anirudha Bhagwat</td>
+          <td>Ansh Kyal</td>
           <td>230005005</td>
         
         </tr>
         <tr>
           <td>6</td>
-          <td>Anshika Verma</td>
+          <td>Anurag E Prasad</td>
           <td>230005006</td>
         
         </tr>
         <tr>
           <td>7</td>
-          <td>Aryan Gupta</td>
+          <td>Asmatunnisa Baig</td>
           <td>230005007</td>
         
         </tr>
         <tr>
           <td>8</td>
-          <td>Botkewar Siddhesh Manish</td>
+          <td>Atiharsh Bhatt</td>
           <td>230005008</td>
         
         </tr>
         <tr>
           <td>9</td>
-          <td>C. Karankumar</td>
+          <td>Ayush Kumar Gupta</td>
           <td>230005009</td>
         
         </tr>
         <tr>
           <td>10</td>
-          <td>Daksh Goyal</td>
+          <td>Bhukya Suresh</td>
           <td>230005010</td>
         
         </tr>
         <tr>
           <td>11</td>
-          <td>Doddi Bhavana Devi</td>
+          <td>Bhumika Aggarwal</td>
           <td>230005011</td>
         
         </tr>
         <tr>
           <td>12</td>
-          <td>Dumpati Vasanth</td>
+          <td>Burra Vijyusha</td>
           <td>230005012</td>
         
         </tr>
         <tr>
           <td>13</td>
-          <td>Gaurav Gill</td>
+          <td>Cheepati Gireesh Kumar Reddy</td>
           <td>230005013</td>
         
         </tr>
         <tr>
           <td>14</td>
-          <td>Gulshan Kumar</td>
+          <td>Deendayal Suthar</td>
           <td>230005014</td>
         
         </tr>
         <tr>
           <td>15</td>
-          <td>Jitin Satish Kumar</td>
+          <td>Eata Sai Suraj</td>
           <td>230005015</td>
         
         </tr>
         <tr>
           <td>16</td>
-          <td>Maniratnn Parakh</td>
+          <td>Harsh Anand</td>
           <td>230005016</td>
         
         </tr>
         <tr>
           <td>17</td>
-          <td>Manonit Sankhala</td>
+          <td>Harsh Bhati</td>
           <td>230005017</td>
         
         </tr>
         <tr>
           <td>18</td>
-          <td>Merugu Yuvaraj</td>
+          <td>Harshit Kumar</td>
           <td>230005018</td>
         
         </tr>
         <tr>
           <td>19</td>
-          <td>Mohammed Zaeem Raees Bichu</td>
+          <td>J Shiva</td>
           <td>230005019</td>
         
         </tr>
         <tr>
           <td>20</td>
-          <td>Mudit Mohan Ambed</td>
+          <td>Kale Swarangi Keshav</td>
           <td>230005020</td>
         
         </tr>
         <tr>
           <td>21</td>
-          <td>Nain Gupta</td>
+          <td>Keerthan A</td>
           <td>230005021</td>
         
         </tr>
         <tr>
           <td>22</td>
-          <td>Neyasha Sinha</td>
+          <td>Kondeti Praveen Kumar</td>
           <td>230005022</td>
         
         </tr>
         <tr>
           <td>23</td>
-          <td>Nikhil Kumar</td>
-          <td>230005023</td>
-        
-        </tr>
-        <tr>
-          <td>24</td>
-          <td>Nikita Singh</td>
+          <td>Kushagra Shrikhande</td>
           <td>230005024</td>
         
         </tr>
         <tr>
-          <td>25</td>
-          <td>Nilesh Chandel</td>
+          <td>24</td>
+          <td>Mannuru Praneetha</td>
           <td>230005025</td>
         
         </tr>
         <tr>
-          <td>26</td>
-          <td>Nitin Sathish Kumar</td>
+          <td>25</td>
+          <td>Manurkar Pranav Padmakar</td>
           <td>230005026</td>
         
         </tr>
         <tr>
-          <td>27</td>
-          <td>Prakhar Gautam</td>
+          <td>26</td>
+          <td>Mayank Kumar</td>
           <td>230005027</td>
+        
+        </tr>
+        <tr>
+          <td>27</td>
+          <td>Mohit Garhewal</td>
+          <td>230005028</td>
       
         </tr>
         <tr>
           <td>28</td>
-          <td>R. Gokul</td>
-          <td>230005028</td>
-        
-        </tr>
-        <tr>
-          <td>29</td>
-          <td>Rapartiwar Sahil Saiprasad</td>
+          <td>Monoranjan Roy</td>
           <td>230005029</td>
         
         </tr>
         <tr>
-          <td>30</td>
-          <td>Rounak Jain</td>
+          <td>29</td>
+          <td>Muggu Jaya Sree</td>
           <td>230005030</td>
         
         </tr>
         <tr>
-          <td>31</td>
-          <td>S Shrevesh</td>
+          <td>30</td>
+          <td>Mukund Narayan Jha</td>
           <td>230005031</td>
         
         </tr>
         <tr>
-          <td>32</td>
-          <td>Saad Ahmed</td>
+          <td>31</td>
+          <td>Nawed Ashraf</td>
           <td>230005032</td>
         
         </tr>
         <tr>
-          <td>33</td>
-          <td>Sanidhya Kumar</td>
+          <td>32</td>
+          <td>Ommkar Sahoo</td>
           <td>230005033</td>
         
         </tr>
         <tr>
-          <td>34</td>
-          <td>Sanket Bhajgawali</td>
+          <td>33</td>
+          <td>P Pragathi</td>
           <td>230005034</td>
         
         </tr>
         <tr>
-          <td>35</td>
-          <td>Sanket Vinayak Muthal</td>
+          <td>34</td>
+          <td>Pohrselvan S.S</td>
           <td>230005035</td>
         
         </tr>
         <tr>
-          <td>36</td>
-          <td>Saurav Kumar Yadav</td>
+          <td>35</td>
+          <td>Ramavath Sunil Kumar</td>
           <td>230005036</td>
         
         </tr>
         <tr>
-          <td>37</td>
-          <td>Sejal Kotian</td>
+          <td>36</td>
+          <td>Rishabh Patel</td>
           <td>230005038</td>
         
         </tr>
         <tr>
-          <td>38</td>
-          <td>Shivam Kumar Singh</td>
+          <td>37</td>
+          <td>Rudresh Pratap Singh</td>
           <td>230005039</td>
         
         </tr>
         <tr>
-          <td>39</td>
-          <td>Shreya Singh</td>
+          <td>38</td>
+          <td>Sahajmeet Kaur</td>
           <td>230005040</td>
         
         </tr>
         <tr>
-          <td>40</td>
-          <td>Sneha Shrivastava</td>
+          <td>39</td>
+          <td>Sai Abhilash Dash</td>
           <td>230005041</td>
         
         </tr>
         <tr>
-          <td>41</td>
-          <td>Sohail Shaikh</td>
+          <td>40</td>
+          <td>Samridhi</td>
           <td>230005042</td>
         
         </tr>
         <tr>
-          <td>42</td>
-          <td>Sujal Patel</td>
+          <td>41</td>
+          <td>Sanat Kumar Shukla</td>
           <td>230005043</td>
         
         </tr>
         <tr>
-          <td>43</td>
-          <td>Tatiya Vimalkumar Pramod</td>
+          <td>42</td>
+          <td>Saumya Sharma</td>
           <td>230005044</td>
         
         </tr>
         <tr>
-          <td>44</td>
-          <td>Vijay Murlidhara N Rao</td>
+          <td>43</td>
+          <td>Saksham Kumar Nigam</td>
           <td>230005045</td>
         
         </tr>
         <tr>
-          <td>45</td>
-          <td>Yash Kumar</td>
+          <td>44</td>
+          <td>Shivam Bajaj</td>
           <td>230005046</td>
         
         </tr>
         <tr>
-          <td>46</td>
-          <td>Yash Kumar</td>
+          <td>45</td>
+          <td>Shubham Prajapati</td>
           <td>230005047</td>
         
         </tr>
         <tr>
-          <td>47</td>
-          <td>Yash Kumar</td>
+          <td>46</td>
+          <td>Utkarsh Mittal</td>
           <td>230005049</td>
         
         </tr>
         <tr>
-          <td>48</td>
-          <td>Yash Kumar</td>
+          <td>47</td>
+          <td>Vani Agarwal</td>
           <td>230005050</td>
         
         </tr>
         <tr>
-          <td>49</td>
-          <td>Yash Kumar</td>
+          <td>48</td>
+          <td>Vihaan Singh</td>
           <td>230005051</td>
         
         </tr>
         <tr>
-          <td>50</td>
-          <td>Yash Kumar</td>
+          <td>49</td>
+          <td>Yash Vardhan Solanki</td>
           <td>230005052</td>
         
         </tr>
