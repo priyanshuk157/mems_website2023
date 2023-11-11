@@ -10,6 +10,7 @@ import { FaTwitterSquare } from "react-icons/fa";
 const footer = () => {
   return (
     <div className='footer-body'>
+      
       <div className=" footer-main ">
         
             <div className=""><span className='footer-head'>  Department office</span><br />
@@ -18,9 +19,9 @@ Indian Institute of Technology Indore <br />
 Khandwa Road, Simrol-453552 <br />
 Indore, Madhya Pradesh, INDIA
 
-</div>  
+            </div>  
            
-
+            
 
             <div className=" footer-logos">
            <div> <i>< FaPhoneAlt/> </i>  : +91-7324-306 819</div> 
@@ -36,6 +37,8 @@ Indore, Madhya Pradesh, INDIA
             <div><a href="https://www.researchgate.net/profile/Metallurgical-Engineering-And-Materials-Science-Iit-Indore" target="_blank" rel="noopener noreferrer"><i>< FaResearchgate/></i> </a></div>
             <div><a href="https://www.facebook.com/profile.php?id=100092114204325" target="_blank" rel="noopener noreferrer"><i>< FaFacebook/></i> </a></div>
             </div>
+            <div className='created'>Designed and Created By PRIYANSHU KUMBHARE</div>
+            
         </div>
       </div>
     
