@@ -8,12 +8,8 @@ import './industry.css'
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-// import Card from 'react-bootstrap/Card';
-// import { Swiper, SwiperSlide } from "swiper/react"; 
-// import { Autoplay, Pagination, Navigation } from "swiper";
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
+
+
 import stat1 from "./mainpageimages/stat1.png"
 import stat2 from "./mainpageimages/stat2.png"
 import stat3 from "./mainpageimages/stat3.png"
@@ -26,9 +22,9 @@ import razorpay from "./mainpageimages/Razorpay.jpg"
 import sample from "./mainpageimages/sample.mp4"
 import { SwiperSlide } from 'swiper/react';
 
-import { Autoplay, Pagination } from 'swiper';
-import  { Mousewheel, Navigation } from 'swiper';
-import { Keyboard } from 'swiper';
+import { Autoplay, Pagination } from 'swiper/modules';
+import  { Mousewheel, Navigation } from 'swiper/modules';
+import { Keyboard } from 'swiper/modules';
 import { Swiper } from 'swiper/react';
 
 
