@@ -198,6 +198,30 @@ const industryrelation = () => {
                     <img src={gs}  width="100" alt="" />
                     <img src={razorpay}  width="250" alt="" />
                     <img src={jio} width="100" alt="" />
+                    <img src={accenture} width="250" alt="" />
+                    <img src={gs}  width="100" alt="" />
+                    <img src={razorpay}  width="250" alt="" />
+                    <img src={jio} width="100" alt="" />
+                    <img src={accenture} width="250" alt="" />
+                    <img src={gs}  width="100" alt="" />
+                    <img src={razorpay}  width="250" alt="" />
+                    <img src={jio} width="100" alt="" />
+                    <img src={accenture} width="250" alt="" />
+                    <img src={gs}  width="100" alt="" />
+                    <img src={razorpay}  width="250" alt="" />
+                    <img src={jio} width="100" alt="" />
+                    <img src={accenture} width="250" alt="" />
+                    <img src={gs}  width="100" alt="" />
+                    <img src={razorpay}  width="250" alt="" />
+                    <img src={jio} width="100" alt="" />
+                    <img src={accenture} width="250" alt="" />
+                    <img src={gs}  width="100" alt="" />
+                    <img src={razorpay}  width="250" alt="" />
+                    <img src={jio} width="100" alt="" />
+                    <img src={accenture} width="250" alt="" />
+                    <img src={gs}  width="100" alt="" />
+                    <img src={razorpay}  width="250" alt="" />
+                    <img src={jio} width="100" alt="" />
 		{/*<div class="slide">
 			<img src={accenture}  width="250" alt="" />
 </div>
