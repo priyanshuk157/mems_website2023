@@ -1,0 +1,19 @@
+.even{
+    color: rgb(203, 18, 18);
+    text-align: center;
+    
+}
+.ind-head{
+    position: relative;
+    justify-content: left;
+}
+
+.ind-section{
+    border-radius: 20px;
+}
+
+.res-acc-body {
+
+    justify-content: center;
+    position: relative;
+}

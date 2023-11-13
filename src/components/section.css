@@ -120,6 +120,7 @@
     overflow: hidden;
     
     width: 400px;
+    filter: brightness(0.4);
    
     
    
@@ -131,7 +132,7 @@
     height: 300px;
     width: 400px;
     right: 0px;
-    opacity: .8;
+    filter: brightness(.4);
     z-index: 1;
 }
 .grid-item1{
@@ -254,7 +255,14 @@ margin: 2rem;
     margin-bottom: 10px;
     z-index: 2;
 }
-
+.sec-conthead_news{
+    /*font-size: var(--head1);*/
+    font-size: 40px;
+    /*color: var(--red);*/
+    color:rgb(255, 255, 255);
+    margin-bottom: 10px;
+    z-index: 2;
+}
 
 
 .swiper {

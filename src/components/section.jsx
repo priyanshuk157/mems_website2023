@@ -87,7 +87,7 @@ Engage with broader community via outreach programs to promote science & technol
     
         <div className="events1">
         
-        <div className='sec-conthead'>EVENTS
+        <div className='sec-conthead_news'>EVENTS
         </div>
         <div className='gallery-grid2'>
   
@@ -106,7 +106,7 @@ Engage with broader community via outreach programs to promote science & technol
             </div>
         </div>
         <div className="events1">
-        <div className='sec-conthead'>RESOURCES</div>
+        <div className='sec-conthead_news'>RESOURCES</div>
         <div className='gallery-grid2'>
   
 
@@ -125,7 +125,7 @@ Engage with broader community via outreach programs to promote science & technol
             </div>
         </div>
           <div className="events1">
-          <div className='sec-conthead'>GALLERY</div>
+          <div className='sec-conthead_news'>GALLERY</div>
 <div className='gallery-grid7'>
   
 
