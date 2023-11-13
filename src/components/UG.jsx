@@ -348,318 +348,313 @@ const UG = () => {
         </tr>
       </thead>
       <tbody>
+        
         <tr>
           <td>1</td>
-          <td>Raut Sakshi Sunil</td>
-          <td>220004036</td>
-        
-        </tr>
-        <tr>
-          <td>2</td>
           <td>Abhishek A.P</td>
           <td>220005001</td>
         
         </tr>
         <tr>
-          <td>3</td>
+          <td>2</td>
           <td>Abhishek Jha</td>
           <td>220005002</td>
         
         </tr>
         <tr>
-          <td>4</td>
+          <td>3</td>
           <td>Aditi Tapdiya</td>
           <td>220005003</td>
         
         </tr>
         <tr>
-          <td>5</td>
+          <td>4</td>
           <td>Aditya Kishan Sonkusare</td>
           <td>220005004</td>
         
         </tr>
         <tr>
-          <td>6</td>
+          <td>5</td>
           <td>Aditya Nimadi</td>
           <td>220005005</td>
         
         </tr>
         <tr>
-          <td>7</td>
+          <td>6</td>
           <td>Akarshit Trivedi</td>
           <td>220005006</td>
         
         </tr>
         <tr>
-          <td>8</td>
+          <td>7</td>
           <td>Amber Verma</td>
           <td>220005008</td>
         
         </tr>
         <tr>
-          <td>9</td>
+          <td>8</td>
           <td>Anjaneya Parashar</td>
           <td>220005009</td>
         
         </tr>
         <tr>
-          <td>10</td>
+          <td>9</td>
           <td>Anubhuti Sharma</td>
           <td>220005010</td>
         
         </tr>
         <tr>
-          <td>11</td>
+          <td>10</td>
           <td>Apekshit</td>
           <td>220005011</td>
         
         </tr>
         <tr>
-          <td>12</td>
+          <td>11</td>
           <td>Arunabha Dhal</td>
           <td>220005012</td>
         
         </tr>
         <tr>
-          <td>13</td>
+          <td>12</td>
           <td>Ashmi Chandak</td>
           <td>220005013</td>
         
         </tr>
         <tr>
-          <td>14</td>
+          <td>13</td>
           <td>Ashwin Bansod</td>
           <td>220005014</td>
         
         </tr>
         <tr>
-          <td>15</td>
+          <td>14</td>
           <td>Atharva Porwal</td>
           <td>220005015</td>
         
         </tr>
         <tr>
-          <td>16</td>
+          <td>15</td>
           <td>Avdhoot Ramchandra Kasture</td>
           <td>220005016</td>
         
         </tr>
         <tr>
-          <td>17</td>
+          <td>16</td>
           <td>Devarapalli Nissi</td>
           <td>220005017</td>
         
         </tr>
         <tr>
-          <td>18</td>
+          <td>17</td>
           <td>Dhruv Jain</td>
           <td>220005018</td>
         
         </tr>
         <tr>
-          <td>19</td>
+          <td>18</td>
           <td>Dikshit Suthar</td>
           <td>220005019</td>
         
         </tr>
         <tr>
-          <td>20</td>
+          <td>19</td>
           <td>Divya Singh Maurya</td>
           <td>220005020</td>
         
         </tr>
         <tr>
-          <td>21</td>
+          <td>20</td>
           <td>Gaurav Kumar</td>
           <td>220005021</td>
         
         </tr>
         <tr>
-          <td>22</td>
+          <td>21</td>
           <td>Gauttam Mandan</td>
           <td>220005022</td>
         
         </tr>
         <tr>
-          <td>23</td>
+          <td>22</td>
           <td>Godishala Varshith</td>
           <td>200005023</td>
         
         </tr>
         <tr>
-          <td>24</td>
+          <td>23</td>
           <td>Guguloth Sai Tharun</td>
           <td>220005024</td>
         
         </tr>
         <tr>
-          <td>25</td>
+          <td>24</td>
           <td>Gyanu Sahu</td>
           <td>220005025</td>
         
         </tr>
         <tr>
-          <td>26</td>
+          <td>25</td>
           <td>Harshit Gupta</td>
           <td>220005026</td>
         
         </tr>
         <tr>
-          <td>27</td>
+          <td>26</td>
           <td>Jadhav Krupanand</td>
           <td>220005027</td>
         
         </tr>
         <tr>
-          <td>28</td>
+          <td>27</td>
           <td>Kanika Upadhaya</td>
           <td>220005028</td>
         
         </tr>
         <tr>
-          <td>29</td>
+          <td>28</td>
           <td>Kashaboina Sai Lokesh</td>
           <td>220005029</td>
         
         </tr>
         <tr>
-          <td>30</td>
+          <td>29</td>
           <td>Katroth Srikanth</td>
           <td>220005030</td>
         
         </tr>
         <tr>
-          <td>31</td>
+          <td>30</td>
           <td>Ketali Dhurvey</td>
           <td>220005031</td>
         
         </tr>
         <tr>
-          <td>32</td>
+          <td>31</td>
           <td>Lingampalli Nishanth</td>
           <td>220005032</td>
         
         </tr>
         <tr>
-          <td>33</td>
+          <td>32</td>
           <td>Lokery Kiranmayi</td>
           <td>220005033</td>
         
         </tr>
         <tr>
-          <td>34</td>
+          <td>33</td>
           <td>Madhav Rathore</td>
           <td>220005034</td>
         
         </tr>
         <tr>
-          <td>35</td>
+          <td>34</td>
           <td>Mansi Tanwar</td>
           <td>220005035</td>
         
         </tr>
         <tr>
-          <td>36</td>
+          <td>35</td>
           <td>Mrunal Chandrashekhar Nandpure</td>
           <td>220005036</td>
         
         </tr>
         <tr>
-          <td>37</td>
+          <td>36</td>
           <td>Nikhil</td>
           <td>220005037</td>
         
         </tr>
         <tr>
-          <td>38</td>
+          <td>37</td>
           <td>Prasoon Pandey</td>
           <td>220005038</td>
         
         </tr>
         <tr>
-          <td>39</td>
+          <td>38</td>
           <td>Pratik Prajn</td>
           <td>220005039</td>
         
         </tr>
         <tr>
-          <td>40</td>
+          <td>39</td>
           <td>Raj Sharma</td>
           <td>220005040</td>
         
         </tr>
         <tr>
-          <td>41</td>
+          <td>40</td>
           <td>Rishabh Sharma</td>
           <td>220005042</td>
         
         </tr>
         <tr>
-          <td>42</td>
+          <td>41</td>
           <td>Rishabh Singh</td>
           <td>220005043</td>
         
         </tr>
         <tr>
-          <td>43</td>
+          <td>42</td>
           <td>S S K Chandrahaas</td>
           <td>220005044</td>
         
         </tr>
         <tr>
-          <td>44</td>
+          <td>43</td>
           <td>Saikumar</td>
           <td>220005045</td>
         
         </tr>
         <tr>
-          <td>45</td>
+          <td>44</td>
           <td>Sakshi Sahadeo Dombe</td>
           <td>220005046</td>
         
         </tr>
         <tr>
-          <td>46</td>
+          <td>45</td>
           <td>Sanket Panigrahi</td>
           <td>220005047</td>
         </tr>
         <tr>
-          <td>47</td>
+          <td>46</td>
           <td>Shivansh Malpani</td>
           <td>220005048</td>
         </tr>
         <tr>
-          <td>48</td>
+          <td>47</td>
           <td>Shivendra Singh Jaroliya</td>
           <td>220005049</td>
         </tr>
         <tr>
-          <td>49</td>
+          <td>48</td>
           <td>Shreyans Kothari</td>
           <td>220005050</td>
         </tr>
         <tr>
-          <td>50</td>
+          <td>49</td>
           <td>Stuti Bhauguna</td>
           <td>220005051</td>
         </tr>
         <tr>
-          <td>51</td>
+          <td>50</td>
           <td>Swaraj mahendra Khair</td>
           <td>220005052</td>
         </tr>
         <tr>
-          <td>52</td>
+          <td>51</td>
           <td>Tatpar Sundaria</td>
           <td>220005053</td>
         </tr>
         <tr>
-          <td>53</td>
+          <td>52</td>
           <td>Trishant Kumar Talluri</td>
           <td>220005054</td>
         </tr>
         <tr>
-          <td>54</td>
+          <td>53</td>
           <td>Ujjwal Choudhary</td>
           <td>220005055</td>
         </tr>
