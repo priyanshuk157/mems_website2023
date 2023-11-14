@@ -4,7 +4,7 @@ import Footer from "../footer";
 import "./profile.css";
 import { FaAngleLeft } from "react-icons/fa";
 import Table from "react-bootstrap/Table";
-import { FaEnvelope, FaHome,  FaPhone, FaResearchgate,  FaTwitterSquare } from "react-icons/fa";
+import {  FaHome, FaResearchgate,  FaTwitterSquare } from "react-icons/fa";
 import {SiGooglescholar } from "react-icons/si";
 
 const profile7 = () => {
