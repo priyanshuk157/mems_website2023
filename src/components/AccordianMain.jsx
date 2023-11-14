@@ -6,28 +6,20 @@ const AccordianMain = () => {
   return (
     <div className="resources-main">
        <Accordion defaultActiveKey="-1">
-      <Accordion.Item eventKey="0">
-        <Accordion.Header > <span className='res-header'>How to reach IIT Indore</span> </Accordion.Header>
-        <Accordion.Body> <div className="res-acc-body"> <a href="https://www.google.com/maps/dir//Indian+Institute+Of+Technology+(IIT),+Indore,+Khandwa+Rd,+Simrol,+Madhya+Pradesh+453552/@22.5252603,75.9169412,16z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3962efcccbce7145:0x784e8cb69818596b!2m2!1d75.9207231!2d22.5203597?entry=ttu"> View On Map</a></div>
-         
-        
-        </Accordion.Body>
-      </Accordion.Item>
-      
-      <Accordion.Item eventKey="1">
-        <Accordion.Header><span className='res-header'>Accomodation facilities in IITI</span></Accordion.Header>
-        <Accordion.Body>IIT Indore is a residential Institute that mandates students of all teaching programs to stay in the Hostels. This is a home away from home where students develop lifelong relationships, camaraderie, and wonderful experiences that give them a different kind of grooming. Many of our alumni inform us that it is in these hostels where they learned life skills that are taking them a long way. At the moment, IIT Indore has six hostels, out of which one is reserved for female residents and other for married students. All hostels are located close to each other, lie amidst the flora and fauna of the campus and have adjacent playgrounds which are always buzzing with physical activity. These are also close to the Academic Pods, which houses all research and undergraduate labs, the backbone of this Institute.
-        <div className="res-acc-body"> <a href="https://hostel.iiti.ac.in/"> click here to View the hostel facilities</a></div> 
-        </Accordion.Body>
-      </Accordion.Item>
-      <Accordion.Item eventKey="2">
-        <Accordion.Header><span className='res-header'>Health And Safety</span></Accordion.Header>
+
+
+       <Accordion.Item eventKey="4">
+        <Accordion.Header><span className='res-header'>Facilities</span></Accordion.Header>
         <Accordion.Body>
-        The Health Centre of the Indian Institute of Technology Indore provides dedicated health services to the institute community comprising of students, employees, their dependents and Institute Guests. The Health Centre offers Outpatient, Day care, Trauma and Emergency Care.
-        <div className="res-acc-body"> <a href="https://hostel.iiti.ac.in/"> click here to View the health and safety facilities</a></div> 
+         <Facilities/>
+         <br/>
+         <br/>
+       
+
 
         </Accordion.Body>
       </Accordion.Item>
+
       <Accordion.Item eventKey="3">
         <Accordion.Header><span className='res-header'>Departmental 
 committee</span></Accordion.Header>
@@ -172,18 +164,41 @@ committee</span></Accordion.Header>
         </div>  
         </Accordion.Body>
       </Accordion.Item>
-      <Accordion.Item eventKey="4">
-        <Accordion.Header><span className='res-header'>Facilities</span></Accordion.Header>
-        <Accordion.Body>
-         <Facilities/>
-         <br/>
-         <br/>
-       
 
+
+      <Accordion.Item eventKey="2">
+        <Accordion.Header><span className='res-header'>Health And Safety</span></Accordion.Header>
+        <Accordion.Body>
+        The Health Centre of the Indian Institute of Technology Indore provides dedicated health services to the institute community comprising of students, employees, their dependents and Institute Guests. The Health Centre offers Outpatient, Day care, Trauma and Emergency Care.
+        <div className="res-acc-body"> <a href="https://hostel.iiti.ac.in/"> click here to View the health and safety facilities</a></div> 
 
         </Accordion.Body>
       </Accordion.Item>
-      <Accordion.Item eventKey="4">
+
+
+
+
+
+
+
+      <Accordion.Item eventKey="0">
+        <Accordion.Header > <span className='res-header'>How to reach IIT Indore</span> </Accordion.Header>
+        <Accordion.Body> <div className="res-acc-body"> <a href="https://www.google.com/maps/dir//Indian+Institute+Of+Technology+(IIT),+Indore,+Khandwa+Rd,+Simrol,+Madhya+Pradesh+453552/@22.5252603,75.9169412,16z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3962efcccbce7145:0x784e8cb69818596b!2m2!1d75.9207231!2d22.5203597?entry=ttu"> View On Map</a></div>
+         
+        
+        </Accordion.Body>
+      </Accordion.Item>
+      
+      <Accordion.Item eventKey="1">
+        <Accordion.Header><span className='res-header'>Accomodation facilities in IITI</span></Accordion.Header>
+        <Accordion.Body>IIT Indore is a residential Institute that mandates students of all teaching programs to stay in the Hostels. This is a home away from home where students develop lifelong relationships, camaraderie, and wonderful experiences that give them a different kind of grooming. Many of our alumni inform us that it is in these hostels where they learned life skills that are taking them a long way. At the moment, IIT Indore has six hostels, out of which one is reserved for female residents and other for married students. All hostels are located close to each other, lie amidst the flora and fauna of the campus and have adjacent playgrounds which are always buzzing with physical activity. These are also close to the Academic Pods, which houses all research and undergraduate labs, the backbone of this Institute.
+        <div className="res-acc-body"> <a href="https://hostel.iiti.ac.in/"> click here to View the hostel facilities</a></div> 
+        </Accordion.Body>
+      </Accordion.Item>
+      
+      
+      
+      <Accordion.Item eventKey="5">
         <Accordion.Header><span className='res-header'>Other Facilities</span></Accordion.Header>
         <Accordion.Body>
          

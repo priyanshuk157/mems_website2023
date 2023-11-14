@@ -48,45 +48,28 @@ const industryrelation = () => {
                
             <div className='ind-section'>
                 <div className="sub-ind-sec1">
-                    <div className='ind-head'> WHY MEMS ?   </div>
-             
+                    
+                    <span  class="ind-head2">WHY MEMS ?</span>
+             <div class="con">
                     MEMS is a multidisciplinary department that covers a wide range of topics related to the design, synthesis, characterization, and application of various materials, such as metals, ceramics, polymers, composites, nanomaterials, biomaterials, etc. 
 <br />
                     <br />You can learn about the fundamental principles and advanced techniques of materials science and engineering, as well as the latest developments and innovations in the field
+                    </div>
+                </div>
+                <div className="sub-ind-sec2">
+               
+                <span  class="ind-head2">BROCHURE</span>
                     
-                </div>
-                {/* <div className="sub-ind-sec2">
-                <div className='ind-head'> BROCHURE</div>
-                    
-
-                </div> */}
-
-            </div>
-          <div className='ind-section'>
-                <div className="sub-ind-sec3">
-                <div className='ind-head'> INDUSTRIAL COLLABORATION</div>
-                <div className="collabb">
-                <div className='industrycolab'>
-                <img src="https://whoowner.b-cdn.net/wp-content/uploads/2018/01/Owner-of-VE-Commercial-Vehicles-Limited-Wiki-Logo.jpg" alt="" />
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvK1fNzWbbTsHsWzOwSN6kmDRrqcXe9J5gUA&usqp=CAU" alt="" />
-                <img src="https://rajratan.co.in/wp-content/uploads/2021/08/Rajratan-Horizontal-Logo.png" alt="" />
-                <img src="https://www.yelu.in/img/in/a/1540896763-86-moira-sariya.jpg" alt="" />
-
-            </div>
-                </div>
-                 
-                </div>
-                <div className="sub-ind-sec4">
-                <div className='ind-head'> 
-                <video className='industry-vid' src={sample} autoPlay controls loop ></video>
-                </div>
 
                 </div>
 
             </div>
+          
             <div className='ind-section'>
                 <div className="sub-ind-sec5">
-                <div className='ind-head'> PLACEMENT STATS</div>
+                
+                <span  class="ind-head2">PLACEMENT</span>
+                
                
       <Swiper
        style={{
@@ -120,8 +103,9 @@ const industryrelation = () => {
 
 
 
-            <div className="sub-ind-sec6">
-                <div className='ind-head'> PUBLICATION STATS</div>
+            <div className="sub-ind-sec5">
+                
+                <span  class="ind-head2">PUBLICATION</span>
                
       <Swiper
        style={{
@@ -176,7 +160,7 @@ const industryrelation = () => {
 
     </div>
            
-            
+      
 
 
 
@@ -185,100 +169,22 @@ const industryrelation = () => {
 
 
 <div className='ind-section'>
-                <div className="sub-ind-sec1">
-                    <div className='ind-head'>
+                <div className="sub-ind-sec9">
+                <span  class="ind-head2">FOOTPRINTS OF MEMS</span>
+                    <div class="slide-track">
 
-
-                    <div class='marquee'>
-      
-      <marquee behavior="" direction="">
-                  <div class="slide-track">
-
-                    <img src={accenture} width="250" alt="" />
-                    <img src={gs}  width="100" alt="" />
-                    <img src={razorpay}  width="250" alt="" />
-                    <img src={jio} width="100" alt="" />
-                    <img src={accenture} width="250" alt="" />
-                    <img src={gs}  width="100" alt="" />
-                    <img src={razorpay}  width="250" alt="" />
-                    <img src={jio} width="100" alt="" />
-                    <img src={accenture} width="250" alt="" />
-                    <img src={gs}  width="100" alt="" />
-                    <img src={razorpay}  width="250" alt="" />
-                    <img src={jio} width="100" alt="" />
-                    <img src={accenture} width="250" alt="" />
-                    <img src={gs}  width="100" alt="" />
-                    <img src={razorpay}  width="250" alt="" />
-                    <img src={jio} width="100" alt="" />
-                    <img src={accenture} width="250" alt="" />
-                    <img src={gs}  width="100" alt="" />
-                    <img src={razorpay}  width="250" alt="" />
-                    <img src={jio} width="100" alt="" />
-                    <img src={accenture} width="250" alt="" />
-                    <img src={gs}  width="100" alt="" />
-                    <img src={razorpay}  width="250" alt="" />
-                    <img src={jio} width="100" alt="" />
-                    <img src={accenture} width="250" alt="" />
-                    <img src={gs}  width="100" alt="" />
-                    <img src={razorpay}  width="250" alt="" />
-                    <img src={jio} width="100" alt="" />
-		{/*<div class="slide">
-			<img src={accenture}  width="250" alt="" />
-</div>
-		<div class="slide">
-			<img src={walmart} height="100" width="250" alt="" />
-</div>
-		<div class="slide">
-			<img src={razorpay} height="100" width="250" alt="" />
-</div>
-		<div class="slide">
-			<img src={gs} height="100" width="250" alt="" />
-</div>
-<div class="slide">
-			<img src={jio} height="100" width="100" alt="" />
-		</div>
-<div class="slide">
-			<img src={accenture}  width="250" alt="" />
-</div>
-		<div class="slide">
-			<img src={walmart} height="100" width="250" alt="" />
-</div>
-		<div class="slide">
-			<img src={razorpay} height="100" width="250" alt="" />
-</div>
-		<div class="slide">
-			<img src={gs} height="100" width="250" alt="" />
-</div>
+                          <img class="aclogo"src={accenture} width="250" alt="" />
+                          <img class="galogo" src={gs}  width="100" alt="" />
+                          <img class="rplogo" src={razorpay}  width="250" alt="" />
+                          <img class="jiologo" src={jio} width="100" alt="" />
 
 
 
-<div class="slide">
-			<img src={jio} height="100" width="100" alt="" />
-		</div>
 
-<div class="slide">
-			<img src={accenture}  width="250" alt="" />
+
+
+
 </div>
-		<div class="slide">
-			<img src={walmart} height="100" width="250" alt="" />
-</div>
-		<div class="slide">
-			<img src={razorpay} height="100" width="250" alt="" />
-</div>
-		<div class="slide">
-			<img src={gs} height="100" width="250" alt="" />
-</div>
-<div class="slide">
-			<img src={jio} height="100" width="100" alt="" />
-</div>*/}
-		
-		
-		
-		
-		
-	        </div></marquee>
-    </div>
-                    </div>
              
                    
                     
@@ -291,7 +197,23 @@ const industryrelation = () => {
 
 
 
+            <div className='ind-section'>
+                <div className="sub-ind-sec9">
+                <div className='ind-head2'> INDUSTRIAL COLLABORATION</div>
+                <div className="collabb">
+                <div className='industrycolab'>
+                <img src="https://whoowner.b-cdn.net/wp-content/uploads/2018/01/Owner-of-VE-Commercial-Vehicles-Limited-Wiki-Logo.jpg" alt="" />
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvK1fNzWbbTsHsWzOwSN6kmDRrqcXe9J5gUA&usqp=CAU" alt="" />
+                <img src="https://rajratan.co.in/wp-content/uploads/2021/08/Rajratan-Horizontal-Logo.png" alt="" />
+                <img src="https://www.yelu.in/img/in/a/1540896763-86-moira-sariya.jpg" alt="" />
 
+            </div>
+                </div>
+                 
+                </div>
+                
+
+    </div>
 
 
          
@@ -307,41 +229,21 @@ const industryrelation = () => {
                <Accordion.Item eventKey="0">
         <Accordion.Header><span className='res-header'>Consultancy</span></Accordion.Header>
         <Accordion.Body><div class="ss">
-        <br /><span>&#8226;</span> Analytical studies
-        <br /><span>&#8226;</span> Calibration
-        <br /><span>&#8226;</span> Simulation/ modelling/ optimization
-        <br /><span>&#8226;</span> Development of laboratories
-        <br /><span>&#8226;</span> Human Resource development programmes</div>
+        <span>&#8226;</span> Under Construction
+        </div>
         </Accordion.Body>
       </Accordion.Item>
-                <Accordion.Item eventKey="1">
-        <Accordion.Header><span className='res-header'>Expertise</span></Accordion.Header>
-        <Accordion.Body><div class="ss">
-        <br /><span>&#8226;</span> Analytical studies
-        <br /><span>&#8226;</span> Calibration
-        <br /><span>&#8226;</span> Simulation/ modelling/ optimization
-        <br /><span>&#8226;</span> Development of laboratories
-        <br /><span>&#8226;</span> Human Resource development programmes</div>
-        </Accordion.Body>
-      </Accordion.Item>
+                
       <Accordion.Item eventKey="2">
         <Accordion.Header><span className='res-header'>Research</span></Accordion.Header>
         <Accordion.Body><div class="ss">
-        <br /><span>&#8226;</span> Analytical studies
-        <br /><span>&#8226;</span> Calibration
-        <br /><span>&#8226;</span> Simulation/ modelling/ optimization
-        <br /><span>&#8226;</span> Development of laboratories
-        <br /><span>&#8226;</span> Human Resource development programmes</div>
+        <span>&#8226;</span> Under Construction</div>
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="3">
         <Accordion.Header><span className='res-header'>Training</span></Accordion.Header>
         <Accordion.Body><div class="ss">
-        <br /><span>&#8226;</span> Analytical studies
-        <br /><span>&#8226;</span> Calibration
-        <br /><span>&#8226;</span> Simulation/ modelling/ optimization
-        <br /><span>&#8226;</span> Development of laboratories
-        <br /><span>&#8226;</span> Human Resource development programmes</div>
+        <span>&#8226;</span> Under Construction</div>
         </Accordion.Body>
       </Accordion.Item>
 </Accordion>
