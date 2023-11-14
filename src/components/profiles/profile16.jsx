@@ -6,7 +6,7 @@ import { FaAngleLeft } from "react-icons/fa";
 import Table from "react-bootstrap/Table";
 import { FaEnvelope, FaHome, FaLinkedin, FaPhone, FaResearchgate } from "react-icons/fa";
 import {SiGooglescholar } from "react-icons/si";
-
+import prof1 from "./profimages/prof1.jpg"
 const profile16 = () => {
   return (
     <>
@@ -26,7 +26,7 @@ const profile16 = () => {
       <div className="profile-main">
         <div className="profile-section-1">
           <div className="profile-img">
-            <img src="http://mems.iiti.ac.in/images/Dr%20Chandan%20Halder_%20MEMS.jpg" alt="sd" />
+            <img src={prof1} alt="sd" />
           </div>
           {/* pc=profile content */}
 
