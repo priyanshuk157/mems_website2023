@@ -13,7 +13,7 @@ const footer = () => {
       
       <div className=" footer-main ">
         
-            <div className=""><span className='footer-head'>  Department office</span><br />
+            <div className=""><span className='footer-head'>  Department Office</span><br />
             Metallurgical Engineering and Materials Science <br />
 Indian Institute of Technology Indore <br />
 Khandwa Road, Simrol-453552 <br />
