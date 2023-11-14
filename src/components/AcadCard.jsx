@@ -3,7 +3,7 @@ import Footer from '../components/footer'
 import Navbar from '../components/navbar'
 import './academic.css'
 import Accordion from 'react-bootstrap/Accordion';
-import grpphto from "./images/group_photo2023.jpg"
+import grpphto from "./images/group_photo20232.jpg"
 
 const AcadCard = () => {
 
@@ -11,7 +11,7 @@ const AcadCard = () => {
     <>
     <div><Navbar/></div>
     
-    
+    <span class="heading">Academics</span>
     <div className='acad-image'>
       <img src={grpphto} alt="omk" srcset="" />
       {/* Degree programs offered by the Department of Metallurgical Engineering and Materials Science at IIT Indore revolve around exploring the properties of matter and their practical utilization in various areas of science and engineering. */}

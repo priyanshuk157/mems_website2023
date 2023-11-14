@@ -1,6 +1,7 @@
 import React from 'react'
 import Accordion from 'react-bootstrap/Accordion';
 import Facilities from './Facilities';
+import "./main.css"
 
 const AccordianMain = () => {
   return (
@@ -183,8 +184,20 @@ committee</span></Accordion.Header>
 
       <Accordion.Item eventKey="0">
         <Accordion.Header > <span className='res-header'>How to reach IIT Indore</span> </Accordion.Header>
-        <Accordion.Body> <div className="res-acc-body"> <a href="https://www.google.com/maps/dir//Indian+Institute+Of+Technology+(IIT),+Indore,+Khandwa+Rd,+Simrol,+Madhya+Pradesh+453552/@22.5252603,75.9169412,16z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3962efcccbce7145:0x784e8cb69818596b!2m2!1d75.9207231!2d22.5203597?entry=ttu"> View On Map</a></div>
-         
+        <Accordion.Body> <div class="res-body-content"><div className="res-acc-body">
+
+
+          
+          
+           <a href="https://www.google.com/maps/dir//Indian+Institute+Of+Technology+(IIT),+Indore,+Khandwa+Rd,+Simrol,+Madhya+Pradesh+453552/@22.5252603,75.9169412,16z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3962efcccbce7145:0x784e8cb69818596b!2m2!1d75.9207231!2d22.5203597?entry=ttu"> View On Map</a>
+           <br />
+           
+           
+           
+           
+           </div>
+           <div class="res-acc-body">
+           <a href="https://www.iiti.ac.in/"> College Website</a></div></div>
         
         </Accordion.Body>
       </Accordion.Item>

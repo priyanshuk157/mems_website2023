@@ -49,6 +49,7 @@ import Adarsh from "./staffimages/adarsh.jpg"
 import adk from "./staffimages/akd.jpg"
 import aks from "./staffimages/aks.png"
 import vikesh from "./staffimages/vikesh.jpg"
+import def from "./staffimages/default.jpg"
 
 
 
@@ -233,7 +234,7 @@ const Phd = () => {
 
           <div className="hodsec">
             <img
-                  src={mukul}
+                  src={def}
               className="hodimg"
               alt="okf"
             />
@@ -475,7 +476,7 @@ const Phd = () => {
 
           <div className="hodsec">
             <img
-                  src={Man}
+                  src={def}
               className="hodimg"
               alt="okf"
             />
@@ -891,7 +892,7 @@ const Phd = () => {
 
           <div className="hodsec">
             <img
-                  src={mukul}
+                  src={def}
               className="hodimg"
               alt="okf"
             />
