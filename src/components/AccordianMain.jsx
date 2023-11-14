@@ -208,10 +208,7 @@ committee</span></Accordion.Header>
         <div className="res-acc-body"> <a href="https://hostel.iiti.ac.in/"> click here to View the hostel facilities</a></div> 
         </Accordion.Body>
       </Accordion.Item>
-      
-      
-      
-      <Accordion.Item eventKey="5">
+      <Accordion.Item eventKey="4">
         <Accordion.Header><span className='res-header'>Other Facilities</span></Accordion.Header>
         <Accordion.Body>
          

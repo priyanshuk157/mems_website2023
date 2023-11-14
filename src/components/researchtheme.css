@@ -1,4 +1,90 @@
-.themes-main-1{
+/* .cards img{
+ 
+  height: auto;
+  width: 400px;
+  border-radius: 10px;
+  filter: brightness(0.6);
+  z-index: 0;
+  } */
+
+.research-cards{
+  display: flex;
+  justify-content: space-evenly;
+  
+  
+
+
+
+
+}
+.research-cards a{
+  text-decoration: none;
+  
+  
+
+
+
+
+}
+.cards{
+
+  background-image: url('./images/material-example.jpg') ;
+  
+ 
+   background-size: 400px auto;
+
+   width: 400px;
+   height: 225px;
+   border-radius: 10px;
+   z-index: 0;
+
+
+
+
+}
+/* .research-card-main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.research-card-line{
+ display: flex;
+ flex-direction: column;
+ gap: 3rem;
+
+
+
+}
+.research-head{
+  font-size: var(--head2);
+  color: var(--red);
+  display: flex;
+  justify-content: center;
+  margin: 3rem;
+}
+.research-text{
+  font-size: var(--content2);
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  
+  text-decoration: none ;
+
+  width: 400px;
+  height: 225px;
+  z-index: 2;
+}
+
+
+.consulting{
+ display: flex;
+ 
+}
+
+
+/* .themes-main-1{
     display: flex;
     flex-direction: column;
  
@@ -62,7 +148,7 @@ top: 0;
 top: -1rem;
 background-color:  #024779;
    box-shadow: 0px 13px 30px rgb(44, 43, 43);
-   
+   background-color: #0080db;
 }
 
 .themes-blocks::before{
@@ -180,13 +266,13 @@ z-index: -1;
 .theme-heads{
     /* position: relative;
     top: 22%; */
-    text-align: center;
+    /* text-align: center;
     color: rgb(255, 255, 255);
     font-size: 25px;
     font-weight: 800;
     text-decoration: none;
     text-transform: uppercase;
-}
+} */ */
 
 
   
