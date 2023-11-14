@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from './navbar'
 import Footer from './footer'
-import underconst from './images/Under-construction.gif'
+// import underconst from './images/Under-construction.gif'
 import Underconstruction from './underconstruction'
 const PostDoc = () => {
   return (

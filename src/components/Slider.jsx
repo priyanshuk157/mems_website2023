@@ -1,4 +1,3 @@
-import Carousel from 'react-bootstrap/Carousel';
 import "./Slider.css"
 import jai from "./images/yeih.jpg"
 import jai1 from "./images/statimg.jpg"
@@ -12,7 +11,7 @@ import 'swiper/css/pagination';
 import "swiper/css/navigation";
 
 // import required modules
-import { Autoplay , Pagination,Navigation ,Keyboard , Mousewheel, FreeMode} from 'swiper/modules';
+import { Autoplay , Pagination} from 'swiper/modules';
 
 function CarouselFadeExample() {
   

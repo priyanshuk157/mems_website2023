@@ -25,14 +25,14 @@ const ResearchThemes = () => {
                 </div>
               </div>
             </a>
-            <a href="researchcomponent1" target="_blank" rel="noopener noreferrer">
+            <a href="researchcomponent3" target="_blank" rel="noopener noreferrer">
               {" "}
               <div className="cards-2">
                 <div className="research-text"> Strategic Materials</div>
               </div>
             </a>
 
-            <a href="researchcomponent1" target="_blank" rel="noopener noreferrer">
+            <a href="researchcomponent2" target="_blank" rel="noopener noreferrer">
               {" "}
               <div className="cards-3">
                 <div className="research-text">
@@ -43,18 +43,18 @@ const ResearchThemes = () => {
             </a>
           </div>
           <div className="research-cards">
-            <a href="researchcomponent1" target="_blank" rel="noopener noreferrer">
+            <a href="researchcomponent6" target="_blank" rel="noopener noreferrer">
               <div className="cards-4">
                 <div className="research-text"> Energy & Environment</div>
               </div>
             </a>
-            <a href="researchcomponent1" target="_blank" rel="noopener noreferrer">
+            <a href="researchcomponent4" target="_blank" rel="noopener noreferrer">
               {" "}
               <div className="cards-5">
                 <div className="research-text"> Electronics & Photonics</div>
               </div>
             </a>
-            <a href="researchcomponent1" target="_blank" rel="noopener noreferrer">
+            <a href="researchcomponent4" target="_blank" rel="noopener noreferrer">
               {" "}
               <div className="cards-6">
                 <div className="research-text"> Nano & Soft Materials</div>

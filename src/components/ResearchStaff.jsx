@@ -7,7 +7,7 @@ import mdhake from "./staffimages/MayurDhake.jpg"
 import pshrimal from "./staffimages/PranjalShrimal.png"
 import sverma from "./staffimages/ShubhamVerma.jpg"
 import { FaEnvelope } from 'react-icons/fa';
-import mukul from "./staffimages/mukul_kumar.png"
+// import mukul from "./staffimages/mukul_kumar.png"
 // import samina from "./staffimages/sameena_rapphik.jpg"
 // import ankush from "./staffimages/ankush_marodkar.png"
 const ResearchStaff = () => {

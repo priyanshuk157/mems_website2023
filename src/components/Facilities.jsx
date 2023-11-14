@@ -13,7 +13,7 @@ import uvspectro from "./images/UVspectrometer.jpg";
 import xraydiff from "./images/Xraydiff.jpg";
 import srd from "./images/srd.jpg";
 import "./Facilities.css";
-import Accordion from 'react-bootstrap/Accordion';
+// import Accordion from 'react-bootstrap/Accordion';
 
 const Facilities = () => {
   return (

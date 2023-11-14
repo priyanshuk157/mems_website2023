@@ -1,5 +1,4 @@
 import React from 'react'
-import Carousel from 'react-bootstrap/Carousel';
 import "./section.css"
 import Newssection from './news-section'
 import ss1 from './images/ss1.jpg'
@@ -11,7 +10,7 @@ import { FaEnvelope } from 'react-icons/fa'
 import prof20 from "./profiles/profimages/prof20.jpeg"
 import convopic from "./profiles/profimages/convocation.jpg"
 import re from "./profiles/profimages/re.jpg"
-import Slider from './Slider';
+// import Slider from './Slider';
 
 
 
