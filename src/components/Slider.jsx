@@ -21,31 +21,29 @@ function CarouselFadeExample() {
     <div className='carousel-main'>
     <Swiper
     
-        slidesPerView={2}
+        slidesPerView={3}
         spaceBetween={0}
-        freeMode={true}
+        // freeMode={true}
         loop={true}
+        preventInteractionOnTransition={true}
         autoplay={{
-          delay: 2500,
-          disableOnInteraction: true,
+          delay: 1,
+          disableOnInteraction: false,
         }}
         speed={5000}
         freeModeMomentum= {false}
         pagination={{
-          clickable: true,
+          clickable: false,
         }}
-        modules={[Autoplay,FreeMode, Pagination]}
+        modules={[Autoplay, Pagination]}
         className="homepage-slider"
       >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+        <SwiperSlide><div><img src={jai} alt="" /></div></SwiperSlide>
+        <SwiperSlide><div><img src={jai1} alt="" /></div></SwiperSlide>
+        <SwiperSlide><div><img src={jai2} alt="" /></div></SwiperSlide>
+        <SwiperSlide><div><img src={jai} alt="" /></div></SwiperSlide>
+        <SwiperSlide><div><img src={jai} alt="" /></div></SwiperSlide>
+        
       </Swiper>
    
     </div>

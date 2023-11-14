@@ -156,7 +156,7 @@ const Navbar = () => {
         
                   <div>
                     {" "}
-                    <a href="ad"> Alumni </a>{" "}
+                    <a href="alumini"> Alumni </a>{" "}
                   </div>
                 </div>{" "}
               </li>
