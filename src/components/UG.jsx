@@ -584,6 +584,12 @@ const UG = () => {
         
         </tr>
         <tr>
+          <td>39</td>
+          <td>Raja</td>
+          <td>220005041</td>
+        
+        </tr>
+        <tr>
           <td>40</td>
           <td>Rishabh Sharma</td>
           <td>220005042</td>
