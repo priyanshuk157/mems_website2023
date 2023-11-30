@@ -57,11 +57,11 @@ const faculty = () => {
 
             <div className="hodtext">
               <div className="hodtext1">
-                <div className="name">Prof. Abhijit Ghosh</div>
-                <div className="post"> aghosh@iiti.ac.in </div>
-                <div className="post"> aghosh@iiti.ac.in </div>
-                <div className="post"> aghosh@iiti.ac.in </div>
-                <div className="post"> aghosh@iiti.ac.in </div>
+              <div className="name">Prof. Abhijit Ghosh</div>
+                <div className="post"> Assistant Professor </div>
+                <div className="post"> Office		: POD 1D-608  </div>
+                <div className="post"> Email	 (<i><FaEnvelope/></i>)	:aghosh@iiti.ac.in</div>
+                <div className="post"> Contact  (<i><FaPhone/></i>)		: 0731 660 3287 </div>
                 <div className="post-button">
                   <a href="profile11"> view profile</a>{" "}
                 </div>
@@ -375,9 +375,9 @@ const faculty = () => {
               <div className="hodtext1">
                 <div className="name">Prof. Sumanta Samal</div>
                 <div className="post"> Assistant Professor </div>
-                <div className="post">Office		: #211(b), Hub Building </div>
-                <div className="post"> Email	 (<i><FaEnvelope/></i>)	: kvvamsi@iiti.ac.in </div>
-                <div className="post"> Contact  (<i><FaPhone/></i>)		: +91-731-660-3333 ext: 5568 </div>
+                <div className="post">Office		:  POD 1D-411 </div>
+                <div className="post"> Email	 (<i><FaEnvelope/></i>)	: sumanta@iiti.ac.in </div>
+                <div className="post"> Contact  (<i><FaPhone/></i>)		: +91 731-660-3252 </div>
                 <div className="post-button">
                   <a href="profile9"> view profile</a>{" "}
                 </div>
