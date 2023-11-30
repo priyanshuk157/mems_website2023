@@ -4,7 +4,7 @@ import Footer from "../footer";
 import "./profile.css";
 import { FaEnvelope, FaHome,  FaPhone, FaResearchgate,   } from "react-icons/fa";
 import {SiGooglescholar } from "react-icons/si";
-import prof14 from "./profimages/prof18.jpg"
+import prof14 from "./profimages/rsm.jpg"
 
 const Profile14 = () => {
   return (
@@ -73,7 +73,7 @@ const Profile14 = () => {
             <li>Ph.D, Metallurgical and Materials Engineering, IIT Kharagpur, 2017</li>
             <li>B.Tech, Metallurgical and Materials Engineering, NIT Durgapur, 2011
 </li>
-            <li></li>
+          
             
           </ul>
         </div>
@@ -90,9 +90,7 @@ const Profile14 = () => {
             <li>
             Industrial : Assistant System Engineer, TATA, Consultancy Services Ltd, 2011 – 2013
             </li>
-            <li>
             
-            </li>
           </ul>
         </div>
         <div className="pc1">
@@ -101,7 +99,7 @@ const Profile14 = () => {
            <ul>
             <li>2017, National Post-Doctoral Fellowship, SERB</li>
             <li>2019, Early Career Research Award, SERB</li>
-            <li></li>
+           
            </ul>
           </div>
         </div>

@@ -184,7 +184,15 @@ committee</span></Accordion.Header>
 
       <Accordion.Item eventKey="0">
         <Accordion.Header > <span className='res-header'>How to reach IIT Indore</span> </Accordion.Header>
-        <Accordion.Body> <div class="res-body-content"><div className="res-acc-body">
+        <Accordion.Body>
+          <div class="image">
+<img src="https://cse.iiti.ac.in/images/image001.png" alt="" />
+       <img src="https://cse.iiti.ac.in/images/image003.png" alt="" />
+       <img src="https://cse.iiti.ac.in/images/image005.png" alt="" />
+
+
+          </div>
+         <div class="res-body-content"><div className="res-acc-body">
 
 
           
@@ -208,7 +216,7 @@ committee</span></Accordion.Header>
         <div className="res-acc-body"> <a href="https://hostel.iiti.ac.in/"> click here to View the hostel facilities</a></div> 
         </Accordion.Body>
       </Accordion.Item>
-      <Accordion.Item eventKey="4">
+      <Accordion.Item eventKey="5">
         <Accordion.Header><span className='res-header'>Other Facilities</span></Accordion.Header>
         <Accordion.Body>
          
