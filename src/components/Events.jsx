@@ -3,6 +3,7 @@ import Navbar from './navbar'
 import Footer from "./footer";
 import "./staff.css"
 import "./Events.css";
+import Table from "react-bootstrap/Table";
 
 const Events = () => {
   return (
@@ -18,6 +19,55 @@ const Events = () => {
         <div className='ind-section'>
                 <div className="sub-ind-sec1">
                     <div className='ind-head'> Recent Events   </div>
+
+
+
+
+
+                    <Table>
+            <thead>
+              <tr>
+                <th>INSTITUTE</th>
+                <th>COURSE</th>
+                <th>YEAR OF PASSING</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>IIT Kharagpur</td>
+                <td>Ph.D. </td>
+                <td>2016</td>
+              </tr>
+              <tr>
+                <td>IIT Kharagpur</td>
+                <td>M.Tech </td>
+                <td>2011</td>
+              </tr>
+              <tr>
+                <td>BESU Shibpur</td>
+                <td>B.E </td>
+                <td>2009</td>
+              </tr>
+            </tbody>
+          </Table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
              
                     <span>&#8226;</span> "International Conference on Frontiers in Materials Engineering" December 14 – 16, 2022 Organized by : Department of Metallurgy Engineering and Materials Science (MEMS) Venue: Indian Institute of Technology Indore Campus 
                     <a href="http://mems.iiti.ac.in/docs/Abstract%20Book_ICFME-2022.pdf">Details Abstract Book of ICFME-2022</a> 
