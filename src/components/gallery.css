@@ -17,3 +17,18 @@ justify-content: center;
     border-radius: 10px;
 
 }
+
+
+.hori{
+    display: flex;
+    gap: 80px;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    font-size: 3.5rem;
+    padding: rem;
+    color: #C44536;
+   
+}
+

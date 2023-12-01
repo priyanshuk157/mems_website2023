@@ -13,22 +13,23 @@ import  "./gallery.css"
 
 function Gallery() {
   return (
+    
     <div className='gallery'>
-      
+      <span class="name">Gallery</span>
         <img src={ss1} alt="afk" />
-        <img src={ss2} alt="afk" />
+        
         <img src={ss3} alt="afk" />
       
-        
+     
         <img src={photo1} alt="afk" />
         <img src={photo2} alt="afk" />
         <img src={photo3} alt="afk" />
         <img src={photo6} alt="afk" />  
-       
+       <div class="hori">
         <img src={photo4} alt="afk" />
         <img src={photo5} alt="afk" />
         
-        
+        </div>
         
         
         </div>    
