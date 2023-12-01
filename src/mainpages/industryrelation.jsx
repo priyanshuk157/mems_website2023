@@ -17,6 +17,7 @@ import stat4 from "./mainpageimages/stat4.png"
 import ii from "./mainpageimages/ii.png"
 import ug from "./mainpageimages/ug.png"
 import pg from "./mainpageimages/pg.png"
+import uo from "./mainpageimages/uo.jpeg"
 
 import accenture from "./mainpageimages/accenture.png"
 import jio from "./mainpageimages/BjxmtD.webp"
@@ -59,8 +60,8 @@ const industryrelation = () => {
                 <div className="sub-ind-sec2">
                
                 <span  class="ind-head2">BROCHURE</span>
-                    
-
+              <div class="bimage">     
+<img src={uo} alt="" /></div> 
                 </div>
 
             </div>
