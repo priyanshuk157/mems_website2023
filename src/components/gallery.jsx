@@ -16,7 +16,7 @@ function Gallery() {
     <div className='gallery'>
       
         <img src={ss1} alt="afk" />
-        <img src={ss2} alt="afk" />
+        
         <img src={ss3} alt="afk" />
       
         
