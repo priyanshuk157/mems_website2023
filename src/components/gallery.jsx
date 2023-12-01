@@ -15,7 +15,7 @@ function Gallery() {
   return (
     
     <div className='gallery'>
-      <span class="name">Gallery</span>
+      <span class="namec">Gallery</span>
         <img src={ss1} alt="afk" />
         
         <img src={ss3} alt="afk" />
