@@ -26,7 +26,7 @@ import shirage from "./profiles/profimages/shirage.jpg";
 import dk from "./profiles/profimages/dkrai.jpg";
 import gh from "./profiles/profimages/ghosh.jpg";
 import Basha from "./profiles/profimages/basha.jpg";
-import devan from "./profiles/profimages/devan.jpg";
+// import devan from "./profiles/profimages/devan.jpg";
 import samal from "./profiles/profimages/samal.jpg";
 
 
