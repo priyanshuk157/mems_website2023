@@ -11,10 +11,13 @@ justify-content: center;
 
 }
 .gallery img{
- 
-    height: 500px;
+ position: relative;
+    height: 400px;
     width: auto;
     border-radius: 10px;
+    align-items: center;
+    align-content: center;
+
 
 }
 

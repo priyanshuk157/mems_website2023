@@ -97,7 +97,7 @@ committee</span></Accordion.Header>
               <li>Dr. Chandan Haldar</li>
               <li>Dr. Nishith Kumar Prasad</li>
               <li>
-                Student Representatives: <br/> Mr. Priyanshu, Mr. Pranjal, Ms. Tanvi
+                <br/> Mr. Priyanshu, Ms. Aditi, Pratik
               </li>
             </ul>
           </div>
