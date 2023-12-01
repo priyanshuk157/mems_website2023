@@ -209,10 +209,11 @@ const faculty = () => {
             <div className="hodtext">
               <div className="hodtext1">
                 <div className="name">Prof. Jayaprakash Murugesan</div>
-                <div className="post"> jayaprakash@iiti.ac.in </div>
-                <div className="post"> jayaprakash@iiti.ac.in </div>
-                <div className="post"> jayaprakash@iiti.ac.in </div>
-                <div className="post"> jayaprakash@iiti.ac.in </div>
+  
+                <div className="post"> Associate Professor</div>
+                <div className="post"> Office		: PoD 1D; 412  </div>
+                <div className="post"> Email	 (<i><FaEnvelope/></i>)	:jayaprakash@iiti.ac.in </div>
+                <div className="post"> Contact  (<i><FaPhone/></i>)		: 3258</div>
                 <div className="post-button">
                   <a href="profile8"> view profile</a>{" "}
                 </div>
