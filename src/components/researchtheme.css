@@ -6,6 +6,17 @@
   filter: brightness(0.6);
   z-index: 0;
   } */
+.consulting{
+  background-color: var(--yellow);
+  align-items: center;
+  width: 87%;
+  margin: 100px;
+  margin-top: 10px;
+  padding-left: 50px;
+  padding-bottom: 20px;
+ 
+
+}
 
 .research-cards{
   display: flex;

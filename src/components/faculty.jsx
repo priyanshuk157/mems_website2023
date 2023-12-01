@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./navbar";
 import Footer from "./footer";
-
+import prof1 from "./profiles/profimages/prof1.jpg";
 import prof4 from "./profiles/profimages/prof4.png";
 import prof6 from "./profiles/profimages/prof6.jpg";
 import prof13 from "./profiles/profimages/prof13.jpg";
@@ -11,6 +11,28 @@ import prof11 from "./profiles/profimages/prof11.jpg";
 import prof2 from "./profiles/profimages/prof2.jpg";
 import prof20 from "./profiles/profimages/prof20.jpeg";
 import drpaul from "./profiles/profimages/drpaul.jpg";
+
+import nissi from "./profiles/profimages/nissi.jpg";
+import rsm from "./profiles/profimages/rsm.jpg";
+
+
+import muru from "./profiles/profimages/muru.jpg";
+import hemanth from "./profiles/profimages/hemanth.jpg";
+import vinod from "./profiles/profimages/vinod.jpg";
+import shirage from "./profiles/profimages/shirage.jpg";
+
+
+
+import dk from "./profiles/profimages/dkrai.jpg";
+import gh from "./profiles/profimages/ghosh.jpg";
+import Basha from "./profiles/profimages/basha.jpg";
+import devan from "./profiles/profimages/devan.jpg";
+import samal from "./profiles/profimages/samal.jpg";
+
+
+
+
+
 import "./peoplecard.css"
 import { FaEnvelope, FaPhone } from "react-icons/fa";
 
@@ -28,18 +50,18 @@ const faculty = () => {
 
         <div className="hodsec  ">
             <img
-              src="http://mems.iiti.ac.in/images/ghosh.jpg"
+              src={gh}
               className="hodimg"
               alt="okf"
             />
 
             <div className="hodtext">
               <div className="hodtext1">
-                <div className="name">Prof. Abhijit Ghosh</div>
-                <div className="post"> aghosh@iiti.ac.in </div>
-                <div className="post"> aghosh@iiti.ac.in </div>
-                <div className="post"> aghosh@iiti.ac.in </div>
-                <div className="post"> aghosh@iiti.ac.in </div>
+              <div className="name">Prof. Abhijit Ghosh</div>
+                <div className="post"> Assistant Professor </div>
+                <div className="post"> Office		: POD 1D-608  </div>
+                <div className="post"> Email	 (<i><FaEnvelope/></i>)	:aghosh@iiti.ac.in</div>
+                <div className="post"> Contact  (<i><FaPhone/></i>)		: 0731 660 3287 </div>
                 <div className="post-button">
                   <a href="profile11"> view profile</a>{" "}
                 </div>
@@ -71,7 +93,7 @@ const faculty = () => {
 
           <div className="hodsec  ">
             <img
-              src="http://mems.iiti.ac.in/images/Dr%20Chandan%20Halder_%20MEMS.jpg"
+              src={prof1}
               className="hodimg"
               alt="okf"
             />
@@ -92,7 +114,7 @@ const faculty = () => {
 
           <div className="hodsec  ">
             <img
-              src="http://mems.iiti.ac.in/images/dkrai.jpg"
+              src={dk}
               className="hodimg"
               alt="okf"
             />
@@ -113,7 +135,7 @@ const faculty = () => {
 
           <div className="hodsec  ">
             <img
-              src="http://mems.iiti.ac.in/images/basha.jpg"
+              src={Basha}
               className="hodimg"
               alt="okf"
             />
@@ -151,7 +173,7 @@ const faculty = () => {
 
           <div className="hodsec  ">
             <img
-              src="http://mems.iiti.ac.in/images/hemanth.jpg"
+              src={hemanth}
               className="hodimg"
               alt="okf"
             />
@@ -179,7 +201,7 @@ const faculty = () => {
 
           <div className="hodsec  ">
             <img
-              src="http://mems.iiti.ac.in/images/muru.jpg"
+              src={muru}
               className="hodimg"
               alt="okf"
             />
@@ -234,7 +256,7 @@ const faculty = () => {
 
           <div className="hodsec  ">
             <img
-              src="http://mems.iiti.ac.in/images/DSC_0383_new.JPG"
+              src={nissi}
               className="hodimg"
               alt="okf"
             />
@@ -254,7 +276,7 @@ const faculty = () => {
           </div>
           <div className="hodsec  ">
             <img
-              src="http://mems.iiti.ac.in/images/shirage.jpg"
+              src={shirage}
               className="hodimg"
               alt="okf"
             />
@@ -278,7 +300,7 @@ const faculty = () => {
 
           <div className="hodsec  ">
             <img
-              src="http://mems.iiti.ac.in/images/rsm.jpg"
+              src={rsm}
               className="hodimg"
               alt="okf"
             />
@@ -344,7 +366,7 @@ const faculty = () => {
 
           <div className="hodsec  ">
             <img
-              src="http://mems.iiti.ac.in/images/samal.jpg"
+              src={samal}
               className="hodimg"
               alt="okf"
             />
@@ -353,9 +375,9 @@ const faculty = () => {
               <div className="hodtext1">
                 <div className="name">Prof. Sumanta Samal</div>
                 <div className="post"> Assistant Professor </div>
-                <div className="post">Office		: #211(b), Hub Building </div>
-                <div className="post"> Email	 (<i><FaEnvelope/></i>)	: kvvamsi@iiti.ac.in </div>
-                <div className="post"> Contact  (<i><FaPhone/></i>)		: +91-731-660-3333 ext: 5568 </div>
+                <div className="post">Office		:  POD 1D-411 </div>
+                <div className="post"> Email	 (<i><FaEnvelope/></i>)	: sumanta@iiti.ac.in </div>
+                <div className="post"> Contact  (<i><FaPhone/></i>)		: +91 731-660-3252 </div>
                 <div className="post-button">
                   <a href="profile9"> view profile</a>{" "}
                 </div>
@@ -405,7 +427,7 @@ const faculty = () => {
 
           <div className="hodsec  ">
             <img
-              src="http://mems.iiti.ac.in/images/vinod.jpg"
+              src={vinod}
               className="hodimg"
               alt="okf"
             />

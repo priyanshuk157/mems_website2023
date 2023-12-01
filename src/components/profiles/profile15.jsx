@@ -5,7 +5,7 @@ import "./profile.css";
 import { FaEnvelope, FaHome, FaPhone, } from "react-icons/fa";
 import {SiGooglescholar } from "react-icons/si";
 // import prof15 from "./profimages/prof18.jpg"
-
+import bb from "./profimages/basha.jpg"
 const Profile15 = () => {
   return (
     <>
@@ -24,7 +24,7 @@ const Profile15 = () => {
       <div className="profile-main">
         <div className="profile-section-1">
           <div className="profile-img">
-            <img src="http://mems.iiti.ac.in/images/basha.jpg" alt="sd" />
+            <img src={bb} alt="sd" />
           </div>
           {/* pc=profile content */}
 

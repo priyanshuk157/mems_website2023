@@ -22,7 +22,7 @@ const AcadCard = () => {
         <Accordion.Header> <div className="acad-head1">B.Tech. in Metallurgical Engineering and Materials Science (4 Years):</div></Accordion.Header>
         <Accordion.Body>
         Our comprehensive undergraduate program in Metallurgical Engineering and Materials Science offers a rigorous and diverse curriculum, equipping students with a strong foundation in the principles and applications of materials science, metallurgy, and related fields. Through a balanced blend of theoretical knowledge and practical training, students develop the necessary skills to contribute to the advancement of materials engineering in industries and research institutions.
-        <div className="res-acc-body"> <a href="https://academic.iiti.ac.in/Document/2022-23_Academic_Calendar%20-%20Final%20-%2023-06-2022.pdf"> click here to learn more</a></div> 
+        <div className="res-acc-body"> <a href="https://academic.iiti.ac.in/Document/2022-July-UG-Rules+Policies+Curriculum+Syllabi-of-Courses%2011%20October%202022.pdf"> click here to learn more</a></div> 
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="1">
@@ -56,12 +56,7 @@ PG/PHD</div></Accordion.Header>
 
         </Accordion.Body>
       </Accordion.Item>
-      <Accordion.Item eventKey="5">
-        <Accordion.Header><div className="acad-head1">Curriculum link</div></Accordion.Header>
-        <Accordion.Body>
-        The Master's program in Metallurgical Engineering offers a specialized curriculum that delves into the principles, processes, and applications of metallurgy. With a focus on the extraction, production, and manipulation of metals and alloys, students gain comprehensive knowledge in areas such as physical metallurgy, materials characterization, corrosion science, and more. Equipped with advanced skills and expertise, graduates are prepared to lead research and development efforts, optimize industrial processes, and drive advancements in metallurgical engineering. 
-        </Accordion.Body>
-      </Accordion.Item>
+      
     </Accordion>
      
     {/* <div className="acad-content">
