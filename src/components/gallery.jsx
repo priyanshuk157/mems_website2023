@@ -6,7 +6,7 @@ import photo4 from './images/group_photo4.jpg'
 import photo5 from './images/group_photo5.jpg'
 import photo6 from './images/convocation.jpg'
 import ss1 from './images/ss1.jpg'
-import ss2 from './images/ss2.jpg'
+
 import ss3 from './images/ss3.jpg'
 import  "./gallery.css"
 
