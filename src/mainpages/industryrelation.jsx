@@ -14,6 +14,10 @@ import stat1 from "./mainpageimages/stat1.png"
 import stat2 from "./mainpageimages/stat2.png"
 import stat3 from "./mainpageimages/stat3.png"
 import stat4 from "./mainpageimages/stat4.png"
+import ii from "./mainpageimages/ii.png"
+import ug from "./mainpageimages/ug.png"
+import pg from "./mainpageimages/pg.png"
+
 import accenture from "./mainpageimages/accenture.png"
 import jio from "./mainpageimages/BjxmtD.webp"
 import walmart from "./mainpageimages/walmart.png"
@@ -86,9 +90,9 @@ const industryrelation = () => {
         modules={[Navigation, Pagination,  Mousewheel, Autoplay, Keyboard]}
         className="stats"
       >
-        <SwiperSlide><div className='stats-content'> <img src={stat1} alt='' /></div></SwiperSlide>
+        <SwiperSlide><div className='stats-content'> <img src={pg} alt='' /></div></SwiperSlide>
         
-        <SwiperSlide><div className='stats-content'><img src={stat3} alt='' /></div></SwiperSlide>
+        <SwiperSlide><div className='stats-content'><img src={ug} alt='' /></div></SwiperSlide>
         
        
       </Swiper>
@@ -123,9 +127,9 @@ const industryrelation = () => {
         className="stats"
       >
        
-        <SwiperSlide><div className='stats-content'><img src={stat2} alt='' /></div></SwiperSlide>
+        <SwiperSlide><div className='stats-content'><img src={ii} alt='' /></div></SwiperSlide>
         
-        <SwiperSlide><div className='stats-content'><img src={stat4} alt='' /></div></SwiperSlide>
+        <SwiperSlide><div className='stats-content'><img src={pg} alt='' /></div></SwiperSlide>
        
       </Swiper>
    

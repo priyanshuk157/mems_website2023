@@ -86,9 +86,10 @@
 }
 
 
-.stats-content{
-   
-    background-color: var(--yellow);
+.stats-content img{
+   height:300px;
+ 
+   background-color:var(--yellow);
 
 
   
