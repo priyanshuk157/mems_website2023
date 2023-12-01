@@ -17,7 +17,9 @@ const ResearchStaff = () => {
                     <Navbar/>
 
                 </div>
+                <div className="faculty-head-2">Research Staffs in MEMS</div>
 <div className="faculty-main">
+ 
         <div className="faculty-width">
           <div className="hodsec">
             <img
