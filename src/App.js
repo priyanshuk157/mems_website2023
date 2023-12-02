@@ -11,6 +11,7 @@ import Research from './mainpages/Research'
 import GalleryPage from './mainpages/GalleryPage';
 import Resources from './mainpages/Resources'
 import Faculty from './components/faculty'
+import Faculty2 from './components/faulty2'
 import PostDoc from './components/PostDoc'
 import Researchcomponent1 from './components/researchcomponent1'
 import Researchcomponent2 from './components/researchcomponent2'
@@ -70,6 +71,7 @@ const App = () => {
         <Route path='gallery' element={<GalleryPage/>}></Route>
         <Route path='resources' element={<Resources/>}></Route>
         <Route path='faculty' element={<Faculty/>}></Route>
+        <Route path='faculty2' element={<Faculty2/>}></Route>
         <Route path='Postdoc' element={<PostDoc/>}></Route>
         <Route path='staff' element={<DepartmentalStaff/>}></Route>
         <Route path='Postdoc' element={<PostDoc/>}></Route>

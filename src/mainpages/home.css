@@ -40,8 +40,8 @@
     justify-content: center;
     padding: 60px;
     gap: 10rem;
-    background-color:#f8e6cc;
-   margin: 2rem 8rem;
+    background-color:#faedce;
+   margin: 0rem 8rem;
 }
 .sec-cont{
     /* display: flex;
@@ -59,9 +59,9 @@
     flex-direction: column;
     text-align: justify;
     align-items: center;
-    padding: 3rem 3rem;
-    background-color: #f8e6cc;
-    margin: 1rem 7rem;
+    padding: 1.5rem 3rem;
+    background-color: #faedce;
+    margin: .5rem 7rem;
     /* border:  6rem   solid white; */
     /* color: white; */
     font-size: var(--content1);

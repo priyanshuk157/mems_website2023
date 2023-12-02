@@ -1,0 +1,26 @@
+.photo{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+    justify-content: center;
+    margin: 25px;
+    padding: 25px;
+
+}
+.imageprof img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: bisque;
+
+}
+
+
+.name{
+   margin-top: 10px;
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
