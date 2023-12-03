@@ -12,6 +12,8 @@ import GalleryPage from './mainpages/GalleryPage';
 import Resources from './mainpages/Resources'
 import Faculty from './components/faculty'
 import Faculty2 from './components/faulty2'
+import Faculty3 from './components/faulty3'
+import Faculty4 from './components/painting'
 import PostDoc from './components/PostDoc'
 import Researchcomponent1 from './components/researchcomponent1'
 import Researchcomponent2 from './components/researchcomponent2'
@@ -39,14 +41,17 @@ import Profile16 from './components/profiles/profile16'
 import Profile17 from './components/profiles/profile17'
 import Profile18 from './components/profiles/profile18'
 import Profile19 from './components/profiles/profile19'
+import Profilekd from './components/profiles/profilekd'
+import Profileran from './components/profiles/profileran'
 import International from './components/Internaational'
 import Industryrelation from './mainpages/industryrelation'
 import DepartmentalStaff from './components/DepartmentalStaff'
 import ResearchStaff from './components/ResearchStaff'
 import Ug from './components/UG'
 import Pg from './components/PG'
-import events from './components/Events'
+import events from './components/Events';
 import Events from './components/Events';
+
 import homepageslider from './components/homepageslider';
 
 
@@ -72,6 +77,8 @@ const App = () => {
         <Route path='resources' element={<Resources/>}></Route>
         <Route path='faculty' element={<Faculty/>}></Route>
         <Route path='faculty2' element={<Faculty2/>}></Route>
+        <Route path='faculty3' element={<Faculty3/>}></Route>
+        <Route path='faculty4' element={<Faculty4/>}></Route>
         <Route path='Postdoc' element={<PostDoc/>}></Route>
         <Route path='staff' element={<DepartmentalStaff/>}></Route>
         <Route path='Postdoc' element={<PostDoc/>}></Route>
@@ -96,6 +103,8 @@ const App = () => {
  <Route path='profile17' element={<Profile17/>}></Route>
  <Route path='profile18' element={<Profile18/>}></Route>
  <Route path='profile19' element={<Profile19/>}></Route>
+ <Route path='profilekd' element={<Profilekd/>}></Route>
+ <Route path='profileran' element={<Profileran/>}></Route>
  <Route path='researchcomponent1' element={<Researchcomponent1/>}></Route>
  <Route path='researchcomponent2' element={<Researchcomponent2/>}></Route>
  <Route path='researchcomponent3' element={<Researchcomponent3/>}></Route>
@@ -108,6 +117,9 @@ const App = () => {
  <Route path='UG' element={<Ug/>}></Route>
  <Route path='PG' element={<Pg/>}></Route>
  <Route path='events' element={<Events/>}></Route>
+ <Route path='stc' element={<events/>}></Route>
+
+
  <Route path='homepageslider' element={<homepageslider/>}></Route>
 
 

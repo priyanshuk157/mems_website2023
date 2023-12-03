@@ -1,0 +1,341 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nabla&family=Poppins&family=Rampart+One&display=swap');
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Nabla&family=Poppins&family=Rampart+One&family=Rubik+Bubbles&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+
+body {
+    font-family: 'Poppins';
+    
+    
+
+  }
+  
+  .navbar {
+   background-color: rgb(31, 31, 175);
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    justify-content: right;
+    filter: saturate(.5);
+  }
+
+  .navbar a {
+    float: right;
+    position: relative;
+    display:block;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: right;
+    padding: 30px 40px;
+    text-decoration: none;
+  }
+
+  .navbar a:hover {
+    filter: opacity(1);
+    color: rgb(137, 137, 137);
+  }
+ 
+
+.studentcorner{
+    position: relative;
+    display: flex;
+    height:fit-content;
+    justify-content: center;
+    top: -20px;
+    
+    
+
+    
+
+ 
+
+    
+
+
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.studentcorner img{
+    position: relative;
+    display: flex;
+    top: px;
+    height: fit-content;
+    
+    width: 100%;
+    filter: brightness(.7);
+   
+}
+
+
+
+
+
+.zoom {
+
+
+  transition: transform .1s;
+ 
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cult{
+  top: -100px;
+  left: -50px;
+  color: #ffffff;
+    position: absolute;
+    display: flex;
+    font-size: 30px;
+    padding: 30px 60px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.art{
+    position: relative;
+    display: flex;
+    height: 300px;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+   
+    top: -20px;
+    backdrop-filter: blur(5px);
+    
+}
+
+.middleText{
+ font-family: "Ephesis";
+    color: #d8e4d8;
+    position: absolute;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 120px;
+    top: 50px;
+
+}
+
+
+
+
+
+.middleText2{
+    color: #ffffff;
+    position: absolute;
+    text-align: center;
+   
+    width: 85%;
+    
+ 
+    top: 230px;
+    font-size: 20px;
+}
+.x{
+  display: flex;
+  flex-direction: row;
+  gap: 110px;
+  margin: 10px 10px;
+
+}
+
+.imagesdiv{
+    position: absolute;
+    display: flex;
+   
+    flex-direction: row;
+   justify-content: center;
+   top: 400px;
+ left: 65px;
+    margin-top: 100px;
+    gap: 110px;
+}
+  .imagesdiv img{
+    height: 160px;
+    background-repeat: repeat;
+    width: 250px;
+    border-radius: 10px;
+    filter: brightness(.5);
+
+  }
+  .up{
+    position: relative;
+    display: flex;
+    top: -100px;
+    left: 80px;
+    font-size: 30px;
+    color: aliceblue;
+  }
+  .up2{
+    position: relative;
+    display: flex;
+    top: -100px;
+    left: 35px;
+    font-size: 30px;
+    color: aliceblue;
+  }
+
+ 
+
+.c{
+  position: absolute;
+  top: -20px;
+  backdrop-filter: blur(5px);
+
+
+}
+
+
+
+
+
+
+footer {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Art page*/
+.middleText3{
+  position: absolute;
+  color: #fff;
+  font-size: 100px;
+  top: 50px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.artimage{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  
+}
+
+.artimage img{
+  height:400px;
+  width: 350px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width: 600px) {
+    .navbar a {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      box-sizing: border-box;
+    }
+  }
+
+
+
+
+
+
+  
