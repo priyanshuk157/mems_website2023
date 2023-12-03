@@ -1265,6 +1265,32 @@ const UG = () => {
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="5">
+        <Accordion.Header> <div className="batch">BATCH 2019</div> </Accordion.Header>
+        <Accordion.Body>
+        <div className='ug-tble'>
+    <Table striped>
+      <thead>
+        <tr>
+          <th>Sr. No.</th>
+          <th> Name</th>
+          <th>Roll No.</th>
+        
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Under Construction</td>
+          <td>-</td>
+          <td>-</td>
+        
+        </tr> 
+        
+      </tbody>
+    </Table>
+    </div>
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="6">
         <Accordion.Header> <div className="batch">BATCH 2018</div> </Accordion.Header>
         <Accordion.Body>
         <div className='ug-tble'>
@@ -1477,7 +1503,7 @@ const UG = () => {
     </div>
         </Accordion.Body>
       </Accordion.Item>
-      <Accordion.Item eventKey="6">
+      <Accordion.Item eventKey="7">
         <Accordion.Header><div className="batch">BATCH 2017</div> </Accordion.Header>
         <Accordion.Body>
         <div className='ug-tble'>
@@ -1696,7 +1722,7 @@ const UG = () => {
     </div>
         </Accordion.Body>
       </Accordion.Item>
-      <Accordion.Item eventKey="7">
+      <Accordion.Item eventKey="8">
         <Accordion.Header><div className="batch">BATCH 2016</div> </Accordion.Header>
         <Accordion.Body>
         <div className='ug-tble'>
