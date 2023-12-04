@@ -10,10 +10,10 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 
-import stat1 from "./mainpageimages/stat1.png"
-import stat2 from "./mainpageimages/stat2.png"
-import stat3 from "./mainpageimages/stat3.png"
-import stat4 from "./mainpageimages/stat4.png"
+// import stat1 from "./mainpageimages/stat1.png"
+// import stat2 from "./mainpageimages/stat2.png"
+// import stat3 from "./mainpageimages/stat3.png"
+// import stat4 from "./mainpageimages/stat4.png"
 import ii from "./mainpageimages/iiii.png"
 import ug from "./mainpageimages/UUG.png"
 import pg from "./mainpageimages/ppg.png"

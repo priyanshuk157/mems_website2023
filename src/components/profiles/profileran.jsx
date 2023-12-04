@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../navbar";
 import Footer from "../footer";
 import "./profile.css";
-import { FaEnvelope, FaHome, FaLinkedin, FaPhone, FaResearchgate,  FaTwitterSquare } from "react-icons/fa";
+import { FaEnvelope, FaHome,  FaPhone,  } from "react-icons/fa";
 import {SiGooglescholar } from "react-icons/si";
 import kd from "./profimages/kd.jpg"
 
@@ -37,7 +37,7 @@ const Profile18 = () => {
               <li>Email	 (<i><FaEnvelope/></i>)	: ranjith@iiti.ac.in </li>
               <li>Contact  (<i><FaPhone/></i>)		: - </li>
             <div className="fac-links">
-             <a href="" target="_blank" rel="noreferrer"> <i><FaHome/></i></a>
+             <a href="skmd" target="_blank" rel="noreferrer"> <i><FaHome/></i></a>
              <a href=" https://scholar.google.com/citations?user=iTe5x74AAAAJ&hl=en&oi=ao   "target="_blank"  rel="noreferrer"> <i><SiGooglescholar/></i></a>
             
              

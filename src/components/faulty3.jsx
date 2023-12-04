@@ -1,29 +1,29 @@
 import React from "react";
-import Navbar from "./navbar";
-import Footer from "./footer";
-import rang from "./profiles/profimages/rang.jpg";
+// import Navbar from "./navbar";
+// import Footer from "./footer";
+// import rang from "./profiles/profimages/rang.jpg";
 import vc from "./profiles/profimages/vc.jpg";
-import prof6 from "./profiles/profimages/prof6.jpg";
-import prof13 from "./profiles/profimages/prof13.jpg";
-import prof18 from "./profiles/profimages/prof18.jpg";
-import prof19 from "./profiles/profimages/prof19.jpg";
-import prof11 from "./profiles/profimages/prof11.jpg";
-import prof2 from "./profiles/profimages/prof2.jpg";
-import prof20 from "./profiles/profimages/prof20.jpeg";
-import drpaul from "./profiles/profimages/divein.png";
+// import prof6 from "./profiles/profimages/prof6.jpg";
+// import prof13 from "./profiles/profimages/prof13.jpg";
+// import prof18 from "./profiles/profimages/prof18.jpg";
+// import prof19 from "./profiles/profimages/prof19.jpg";
+// import prof11 from "./profiles/profimages/prof11.jpg";
+// import prof2 from "./profiles/profimages/prof2.jpg";
+// import prof20 from "./profiles/profimages/prof20.jpeg";
+// import drpaul from "./profiles/profimages/divein.png";
 
-import nissi from "./profiles/profimages/nissi.jpg";
-import rsm from "./profiles/profimages/rsm.jpg";
-import pattern from "./profiles/profimages/pattern2.jpg";
+// import nissi from "./profiles/profimages/nissi.jpg";
+// import rsm from "./profiles/profimages/rsm.jpg";
+// import pattern from "./profiles/profimages/pattern2.jpg";
 
-import muru from "./profiles/profimages/muru.jpg";
-import hemanth from "./profiles/profimages/hemanth.jpg";
-import sp from "./profiles/profimages/sp.jpeg";
-import download from "./profiles/profimages/download.jpeg";
+// import muru from "./profiles/profimages/muru.jpg";
+// import hemanth from "./profiles/profimages/hemanth.jpg";
+// import sp from "./profiles/profimages/sp.jpeg";
+// import download from "./profiles/profimages/download.jpeg";
 
 
 
-import hd from "./profiles/profimages/hd.jpeg";
+// import hd from "./profiles/profimages/hd.jpeg";
 import gh from "./profiles/profimages/gai.jpeg";
 import dance from "./profiles/profimages/dance.jpeg";
 import painting from "./profiles/profimages/painting.jpeg";
@@ -34,7 +34,7 @@ import photo from "./profiles/profimages/graphy.jpeg";
 
 
 import "./studentcorner.css"
-import { FaEnvelope, FaPhone } from "react-icons/fa";
+// import { FaEnvelope, FaPhone } from "react-icons/fa";
 
 const faculty = () => {
   return (

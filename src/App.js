@@ -50,10 +50,10 @@ import DepartmentalStaff from './components/DepartmentalStaff'
 import ResearchStaff from './components/ResearchStaff'
 import Ug from './components/UG'
 import Pg from './components/PG'
-import events from './components/Events';
+// import events from './components/Events';
 import Events from './components/Events';
 
-import homepageslider from './components/homepageslider';
+// import homepageslider from './components/homepageslider';
 
 
 // import Home from './components/Home'
