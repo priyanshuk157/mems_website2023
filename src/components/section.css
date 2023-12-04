@@ -292,7 +292,7 @@ margin: 2rem;
    }
    .button {
     position: relative;
-
+    font-size: 10px;
     left: -50px;
     padding: 10px 22px;
     border-radius: 100px;
