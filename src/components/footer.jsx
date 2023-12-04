@@ -37,7 +37,8 @@ Indore, Madhya Pradesh, INDIA
             <div><a href="https://www.researchgate.net/profile/Metallurgical-Engineering-And-Materials-Science-Iit-Indore" target="_blank" rel="noopener noreferrer"><i>< FaResearchgate/></i> </a></div>
             <div><a href="https://www.facebook.com/profile.php?id=100092114204325" target="_blank" rel="noopener noreferrer"><i>< FaFacebook/></i> </a></div>
             </div>
-            <div className='created'>Designed and Created By PRIYANSHU KUMBHARE</div>
+           
+            <div className='created'>Designed and Maintained By Priyanshu Kumbhare</div>
             
         </div>
       </div>

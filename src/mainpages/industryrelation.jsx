@@ -75,12 +75,12 @@ const industryrelation = () => {
       <Swiper
        style={{
         "--swiper-navigation-color": "#000",
-        "--swiper-navigation-size": "2px",
+        "--swiper-navigation-size": "25px",
        
       }}  
       autoplay={{
-        delay: 2500,
-        disableOnInteraction: false,
+        delay: 2500*2,
+        disableOnInteraction: true,
       }}
      
         cssMode={false}
@@ -111,11 +111,11 @@ const industryrelation = () => {
       <Swiper
        style={{
         "--swiper-navigation-color": "#000",
-        "--swiper-navigation-size": "2px",
+        "--swiper-navigation-size": "25px",
        
       }}  
       autoplay={{
-        delay: 2500,
+        delay: 2500*2,
         disableOnInteraction: false,
       }}
      
@@ -199,7 +199,7 @@ const industryrelation = () => {
 
 
             <div className='ind-section'>
-                <div className="sub-ind-sec9">
+                <div className="sub-ind-sec99">
                 <div className='ind-head2'> INDUSTRIAL COLLABORATION</div>
                 <div className="collabb">
                 <div className='industrycolab'>
