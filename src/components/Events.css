@@ -7,7 +7,9 @@
     position: relative;
     justify-content: left;
 }
-
+.bold{
+    font-weight: bold;
+}
 .ind-section{
     border-radius: 20px;
 }

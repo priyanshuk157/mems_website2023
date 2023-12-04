@@ -38,6 +38,10 @@
     margin:1rem 1rem; 
 
 }
+.bimage img{
+    width: 500px;
+    height: 300px;
+}
 .sub-ind-sec3{
  
     background-color: var(--yellow);
@@ -87,12 +91,13 @@
 
 
 .stats-content img{
-   height:300px;
+   height:380px;
+
  
    background-color:var(--yellow);
 
 
-  
+  width: 115%;
 
 }
 
@@ -122,6 +127,9 @@
 .national img {
     height: 100px;
     width: auto;
+}
+.bimage{
+   
 }
 
 .national {

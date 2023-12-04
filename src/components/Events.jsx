@@ -27,9 +27,9 @@ const Events = () => {
                     <Table>
             <thead>
               <tr>
-                <th>DATE</th>
+                <th><div class="bold">DATE</div></th>
                 
-                <th>EVENT</th>
+                <th><div class="bold">EVENTS</div></th>
               </tr>
             </thead>
             <tbody>

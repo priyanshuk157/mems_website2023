@@ -11,6 +11,9 @@ import prof11 from "./profiles/profimages/prof11.jpg";
 import prof2 from "./profiles/profimages/prof2.jpg";
 import prof20 from "./profiles/profimages/prof20.jpeg";
 import drpaul from "./profiles/profimages/drpaul.jpg";
+import kd from "./profiles/profimages/kd.jpg";
+import ran from "./profiles/profimages/ran.jpg";
+
 
 import nissi from "./profiles/profimages/nissi.jpg";
 import rsm from "./profiles/profimages/rsm.jpg";
@@ -209,17 +212,38 @@ const faculty = () => {
             <div className="hodtext">
               <div className="hodtext1">
                 <div className="name">Prof. Jayaprakash Murugesan</div>
-  
-                <div className="post"> Associate Professor</div>
-                <div className="post"> Office		: PoD 1D; 412  </div>
-                <div className="post"> Email	 (<i><FaEnvelope/></i>)	:jayaprakash@iiti.ac.in </div>
-                <div className="post"> Contact  (<i><FaPhone/></i>)		: 3258</div>
+                <div className="post"> jayaprakash@iiti.ac.in </div>
+                <div className="post"> jayaprakash@iiti.ac.in </div>
+                <div className="post"> jayaprakash@iiti.ac.in </div>
+                <div className="post"> jayaprakash@iiti.ac.in </div>
                 <div className="post-button">
                   <a href="profile8"> view profile</a>{" "}
                 </div>
               </div>
             </div>
           </div>
+
+          <div className="hodsec  ">
+            <img
+              src={kd}
+              className="hodimg"
+              alt="okf"
+            />
+
+            <div className="hodtext">
+              <div className="hodtext1">
+                <div className="name">Dr. Khushubo Devi</div>
+                <div className="post"> Associate Professor</div>
+                <div className="post"> Office		: -  </div>
+                <div className="post"> Email	 (<i><FaEnvelope/></i>)	:khushubo@iiti.ac.in</div>
+                <div className="post"> Contact  (<i><FaPhone/></i>)		: +91-8858588259</div>
+                <div className="post-button">
+                  <a href="profilekd"> view profile</a>{" "}
+                </div>
+              </div>
+            </div>
+          </div>
+
 
 
 
@@ -320,6 +344,29 @@ const faculty = () => {
             </div>
           </div>
 
+
+
+
+          <div className="hodsec  ">
+            <img
+              src={ran}
+              className="hodimg"
+              alt="okf"
+            />
+
+            <div className="hodtext">
+              <div className="hodtext1">
+                <div className="name">Prof. Ranjith Kumar Poobalan</div>
+                <div className="post">  Assistant Professor </div>
+                <div className="post"> Office		:-</div>
+                <div className="post"> Email	 (<i><FaEnvelope/></i>)	:ranjith@iiti.ac.in</div>
+                <div className="post"> Contact  (<i><FaPhone/></i>)		:-</div>
+                <div className="post-button">
+                  <a href="profileran"> view profile</a>{" "}
+                </div>
+              </div>
+            </div>
+          </div>
 
 
 

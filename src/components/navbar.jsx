@@ -113,6 +113,10 @@ const Navbar = () => {
                   </div>
                   <div>
                     {" "}
+                    <a href="faculty2"> Faculty Members2</a>{" "}
+                  </div>
+                  <div>
+                    {" "}
                     <a href="PostDoc"> PostDoc.</a>{" "}
                   </div>
                  
