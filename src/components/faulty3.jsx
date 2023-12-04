@@ -43,7 +43,7 @@ const faculty = () => {
 <div class="navbar">
     <a href="#home">Home</a>
     <a href="#about">About</a>
-    <a href="#services">Connect</a>
+    <a href="/">Main Website</a>
     <a href="#contact">Contact</a>
   </div>
      

@@ -55,7 +55,7 @@ const faculty = () => {
 <div class="navbar">
     <a href="faculty3">Home</a>
     <a href="#about">About</a>
-    <a href="#services">Connect</a>
+    <a href="/">Main Website</a>
     <a href="#contact">Contact</a>
   </div>
      
@@ -82,7 +82,8 @@ const faculty = () => {
 <img src={a4} alt="" />
 <img src={a5} alt="" />
 <img src={a61} alt="" />
-<img src={a62} alt="" /></div>
+<img src={a62} alt="" />
+<img src={a63} alt="" /></div>
 
 
 

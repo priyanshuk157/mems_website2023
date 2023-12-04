@@ -274,21 +274,26 @@ footer {
   position: absolute;
   color: #fff;
   font-size: 100px;
-  top: 50px;
+  top: 10px;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .artimage{
   position: absolute;
-  display: flex;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+ top: 220px;
+ left: 270px;
+ justify-content: center;
   flex-direction: row;
-  gap: 40px;
+  gap: 70px;
   
 }
 
 .artimage img{
-  height:400px;
-  width: 350px;
+  height:250px;
+  border-radius: 10px;
+  width: 200px;
 }
 
 

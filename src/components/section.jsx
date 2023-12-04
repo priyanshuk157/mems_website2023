@@ -19,9 +19,9 @@ import Slider from './Slider';
 const section = () => {
   return (
     <>
-<div class="xx">
+<div class="studentcbutton">
   <a href="faculty3">
-    <button>hello</button></a></div>
+    <button class="button">Student Corner</button></a></div>
 
     <div className='sec'>
       <div className='sec2'>    <div className='sec-img'>
