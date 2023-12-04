@@ -11,7 +11,7 @@
 --head1: 30px;
 --head2: 36px;
 --blue:#005a9c;
---yellow:#f8e6cc;
+--yellow:#faefde;
 --red: #c44536;
 
 }
@@ -472,7 +472,7 @@ background-color:white !important;
     font-size: 20px;
 
     cursor: pointer;
-    z-index: 4;
+    z-index: 100;
   }
   .nav-2 {
     display: flex;
@@ -550,7 +550,7 @@ background-color:white !important;
     background-color: rgba(255, 255, 255, 0);
     left: 0rem;
     top: rem;
-    z-index: 99;
+    z-index: 9;
     border-radius: 0px;
     box-shadow: 0px 0px 0px black;
     padding: 0px;
@@ -642,6 +642,57 @@ background-color:white !important;
     margin: 0px;
     color: white;
     text-align: none;
+    
   
+  }
+  .nav-logos{
+    display: none ;
+    height: 20px;
+    background-color: #005a9c;
+  }
+  .navlogo-imag{
+    width: 100%;
+  }
+  .shape1{
+    height: 50px;
+    float: right;
+    width: 30%;
+    top: 40%;
+    background-color: #005a9c;
+    clip-path: polygon(0% 0%, 100%  0% ,100% 100% , 10% 100%);
+    
+  }
+  .shape2{
+    height: 30px;
+    float: right;
+    width: 2%;
+    background-color: #005a9c;
+    transform: rotate(45deg);
+    position: relative;
+  
+    left: 33px;
+    top:-20px;
+  }
+  .navbar-logos1{
+    padding-right: 20px;
+    display:flex ;
+    flex-direction: row;
+  float: right;
+    color: white;
+    text-decoration: none;
+    gap: 50px;
+  }
+  .navbar-logos1 div{
+    float: right;
+    display:flex ;
+      color: white;
+      text-decoration: none;
+      gap: 20px;
+  }
+  .navbar-logos1 div a{
+    color: white;
+      font-size: 30px;
+      text-decoration: none;
+      gap: 20px;
   }
 }

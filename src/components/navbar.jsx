@@ -63,7 +63,7 @@ const Navbar = () => {
     <>
       <nav className="navbar1">
         {/* <div className= {navScroll? "navbar" : "scroll-active"}> */}
-        <div className="nav-logos">
+        <div div className="nav-logos">
          
           <div className="shape1">   <div className="navbar-logos1"> <div > <a href="https://www.linkedin.com/in/metallurgical-engineering-and-materials-science-iit-indore-15a541274/ " target="_blank" rel="noopener noreferrer"><i>< FaLinkedin/></i> </a></div>
             <div><a href="https://twitter.com/outreach_mems" target="_blank" rel="noopener noreferrer"><i>< FaTwitterSquare/></i> </a></div>

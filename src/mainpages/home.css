@@ -40,7 +40,7 @@
     justify-content: center;
     padding: 60px;
     gap: 10rem;
-    background-color:#f8e6cc;
+    background-color:var(--yellow);
    margin: 2rem 8rem;
 }
 .sec-cont{
