@@ -37,6 +37,14 @@
 
 
 }
+
+
+.table{
+  width: 93%;
+  position: relative;
+ left: 50px;
+  justify-content: center;
+}
 .cards{
 
   background-image: url('./images/material-example.jpg') ;
