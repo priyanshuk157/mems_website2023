@@ -3,7 +3,7 @@ import "./researchtheme.css";
 import Navbar from "./navbar";
 import Footer from "./footer";
 // import logo from "./images/mems_logo2.png";
-// import photo1 from "./images/group_photo1.jpg";
+// import photo1 from "./images/XHo7a.png";
 // import mt1 from "./images/material-example.jpg";
 import Table from 'react-bootstrap/Table';
 

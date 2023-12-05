@@ -38,10 +38,10 @@
     max-width: 1300px;
     
     justify-content: center;
-    padding: 60px;
+    padding: 40px;
     gap: 10rem;
     background-color:#faedce;
-   margin: 0rem 8rem;
+   margin: 0rem 6rem;
 }
 .sec-cont{
     /* display: flex;
@@ -59,7 +59,7 @@
     flex-direction: column;
     text-align: justify;
     align-items: center;
-    padding: 1.5rem 3rem;
+    padding: 0  3rem;
     background-color: #ffffff;
     margin: .5rem 7rem;
     /* border:  6rem   solid white; */
