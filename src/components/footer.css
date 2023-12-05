@@ -58,14 +58,14 @@
 .created{
     
     position: absolute;
-    top:220px;
+    top:255px;
   
    justify-content: center;
     font-size: 12px;
     text-decoration: none;
     
     font-family: 'Poppins', sans-serif;
-    font-style: italic;
+    font-weight: 800;
     color: aliceblue;
     
 

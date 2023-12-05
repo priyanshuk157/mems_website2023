@@ -5,7 +5,7 @@ import React from "react";
 import vc from "./profiles/profimages/vc.jpg";
 import art1 from "./profiles/profimages/art1.jpg";
 import art2 from "./profiles/profimages/art2.jpg";
-import a3 from "./profiles/profimages/art3.jpg";
+// import a3 from "./profiles/profimages/art3.jpg";
 import a4 from "./profiles/profimages/art4.jpg";
 import a5 from "./profiles/profimages/art5.jpg";
 import a61 from "./profiles/profimages/art6 (1).jpg";
