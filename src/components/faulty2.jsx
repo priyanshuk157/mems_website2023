@@ -42,7 +42,7 @@ const faculty = () => {
       <div>
         <Navbar />
       </div>
-      <span class="Faculty"><h1>Faculty</h1></span>
+      <span class="Faculty"><h1>FACULTY</h1></span>
      
       <div class="photo">
 

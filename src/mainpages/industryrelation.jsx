@@ -44,8 +44,8 @@ const industryrelation = () => {
 
 
         
-              <span class="wwu">
-                <h1>FOR STUDENTS</h1></span>
+              <div class="wwu">
+                FOR STUDENTS</div>
                
             <div className='ind-section'>
                 <div className="sub-ind-sec1">

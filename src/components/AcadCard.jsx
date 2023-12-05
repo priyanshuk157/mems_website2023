@@ -11,7 +11,7 @@ const AcadCard = () => {
     <>
     <div><Navbar/></div>
     
-    <span class="heading">Academics</span>
+    <span class="heading">ACADEMICS</span>
     <div className='acad-image'>
       <img src={grpphto} alt="omk" srcset="" />
       {/* Degree programs offered by the Department of Metallurgical Engineering and Materials Science at IIT Indore revolve around exploring the properties of matter and their practical utilization in various areas of science and engineering. */}

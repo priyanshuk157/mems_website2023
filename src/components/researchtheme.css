@@ -9,9 +9,8 @@
 .consulting{
   background-color: var(--yellow);
   align-items: center;
-  width: 87%;
-  margin: 100px;
-  margin-top: 10px;
+  width: 1300px;
+  margin:auto;
   padding-left: 20px;
   padding-bottom: 20px;
  
@@ -133,11 +132,9 @@
 
 
 }
-/* .research-card-main{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
+.research-card-main{
+  margin-bottom: 2rem;
+}
 .research-card-line{
  display: flex;
  flex-direction: column;
@@ -151,7 +148,7 @@
   color: var(--red);
   display: flex;
   justify-content: center;
-  margin: 3rem;
+  margin-bottom: 2rem;
 }
 .research-text{
   font-size: var(--content2);
@@ -174,6 +171,11 @@
  
 }
 
+.fund-table{
+  display: flex;
+margin: auto;
+  width: 1300px;
+}
 
 /* .themes-main-1{
     display: flex;

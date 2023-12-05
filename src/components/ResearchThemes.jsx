@@ -65,53 +65,54 @@ const ResearchThemes = () => {
         </div>
       </div>
       <div className="research-head">FUNDING</div>
-      <Table striped>
+      <div className="fund-table"><Table striped>
         
-      <thead>
-        <tr>
-          <th>Sr. No.</th>
-          <th> Company Name</th>
-          <th>Funds</th>
+        <thead>
+          <tr>
+            <th>Sr. No.</th>
+            <th> Company Name</th>
+            <th>Funds</th>
+          
+          </tr>
+        </thead>
+        <tbody>
+          
+          <tr>
+            <td>1</td>
+            <td>Abhishek A.P</td>
+            <td>220005001</td>
+          
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Abhishek Jha</td>
+            <td>220005002</td>
+          
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Aditi Tapdiya</td>
+            <td>220005003</td>
+          
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Aditya Kishan Sonkusare</td>
+            <td>220005004</td>
+          
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Aditya Nimadi</td>
+            <td>220005005</td>
+          
+          </tr>
+          
         
-        </tr>
-      </thead>
-      <tbody>
-        
-        <tr>
-          <td>1</td>
-          <td>Abhishek A.P</td>
-          <td>220005001</td>
-        
-        </tr>
-        <tr>
-          <td>2</td>
-          <td>Abhishek Jha</td>
-          <td>220005002</td>
-        
-        </tr>
-        <tr>
-          <td>3</td>
-          <td>Aditi Tapdiya</td>
-          <td>220005003</td>
-        
-        </tr>
-        <tr>
-          <td>4</td>
-          <td>Aditya Kishan Sonkusare</td>
-          <td>220005004</td>
-        
-        </tr>
-        <tr>
-          <td>5</td>
-          <td>Aditya Nimadi</td>
-          <td>220005005</td>
-        
-        </tr>
-        
+          
+        </tbody>
+      </Table></div>
       
-        
-      </tbody>
-    </Table>
       <div className="research-head">ONGOING CONSULTING PROJECTS</div>
       <div className="consulting">   
        <div class="ss">

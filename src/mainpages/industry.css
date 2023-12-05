@@ -308,6 +308,7 @@
 .wwu{
     color: var(--red);
     text-align: center;
+    font-size: var(--head2);
     
 }
 
