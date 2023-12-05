@@ -2,8 +2,8 @@ import React from "react";
 import Navbar from "../navbar";
 import Footer from "../footer";
 import "./demo.css";
-import { FaAngleLeft } from "react-icons/fa";
-import { FaEnvelope, FaHome, FaLinkedin, FaPhone, FaResearchgate,  FaTwitterSquare } from "react-icons/fa";
+// import { FaAngleLeft } from "react-icons/fa";
+import { FaEnvelope,  FaPhone, FaResearchgate } from "react-icons/fa";
 import Table from "react-bootstrap/Table";
 import {SiGooglescholar } from "react-icons/si";
 import prof44 from "./profimages/ghosh.jpg"
