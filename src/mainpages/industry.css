@@ -127,7 +127,7 @@
    
     border-top: 1.2px solid #005A9C;
     border-bottom: 1.2px solid #005A9C;
-    border-bottom-length: 80%;
+    border-bottom: 80%;
 
 }
 
@@ -149,9 +149,7 @@
     height: 100px;
     width: auto;
 }
-.bimage{
-   
-}
+
 
 .national {
     display: flex;
