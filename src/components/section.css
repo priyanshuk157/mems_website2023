@@ -292,21 +292,29 @@ margin: 2rem;
    }
    .button {
     position: relative;
-    font-size: 10px;
-    left: -50px;
-    padding: 10px 22px;
+    font-size: 14px;
+    bottom: 0%;
+    left: -25px;
+    padding: 17px 10px;
     border-radius: 100px;
     border: none;
     color: #fff;
     cursor: pointer;
-    background-color: #7d2ae8;
+    background-color: #ffffff;
+    border-color: #005a9c;
+  color: #005a9c;
+  border: 2px solid #005a9c;
     transition: all 0.2s ease;
   }
+  
   
   .button:active {
     transform: scale(0.96);
   }
-  
+  .button:hover {
+    background: #005a9c;
+    color: white;
+  }
   .button:before,
   .button:after {
     position: absolute;
@@ -321,15 +329,15 @@ margin: 2rem;
   
   .button:hover:before {
     top: -70%;
-    background-image: radial-gradient(circle, #7d2ae8 20%, transparent 20%),
-      radial-gradient(circle, transparent 20%, #7d2ae8 20%, transparent 30%),
-      radial-gradient(circle, #7d2ae8 20%, transparent 20%),
-      radial-gradient(circle, #7d2ae8 20%, transparent 20%),
-      radial-gradient(circle, transparent 10%, #7d2ae8 15%, transparent 20%),
-      radial-gradient(circle, #7d2ae8 20%, transparent 20%),
-      radial-gradient(circle, #7d2ae8 20%, transparent 20%),
-      radial-gradient(circle, #7d2ae8 20%, transparent 20%),
-      radial-gradient(circle, #7d2ae8 20%, transparent 20%);
+    background-image: radial-gradient(circle, #0b77c5 20%, transparent 20%),
+      radial-gradient(circle, transparent 20%, #0b77c5 20%, transparent 30%),
+      radial-gradient(circle, #0b77c5 20%, transparent 20%),
+      radial-gradient(circle, #0b77c5 20%, transparent 20%),
+      radial-gradient(circle, transparent 10%, #0b77c5 15%, transparent 20%),
+      radial-gradient(circle, #0b77c5 20%, transparent 20%),
+      radial-gradient(circle, #0b77c5 20%, transparent 20%),
+      radial-gradient(circle, #0b77c5 20%, transparent 20%),
+      radial-gradient(circle, #0b77c5 20%, transparent 20%);
     background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%,
       10% 10%, 18% 18%;
     background-position: 50% 120%;
@@ -356,13 +364,13 @@ margin: 2rem;
   
   .button:hover::after {
     bottom: -70%;
-    background-image: radial-gradient(circle, #7d2ae8 20%, transparent 20%),
-      radial-gradient(circle, #7d2ae8 20%, transparent 20%),
-      radial-gradient(circle, transparent 10%, #7d2ae8 15%, transparent 20%),
-      radial-gradient(circle, #7d2ae8 20%, transparent 20%),
-      radial-gradient(circle, #7d2ae8 20%, transparent 20%),
-      radial-gradient(circle, #7d2ae8 20%, transparent 20%),
-      radial-gradient(circle, #7d2ae8 20%, transparent 20%);
+    background-image: radial-gradient(circle, #0b77c5 20%, transparent 20%),
+      radial-gradient(circle, #0b77c5 20%, transparent 20%),
+      radial-gradient(circle, transparent 10%, #0b77c5 15%, transparent 20%),
+      radial-gradient(circle, #0b77c5 20%, transparent 20%),
+      radial-gradient(circle, #0b77c5 20%, transparent 20%),
+      radial-gradient(circle, #0b77c5 20%, transparent 20%),
+      radial-gradient(circle, #0b77c5 20%, transparent 20%);
     background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 20% 20%, 18% 18%;
     background-position: 50% 0%;
     animation: greenbottomBubbles 0.6s ease;

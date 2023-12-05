@@ -4,12 +4,13 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import stat1 from "./images/stat1.png"
-import stat2 from "./images/stat2.png"
-import stat3 from "./images/stat3.png"
-import stat4 from "./images/stat4.png"
 
-import "./news.css";
+import stat2 from "./images/UUG.png"
+import stat3 from "./images/ppg.png"
+import stat4 from "./images/iiii.png"
+
+
+import "./news2.css";
 const Stats = () => {
   return (
    <>
@@ -33,11 +34,11 @@ const Stats = () => {
         modules={[Pagination, Navigation , Autoplay]}
         className="mySwiper"
       >
-        <SwiperSlide><div className='stats-content'> <img src={stat1} alt='' /></div></SwiperSlide>
+       <div class="imagesize">
         <SwiperSlide><div className='stats-content'><img src={stat2} alt='' /></div></SwiperSlide>
         <SwiperSlide><div className='stats-content'><img src={stat3} alt='' /></div></SwiperSlide>
         <SwiperSlide><div className='stats-content'><img src={stat4} alt='' /></div></SwiperSlide>
-      
+      </div>
         {/* <SwiperSlide>Slide 4</SwiperSlide>
         <SwiperSlide>Slide 5</SwiperSlide>
         <SwiperSlide>Slide 6</SwiperSlide> 

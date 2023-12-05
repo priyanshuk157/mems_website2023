@@ -21,6 +21,7 @@ const section = () => {
 <div class="studentcbutton">
   <a href="faculty3">
     <button class="button">Student Corner</button></a></div>
+   
 
     <div className='sec'>
       <div className='sec2'>    <div className='sec-img'>

@@ -43,6 +43,7 @@ import Profile17 from './components/profiles/profile17'
 import Profile18 from './components/profiles/profile18'
 import Profile19 from './components/profiles/profile19'
 import Profilekd from './components/profiles/profilekd'
+import Demo from './components/profiles/demoprofile'
 import Profileran from './components/profiles/profileran'
 import International from './components/Internaational'
 import Industryrelation from './mainpages/industryrelation'
@@ -86,6 +87,7 @@ const App = () => {
         <Route path='collab' element={<International/>}></Route>
         <Route path='ajkj' element={<Researchcomponent1/>}></Route>
         <Route path='profile1' element={<Profile1/>}></Route>
+        <Route path='demo' element={<Demo/>}></Route>
         <Route path='profile2' element={<Profile2/>}></Route>
         <Route path='profile3' element={<Profile3/>}></Route>
         <Route path='profile4' element={<Profile4/>}></Route>
