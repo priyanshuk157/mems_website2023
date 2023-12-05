@@ -78,7 +78,7 @@ const faculty = () => {
 <div class="artimage">
 <img src={art1} alt="" />
 <img src={art2} alt="" />
-<img src={a3} alt="" />
+
 <img src={a4} alt="" />
 <img src={a5} alt="" />
 <img src={a61} alt="" />
