@@ -2,11 +2,15 @@
     position: relative;
     display: flex;
     flex-direction: row;
-    gap: 120px;
-    justify-content: center;
-    margin: 25px;
-    padding: 25px;
-    left: 10px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 60px;
+    margin: auto;
+    padding: 50px;
+    border: none;
+    max-width:100%;
+    height: fit-content;
+    z-index: 0;
    
 
 }
@@ -27,11 +31,12 @@
 
 
 .name{
-   margin-top: 10px;
+    margin-top: 10px;
     font-size: 20px;
     justify-content: center;
     text-align: center;
     text-decoration: none;
+    width: 200px;
    
 }
 a:link { text-decoration: none; }

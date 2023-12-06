@@ -19,7 +19,7 @@
     color: white;
 }
 .footer-head{
-    font-size: 30px;
+    font-size: var(--content2);
     font-weight: bold;
 }
 .foot-img{
@@ -58,7 +58,7 @@
 .created{
     
     position: absolute;
-    top:255px;
+    top:205px;
   
    justify-content: center;
     font-size: 12px;

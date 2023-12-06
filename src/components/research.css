@@ -84,7 +84,7 @@
 }
 .prof-names{
     border-radius: 10px;
-    background-color:#f8e6cc;
+    background-color:var(--yellow);
     display: flex;
     flex-direction: column;
     padding: 30px;
@@ -175,7 +175,7 @@
     }
     .prof-names{
         border-radius: 10px;
-        background-color: blanchedalmond;
+        background-color:var(--yellow);
         display: flex;
         flex-direction: column;
         padding: 10px;

@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
 :root{
   --Primary: #ffffff;
---content1: 24px;
+--content1: 18px;
 --content2: 28px;
 --head1: 30px;
 --head2: 36px;
@@ -42,6 +42,31 @@ font-family: 'Quicksand', sans-serif;
 .navlogo-imag{
   width: 100%;
 }
+.navbar-button{
+  position: relative;
+  font-size: 14px;
+  font-weight: 900;
+  /* bottom: 0%;   */
+  /* left: -25px; */
+  padding: 10px 10px;
+  border-radius: 100px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  background-color: #ffffff;
+  border-color: #005a9c;
+color: #005a9c;
+border: 2px solid #005a9c;
+  transition: all 0.2s ease;
+
+}
+.nav-student-button{
+  position: absolute;
+  top: 5%;
+  right: 20%;
+  z-index: 3;
+  
+}
 .shape1{
   position: relative;
   height: 50px;
@@ -51,7 +76,7 @@ font-family: 'Quicksand', sans-serif;
   top: 40%;
   background-color: #005a9c;
   z-index: 2;
-  clip-path: polygon(0% 0%, 100%  0% ,100% 100% , 10% 100%);
+  clip-path: polygon(0% 0%, 100%  0% ,100% 100% , 5% 100%);
   
 }
 .shape2{

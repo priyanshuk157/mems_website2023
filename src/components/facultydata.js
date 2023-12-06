@@ -1,0 +1,123 @@
+const Facultydata = [
+    {
+        id : 1,
+        image : "./images/profimages/ghosh.jpg",
+        name : "  Prof. Abhijit Ghosh  ",
+        link : "demo",
+    },
+    {
+        id : 2,
+        image : "./images/profimages/prof20.jpeg",
+        name : "Prof. Ajay Kumar Kushwaha",
+        link : "demo",
+    },
+    {
+        id : 3,
+        image : "./images/profimages/prof1.jpg",
+        name : "Prof. Chandan Halder",
+        link : "demo",
+    },
+    {
+        id : 4,
+        image : "./images/profimages/dkrai.jpg",
+        name : "Prof. Dhirendra Kumar Rai",
+        link : "demo",
+    },
+    {
+        id : 5,
+        image : "./images/profimages/basha.jpg",
+        name : "Prof. Dudekula Althaf Basha",
+        link : "demo",
+    },
+    {
+        id : 6,
+        image : "./images/profimages/prof6.jpg",
+        name : "Prof. Eswara Prasad Korimilli",
+        link : "demo",
+    },
+    {
+        id : 7,
+        image : "./images/profimages/hemanth.jpg",
+        name : "Prof. Hemant Borkar",
+        link : "demo",
+    },
+    {
+        id : 8,
+        image : "./images/profimages/muru.jpg",
+        name : "Prof. Jayaprakash Murugesan",
+        link : "demo",
+    },
+    {
+        id : 9,
+        image : "./images/profimages/kd.jpg",
+        name : "Dr. Khushubo Devi",
+        link : "demo",
+    },
+    {
+        id : 10,
+        image : "./images/profimages/prof11.jpg",
+        name : "Prof. Mrigendra Dubey",
+        link : "demo",
+    },
+    {
+        id : 11,
+        image : "./images/profimages/nissi.jpg",
+        name : "Prof. Nisheeth Kumar Prasad",
+        link : "demo",
+    },
+    {
+        id : 12,
+        image : "./images/profimages/shirage.jpg",
+        name : "Prof. Parasharam M. Shirage",
+        link : "demo",
+    },
+    {
+        id : 13,
+        image : "./images/profimages/rsm.jpg",
+        name : "Prof. Ram Sajeevan Maurya",
+        link : "demo",
+    },
+    {
+        id : 14,
+        image : "./images/profimages/ran.jpg",
+        name : "Prof. Ranjith Kumar Poobalan",
+        link : "demo",
+    },
+    {
+        id : 15,
+        image : "./images/profimages/prof2.jpg",
+        name : "Prof. Rupesh Devan",
+        link : "demo",
+    },
+    {
+        id : 16,
+        image : "./images/profimages/prof4.png",
+        name : "Prof. Santosh Hosmani",
+        link : "demo",
+    },
+    {
+        id : 17,
+        image : "./images/profimages/prof6.jpg",
+        name : "Prof. Sumanta Samal",
+        link : "demo",
+    },
+    {
+        id : 18,
+        image : "./images/profimages/prof18.jpg",
+        name : "Prof. Venkata Vamsi Koruprolu",
+        link : "demo",
+    },
+    {
+        id : 19,
+        image : "./images/profimages/vinod.jpg",
+        name : "Prof. Vinod Kumar",
+        link : "demo",
+    },
+    {
+        id : 20,
+        image : "./images/profimages/samal.jpg",
+        name : "Prof. Sumanta Samal",
+        link : "demo",
+    },
+]
+export default Facultydata

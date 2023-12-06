@@ -55,13 +55,8 @@ const profile11 = () => {
             </div>
               
             </ul>
-            
-            </div>
-            </div>
-            <div class="ver">
-            <div className="pc1">
-                <div class="moveleft">
-          <span className="pc1-head">ACADEMIC BACKGROUND</span></div>
+            <span className="pc1-head">ACADEMIC BACKGROUND</span></div>
+
           <Table>
             <thead>
               <tr>
@@ -88,9 +83,27 @@ const profile11 = () => {
               </tr>
             </tbody>
           </Table>
-          <br />
-        </div>
+            
+            </div>
 
+            
+            <div class="right">
+            <div className="pc1">
+              
+        <div className="pc1">
+          <span className="pc1-head">RESEARCH INTEREST</span>
+          <div>
+          
+        <li>Crystallographic texture and grain boundary</li>
+         
+        <li>Martensitic transformation</li>
+        <li>Creep and Fracture</li>
+        <li>Crystal Plasticity</li>
+
+
+
+          </div>
+        </div>
         <div className="pc1">
           <span className="pc1-head">POSITIONS HELD</span>
           <ul>
@@ -165,20 +178,7 @@ texture evolution in Fe-3.78 wt.%Si grain oriented electrical steel, Mater. Chem
           Inspire Faculty Award, DST, 2017
           </div>
         </div>
-        <div className="pc1">
-          <span className="pc1-head">RESEARCH INTEREST</span>
-          <div>
-          
-        <li>Crystallographic texture and grain boundary</li>
-         
-        <li>Martensitic transformation</li>
-        <li>Creep and Fracture</li>
-        <li>Crystal Plasticity</li>
-
-
-
-          </div>
-        </div>
+       
         
         
         
@@ -188,7 +188,7 @@ texture evolution in Fe-3.78 wt.%Si grain oriented electrical steel, Mater. Chem
         </div>
       </div>
 
-   
+      </div>
 
       <div>
         <Footer />
