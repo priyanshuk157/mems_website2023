@@ -1,7 +1,7 @@
 .head{
     position: relative;
     font-size: 40px;
-    top: -50px;
+    
   
 }
 .left{
@@ -10,9 +10,9 @@
     flex-direction: column;
     background-color: bisque;
     
-    margin: 10px 10px;
+    /* margin: 10px 10px; */
     width: 50%;
-    left: 5%;
+    /* left: 5%; */
    
 
 }
@@ -21,9 +21,10 @@
     display: flex;
 aspect-ratio: 4/4;
     height: 250px;
-    margin: 20px 10px;
-    padding: 10px;
-    left: 60px;
+    margin:auto;
+    margin-top: 60px;
+    
+    
     
     border-radius: 20px;
     
@@ -35,21 +36,21 @@ aspect-ratio: 4/4;
     display: flex;
     flex-direction: column;
     font-size: 18px;
-    top: -40px;
-    left: 10px;
+   
 }
 .pc1-head{
+    margin: auto;
     position: relative;
     font-size: 25px;
-    left: 30px;
+   
 }
 
 .pc1{
     position:relative;
-    top: -20px;
+    
     font-size: 18px;
-    width: 75%;
-    left: 200px;
+    width: 90%;
+    margin: auto;
     
    
     
@@ -62,8 +63,12 @@ aspect-ratio: 4/4;
     }
 
 
-.ver{
+.right{
     position: relative;
     display: flex;
     flex-direction: column;
+}
+.main{
+    display: flex;
+    padding: 60px;
 }
