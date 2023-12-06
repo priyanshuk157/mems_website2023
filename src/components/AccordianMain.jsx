@@ -45,14 +45,7 @@ committee</span></Accordion.Header>
               <li>Dr. Sunil Kumar (HOD)</li>
             </ul>
           </div>
-          <div className="resource-block">
-            <div className="head9">Safety</div>
-            <ul>
-              <li>Dr. M. Dubey (Convener)</li>
-              <li>Dr. Vinod Kumar</li>
-              <li>Prof. Parasharam M Shirage</li>
-            </ul>
-          </div>
+          
           <div className="resource-block">
             {" "}
             <div className="head9">Library Committee </div>
@@ -89,18 +82,7 @@ committee</span></Accordion.Header>
               <li>Dr. Ram Sajeevan Maurya</li>
             </ul>
           </div>
-          <div className="resource-block">
-            {" "}
-            <div className="head9">Website </div>
-            <ul>
-              <li>Dr. K. V. Vamsi (Convener)</li>
-              <li>Dr. Chandan Haldar</li>
-              <li>Dr. Nishith Kumar Prasad</li>
-              <li>
-                <br/> Mr. Priyanshu, Ms. Aditi, Pratik
-              </li>
-            </ul>
-          </div>
+          
           <div className="resource-block">
             <div className="head9">DFM Secretary </div>
             <ul>
@@ -162,6 +144,31 @@ committee</span></Accordion.Header>
               <li>Prof. P. M. Shirage</li>
             </ul>
           </div>
+          <div className="resource-block">
+            {" "}
+            <div className="head9">Website </div>
+            <ul>
+              <li>Dr. K. V. Vamsi (Convener)</li>
+              <li>Dr. Chandan Haldar</li>
+              <li>Dr. Nishith Kumar Prasad</li>
+              <li>
+                <br/> Mr. Priyanshu, Ms. Aditi, Pratik
+              </li>
+            </ul>
+          </div>
+          <div className="resource-block">
+            <div className="head9">Safety</div>
+            <ul>
+              <li>Dr. M. Dubey (Convener)</li>
+              <li>Dr. Vinod Kumar</li>
+              <li>Prof. Parasharam M Shirage</li>
+            </ul>
+          </div>
+
+
+
+
+
         </div>  
         </Accordion.Body>
       </Accordion.Item>

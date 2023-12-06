@@ -583,12 +583,7 @@ const UG = () => {
           <td>220005040</td>
         
         </tr>
-        <tr>
-          <td>39</td>
-          <td>Raja</td>
-          <td>220005041</td>
         
-        </tr>
         <tr>
           <td>40</td>
           <td>Rishabh Sharma</td>
