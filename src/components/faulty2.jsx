@@ -47,7 +47,7 @@ const faculty = () => {
       <div class="photo">
 
         <div class="imageprof">
-        <a href="p4">
+        <a href="p16">
             <img src={gh} alt="" />
             <div class="name">
             Abhijit Ghosh

@@ -3,10 +3,10 @@ import Navbar from "../navbar";
 import Footer from "../footer";
 import "./demo.css";
 // import { FaAngleLeft } from "react-icons/fa";
-import { FaEnvelope,  FaPhone, FaResearchgate } from "react-icons/fa";
+import { FaEnvelope, FaHome, FaLinkedin, FaPhone, FaResearchgate,  FaTwitterSquare } from "react-icons/fa";
 import Table from "react-bootstrap/Table";
 import {SiGooglescholar } from "react-icons/si";
-import prof44 from "./profimages/ghosh.jpg"
+import kd from "./profimages/kd.jpg"
 
 const profile11 = () => {
   return (
@@ -27,7 +27,7 @@ const profile11 = () => {
       <div class="main">
             <div class="left">
                 <div>
-                <img src={prof44} alt="" />
+                <img src={kd} alt="" />
                
                 
             
@@ -36,17 +36,18 @@ const profile11 = () => {
 
             
         <div className="pc2">
-            <span className="pc1-head">Prof. Abhijit Ghosh</span>
+            <span className="pc1-head">Prof. Khushubo Devi</span>
             <ul>
               <li>Designation	: Assistant Professor</li>
               <li>Office		: Room No. 1D- 608 </li>
-              <li>Email	 (<i><FaEnvelope/></i>)	: aghosh@iiti.ac.in </li>
-              <li>Contact  (<i><FaPhone/></i>)		: +91 0731 660 3287 </li>
+              <li>Email	 (<i><FaEnvelope/></i>)	: khushubo@iiti.ac.in  </li>
+              <li>Contact  (<i><FaPhone/></i>)		:+91-8858588259 </li>
             <div className="fac-links">
+            <a href="" target="_blank" rel="noreferrer"> <i><FaHome/></i></a>
+             <a href=" https://scholar.google.com/citations?user=sCL9Zl4AAAAJ&hl=en   "target="_blank"  rel="noreferrer"> <i><SiGooglescholar/></i></a>
+             <a href="https://www.researchgate.net/profile/Khushubo-Devi "target="_blank"  rel="noreferrer"><i><FaResearchgate/></i></a>
              
-             <a href=" https://scholar.google.com/citations?user=P9nZOBsAAAAJ&hl=en&authuser=1"target="_blank"  rel="noreferrer"> <i><SiGooglescholar/></i></a>
-             <a href="https://www.researchgate.net/profile/Abhijit-Ghosh-8"target="_blank"  rel="noreferrer"><i><FaResearchgate/></i></a>
-            
+             <a href="https://www.linkedin.com/in/khushubo-tiwari-09872462/  "target="_blank"  rel="noreferrer"> <i><FaLinkedin/></i></a>
              
              
               
@@ -67,19 +68,19 @@ const profile11 = () => {
             </thead>
             <tbody>
               <tr>
-                <td>IIT Kharagpur</td>
+                <td>IIT Kanpur</td>
                 <td>Ph.D. </td>
-                <td>2016</td>
+                <td>2021</td>
               </tr>
               <tr>
-                <td>IIT Kharagpur</td>
+                <td>IIT BHU</td>
                 <td>M.Tech </td>
-                <td>2011</td>
+                <td>2015</td>
               </tr>
               <tr>
-                <td>BESU Shibpur</td>
-                <td>B.E </td>
-                <td>2009</td>
+                <td>NIT Raipur</td>
+                <td>B.Tech </td>
+                <td>2012</td>
               </tr>
             </tbody>
           </Table>
@@ -94,12 +95,14 @@ const profile11 = () => {
           <span className="pc1-head">RESEARCH INTEREST</span>
           <div>
           
-        <li>Crystallographic texture and grain boundary</li>
-         
-        <li>Martensitic transformation</li>
-        <li>Creep and Fracture</li>
-        <li>Crystal Plasticity</li>
-
+          <ul>
+              <li>          Sustainable metallurgy and materials 
+</li>
+              <li>  Green Steel, Hydrogen plasma-based/ Direct reduction of iron ores.</li>
+              <li>In-situ Heating TEM, Environmental In-Situ TEM
+.</li>
+              <li>Phase Transformation, Nanomaterials.</li>
+            </ul>
 
 
           </div>
@@ -107,11 +110,14 @@ const profile11 = () => {
         <div className="pc1">
           <span className="pc1-head">POSITIONS HELD</span>
           <ul>
-            <li>
-            Assistant Professor, MEMS Department, IIT Indore, November 2017 – present
+          <li>
+            Alexander-von-Humboldt postdoctoral fellow, Dept. of Microstructure Physics and Alloy Design, Max-Planck-Institut für Eisenforschung GmbH, Germany, January 2022 – November 2023
             </li>
-            <li>Post Doctoral Fellow, Department of Materials Engineering, IISC Bangalore, March 2016- October 2017</li>
-           
+            <li>Research Associate, Materials Science and Engineering, Indian Institute of Technology Kanpur, India, August 2021 – December 2021.</li>
+            <li>
+            Industrial: Graduate Engineer Trainee, Steel Exchange India Limited, Visakhapatnam, India, July 2012 – October 2012. 
+
+            </li>
             
             
           </ul>
@@ -132,39 +138,32 @@ const profile11 = () => {
                 <tr>
                   <td>1</td>
                   <td>
-                  V. Jain, P. Modak, S. Patra, A. Ghosh, Origin of Goss texture in grain oriented electrical steel: Role of shear bands,
-Materialia. 22 (2022) 101398.
+                  Khushubo Tiwari, Paliwal, M, Biwas, K.. Phase transformation of Ag–Cu alloy nanoparticle embedded in Ni matrix. Journal of Materials Research (2022), 37(23), 4124-4139
                   </td>
                 </tr>
                 <tr>
                   <td>2</td>
                   <td>
-                  P. Kumar, S. Samal, A. Ghosh, Effect of hot rolling and annealing on microstructure and mechanical properties of
-the Fe-Co-Cr-Ni-V-Zrx(x = 0-5) high entropy alloys, J. Alloys Compd. (2023) 172447.
-
-                    .
+                  Khushubo Tiwari, M. M Devi, K Biswas, K. Chattopadhyay, Phase Transformation in Nanoalloys, Progress in Materials Science, p.100794 (2021) DOI: 10.1016/j.pmatsci.2021.100794.
                   </td>
                 </tr>
                 <tr>
                   <td>3</td>
                   <td>
                     {" "}
-                    V. Jain, S. Patra, C. Halder, S.M. Hasan, A. Ghosh, Study on the formation of alligator crack and edge crack in high
-silicon grain oriented electrical steel during cold rolling, J. Appl. Phys. 132 (2022) 105101.
+                    Khushubo Tiwari, M Paliwal, M Verma, and K Biswas, Solidification Behaviour of Nanoscale Tri-phasic Bismuth-Indium-Tin Alloy Particles Embedded in Al–Cu–Fe Quasicrystalline Matrix, Journal of Alloys and Compounds, (2021) 867, 159011
                   </td>
                 </tr>
                 <tr>
                   <td>4</td>
                   <td>
-                  K. Barat, A. Ghosh, A. Doharey, S. Mukherjee, A. Karmakar, Crystallographic evaluation of low cycle fatigue crack
-growth in a polycrystalline Ni based superalloy, Int. J. Plast. 149 (2022) 103174.
+                  Khushubo Tiwari, K. Biswas, M. Palliwal, B. Majumdar, H.-J. Fecht, Melting behaviour of tri-phasic Bi44In32Sn23 alloy nanoparticle embedded in icosahedral quasicrystalline matrix, Journal of Alloys and Compounds, (2020), 834, 155160
                   </td>
                 </tr>
                 <tr>
                   <td>5</td>
                   <td>
-                  V. Jain, P. Kumar, S. Bagui, C. Halder, S. Patra, A. Ghosh, Comprehensive study on the through-process Goss
-texture evolution in Fe-3.78 wt.%Si grain oriented electrical steel, Mater. Chem. Phys. 309 (2023) 128428.
+                  Khushubo Tiwari, Gautam G, Kumar N, Mohan A, Mohan S. Effect of primary silicon refinement on mechanical and wear properties of a hypereutectic Al-Si alloy. Silicon. 10:2227-39 (2018)
                   </td>
                 </tr>
               </tbody>
@@ -175,7 +174,14 @@ texture evolution in Fe-3.78 wt.%Si grain oriented electrical steel, Mater. Chem
         <div className="pc1">
           <span className="pc1-head">AWARDS AND ACHIEVEMENTS</span>
           <div>
-          Inspire Faculty Award, DST, 2017
+          <ul>
+            <li>First recipient of Alexander von Humboldt fellowship through the Henritte Herz (HH) Scouting program, 2022.</li>
+            <li>Alexander von Humboldt Foundation research fellowship for Postdoctoral position at MaxPlanck-Institute für Eisenforschung (MPIE) Germany, 2022</li>
+            <li>Teaching Assistance in “Phase Transformation in Materials” and “Nanomaterials and their Properties” course offered by National Programme on Technology Enhanced Learning (NPTEL) sponsored by Ministry of Human Resource Development (MHRD), India (2018 & 2021).</li>
+            <li>Received first prize in the poster presentation on Research Scholar Day Padarth-2019 held at Indian Institute of Technology, Kanpur, India, 2019.</li>
+            <li>Received NIMS (National Institute for Materials Science) internship fellowship award for a period of three months in Japan, 2018.</li>
+            <li>Active reviewer for Transaction of Indian Institute of Metals (IIM), Materialia, Journal of Alloys and Compounds, Materials Characterization, Philosophical Magazine.</li>
+           </ul>
           </div>
         </div>
        
