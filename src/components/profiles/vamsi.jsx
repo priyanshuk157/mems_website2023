@@ -3,10 +3,10 @@ import Navbar from "../navbar";
 import Footer from "../footer";
 import "./demo.css";
 // import { FaAngleLeft } from "react-icons/fa";
-import { FaEnvelope,  FaPhone, FaResearchgate } from "react-icons/fa";
+import { FaEnvelope, FaHome, FaLinkedin, FaPhone, FaResearchgate,  FaTwitterSquare } from "react-icons/fa";
 import Table from "react-bootstrap/Table";
 import {SiGooglescholar } from "react-icons/si";
-import prof44 from "./profimages/ghosh.jpg"
+import prof18 from "./profimages/prof18.jpg"
 
 const profile11 = () => {
   return (
@@ -27,7 +27,7 @@ const profile11 = () => {
       <div class="main">
             <div class="left">
                 <div>
-                <img src={prof44} alt="" />
+                <img src={prof18} alt="" />
                
                 
             
@@ -36,17 +36,20 @@ const profile11 = () => {
 
             
         <div className="pc2">
-            <span className="pc1-head">Prof. Abhijit Ghosh</span>
+            <span className="pc1-head">Prof. K. V. Vamsi</span>
             <ul>
               <li>Designation	: Assistant Professor</li>
-              <li>Office		: Room No. 1D- 608 </li>
-              <li>Email	 (<i><FaEnvelope/></i>)	: aghosh@iiti.ac.in </li>
-              <li>Contact  (<i><FaPhone/></i>)		: +91 0731 660 3287 </li>
+              <li>Office		: #211(b), Hub Building </li>
+              <li>Email	 (<i><FaEnvelope/></i>)	:  kvvamsi@iiti.ac.in </li>
+              <li>Contact  (<i><FaPhone/></i>)		: +91-731-660-3333 </li>
             <div className="fac-links">
+            <a href="https://sites.google.com/view/kvvamsi/home " target="_blank" rel="noreferrer"> <i><FaHome/></i></a>
+             <a href=" https://scholar.google.co.in/citations?user=ducGUjAAAAAJ&hl=en  "target="_blank"  rel="noreferrer"> <i><SiGooglescholar/></i></a>
+             <a href="https://www.researchgate.net/profile/K-V-Vamsi "target="_blank"  rel="noreferrer"><i><FaResearchgate/></i></a>
+             <a href="https://twitter.com/kvvamsi "target="_blank"  rel="noreferrer"><i><FaTwitterSquare/></i></a>
+             <a href="https://www.linkedin.com/in/kvvamsi/ "target="_blank"  rel="noreferrer"> <i><FaLinkedin/></i></a>
              
-             <a href=" https://scholar.google.com/citations?user=P9nZOBsAAAAJ&hl=en&authuser=1"target="_blank"  rel="noreferrer"> <i><SiGooglescholar/></i></a>
-             <a href="https://www.researchgate.net/profile/Abhijit-Ghosh-8"target="_blank"  rel="noreferrer"><i><FaResearchgate/></i></a>
-            
+             
              
              
               
@@ -67,19 +70,19 @@ const profile11 = () => {
             </thead>
             <tbody>
               <tr>
-                <td>IIT Kharagpur</td>
+                <td>Indian Institute of Science</td>
                 <td>Ph.D. </td>
-                <td>2016</td>
+                <td>2018</td>
               </tr>
               <tr>
-                <td>IIT Kharagpur</td>
-                <td>M.Tech </td>
-                <td>2011</td>
-              </tr>
-              <tr>
-                <td>BESU Shibpur</td>
-                <td>B.E </td>
+                <td>Indian Institute of Science</td>
+                <td>M.E </td>
                 <td>2009</td>
+              </tr>
+              <tr>
+                <td>Andhra University College of Engineering</td>
+                <td>B.E </td>
+                <td>2006</td>
               </tr>
             </tbody>
           </Table>
@@ -94,12 +97,13 @@ const profile11 = () => {
           <span className="pc1-head">RESEARCH INTEREST</span>
           <div>
           
-        <li>Crystallographic texture and grain boundary</li>
-         
-        <li>Martensitic transformation</li>
-        <li>Creep and Fracture</li>
-        <li>Crystal Plasticity</li>
-
+          <ul>
+              <li>          Alloy design, Structure-property correlations, High-throughput methods. 
+</li>
+              <li>  Atomistic simulations based on density functional theory, Computational thermodynamics, Integrated Computational Materials Engineering (ICME).</li>
+              <li>Planar fault energies, Deformation pathways, High temperature deformation.</li>
+              <li>Superalloys, Multi-principal element alloys (MPEAs), Intermetallic compounds.</li>
+            </ul>
 
 
           </div>
@@ -107,11 +111,19 @@ const profile11 = () => {
         <div className="pc1">
           <span className="pc1-head">POSITIONS HELD</span>
           <ul>
-            <li>
-            Assistant Professor, MEMS Department, IIT Indore, November 2017 – present
+          <li>
+            Assistant Professor, Metallurgical Engineering and Materials Science, IIT Indore, India (Mar 2023 – present)
             </li>
-            <li>Post Doctoral Fellow, Department of Materials Engineering, IISC Bangalore, March 2016- October 2017</li>
-           
+            <li>Consultant, ICME Group, TCS Research, Pune, India (2022 – 2023)</li>
+            <li>
+            Postdoctoral Researcher, Materials, University of California Santa Barbara, Santa Barbara, USA (2018 – 2022)
+            </li>
+            <li>
+            Researcher, TATA Steel R&D, Jamshedpur, India (2009 –2010)
+            </li>
+            <li>
+            Senior Engineer, Ispat Industries Ltd., India (2006 –2007)
+            </li>
             
             
           </ul>
@@ -132,39 +144,33 @@ const profile11 = () => {
                 <tr>
                   <td>1</td>
                   <td>
-                  V. Jain, P. Modak, S. Patra, A. Ghosh, Origin of Goss texture in grain oriented electrical steel: Role of shear bands,
-Materialia. 22 (2022) 101398.
+                  K. V. Vamsi, M. A. Charpagne, Tresa M Pollock, "High-throughput approach for estimation of intrinsic barriers in FCC structures for alloy design", Scripta Materialia, 204 (2021) 114126. https://doi.org/10.1016/j.scriptamat.2021.114126
                   </td>
                 </tr>
                 <tr>
                   <td>2</td>
                   <td>
-                  P. Kumar, S. Samal, A. Ghosh, Effect of hot rolling and annealing on microstructure and mechanical properties of
-the Fe-Co-Cr-Ni-V-Zrx(x = 0-5) high entropy alloys, J. Alloys Compd. (2023) 172447.
-
-                    .
+                  K. V. Vamsi and Tresa M. Pollock, “A new proximate structure for the APB(111) in L12 compounds”, Scripta Materialia 182 (2020), 38-42. https://doi.org/10.1016/j.scriptamat.2020.02.038 
                   </td>
                 </tr>
                 <tr>
                   <td>3</td>
                   <td>
                     {" "}
-                    V. Jain, S. Patra, C. Halder, S.M. Hasan, A. Ghosh, Study on the formation of alligator crack and edge crack in high
-silicon grain oriented electrical steel during cold rolling, J. Appl. Phys. 132 (2022) 105101.
+                    K. V. Vamsi and S. Karthikeyan, “Modeling APB energies in multicomponent Ni-base superalloys”, Intermetallics 132 (2021), 107124. https://doi.org/10.1016/j.intermet.2021.107124
                   </td>
                 </tr>
                 <tr>
                   <td>4</td>
                   <td>
-                  K. Barat, A. Ghosh, A. Doharey, S. Mukherjee, A. Karmakar, Crystallographic evaluation of low cycle fatigue crack
-growth in a polycrystalline Ni based superalloy, Int. J. Plast. 149 (2022) 103174.
+                  Yolita M. Eggeler, K. V. Vamsi,  and Tresa M. Pollock, “Precipitate shearing, fault energies and solute segregation to planar faults in Ni-, CoNi- and Co- base superalloys”, Review Article in Annual Review of Materials Research, 51 (2021), 209. https://doi.org/10.1146/annurev-matsci-102419-011433
                   </td>
                 </tr>
                 <tr>
                   <td>5</td>
                   <td>
-                  V. Jain, P. Kumar, S. Bagui, C. Halder, S. Patra, A. Ghosh, Comprehensive study on the through-process Goss
-texture evolution in Fe-3.78 wt.%Si grain oriented electrical steel, Mater. Chem. Phys. 309 (2023) 128428.
+                  K.V. Vamsi, S. Karthikeyan, “Full length article
+High-throughput estimation of planar fault energies in A3B compounds with L12 structure” https://doi.org/10.1016/j.actamat.2017.10.029
                   </td>
                 </tr>
               </tbody>
@@ -175,7 +181,11 @@ texture evolution in Fe-3.78 wt.%Si grain oriented electrical steel, Mater. Chem
         <div className="pc1">
           <span className="pc1-head">AWARDS AND ACHIEVEMENTS</span>
           <div>
-          Inspire Faculty Award, DST, 2017
+          <ul>
+            <li>All India GATE rank: 20 (2006)</li>
+            <li>Best poster award, 2nd prize in ICSMA-16 (2012)</li>
+            <li>Best poster award, 1st prize in Student symposium, Materials Engineering, IISc (2012, 2014)</li>
+           </ul>
           </div>
         </div>
        

@@ -3,10 +3,10 @@ import Navbar from "../navbar";
 import Footer from "../footer";
 import "./demo.css";
 // import { FaAngleLeft } from "react-icons/fa";
-import { FaEnvelope,  FaPhone, FaResearchgate } from "react-icons/fa";
+import { FaEnvelope, FaHome,  FaPhone,    } from "react-icons/fa";
 import Table from "react-bootstrap/Table";
 import {SiGooglescholar } from "react-icons/si";
-import prof44 from "./profimages/ghosh.jpg"
+import prof13 from "./profimages/prof13.jpg"
 
 const profile11 = () => {
   return (
@@ -27,7 +27,7 @@ const profile11 = () => {
       <div class="main">
             <div class="left">
                 <div>
-                <img src={prof44} alt="" />
+                <img src={prof13} alt="" />
                
                 
             
@@ -36,17 +36,16 @@ const profile11 = () => {
 
             
         <div className="pc2">
-            <span className="pc1-head">Prof. Abhijit Ghosh</span>
+            <span className="pc1-head">Prof. Sunil Kumar</span>
             <ul>
               <li>Designation	: Assistant Professor</li>
-              <li>Office		: Room No. 1D- 608 </li>
-              <li>Email	 (<i><FaEnvelope/></i>)	: aghosh@iiti.ac.in </li>
-              <li>Contact  (<i><FaPhone/></i>)		: +91 0731 660 3287 </li>
+              <li>Office		: Room No. 1D- 416 </li>
+              <li>Email	 (<i><FaEnvelope/></i>)	: sunil@iiti.ac.in </li>
+              <li>Contact  (<i><FaPhone/></i>)		: 07324-306-3281</li>
             <div className="fac-links">
              
-             <a href=" https://scholar.google.com/citations?user=P9nZOBsAAAAJ&hl=en&authuser=1"target="_blank"  rel="noreferrer"> <i><SiGooglescholar/></i></a>
-             <a href="https://www.researchgate.net/profile/Abhijit-Ghosh-8"target="_blank"  rel="noreferrer"><i><FaResearchgate/></i></a>
-            
+            <a href="https://iiti.ac.in/people/~sunil/ " target="_blank" rel="noreferrer"> <i><FaHome/></i></a>
+             <a href=" scholar.google.com/citations?user=oAfP0CAAAAAJ&hl=en  "target="_blank"  rel="noreferrer"> <i><SiGooglescholar/></i></a>
              
              
               
@@ -67,19 +66,19 @@ const profile11 = () => {
             </thead>
             <tbody>
               <tr>
-                <td>IIT Kharagpur</td>
+                <td>IISc Bangalore</td>
                 <td>Ph.D. </td>
-                <td>2016</td>
+                <td>2012</td>
               </tr>
               <tr>
-                <td>IIT Kharagpur</td>
-                <td>M.Tech </td>
-                <td>2011</td>
+                <td>University of Delhi</td>
+                <td>MSc Physics </td>
+                <td>2004</td>
               </tr>
               <tr>
-                <td>BESU Shibpur</td>
-                <td>B.E </td>
-                <td>2009</td>
+                <td>Maharshi Dayanand University Rohtak</td>
+                <td>BSc </td>
+                <td>2002</td>
               </tr>
             </tbody>
           </Table>
@@ -93,12 +92,12 @@ const profile11 = () => {
         <div className="pc1">
           <span className="pc1-head">RESEARCH INTEREST</span>
           <div>
-          
-        <li>Crystallographic texture and grain boundary</li>
-         
-        <li>Martensitic transformation</li>
-        <li>Creep and Fracture</li>
-        <li>Crystal Plasticity</li>
+          <ul>
+              <li> Electrochemical Energy Storage Systems </li>
+              <li>Na-ion Batteries </li>
+              <li>All-Solid-State Rechargeable Batteries</li>
+              <li>Electroceramics</li>
+            </ul>
 
 
 
@@ -107,13 +106,18 @@ const profile11 = () => {
         <div className="pc1">
           <span className="pc1-head">POSITIONS HELD</span>
           <ul>
+          
             <li>
-            Assistant Professor, MEMS Department, IIT Indore, November 2017 – present
+            Associate Professor, Metallurgical Engineering and Materials Science, IIT Indore, 2022 – present 
             </li>
-            <li>Post Doctoral Fellow, Department of Materials Engineering, IISC Bangalore, March 2016- October 2017</li>
-           
-            
-            
+            <li>Assistant Professor, Metallurgical Engineering and Materials Science, IIT Indore, 2018 – 2022</li>
+            <li>
+            DST INSPIRE Faculty, Metallurgical Engineering and Materials Science, IIT Indore, 2015 – 2020 
+            </li>
+            <li>
+            Research Fellow, Department of Mechanical Engineering, National University of Singapore, 2012 – 2014
+            </li>
+    
           </ul>
         </div>
         
@@ -132,39 +136,31 @@ const profile11 = () => {
                 <tr>
                   <td>1</td>
                   <td>
-                  V. Jain, P. Modak, S. Patra, A. Ghosh, Origin of Goss texture in grain oriented electrical steel: Role of shear bands,
-Materialia. 22 (2022) 101398.
+                  S Saxena, H N Vasavan, M Badole, A K Das, S Deswal, P Kumar, and S Kumar*, “Tailored P2/O3 phase-dependent electrochemical behavior of Mn-based cathode for sodium-ion batteries ” Journal of Energy Storage, 64 (2023), 107242, https://doi.org/10.1016/j.est.2023.107242 
                   </td>
                 </tr>
                 <tr>
                   <td>2</td>
                   <td>
-                  P. Kumar, S. Samal, A. Ghosh, Effect of hot rolling and annealing on microstructure and mechanical properties of
-the Fe-Co-Cr-Ni-V-Zrx(x = 0-5) high entropy alloys, J. Alloys Compd. (2023) 172447.
-
-                    .
+                  Hari Narayanan Vasavan, Manish Badole, Samriddhi Saxena, Asish Kumar Das, Sonia Deswal, Pradeep Kumar, Sunil Kumar, “Excellent Structural Stability-Driven Cyclability in P2-Type Ti-Based Cathode for Na-Ion Batteries”, ACS Applied Energy Materials, 6 (2023), 2440, https://doi.org/10.1021/acsaem.2c03750 
                   </td>
                 </tr>
                 <tr>
                   <td>3</td>
                   <td>
-                    {" "}
-                    V. Jain, S. Patra, C. Halder, S.M. Hasan, A. Ghosh, Study on the formation of alligator crack and edge crack in high
-silicon grain oriented electrical steel during cold rolling, J. Appl. Phys. 132 (2022) 105101.
+                  A K Das, M Badole, H N Vasavan, S Saxena, P Gami, S Kumar*, “Highly conductive ceramic-in-polymer composite electrolyte enabling superior electrochemical performance for all-solid-state lithium batteries”, Ceramics International, (2023), https://doi.org/10.1016/j.ceramint.2023.06.214
                   </td>
                 </tr>
                 <tr>
                   <td>4</td>
                   <td>
-                  K. Barat, A. Ghosh, A. Doharey, S. Mukherjee, A. Karmakar, Crystallographic evaluation of low cycle fatigue crack
-growth in a polycrystalline Ni based superalloy, Int. J. Plast. 149 (2022) 103174.
+                  M Badole, H N Vasavan, S Saxena, A K Das, P Gami, D Kumar, S Deswal, P Kumar, S Kumar*, “High-Performance [00l]-Textured BiAlO3-Doped K0.5Bi0.5TiO3 Ceramics”, ACS Applied Electronic Materials, 5 (2023), 3436, https://doi.org/10.1021/acsaelm.3c00434
                   </td>
                 </tr>
                 <tr>
                   <td>5</td>
                   <td>
-                  V. Jain, P. Kumar, S. Bagui, C. Halder, S. Patra, A. Ghosh, Comprehensive study on the through-process Goss
-texture evolution in Fe-3.78 wt.%Si grain oriented electrical steel, Mater. Chem. Phys. 309 (2023) 128428.
+                  H N Vasavan, M Badole, S Dwivedi, D Kumar, P Kumar, S Kumar*, “Enhanced rate performance and specific capacity in Ti-substituted P2-type layered oxide enabled by crystal structure and particle morphology modifications”, Chemical Engineering Journal, 448 (2022), 13662, https://doi.org/10.1016/j.cej.2022.137662 
                   </td>
                 </tr>
               </tbody>
@@ -175,7 +171,14 @@ texture evolution in Fe-3.78 wt.%Si grain oriented electrical steel, Mater. Chem
         <div className="pc1">
           <span className="pc1-head">AWARDS AND ACHIEVEMENTS</span>
           <div>
-          Inspire Faculty Award, DST, 2017
+          <ul>
+            <li>2022, Best Teacher Award, IIT Indore</li>
+            <li>2022, Core Research Grant, SERB</li>
+            <li>2017, Early Career Research Award, SERB</li>
+            <li>2015, INSPIRE Faculty Award, DST</li>
+            <li> 2012, SERC Research Fellowship, NUS Singapore</li>
+            <li>2010, Erasmus-Mundus Fellowship, Barcelona, Spain</li>
+           </ul>
           </div>
         </div>
        

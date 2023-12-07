@@ -3,10 +3,10 @@ import Navbar from "../navbar";
 import Footer from "../footer";
 import "./demo.css";
 // import { FaAngleLeft } from "react-icons/fa";
-import { FaEnvelope,  FaPhone, FaResearchgate } from "react-icons/fa";
+import { FaEnvelope, FaHome,  FaPhone, FaResearchgate,  FaTwitterSquare } from "react-icons/fa";
 import Table from "react-bootstrap/Table";
 import {SiGooglescholar } from "react-icons/si";
-import prof44 from "./profimages/ghosh.jpg"
+import prof3 from "./profimages/prof3.jpg"
 
 const profile11 = () => {
   return (
@@ -27,7 +27,7 @@ const profile11 = () => {
       <div class="main">
             <div class="left">
                 <div>
-                <img src={prof44} alt="" />
+                <img src={prof3} alt="" />
                
                 
             
@@ -36,19 +36,19 @@ const profile11 = () => {
 
             
         <div className="pc2">
-            <span className="pc1-head">Prof. Abhijit Ghosh</span>
+            <span className="pc1-head">Prof. Dhirendra Kumar Rai</span>
             <ul>
               <li>Designation	: Assistant Professor</li>
-              <li>Office		: Room No. 1D- 608 </li>
-              <li>Email	 (<i><FaEnvelope/></i>)	: aghosh@iiti.ac.in </li>
-              <li>Contact  (<i><FaPhone/></i>)		: +91 0731 660 3287 </li>
+              <li>Office		: Room No. 1D- 418 </li>
+              <li>Email	 (<i><FaEnvelope/></i>)	: dkrai@iiti.ac.in </li>
+              <li>Contact  (<i><FaPhone/></i>)		: +91-731660-3278 </li>
             <div className="fac-links">
              
-             <a href=" https://scholar.google.com/citations?user=P9nZOBsAAAAJ&hl=en&authuser=1"target="_blank"  rel="noreferrer"> <i><SiGooglescholar/></i></a>
-             <a href="https://www.researchgate.net/profile/Abhijit-Ghosh-8"target="_blank"  rel="noreferrer"><i><FaResearchgate/></i></a>
-            
-             
-             
+            <a href="http://people.iiti.ac.in/~dkr/ " target="_blank" rel="noreferrer"> <i><FaHome/></i></a>
+             <a href="  https://scholar.google.com/citations?user=pFwwR8UAAAAJ  "target="_blank"  rel="noreferrer"> <i><SiGooglescholar/></i></a>
+             <a href="https://www.researchgate.net/profile/Dr-Ajay-Kushwaha-2"target="_blank"  rel="noreferrer"><i><FaResearchgate/></i></a>
+             <a href="@Dhirend59162402"target="_blank"  rel="noreferrer"><i><FaTwitterSquare/></i></a>
+             {/* <a href="https://in.linkedin.com/in/dr-ajay-k-kushwaha-16b46a49?trk=public_post_feed-actor-name "target="_blank"  rel="noreferrer"> <i><FaLinkedin/></i></a> */}
               
               
              
@@ -67,19 +67,19 @@ const profile11 = () => {
             </thead>
             <tbody>
               <tr>
-                <td>IIT Kharagpur</td>
+                <td>IIT Bombay </td>
                 <td>Ph.D. </td>
-                <td>2016</td>
+                <td>2013</td>
               </tr>
               <tr>
-                <td>IIT Kharagpur</td>
-                <td>M.Tech </td>
-                <td>2011</td>
+                <td>Banaras Hindu University</td>
+                <td>M.Sc </td>
+                <td>2006</td>
               </tr>
               <tr>
-                <td>BESU Shibpur</td>
-                <td>B.E </td>
-                <td>2009</td>
+                <td>Udai Pratap Autonomous College</td>
+                <td>B.Sc </td>
+                <td>2004</td>
               </tr>
             </tbody>
           </Table>
@@ -94,12 +94,14 @@ const profile11 = () => {
           <span className="pc1-head">RESEARCH INTEREST</span>
           <div>
           
-        <li>Crystallographic texture and grain boundary</li>
-         
-        <li>Martensitic transformation</li>
-        <li>Creep and Fracture</li>
-        <li>Crystal Plasticity</li>
-
+          <ul>
+              <li>Energy Storage (Supercapacitors, Batteries)</li>
+              <li>Energy Harvesting (Blue energy, Evaporation Induced generation (EIG)) </li>
+              <li>Electrocatalysis (HER, OER, CO2RR) </li>  
+              {/* <li>Sensors, Corrosion</li> */}
+              <li>CO2 Capture and Utilization (CCU) </li>
+              
+            </ul>
 
 
           </div>
@@ -107,11 +109,12 @@ const profile11 = () => {
         <div className="pc1">
           <span className="pc1-head">POSITIONS HELD</span>
           <ul>
+          <li>
+            Assistant Professor, Department of Metallurgical Engineering and Materials Science, IIT Indore, September 29, 2017 – present             </li>
+            <li>DST Young Scientist, Department of Chemistry, IIT Indore, September 23, 2015 – September 28, 20217</li>
             <li>
-            Assistant Professor, MEMS Department, IIT Indore, November 2017 – present
-            </li>
-            <li>Post Doctoral Fellow, Department of Materials Engineering, IISC Bangalore, March 2016- October 2017</li>
-           
+            Industrial : Position, Group, Company, From – To ( Year)            </li>
+            
             
             
           </ul>
@@ -132,39 +135,32 @@ const profile11 = () => {
                 <tr>
                   <td>1</td>
                   <td>
-                  V. Jain, P. Modak, S. Patra, A. Ghosh, Origin of Goss texture in grain oriented electrical steel: Role of shear bands,
-Materialia. 22 (2022) 101398.
+                  S. Krishnan, A. K. Gupta, M. K. Singh, N. Guha, and D. K. Rai “Nitrogen-rich Cu-MOF decorated on reduced graphene oxide nanosheets for hybrid supercapacitor applications with enhanced cycling stability” Chemical Engineering Journal, 435 (2022), 135042. (IF: 16.77)
                   </td>
                 </tr>
                 <tr>
                   <td>2</td>
                   <td>
-                  P. Kumar, S. Samal, A. Ghosh, Effect of hot rolling and annealing on microstructure and mechanical properties of
-the Fe-Co-Cr-Ni-V-Zrx(x = 0-5) high entropy alloys, J. Alloys Compd. (2023) 172447.
-
-                    .
+                  M. K. Singh, S. Krishnan, and D. K. Rai“Rational design of Ti3C2x MXene coupled with hierarchical CoS for a flexible supercapattery” Electrochimica Acta, 441, (2023), 141825. (IF: 7.34)
                   </td>
                 </tr>
                 <tr>
                   <td>3</td>
                   <td>
                     {" "}
-                    V. Jain, S. Patra, C. Halder, S.M. Hasan, A. Ghosh, Study on the formation of alligator crack and edge crack in high
-silicon grain oriented electrical steel during cold rolling, J. Appl. Phys. 132 (2022) 105101.
+                    M. K. Singh, A. K. Gupta, S. Krishnan, N. Guha, and D. K. Rai, “A new hierarchically porous Cu-MOF composited with rGO as an efficient hybrid supercapacitor electrode material” Journal of Energy Storage, 43, 103301 (2021).(IF:8.91)
                   </td>
                 </tr>
                 <tr>
                   <td>4</td>
                   <td>
-                  K. Barat, A. Ghosh, A. Doharey, S. Mukherjee, A. Karmakar, Crystallographic evaluation of low cycle fatigue crack
-growth in a polycrystalline Ni based superalloy, Int. J. Plast. 149 (2022) 103174.
+                  N. Guha, A. K. Gupta, S. Chatterjee, S. Krishnan, M. K. Singh, and D. K. Rai “Environmentally benign melamine functionalized silica-coated iron oxide for selective CO2 capture and fixation into cyclic carbonate” Journal of CO2 Utilization, 49 (2021) 101575. (IF: 8.32)
                   </td>
                 </tr>
                 <tr>
                   <td>5</td>
                   <td>
-                  V. Jain, P. Kumar, S. Bagui, C. Halder, S. Patra, A. Ghosh, Comprehensive study on the through-process Goss
-texture evolution in Fe-3.78 wt.%Si grain oriented electrical steel, Mater. Chem. Phys. 309 (2023) 128428.
+                  S. Krishnan, S. Marimuthu, M. K. Singh, and D. K. Rai “Two Dimensional Ti3C2Tx MXene Nanosheets for CO2 Electroreduction in Aqueous Electrolytes” RSC Energy Advances, DOI: 10.1039/D3YA00117B (2023)
                   </td>
                 </tr>
               </tbody>
@@ -172,12 +168,7 @@ texture evolution in Fe-3.78 wt.%Si grain oriented electrical steel, Mater. Chem
           </div>
         </div>
        
-        <div className="pc1">
-          <span className="pc1-head">AWARDS AND ACHIEVEMENTS</span>
-          <div>
-          Inspire Faculty Award, DST, 2017
-          </div>
-        </div>
+        
        
         
         

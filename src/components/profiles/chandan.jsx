@@ -3,10 +3,10 @@ import Navbar from "../navbar";
 import Footer from "../footer";
 import "./demo.css";
 // import { FaAngleLeft } from "react-icons/fa";
-import { FaEnvelope,  FaPhone, FaResearchgate } from "react-icons/fa";
+import { FaEnvelope, FaHome, FaLinkedin, FaPhone, FaResearchgate } from "react-icons/fa";
 import Table from "react-bootstrap/Table";
 import {SiGooglescholar } from "react-icons/si";
-import prof44 from "./profimages/ghosh.jpg"
+import prof1 from "./profimages/prof1.jpg"
 
 const profile11 = () => {
   return (
@@ -27,7 +27,7 @@ const profile11 = () => {
       <div class="main">
             <div class="left">
                 <div>
-                <img src={prof44} alt="" />
+                <img src={prof1} alt="" />
                
                 
             
@@ -36,17 +36,18 @@ const profile11 = () => {
 
             
         <div className="pc2">
-            <span className="pc1-head">Prof. Abhijit Ghosh</span>
+            <span className="pc1-head">Prof. Chandan Halder</span>
             <ul>
               <li>Designation	: Assistant Professor</li>
-              <li>Office		: Room No. 1D- 608 </li>
-              <li>Email	 (<i><FaEnvelope/></i>)	: aghosh@iiti.ac.in </li>
-              <li>Contact  (<i><FaPhone/></i>)		: +91 0731 660 3287 </li>
+              <li>Office		:Room No. 211 (G), CITC </li>
+              <li>Email	 (<i><FaEnvelope/></i>)	: chalder@iiti.ac.in </li>
+              <li>Contact  (<i><FaPhone/></i>)		: +91 0731 660 3182 </li>
             <div className="fac-links">
+            <a href="https://iiti.ac.in/people/~ajaykk " target="_blank" rel="noreferrer"> <i><FaHome/></i></a>
+             <a href=" https://scholar.google.com/citations?user=Jc4fgVQAAAAJ&hl=en"target="_blank"  rel="noreferrer"> <i><SiGooglescholar/></i></a>
+             <a href="https://www.researchgate.net/profile/Chandan-Halder"target="_blank"  rel="noreferrer"><i><FaResearchgate/></i></a>
              
-             <a href=" https://scholar.google.com/citations?user=P9nZOBsAAAAJ&hl=en&authuser=1"target="_blank"  rel="noreferrer"> <i><SiGooglescholar/></i></a>
-             <a href="https://www.researchgate.net/profile/Abhijit-Ghosh-8"target="_blank"  rel="noreferrer"><i><FaResearchgate/></i></a>
-            
+             <a href="www.linkedin.com/in/dr-chandan-halder-0408042b"target="_blank"  rel="noreferrer"> <i><FaLinkedin/></i></a>
              
              
               
@@ -66,19 +67,19 @@ const profile11 = () => {
               </tr>
             </thead>
             <tbody>
-              <tr>
-                <td>IIT Kharagpur</td>
-                <td>Ph.D. </td>
+            <tr>
+                <td>IIT Kharagpur, 2016</td>
+                <td>Ph.D. Department of Metallurgical and Materials Engineering</td>
                 <td>2016</td>
               </tr>
               <tr>
                 <td>IIT Kharagpur</td>
-                <td>M.Tech </td>
+                <td>M.Tech, Department of Metallurgical and Materials Engineering</td>
                 <td>2011</td>
               </tr>
               <tr>
-                <td>BESU Shibpur</td>
-                <td>B.E </td>
+                <td>NIT Durgapur</td>
+                <td>B.Tech, Department of Metallurgical and Materials Engineering</td>
                 <td>2009</td>
               </tr>
             </tbody>
@@ -94,11 +95,11 @@ const profile11 = () => {
           <span className="pc1-head">RESEARCH INTEREST</span>
           <div>
           
-        <li>Crystallographic texture and grain boundary</li>
+        <li>Mechanistic Diffusion Modeling</li>
          
-        <li>Martensitic transformation</li>
-        <li>Creep and Fracture</li>
-        <li>Crystal Plasticity</li>
+        <li> Multi-Scale Finite Element Modeling</li>
+        <li> Modeling and Simulation of Microstructure Evolution</li>
+        <li> Neural-Network based Alloy Design</li>
 
 
 
@@ -108,9 +109,9 @@ const profile11 = () => {
           <span className="pc1-head">POSITIONS HELD</span>
           <ul>
             <li>
-            Assistant Professor, MEMS Department, IIT Indore, November 2017 – present
+            Assistant Professor, MEMS Department, IIT Indore, 2022 – present
             </li>
-            <li>Post Doctoral Fellow, Department of Materials Engineering, IISC Bangalore, March 2016- October 2017</li>
+            <li> Industrial : Senior Manager, R&D, Mishra Dhatu Nigam Limited, Hyderabad, 2016 – 2022</li>
            
             
             
@@ -132,39 +133,45 @@ const profile11 = () => {
                 <tr>
                   <td>1</td>
                   <td>
-                  V. Jain, P. Modak, S. Patra, A. Ghosh, Origin of Goss texture in grain oriented electrical steel: Role of shear bands,
-Materialia. 22 (2022) 101398.
+                  C. Halder, L. Madej & M. Pietrzyk, “Discrete micro-scale cellular automata model for modelling phase   
+   transformation during heating of dual phase steels”, Archives of Civil and Mechanical Engineering, 14(1),  
+   (2014) 96-103, https://doi.org/10.1016/j.acme.2013.07.001
+
                   </td>
                 </tr>
                 <tr>
                   <td>2</td>
                   <td>
-                  P. Kumar, S. Samal, A. Ghosh, Effect of hot rolling and annealing on microstructure and mechanical properties of
-the Fe-Co-Cr-Ni-V-Zrx(x = 0-5) high entropy alloys, J. Alloys Compd. (2023) 172447.
+                  C. Halder, A. Karmakar, Sk. Md. Hasan, D. Chakrabarti, M. Pietrzyk & N. Chakraborti, “Effect of Carbon 
+   Distribution During the Microstructure Evolution of Dual-Phase Steels Studied Using Cellular Automata, Genetic  
+   Algorithms, and Experimental Strategies”, Metallurgical and Materials Transaction A, 47, (2016), 5890-5906, 
+   https://doi.org/10.1007/s11661-016-3725-y
 
-                    .
                   </td>
                 </tr>
                 <tr>
                   <td>3</td>
                   <td>
                     {" "}
-                    V. Jain, S. Patra, C. Halder, S.M. Hasan, A. Ghosh, Study on the formation of alligator crack and edge crack in high
-silicon grain oriented electrical steel during cold rolling, J. Appl. Phys. 132 (2022) 105101.
+                    C. Halder, D. Bachniak, L. Madej, N. Chakraborti & M. Pietrzyk, “Sensitivity analysis of the finite difference 2-D 
+   cellular automata model for phase transformation during heating”, ISIJ International, 55(1), (2015) 285-292,  
+   2015. https://doi.org/10.2355/isijinternational.55.285.
                   </td>
                 </tr>
                 <tr>
                   <td>4</td>
                   <td>
-                  K. Barat, A. Ghosh, A. Doharey, S. Mukherjee, A. Karmakar, Crystallographic evaluation of low cycle fatigue crack
-growth in a polycrystalline Ni based superalloy, Int. J. Plast. 149 (2022) 103174.
+                  C. Halder, L. Madej, M. Pietrzyk & N. Chakraborti, “Optimization of cellular automata model for the heating of 
+    dual-phase steel by genetic algorithm and genetic programming”, Materials and Manufacturing Processes,
+    30(4), (2015), 552-562, https://doi.org/10.1080/10426914.2014.994765.
                   </td>
                 </tr>
                 <tr>
                   <td>5</td>
                   <td>
-                  V. Jain, P. Kumar, S. Bagui, C. Halder, S. Patra, A. Ghosh, Comprehensive study on the through-process Goss
-texture evolution in Fe-3.78 wt.%Si grain oriented electrical steel, Mater. Chem. Phys. 309 (2023) 128428.
+                  C.Halder, K.L. Prasanna; S. Dixit, S. Pal & S.K. Jha, “Bi-objective Optimization of Maraging Steel Produced by 
+    Vacuum Induction Melting Using Evolutionary Algorithms”, Transactions of the Indian Institute of Metals, 74(5),  
+    (2021), 1193-1201, https://doi.org/10.1007/s12666-020-02153-x.
                   </td>
                 </tr>
               </tbody>

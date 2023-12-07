@@ -3,10 +3,10 @@ import Navbar from "../navbar";
 import Footer from "../footer";
 import "./demo.css";
 // import { FaAngleLeft } from "react-icons/fa";
-import { FaEnvelope,  FaPhone, FaResearchgate } from "react-icons/fa";
+import { FaEnvelope, FaHome, FaPhone, } from "react-icons/fa";
 import Table from "react-bootstrap/Table";
 import {SiGooglescholar } from "react-icons/si";
-import prof44 from "./profimages/ghosh.jpg"
+import bb from "./profimages/basha.jpg"
 
 const profile11 = () => {
   return (
@@ -27,7 +27,7 @@ const profile11 = () => {
       <div class="main">
             <div class="left">
                 <div>
-                <img src={prof44} alt="" />
+                <img src={bb} alt="" />
                
                 
             
@@ -36,17 +36,16 @@ const profile11 = () => {
 
             
         <div className="pc2">
-            <span className="pc1-head">Prof. Abhijit Ghosh</span>
+            <span className="pc1-head">Prof. Dudekula Althaf Basha</span>
             <ul>
               <li>Designation	: Assistant Professor</li>
-              <li>Office		: Room No. 1D- 608 </li>
-              <li>Email	 (<i><FaEnvelope/></i>)	: aghosh@iiti.ac.in </li>
-              <li>Contact  (<i><FaPhone/></i>)		: +91 0731 660 3287 </li>
+              <li>Office		: Room No. 1D- 306 </li>
+              <li>Email	 (<i><FaEnvelope/></i>)	: bashada@iiti.ac.in </li>
+              <li>Contact  (<i><FaPhone/></i>)		: +917316603516 </li>
             <div className="fac-links">
+            <a href="http://mems.iiti.ac.in/Faculty.html" target="_blank" rel="noreferrer"> <i><FaHome/></i></a>
+             <a href=" https://scholar.google.com/citations?user=KQosI6YAAAAJ&hl=en"target="_blank"  rel="noreferrer"> <i><SiGooglescholar/></i></a>
              
-             <a href=" https://scholar.google.com/citations?user=P9nZOBsAAAAJ&hl=en&authuser=1"target="_blank"  rel="noreferrer"> <i><SiGooglescholar/></i></a>
-             <a href="https://www.researchgate.net/profile/Abhijit-Ghosh-8"target="_blank"  rel="noreferrer"><i><FaResearchgate/></i></a>
-            
              
              
               
@@ -67,19 +66,19 @@ const profile11 = () => {
             </thead>
             <tbody>
               <tr>
-                <td>IIT Kharagpur</td>
+                <td>Indian Institute of Science, Bangalore</td>
                 <td>Ph.D. </td>
-                <td>2016</td>
+                <td>2014</td>
               </tr>
               <tr>
-                <td>IIT Kharagpur</td>
-                <td>M.Tech </td>
-                <td>2011</td>
+                <td>Sri Venkateswara University, Tirupati</td>
+                <td>M.Sc </td>
+                <td>2007</td>
               </tr>
               <tr>
-                <td>BESU Shibpur</td>
-                <td>B.E </td>
-                <td>2009</td>
+                <td>Sri Krishna Devaraya University</td>
+                <td>B.Sc </td>
+                <td>2005</td>
               </tr>
             </tbody>
           </Table>
@@ -94,13 +93,12 @@ const profile11 = () => {
           <span className="pc1-head">RESEARCH INTEREST</span>
           <div>
           
-        <li>Crystallographic texture and grain boundary</li>
-         
-        <li>Martensitic transformation</li>
-        <li>Creep and Fracture</li>
-        <li>Crystal Plasticity</li>
-
-
+          <ul>
+              <li>          Deformation behaviour of magnesium alloys.</li>
+              <li>  Crack propagation behaviour study through in-situ microscopy techniques.</li>
+              <li>Phase transformation behaviour of alloy nanoparticles.</li>
+            
+            </ul>
 
           </div>
         </div>
@@ -108,11 +106,9 @@ const profile11 = () => {
           <span className="pc1-head">POSITIONS HELD</span>
           <ul>
             <li>
-            Assistant Professor, MEMS Department, IIT Indore, November 2017 – present
+            Assistant Professor, Department of Metallurgical Engineering and Materials Science, Indian Institute of Technology INDORE, Indore, From Oct 2019– To (Continuing)
             </li>
-            <li>Post Doctoral Fellow, Department of Materials Engineering, IISC Bangalore, March 2016- October 2017</li>
-           
-            
+            <li>Postdoc, National Institute for Materials Science, Tsukuba, Japan, From Sep 2014– To Sep 2019</li>
             
           </ul>
         </div>
@@ -132,39 +128,31 @@ const profile11 = () => {
                 <tr>
                   <td>1</td>
                   <td>
-                  V. Jain, P. Modak, S. Patra, A. Ghosh, Origin of Goss texture in grain oriented electrical steel: Role of shear bands,
-Materialia. 22 (2022) 101398.
+                  D.A. Basha, J.M. Rosalie, H. Somekawa, T. Miyawaki, A. Singh, K. Tsuchiya, Microstructure study of a severely plastically deformed Mg-Zn-Y alloy by application of low angle annular dark field diffraction contrast imaging, Science and Technology of Advanced Materials 17(1) (2016) 115-127. http://dx.doi.org/10.1080/14686996.2016.1140304
                   </td>
                 </tr>
                 <tr>
                   <td>2</td>
                   <td>
-                  P. Kumar, S. Samal, A. Ghosh, Effect of hot rolling and annealing on microstructure and mechanical properties of
-the Fe-Co-Cr-Ni-V-Zrx(x = 0-5) high entropy alloys, J. Alloys Compd. (2023) 172447.
-
-                    .
+                  D.A. Basha, R. Sahara, H. Somekawa, J.M. Rosalie, A. Singh, K. Tsuchiya, Interfacial segregation induced by severe plastic deformation in a Mg–Zn–Y alloy, Scripta Materialia 124 (2016) 169-173. http://dx.doi.org/10.1016/j.scriptamat.2016.07.021
                   </td>
                 </tr>
                 <tr>
                   <td>3</td>
                   <td>
-                    {" "}
-                    V. Jain, S. Patra, C. Halder, S.M. Hasan, A. Ghosh, Study on the formation of alligator crack and edge crack in high
-silicon grain oriented electrical steel during cold rolling, J. Appl. Phys. 132 (2022) 105101.
+                  D.A. Basha, H. Somekawa, A. Singh, Crack propagation along grain boundaries and twins in Mg and Mg–0.3at.%Y alloy during in-situ straining in transmission electron microscope. Scripta Materialia 142 (2017) 50-54. http://dx.doi.org/10.1016/j.scriptamat.2017.08.023
                   </td>
                 </tr>
                 <tr>
                   <td>4</td>
                   <td>
-                  K. Barat, A. Ghosh, A. Doharey, S. Mukherjee, A. Karmakar, Crystallographic evaluation of low cycle fatigue crack
-growth in a polycrystalline Ni based superalloy, Int. J. Plast. 149 (2022) 103174.
+                  D.A. Basha, R. Sahara, H. Somekawa, J.M. Rosalie, A. Singh, K. Tsuchiya, Effect of processing strain rate and temperature oninterfacial segregation of zinc in a magnesium alloy Matrials Science and Engineering A703 (2017) 54-67. http://dx.doi.org/10.1016/j.msea.2017.07.041
                   </td>
                 </tr>
                 <tr>
                   <td>5</td>
                   <td>
-                  V. Jain, P. Kumar, S. Bagui, C. Halder, S. Patra, A. Ghosh, Comprehensive study on the through-process Goss
-texture evolution in Fe-3.78 wt.%Si grain oriented electrical steel, Mater. Chem. Phys. 309 (2023) 128428.
+                  D. A. Basha, N.Ravishankar and K.Chattopadhyay. Phase stability behavior of nanoscaled Bi-Pb alloys with peritectic composition in Zn matrix  Scripta Materialia 143 (2018) 68-71. http://dx.doi.org/10.1016/j.scriptamat.2017.09.012
                   </td>
                 </tr>
               </tbody>
@@ -175,7 +163,12 @@ texture evolution in Fe-3.78 wt.%Si grain oriented electrical steel, Mater. Chem
         <div className="pc1">
           <span className="pc1-head">AWARDS AND ACHIEVEMENTS</span>
           <div>
-          Inspire Faculty Award, DST, 2017
+          <ul>
+            <li>2023, Received “Reviewer Appreciation” award from the international journal “Journal of Alloys and Compounds”.
+            </li>
+            <li>2022, Received “Outstanding Reviewer” award from the international journal “Transactions of Indian Institute of Metals”.</li>
+            <li>2017, Received “BEST POSTER” award, 8th ISAJ Symposium on Bridging Nature and Technology, Tokyo, Japan.</li>
+           </ul>
           </div>
         </div>
        

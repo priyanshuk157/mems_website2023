@@ -3,10 +3,10 @@ import Navbar from "../navbar";
 import Footer from "../footer";
 import "./demo.css";
 // import { FaAngleLeft } from "react-icons/fa";
-import { FaEnvelope,  FaPhone, FaResearchgate } from "react-icons/fa";
+import { FaEnvelope, FaHome, FaLinkedin, FaPhone, FaResearchgate,  FaTwitterSquare } from "react-icons/fa";
 import Table from "react-bootstrap/Table";
 import {SiGooglescholar } from "react-icons/si";
-import prof44 from "./profimages/ghosh.jpg"
+import prof17 from "./profimages/prof4.jpg"
 
 const profile11 = () => {
   return (
@@ -27,7 +27,7 @@ const profile11 = () => {
       <div class="main">
             <div class="left">
                 <div>
-                <img src={prof44} alt="" />
+                <img src={prof17} alt="" />
                
                 
             
@@ -36,19 +36,18 @@ const profile11 = () => {
 
             
         <div className="pc2">
-            <span className="pc1-head">Prof. Abhijit Ghosh</span>
+            <span className="pc1-head">Prof. Nisheeth Kumar Prasad</span>
             <ul>
               <li>Designation	: Assistant Professor</li>
-              <li>Office		: Room No. 1D- 608 </li>
-              <li>Email	 (<i><FaEnvelope/></i>)	: aghosh@iiti.ac.in </li>
-              <li>Contact  (<i><FaPhone/></i>)		: +91 0731 660 3287 </li>
+              <li>Office		: 211(h), Hub Building (CITC) </li>
+              <li>Email	 (<i><FaEnvelope/></i>)	: nisheeth @iiti.ac.in </li>
+              <li>Contact  (<i><FaPhone/></i>)		: 7726938388</li>
             <div className="fac-links">
-             
-             <a href=" https://scholar.google.com/citations?user=P9nZOBsAAAAJ&hl=en&authuser=1"target="_blank"  rel="noreferrer"> <i><SiGooglescholar/></i></a>
-             <a href="https://www.researchgate.net/profile/Abhijit-Ghosh-8"target="_blank"  rel="noreferrer"><i><FaResearchgate/></i></a>
-            
-             
-             
+            <a href="https://sites.google.com/iiti.ac.in/nisheeth/about-me " target="_blank" rel="noreferrer"> <i><FaHome/></i></a>
+             <a href=" https://scholar.google.com/citations?user=vjypzxYAAAAJ&hl=en "target="_blank"  rel="noreferrer"> <i><SiGooglescholar/></i></a>
+             <a href="https://www.researchgate.net/profile/Nisheeth-Kumar "target="_blank"  rel="noreferrer"><i><FaResearchgate/></i></a>
+             <a href="https://twitter.com/Nishit568 "target="_blank"  rel="noreferrer"><i><FaTwitterSquare/></i></a>
+             <a href="https://www.linkedin.com/in/dr-nisheeth-kumar-prasad-272a7095/ "target="_blank"  rel="noreferrer"> <i><FaLinkedin/></i></a>
               
               
              
@@ -67,19 +66,19 @@ const profile11 = () => {
             </thead>
             <tbody>
               <tr>
-                <td>IIT Kharagpur</td>
+                <td>IIT Kanpur</td>
                 <td>Ph.D. </td>
-                <td>2016</td>
+                <td>2021</td>
               </tr>
               <tr>
-                <td>IIT Kharagpur</td>
+                <td> MNIT Jaipur</td>
                 <td>M.Tech </td>
-                <td>2011</td>
+                <td>2015</td>
               </tr>
               <tr>
-                <td>BESU Shibpur</td>
+                <td>BPUT Rourkela</td>
                 <td>B.E </td>
-                <td>2009</td>
+                <td>2013</td>
               </tr>
             </tbody>
           </Table>
@@ -94,12 +93,12 @@ const profile11 = () => {
           <span className="pc1-head">RESEARCH INTEREST</span>
           <div>
           
-        <li>Crystallographic texture and grain boundary</li>
-         
-        <li>Martensitic transformation</li>
-        <li>Creep and Fracture</li>
-        <li>Crystal Plasticity</li>
-
+          <ul>
+              <li>          Processing-structure-corrosion property correlation of metals and alloys</li>
+              <li>  Anode design for cathodic protection: sacrificial and ICCP</li>
+              <li>Protective coatings for extreme environments</li>
+              <li>Sustainable corrosion prevention</li>
+            </ul>
 
 
           </div>
@@ -107,12 +106,13 @@ const profile11 = () => {
         <div className="pc1">
           <span className="pc1-head">POSITIONS HELD</span>
           <ul>
-            <li>
-            Assistant Professor, MEMS Department, IIT Indore, November 2017 – present
+          <li>
+            Assistant Professor, Department of Metallurgical Engineering and Materials Science, IIT Indore, (Jul 2022 - Present)
             </li>
-            <li>Post Doctoral Fellow, Department of Materials Engineering, IISC Bangalore, March 2016- October 2017</li>
-           
-            
+            <li>Research Associate, Corrosion Research Laboratory, Hindustan Petroleum Green R&D Centre, Bengaluru (Mar, 2022 - Jul, 2022)</li>
+            <li>
+            Research Associate-I, Materials Science and Engineering, IIT Kanpur, (Oct, 2021 - Mar, 2022)
+            </li>
             
           </ul>
         </div>
@@ -132,39 +132,32 @@ const profile11 = () => {
                 <tr>
                   <td>1</td>
                   <td>
-                  V. Jain, P. Modak, S. Patra, A. Ghosh, Origin of Goss texture in grain oriented electrical steel: Role of shear bands,
-Materialia. 22 (2022) 101398.
+                  N.K. Prasad, H. Kancharla, B. Bhushan, S. Kundu and K. Mondal, Effect of Al and Zn addition on the active behavior of the high P pig iron-based composite anodes, J. Appl. Electrochem. 53 (2023) 141-165.
                   </td>
                 </tr>
                 <tr>
                   <td>2</td>
                   <td>
-                  P. Kumar, S. Samal, A. Ghosh, Effect of hot rolling and annealing on microstructure and mechanical properties of
-the Fe-Co-Cr-Ni-V-Zrx(x = 0-5) high entropy alloys, J. Alloys Compd. (2023) 172447.
-
-                    .
+                  N.K. Prasad, A.S. Pathak, S. Kundu and K. Mondal, Highly active and efficient hybrid sacrificial anodes based on high P pig iron, Zn and Mg, J. Electrochem. Soc. 168 (2021) 111504 - 111525.
                   </td>
                 </tr>
                 <tr>
                   <td>3</td>
                   <td>
-                    {" "}
-                    V. Jain, S. Patra, C. Halder, S.M. Hasan, A. Ghosh, Study on the formation of alligator crack and edge crack in high
-silicon grain oriented electrical steel during cold rolling, J. Appl. Phys. 132 (2022) 105101.
+                 
+                    N.K. Prasad, A.S. Pathak, S. Kundu and K. Mondal, Novel hybrid sacrificial anodes based on high phosphorus pig iron and Zn, Corros. Sci. 189 (2021) 109616 - 109634.
                   </td>
                 </tr>
                 <tr>
                   <td>4</td>
                   <td>
-                  K. Barat, A. Ghosh, A. Doharey, S. Mukherjee, A. Karmakar, Crystallographic evaluation of low cycle fatigue crack
-growth in a polycrystalline Ni based superalloy, Int. J. Plast. 149 (2022) 103174.
+                  N.K. Prasad, A.S. Pathak, S. Kundu and K. Mondal, Influence of deaeration, Cl- ion and strong oxidizer on the active behavior of the high phosphorus containing pig iron and subsequent effect on the sacrificial anode behavior, Met. Mater. Int. 28 (2022) 2083 - 2102.
                   </td>
                 </tr>
                 <tr>
                   <td>5</td>
                   <td>
-                  V. Jain, P. Kumar, S. Bagui, C. Halder, S. Patra, A. Ghosh, Comprehensive study on the through-process Goss
-texture evolution in Fe-3.78 wt.%Si grain oriented electrical steel, Mater. Chem. Phys. 309 (2023) 128428.
+                  N.K. Prasad, A.S. Pathak, C. Panchal, S. Kundu and K. Mondal, On the novel approach of sacrificial cathodic protection of mild steel in simulated concrete pore solution and concrete mortar by high phosphorus pig iron anodes, J. Mater. Res. Technol. 14 (2021) 582 – 602.
                   </td>
                 </tr>
               </tbody>
@@ -175,7 +168,12 @@ texture evolution in Fe-3.78 wt.%Si grain oriented electrical steel, Mater. Chem
         <div className="pc1">
           <span className="pc1-head">AWARDS AND ACHIEVEMENTS</span>
           <div>
-          Inspire Faculty Award, DST, 2017
+          <ul>
+            <li>2021, Outstanding PhD thesis award at IIT Kanpur</li>
+            <li>2021, Best paper presentation award in Young Student and Scientist Forum at CORCON, NACE International</li>
+            <li>2015, Gold Medal during M.Tech</li>
+            <li>2012-13, Overall best academic performance award during B.Tech</li>
+           </ul>
           </div>
         </div>
        
