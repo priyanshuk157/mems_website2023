@@ -3,7 +3,7 @@ import Navbar from "../navbar";
 import Footer from "../footer";
 import "./demo.css";
 // import { FaAngleLeft } from "react-icons/fa";
-import { FaEnvelope, FaHome, FaLinkedin, FaPhone, FaResearchgate,  FaTwitterSquare } from "react-icons/fa";
+import { FaEnvelope, FaHome, FaLinkedin, FaPhone, FaResearchgate } from "react-icons/fa";
 import Table from "react-bootstrap/Table";
 import {SiGooglescholar } from "react-icons/si";
 import kd from "./profimages/kd.jpg"
@@ -43,7 +43,7 @@ const profile11 = () => {
               <li>Email	 (<i><FaEnvelope/></i>)	: khushubo@iiti.ac.in  </li>
               <li>Contact  (<i><FaPhone/></i>)		:+91-8858588259 </li>
             <div className="fac-links">
-            <a href="" target="_blank" rel="noreferrer"> <i><FaHome/></i></a>
+            <a href="sa" target="_blank" rel="noreferrer"> <i><FaHome/></i></a>
              <a href=" https://scholar.google.com/citations?user=sCL9Zl4AAAAJ&hl=en   "target="_blank"  rel="noreferrer"> <i><SiGooglescholar/></i></a>
              <a href="https://www.researchgate.net/profile/Khushubo-Devi "target="_blank"  rel="noreferrer"><i><FaResearchgate/></i></a>
              

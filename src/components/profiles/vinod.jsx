@@ -6,7 +6,7 @@ import { FaEnvelope, FaHome,  FaPhone, FaResearchgate,  FaTwitterSquare } from "
 import Table from "react-bootstrap/Table";
 import {SiGooglescholar } from "react-icons/si";
 import prof44 from "./profimages/ghosh.jpg"
-import vi from "./profimages/vinod.jpg"
+// import vi from "./profimages/vinod.jpg"
 
 const profile11 = () => {
   return (

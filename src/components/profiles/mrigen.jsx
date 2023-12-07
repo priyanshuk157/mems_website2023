@@ -7,7 +7,7 @@ import prof11 from "./profimages/prof11.jpg"
 import { FaEnvelope, FaHome, FaLinkedin, FaPhone, FaResearchgate } from "react-icons/fa";
 import Table from "react-bootstrap/Table";
 import {SiGooglescholar } from "react-icons/si";
-import prof44 from "./profimages/ghosh.jpg"
+// import prof44 from "./profimages/ghosh.jpg"
 
 const profile11 = () => {
   return (

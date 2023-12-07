@@ -3,9 +3,9 @@ import Navbar from "../navbar";
 import Footer from "../footer";
 import "./demo.css";
 // import { FaAngleLeft } from "react-icons/fa";
-import { FaEnvelope,  FaPhone, FaResearchgate } from "react-icons/fa";
+import { FaEnvelope,  FaPhone } from "react-icons/fa";
 import Table from "react-bootstrap/Table";
-import {SiGooglescholar } from "react-icons/si";
+// import {SiGooglescholar } from "react-icons/si";
 import prof44 from "./profimages/AKKsir.jpeg"
 
 const profile11 = () => {

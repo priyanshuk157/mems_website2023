@@ -8,6 +8,31 @@
     
 
 }
+.left{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    
+    /* margin: 10px 10px; */
+    width: 50%;
+    /* left: 5%; */
+   
+
+}
+.left img{
+    position: relative;
+    display: flex;
+aspect-ratio: 4/4;
+    height: 250px;
+    margin:auto;
+    margin-top: 60px;
+    
+    
+    
+    border-radius: 20px;
+    
+}
 
 .pc2{
    
@@ -15,16 +40,16 @@
     font-size: 18px;
     position: relative;
     width: 100%;
-    padding: 40px;
-    border-radius: 10px; 
+   padding: 10px;
+    /* border-radius: 10px;  */
 
 }
 .pc2 ul {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
    color:black;
-   margin:      0px 0 ;
+   margin: auto;
    
  list-style: none;
 
@@ -35,7 +60,7 @@
 }
 .fac-links a{
     color: rgb(42, 41, 41);
-    font-size: 35px;
+    font-size: 24px;
 }
 .profileimg-name{
     position: relative;
@@ -96,9 +121,10 @@
 .pc1-head{
     
     display: flex;
+    margin: auto;
 
-    padding: 20px 0;
-    font-size: var(--head2);
+    /* padding: 20px 0; */
+    font-size: var(--content2);
     color: #C44536;
 }
 .pm-head{
