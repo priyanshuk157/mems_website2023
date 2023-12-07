@@ -25,13 +25,13 @@
   
   .swiper-slide {
     width: 28vw;
-    overflow: hidden;
+    /* overflow: hidden; */
     background-position: top;
     background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    /* color: white; */
     font-size: 20px;
     font-weight: bold;
   }

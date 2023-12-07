@@ -21,10 +21,10 @@ import uo from "./mainpageimages/uo.jpeg"
 
 import accenture from "./mainpageimages/accenture.png"
 import jio from "./mainpageimages/BjxmtD.webp"
-import walmart from "./mainpageimages/walmart.png"
+// import walmart from "./mainpageimages/walmart.png"
 import gs from "./mainpageimages/Goldman_Sachs.png"
 import razorpay from "./mainpageimages/Razorpay.jpg"
-import sample from "./mainpageimages/sample.mp4"
+// import sample from "./mainpageimages/sample.mp4"
 import { SwiperSlide } from 'swiper/react';
 
 import { Autoplay, Pagination } from 'swiper/modules';

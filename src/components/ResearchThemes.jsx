@@ -2,9 +2,9 @@ import React from "react";
 import "./researchtheme.css";
 import Navbar from "./navbar";
 import Footer from "./footer";
-import logo from "./images/mems_logo2.png";
-import photo1 from "./images/group_photo1.jpg";
-import mt1 from "./images/material-example.jpg";
+// import logo from "./images/mems_logo2.png";
+// import photo1 from "./images/group_photo1.jpg";
+// import mt1 from "./images/material-example.jpg";
 import Table from 'react-bootstrap/Table';
 
 const ResearchThemes = () => {
@@ -19,7 +19,7 @@ const ResearchThemes = () => {
         <div className="research-card-line">
           <div className="research-cards">
             <a href="researchcomponent1" target="_blank" rel="noopener noreferrer">
-              <div className="cards">
+              <div className="cards-1">
                 <div className="research-text">
                   {" "}
                   Alloy design, development, and deformation
@@ -28,14 +28,14 @@ const ResearchThemes = () => {
             </a>
             <a href="researchcomponent1" target="_blank" rel="noopener noreferrer">
               {" "}
-              <div className="cards">
+              <div className="cards-2">
                 <div className="research-text"> Strategic Materials</div>
               </div>
             </a>
 
             <a href="researchcomponent1" target="_blank" rel="noopener noreferrer">
               {" "}
-              <div className="cards">
+              <div className="cards-3">
                 <div className="research-text">
                   {" "}
                   Surface engineering & Materials degradation
@@ -45,19 +45,19 @@ const ResearchThemes = () => {
           </div>
           <div className="research-cards">
             <a href="researchcomponent1" target="_blank" rel="noopener noreferrer">
-              <div className="cards">
+              <div className="cards-4">
                 <div className="research-text"> Energy & Environment</div>
               </div>
             </a>
             <a href="researchcomponent1" target="_blank" rel="noopener noreferrer">
               {" "}
-              <div className="cards">
+              <div className="cards-5">
                 <div className="research-text"> Electronics & Photonics</div>
               </div>
             </a>
             <a href="researchcomponent1" target="_blank" rel="noopener noreferrer">
               {" "}
-              <div className="cards">
+              <div className="cards-6">
                 <div className="research-text"> Nano & Soft Materials</div>
               </div>
             </a>

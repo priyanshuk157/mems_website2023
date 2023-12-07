@@ -1,0 +1,16 @@
+.under{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.under img{
+   height: auto;
+   width: 400px;
+   border-radius: 10px;
+}
+.under-name{
+    font-size: 32px;
+    margin: 3rem;
+    font-weight: 700;
+}

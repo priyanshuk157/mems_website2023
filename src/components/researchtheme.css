@@ -45,9 +45,89 @@
  left: 50px;
   justify-content: center;
 }
-.cards{
+.cards-1{
+
+  background-image: url('./images/Alloy_and_metal_samples_-_Beryllium-Copper\,_Inconel\,_Steel\,_Titanium\,_Aluminum\,_Magnesium.jpg') ;
+  
+ 
+   background-size: 400px auto;
+
+   width: 400px;
+   height: 225px;
+   border-radius: 10px;
+   z-index: 0;
+
+
+
+
+}
+.cards-2{
 
   background-image: url('./images/material-example.jpg') ;
+  
+ 
+   background-size: 400px auto;
+
+   width: 400px;
+   height: 225px;
+   border-radius: 10px;
+   z-index: 0;
+
+
+
+
+}
+.cards-3{
+
+  background-image: url('./images/steel-rusting.jpg') ;
+  
+ 
+   background-size: 400px auto;
+
+   width: 400px;
+   height: 225px;
+   border-radius: 10px;
+   z-index: 0;
+
+
+
+
+}
+.cards-4{
+
+  background-image: url('./images/The-environmental-impacts-of-solar-and-wind-energy-960x640.jpg') ;
+  
+ 
+   background-size: 400px auto;
+
+   width: 400px;
+   height: 225px;
+   border-radius: 10px;
+   z-index: 0;
+
+
+
+
+}
+.cards-5{
+
+  background-image: url('./images/10871331-macro-of-electronic-chip-1580037479.jpg') ;
+  
+ 
+   background-size: 400px auto;
+
+   width: 400px;
+   height: 225px;
+   border-radius: 10px;
+   z-index: 0;
+
+
+
+
+}
+.cards-6{
+
+  background-image: url('./images/maxresdefault.jpg') ;
   
  
    background-size: 400px auto;
