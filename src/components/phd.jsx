@@ -679,7 +679,7 @@ const Phd = () => {
                 <div className="post"> Email	 (<i><FaEnvelope/></i>)	:phd2201205005@iiti.ac.in</div>
                 <div className="post"> Year Of Joining : 2022  </div>
                 <div className="post">Research Area		:Amorphous Ternary Alloy Films for Electrocatalytic Hydrogen Evolution.      </div>
-                <div className="post"> Faculty Advisor 		: ???</div>
+                <div className="post"> Faculty Advisor 		:Dr. Ajay Kumar Kushwaha</div>
                
               </div>
             </div>
@@ -810,7 +810,7 @@ const Phd = () => {
                 <div className="post"> Email	 (<i><FaEnvelope/></i>)	:phd2201205011@iiti.ac.in</div>
                 <div className="post"> Year Of Joining : 2022  </div>
                 <div className="post"> Research Area		:Additive Manufacturing</div>
-                <div className="post"> Faculty Advisor 		:??</div>
+                <div className="post"> Faculty Advisor 		:Dr. Jayaprakash</div>
                
               </div>
             </div>
@@ -1064,7 +1064,7 @@ const Phd = () => {
                 <div className="post"> Email	 (<i><FaEnvelope/></i>)	:phd2301105001@iiti.ac.in</div>
                 <div className="post"> Year Of Joining : 2023  </div>
                 <div className="post"> Research Area		:Corrosion </div>
-                <div className="post"> Faculty Advisor 		: ??</div>
+                <div className="post"> Faculty Advisor 		: Dr. Nisheeth</div>
                
               </div>
             </div>
@@ -1098,7 +1098,7 @@ const Phd = () => {
                 <div className="post"> Email	 (<i><FaEnvelope/></i>)	:phd2301105002@iiti.ac.in</div>
                 <div className="post"> Year Of Joining : 2023  </div>
                 <div className="post"> Research Area		:Multifunctional synthesis of soft material</div>
-                <div className="post"> Faculty Advisor 		: ???</div>
+                <div className="post"> Faculty Advisor 		: Dr. Dubey</div>
                
               </div>
             </div>
@@ -1135,7 +1135,7 @@ const Phd = () => {
                 <div className="post"> Email	 (<i><FaEnvelope/></i>)	:phd2301105003@iiti.ac.in</div>
                 <div className="post"> Year Of Joining : 2023  </div>
                 <div className="post">Research Area		:Deformation Behaviour Of Magnesium Alloys</div>
-                <div className="post"> Faculty Advisor 		: ??</div>
+                <div className="post"> Faculty Advisor 		: Dr. Basha</div>
                
               </div>
             </div>
@@ -1167,7 +1167,7 @@ const Phd = () => {
                 <div className="post"> Email	 (<i><FaEnvelope/></i>)	:phd2301105004@iiti.ac.in</div>
                 <div className="post"> Year Of Joining : 2023  </div>
                 <div className="post">Research Area		:Next generation energy storage devices</div>
-                <div className="post"> Faculty Advisor 		: ??</div>
+                <div className="post"> Faculty Advisor 		:Prof. Shirage</div>
                
               </div>
             </div>
@@ -1200,7 +1200,7 @@ const Phd = () => {
                 <div className="post"> Email	 (<i><FaEnvelope/></i>)	:phd2301105005@iiti.ac.in</div>
                 <div className="post"> Year Of Joining : 2023  </div>
                 <div className="post"> Research Area		:--</div>
-                <div className="post"> Faculty Advisor 		: ??</div>
+                <div className="post"> Faculty Advisor 		:Prof. Rupesh</div>
                
               </div>
             </div>
@@ -1234,7 +1234,7 @@ const Phd = () => {
                 <div className="post"> Email	 (<i><FaEnvelope/></i>)	:phd2301105006@iiti.ac.in</div>
                 <div className="post"> Year Of Joining : 2023  </div>
                 <div className="post">Research Area		:Research on Metal Organic Framework and its emerging applications in Energy storage and CO2 Fixation </div>
-                <div className="post"> Faculty Advisor 		: ??</div>
+                <div className="post"> Faculty Advisor 		: Dr. Sumanta</div>
                
               </div>
             </div>
@@ -1269,7 +1269,7 @@ const Phd = () => {
                 <div className="post"> Email	 (<i><FaEnvelope/></i>)	:phd2301105007@iiti.ac.in</div>
                 <div className="post"> Year Of Joining : 2023  </div>
                 <div className="post">Research Area		:Additive manufacturing </div>
-                <div className="post"> Faculty Advisor 		: ??</div>
+                <div className="post"> Faculty Advisor 		: Dr. Jayaprakash</div>
                
               </div>
             </div>
