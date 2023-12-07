@@ -232,13 +232,15 @@ margin: 2rem;
    z-index: 2;
     
 }
-.stats-content{
+.stats-content2{
    width: 400px;
 
 }
-.stats-content img{
+.stats-content2 img{
   
- width: 350px;
+  height: 219px;
+
+
 
 }
 .eventx{
