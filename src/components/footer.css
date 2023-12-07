@@ -54,7 +54,9 @@
     text-decoration: none;
     gap: 20px;
 }
-
+.created a{
+    color: aliceblue;
+}
 .created{
     
     position: absolute;
