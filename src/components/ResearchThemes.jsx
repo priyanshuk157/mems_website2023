@@ -65,7 +65,8 @@ const ResearchThemes = () => {
         </div>
       </div>
       <div className="research-head">FUNDING</div>
-      <div className="fund-table"><Table striped>
+     <div class="table">
+      <Table striped>
         
         <thead>
           <tr>
@@ -113,6 +114,8 @@ const ResearchThemes = () => {
         </tbody>
       </Table></div>
       
+        
+     
       <div className="research-head">ONGOING CONSULTING PROJECTS</div>
       <div className="consulting">   
        <div class="ss">

@@ -23,6 +23,45 @@ import Researchcomponent4 from './components/researchcomponent4'
 import Researchcomponent5 from './components/researchcomponent5'
 import Researchcomponent6 from './components/researchcomponent6'
 import Phd from './components/phd'
+
+
+
+
+
+
+
+
+import P1 from './components/profiles/basha'
+import P2 from './components/profiles/chandan'
+import P3 from './components/profiles/dkr'
+import P4 from './components/profiles/esw'
+import P5 from './components/profiles/demoaks'
+import P6 from './components/profiles/hemant'
+import P7 from './components/profiles/jaya'
+import P8 from './components/profiles/kus'
+import P9 from './components/profiles/mrigen'
+import P10 from './components/profiles/nisheet'
+import P11 from './components/profiles/para'
+import P12 from './components/profiles/ram'
+import P13 from './components/profiles/ranjith'
+import P14 from './components/profiles/rup'
+import P15 from './components/profiles/san'
+import P16 from './components/profiles/sunil'
+import P17 from './components/profiles/vamsi'
+import P18 from './components/profiles/vinod'
+
+
+
+
+
+
+
+
+
+
+
+
+
 import Profile1 from './components/profiles/profile1'
 import Profile2 from './components/profiles/profile2'
 import Profile3 from './components/profiles/profile3'
@@ -88,6 +127,48 @@ const App = () => {
         <Route path='ajkj' element={<Researchcomponent1/>}></Route>
         <Route path='profile1' element={<Profile1/>}></Route>
         <Route path='demo' element={<Demo/>}></Route>
+
+
+
+
+
+
+
+        <Route path='p1' element={<P1/>}></Route>
+
+        <Route path='p2' element={<P2/>}></Route>
+        <Route path='p3' element={<P3/>}></Route>
+        <Route path='p4' element={<P4/>}></Route>
+        <Route path='p5' element={<P5/>}></Route>
+        <Route path='p6' element={<P6/>}></Route>
+        <Route path='p7' element={<P7/>}></Route>
+        <Route path='p8' element={<P8/>}></Route>
+        <Route path='p9' element={<P9/>}></Route>
+        <Route path='p10' element={<P10/>}></Route>
+        <Route path='p11' element={<P11/>}></Route>
+        <Route path='p12' element={<P12/>}></Route>
+        <Route path='p13' element={<P13/>}></Route>
+        <Route path='p14' element={<P14/>}></Route>
+        <Route path='p15' element={<P15/>}></Route>
+        <Route path='p16' element={<P16/>}></Route>
+        <Route path='p17' element={<P17/>}></Route>
+        <Route path='p18' element={<P18/>}></Route>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <Route path='profile2' element={<Profile2/>}></Route>
         <Route path='profile3' element={<Profile3/>}></Route>
         <Route path='profile4' element={<Profile4/>}></Route>
@@ -98,15 +179,15 @@ const App = () => {
         <Route path='profile9' element={<Profile9/>}></Route>
         <Route path='profile10' element={<Profile10/>}></Route>
         <Route path='profile11' element={<Profile11/>}></Route>
- <Route path='profile12' element={<Profile12/>}></Route>
- <Route path='profile13' element={<Profile13/>}></Route>
- <Route path='profile14' element={<Profile14/>}></Route>
- <Route path='profile15' element={<Profile15/>}></Route>
- <Route path='profile16' element={<Profile16/>}></Route>
- <Route path='profile17' element={<Profile17/>}></Route>
- <Route path='profile18' element={<Profile18/>}></Route>
- <Route path='profile19' element={<Profile19/>}></Route>
- <Route path='profilekd' element={<Profilekd/>}></Route>
+        <Route path='profile12' element={<Profile12/>}></Route>
+        <Route path='profile13' element={<Profile13/>}></Route>
+        <Route path='profile14' element={<Profile14/>}></Route>
+        <Route path='profile15' element={<Profile15/>}></Route>
+        <Route path='profile16' element={<Profile16/>}></Route>
+        <Route path='profile17' element={<Profile17/>}></Route>
+        <Route path='profile18' element={<Profile18/>}></Route>
+        <Route path='profile19' element={<Profile19/>}></Route>
+        <Route path='profilekd' element={<Profilekd/>}></Route>
  <Route path='profileran' element={<Profileran/>}></Route>
  <Route path='researchcomponent1' element={<Researchcomponent1/>}></Route>
  <Route path='researchcomponent2' element={<Researchcomponent2/>}></Route>

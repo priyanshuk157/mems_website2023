@@ -36,7 +36,15 @@
 
 
 }
-.cards-1{
+
+
+.table{
+  width: 93%;
+  position: relative;
+ left: 50px;
+  justify-content: center;
+}
+.cards{
 
   background-image: url('./images/Alloy_and_metal_samples_-_Beryllium-Copper\,_Inconel\,_Steel\,_Titanium\,_Aluminum\,_Magnesium.jpg') ;
   
