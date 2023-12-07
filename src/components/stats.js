@@ -35,9 +35,9 @@ const Stats = () => {
         className="mySwiper"
       >
        <div class="imagesize">
-        <SwiperSlide><div className='stats-content'><img src={stat2} alt='' /></div></SwiperSlide>
-        <SwiperSlide><div className='stats-content'><img src={stat3} alt='' /></div></SwiperSlide>
-        <SwiperSlide><div className='stats-content'><img src={stat4} alt='' /></div></SwiperSlide>
+        <SwiperSlide><div className='stats-content2'><img src={stat2} alt='' /></div></SwiperSlide>
+        <SwiperSlide><div className='stats-content2'><img src={stat3} alt='' /></div></SwiperSlide>
+        <SwiperSlide><div className='stats-content2'><img src={stat4} alt='' /></div></SwiperSlide>
       </div>
         {/* <SwiperSlide>Slide 4</SwiperSlide>
         <SwiperSlide>Slide 5</SwiperSlide>

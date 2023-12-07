@@ -178,11 +178,12 @@
  display: flex;
  
 }
+.ss{
+  display:flex;
+  position: relative;
+  flex-direction: column;
+  gap: .51px;
 
-.fund-table{
-  display: flex;
-margin: auto;
-  width: 1300px;
 }
 
 /* .themes-main-1{

@@ -36,17 +36,17 @@ const profile11 = () => {
 
             
         <div className="pc2">
-            <span className="pc1-head">Prof. Abhijit Ghosh</span>
+            <span className="pc1-head">Prof. Ajay Kumar Kushwaha</span>
             <ul>
               <li>Designation	: Assistant Professor</li>
-              <li>Office		: Room No. 1D- 608 </li>
-              <li>Email	 (<i><FaEnvelope/></i>)	: aghosh@iiti.ac.in </li>
-              <li>Contact  (<i><FaPhone/></i>)		: +91 0731 660 3287 </li>
+              <li>Office		: Room No. 1D- 305 </li>
+              <li>Email	 (<i><FaEnvelope/></i>)	: akk@iiti.ac.in </li>
+              <li>Contact  (<i><FaPhone/></i>)		: +91 731 660 3250</li>
             <div className="fac-links">
-             
-             <a href=" https://scholar.google.com/citations?user=P9nZOBsAAAAJ&hl=en&authuser=1"target="_blank"  rel="noreferrer"> <i><SiGooglescholar/></i></a>
-             <a href="https://www.researchgate.net/profile/Abhijit-Ghosh-8"target="_blank"  rel="noreferrer"><i><FaResearchgate/></i></a>
-            
+            webpage :{" "}
+                <a href="https://iiti.ac.in/people/~ajaykk/index.html">
+                  {" "}
+                  visit page</a>
              
              
               
@@ -66,20 +66,20 @@ const profile11 = () => {
               </tr>
             </thead>
             <tbody>
-              <tr>
-                <td>IIT Kharagpur</td>
+            <tr>
+                <td>IIT, Bombay</td>
                 <td>Ph.D. </td>
-                <td>2016</td>
+                <td>2014</td>
               </tr>
               <tr>
-                <td>IIT Kharagpur</td>
-                <td>M.Tech </td>
-                <td>2011</td>
+                <td>C.S.J.M University, Kanpur</td>
+                <td>M.Sc. Physics (Electronics) </td>
+                <td>2006</td>
               </tr>
               <tr>
-                <td>BESU Shibpur</td>
-                <td>B.E </td>
-                <td>2009</td>
+                <td>C.S.J.M University, Kanpur</td>
+                <td>B.Sc. (Physics & Maths) </td>
+                <td>2003</td>
               </tr>
             </tbody>
           </Table>
@@ -94,11 +94,11 @@ const profile11 = () => {
           <span className="pc1-head">RESEARCH INTEREST</span>
           <div>
           
-        <li>Crystallographic texture and grain boundary</li>
+        <li>Design and growth of nanomaterials/thin films</li>
          
-        <li>Martensitic transformation</li>
-        <li>Creep and Fracture</li>
-        <li>Crystal Plasticity</li>
+        <li>Optical and transport properties of semiconductors</li>
+        <li>2-D materials based electronic devices</li>
+        <li>Energy efficient coatings</li>
 
 
 
@@ -107,11 +107,21 @@ const profile11 = () => {
         <div className="pc1">
           <span className="pc1-head">POSITIONS HELD</span>
           <ul>
-            <li>
-            Assistant Professor, MEMS Department, IIT Indore, November 2017 – present
+          <li>
+              Supervised 4 Ph.D students, 6 M.Tech and 11 B.tech students.
             </li>
-            <li>Post Doctoral Fellow, Department of Materials Engineering, IISC Bangalore, March 2016- October 2017</li>
-           
+            <li>Completed 2 Research Projects.</li>
+            <li>
+              Published 65 Journals, 10 conferences, 281 citations, 28 h-index,
+              44 i10-index.
+            </li>
+            <li>
+              Organised 3 workshops, 6 training programs, 2 short-term courses.{" "}
+            </li>
+            <li>
+              Given 10 Invited/Contributory talk in national / international
+              conferences.
+            </li>
             
             
           </ul>
@@ -129,19 +139,25 @@ const profile11 = () => {
                 </tr>
               </thead>
               <tbody>
-                <tr>
+              <tr>
                   <td>1</td>
                   <td>
-                  V. Jain, P. Modak, S. Patra, A. Ghosh, Origin of Goss texture in grain oriented electrical steel: Role of shear bands,
-Materialia. 22 (2022) 101398.
+                    G. K. Dalapati, S. M.-Panah, R. S. Moakhar, S. Chakrabortty,
+                    S. Ghosh, R. Katal, C. S. Chua, G. Xiao, S. Tripathy,
+                    S.Ramakrishna Ajay Kushwaha, Nanoengineered Advanced
+                    Materials for Enabling Hydrogen Economy: Functionalized
+                    Graphene�Incorporated Cupric Oxide Catalyst for Efficient
+                    Solar Hydrogen Production , Global Challenges , 2020, 4 (3),
+                    2070031 , Impact Factor: 5.13.
                   </td>
                 </tr>
                 <tr>
                   <td>2</td>
                   <td>
-                  P. Kumar, S. Samal, A. Ghosh, Effect of hot rolling and annealing on microstructure and mechanical properties of
-the Fe-Co-Cr-Ni-V-Zrx(x = 0-5) high entropy alloys, J. Alloys Compd. (2023) 172447.
-
+                    N. Mukurala, R.K. Mishra, S.H. Jin, and Ajay Kushwaha,
+                    Sulphur precursor dependent crystallinity and optical
+                    properties of solution grown Cu2FeSnS4 particles , Materials
+                    Research Express , 6 (8), 085099 (2019), Impact Factor: 1.44
                     .
                   </td>
                 </tr>
@@ -149,22 +165,10 @@ the Fe-Co-Cr-Ni-V-Zrx(x = 0-5) high entropy alloys, J. Alloys Compd. (2023) 1724
                   <td>3</td>
                   <td>
                     {" "}
-                    V. Jain, S. Patra, C. Halder, S.M. Hasan, A. Ghosh, Study on the formation of alligator crack and edge crack in high
-silicon grain oriented electrical steel during cold rolling, J. Appl. Phys. 132 (2022) 105101.
-                  </td>
-                </tr>
-                <tr>
-                  <td>4</td>
-                  <td>
-                  K. Barat, A. Ghosh, A. Doharey, S. Mukherjee, A. Karmakar, Crystallographic evaluation of low cycle fatigue crack
-growth in a polycrystalline Ni based superalloy, Int. J. Plast. 149 (2022) 103174.
-                  </td>
-                </tr>
-                <tr>
-                  <td>5</td>
-                  <td>
-                  V. Jain, P. Kumar, S. Bagui, C. Halder, S. Patra, A. Ghosh, Comprehensive study on the through-process Goss
-texture evolution in Fe-3.78 wt.%Si grain oriented electrical steel, Mater. Chem. Phys. 309 (2023) 128428.
+                    N. Mukurala, S. Suman and Ajay Kushwaha, Effect of solvents
+                    on structural, morphological and optical properties of
+                    solvothermally grown Cu2FeSnS4 particles , AIP Conference
+                    Proceedings , 2115 (1), 030603 (2019).
                   </td>
                 </tr>
               </tbody>
@@ -175,7 +179,8 @@ texture evolution in Fe-3.78 wt.%Si grain oriented electrical steel, Mater. Chem
         <div className="pc1">
           <span className="pc1-head">AWARDS AND ACHIEVEMENTS</span>
           <div>
-          Inspire Faculty Award, DST, 2017
+          General Chair: International Conference on Frontiers of Materials
+            Engineering
           </div>
         </div>
        

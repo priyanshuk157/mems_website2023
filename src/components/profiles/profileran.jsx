@@ -56,7 +56,7 @@ const Profile18 = () => {
             <ul>
               <li>          Thin Films 
 </li>
-              <li> Energy harvesting materials</li>
+              <li>Thin Films </li>
               <li> Nanomaterials
 .</li>
               <li>Protective Coatings</li>
