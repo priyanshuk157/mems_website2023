@@ -8,6 +8,7 @@ import { FaEnvelope, FaHome, FaLinkedin, FaPhone, FaResearchgate,   } from "reac
 import Table from "react-bootstrap/Table";
 import {SiGooglescholar } from "react-icons/si";
 import prof44 from "./profimages/ghosh.jpg"
+import prof4 from "./profimages/prof4.png"
 
 const profile11 = () => {
   return (
@@ -28,7 +29,7 @@ const profile11 = () => {
       <div class="main">
             <div class="left">
                 <div>
-                <img src={prof44} alt="" />
+                <img src={prof4} alt="" />
                
                 
             
@@ -58,34 +59,16 @@ const profile11 = () => {
             </div>
               
             </ul>
-            <span className="pc1-head">ACADEMIC BACKGROUND</span></div>
+            <div class="aca"><span className="pc1-head">ACADEMIC BACKGROUND</span></div></div>
+            <div class="acalist">
+            <ul>
+            <li> Ph.D, Max-Planck-Institute for Metals Research, Stuttgart and University of Stuttgart, Germany, 2006</li>
+            <br /><li>M.Tech., Department of Metallurgical Engineering and Materials Science, IIT Bombay, 2003</li>
+            <br /><li> B.E., Department of Metallurgical Engineering, REC (currently NIT), Nagpur, and Nagpur University, 2001</li>
+            
+          </ul></div>
 
-          <Table>
-            <thead>
-              <tr>
-                <th>INSTITUTE</th>
-                <th>COURSE</th>
-                <th>YEAR OF PASSING</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Max-Planck-Institute for Metals Research, Stuttgart and University of Stuttgart</td>
-                <td>Ph.D. </td>
-                <td>2006</td>
-              </tr>
-              <tr>
-                <td>IIT Bombay</td>
-                <td>M.Tech </td>
-                <td>2003</td>
-              </tr>
-              <tr>
-                <td>NIT, Nagpur</td>
-                <td>B.E </td>
-                <td>2001</td>
-              </tr>
-            </tbody>
-          </Table>
+          
             
             </div>
 

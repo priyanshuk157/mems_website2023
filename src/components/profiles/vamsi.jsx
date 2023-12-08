@@ -58,34 +58,16 @@ const profile11 = () => {
             </div>
               
             </ul>
-            <span className="pc1-head">ACADEMIC BACKGROUND</span></div>
+            <div class="aca"><span className="pc1-head">ACADEMIC BACKGROUND</span></div></div>
 
-          <Table>
-            <thead>
-              <tr>
-                <th>INSTITUTE</th>
-                <th>COURSE</th>
-                <th>YEAR OF PASSING</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Indian Institute of Science</td>
-                <td>Ph.D. </td>
-                <td>2018</td>
-              </tr>
-              <tr>
-                <td>Indian Institute of Science</td>
-                <td>M.E </td>
-                <td>2009</td>
-              </tr>
-              <tr>
-                <td>Andhra University College of Engineering</td>
-                <td>B.E </td>
-                <td>2006</td>
-              </tr>
-            </tbody>
-          </Table>
+            <div class="acalist">
+            <ul>
+            <li>Ph.D., Materials Engineering, Indian Institute of Science, 2018</li>
+            <br /><li>M.E., Materials Engineering, Indian Institute of Science, 2009.
+</li>
+            <br /><li>B.E., Metallurgical Engineering, Andhra University College of Engineering, 2006.</li>
+            
+          </ul></div>
             
             </div>
 

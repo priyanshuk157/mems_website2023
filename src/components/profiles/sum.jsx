@@ -57,34 +57,19 @@ const profile11 = () => {
             </div>
               
             </ul>
-            <span className="pc1-head">ACADEMIC BACKGROUND</span></div>
+            <div class="aca"><span className="pc1-head">ACADEMIC BACKGROUND</span></div></div>
+            <div class="acalist">
+            <ul>
+            <li>Ph.D, Dept. of Materials Science and Engineering, Indian Institute of Technology Kanpur, India, 2014</li>
+            <br /><li>M.Tech., Dept. of Metallurgical and Materials Engineering, National Institute of Technology (NIT) Rourkela, India, 2009
 
-          <Table>
-            <thead>
-              <tr>
-                <th>INSTITUTE</th>
-                <th>COURSE</th>
-                <th>YEAR OF PASSING</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>IIT Kanpur</td>
-                <td>Ph.D. </td>
-                <td>2014</td>
-              </tr>
-              <tr>
-                <td>Utkal University, Bhubaneswar, Odisha</td>
-                <td>M.Sc. </td>
-                <td>2007</td>
-              </tr>
-              <tr>
-                <td>M.P.C. (Autonomous) College, Baripada, Odisha</td>
-                <td>B.Sc. </td>
-                <td>2005</td>
-              </tr>
-            </tbody>
-          </Table>
+</li>
+<br /><li>M.Sc., Physics (Specialization in solid state physics), Utkal University, Bhubaneswar, Odisha, India, 2007</li>
+           <br /> <li>B.Sc. [with Physics (Hons)], M.P.C. (Autonomous) College, Baripada, Odisha, India, 2005</li>
+            
+          </ul></div>
+
+         
             
             </div>
 

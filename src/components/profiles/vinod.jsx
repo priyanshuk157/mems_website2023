@@ -27,7 +27,7 @@ const profile11 = () => {
       <div class="main">
             <div class="left">
                 <div>
-                <img src={prof44} alt="" />
+                <img src={vi} alt="" />
                
                 
             
@@ -54,34 +54,18 @@ const profile11 = () => {
             </div>
               
             </ul>
-            <span className="pc1-head">ACADEMIC BACKGROUND</span></div>
+            <div class="aca"><span className="pc1-head">ACADEMIC BACKGROUND</span></div></div>
+            <div class="acalist">
+<ul>
+<li>Ph.D, IIT Kanpur 2012</li>
+<br />
+            <li> M.Tech Physics, IIT Kanpur 2007</li>
+            <br />
+            <li>B. Tech NIAMT (Formerly NIFFT), Ranchi, 2004</li>
+            
+</ul></div>
 
-          <Table>
-            <thead>
-              <tr>
-                <th>INSTITUTE</th>
-                <th>COURSE</th>
-                <th>YEAR OF PASSING</th>
-              </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td> IIT Kanpur</td>
-                <td>Ph.D. </td>
-                <td>2012</td>
-              </tr>
-              <tr>
-                <td> IIT Kanpur</td>
-                <td>M.Tech  </td>
-                <td>2007</td>
-              </tr>
-              <tr>
-                <td>NIAMT Ranchi</td>
-                <td>B.Tech</td>
-                <td>2004</td>
-              </tr>
-            </tbody>
-          </Table>
+          
             
             </div>
 

@@ -54,35 +54,15 @@ const profile11 = () => {
             </div>
               
             </ul>
-            <span className="pc1-head">ACADEMIC BACKGROUND</span></div>
-
-          <Table>
-            <thead>
-              <tr>
-                <th>INSTITUTE</th>
-                <th>COURSE</th>
-                <th>YEAR OF PASSING</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Indian Institute of Science, Bangalore</td>
-                <td>Ph.D. </td>
-                <td>2014</td>
-              </tr>
-              <tr>
-                <td>Sri Venkateswara University, Tirupati</td>
-                <td>M.Sc </td>
-                <td>2007</td>
-              </tr>
-              <tr>
-                <td>Sri Krishna Devaraya University</td>
-                <td>B.Sc </td>
-                <td>2005</td>
-              </tr>
-            </tbody>
-          </Table>
+            <div class="aca"><span className="pc1-head">ACADEMIC BACKGROUND</span></div></div>
+            <div class="acalist">
+            <ul>
+            <li>Ph.D, Department of Materials Engineering, Indian Institute of Science, Bangalore, 2014</li>
+            <br /><li>Master’s degree, Department of Physics, Sri Venkateswara University, Tirupati, 2007</li>
+            <br /><li>Bachelor’s degree, (Mathematics, Physics and Electronics), Sri Krishna Devaraya University, 2005</li>
             
+          </ul></div>
+
             </div>
 
             

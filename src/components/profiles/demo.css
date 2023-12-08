@@ -16,11 +16,15 @@
    
 
 }
+.acalist{
+    margin: 10px;
+    font-size: 18px;
+}
 .left img{
     position: relative;
     display: flex;
 aspect-ratio: 4/4;
-    height: 250px;
+    height: 300px;
     margin:auto;
     margin-top: 60px;
     
@@ -30,7 +34,12 @@ aspect-ratio: 4/4;
     
 }
 
-
+.right{
+    position: relative;
+    display: flex;
+    left: 50px;
+    width: 98%;
+}
 .pc2{
     position: relative;
     display: flex;
@@ -40,9 +49,14 @@ aspect-ratio: 4/4;
 }
 .pc1-head{
     margin: auto;
+    
     position: relative;
-    font-size: 25px;
+    font-size: 30px;
    
+}
+.aca{
+    position: relative;
+    top: 40px;
 }
 
 .pc1{
@@ -56,6 +70,10 @@ aspect-ratio: 4/4;
     
 }
 
+.pc1-head2{
+    position: relative;
+    top: 20px;
+}
 
 .main{
     position: relative;

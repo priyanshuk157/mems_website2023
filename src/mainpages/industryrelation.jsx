@@ -15,8 +15,8 @@ import "swiper/css/navigation";
 // import stat3 from "./mainpageimages/stat3.png"
 // import stat4 from "./mainpageimages/stat4.png"
 import ii from "./mainpageimages/iiii.png"
-import ug from "./mainpageimages/UUG.png"
-import pg from "./mainpageimages/ppg.png"
+import ug from "./mainpageimages/niceug.png"
+import pg from "./mainpageimages/nicepg.png"
 import uo from "./mainpageimages/uo.jpeg"
 
 import accenture from "./mainpageimages/accenture.png"
@@ -178,7 +178,7 @@ const industryrelation = () => {
                           <img class="galogo" src={gs}  width="100" alt="" />
                           <img class="rplogo" src={razorpay}  width="250" alt="" />
                           <img class="jiologo" src={jio} width="100" alt="" />
-
+     
 
 
 

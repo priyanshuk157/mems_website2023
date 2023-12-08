@@ -6,7 +6,7 @@
     margin-top: 60px;
     background-color: #005A9C;
     height: fit-content;
-    font-size: var(--content1);
+    font-size: 20px;
 }
 .footer-main{
   padding: 60px;
@@ -19,7 +19,7 @@
     color: white;
 }
 .footer-head{
-    font-size: var(--content2);
+    font-size: 25px;
     font-weight: bold;
 }
 .foot-img{

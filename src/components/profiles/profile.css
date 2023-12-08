@@ -60,7 +60,7 @@ aspect-ratio: 4/4;
 }
 .fac-links a{
     color: rgb(42, 41, 41);
-    font-size: 24px;
+    font-size: 18px;
 }
 .profileimg-name{
     position: relative;
@@ -102,7 +102,7 @@ aspect-ratio: 4/4;
 }
 .pc3{
     padding:   40px;
-    font-size: var(--content2);
+    font-size: 18px;
     position: relative; 
     width: 100%;
     border-radius: 10px; 
@@ -123,8 +123,8 @@ aspect-ratio: 4/4;
     display: flex;
     margin: auto;
 
-    /* padding: 20px 0; */
-    font-size: var(--content2);
+    padding: 20px 0;
+    font-size: 30px;
     color: #C44536;
 }
 .pm-head{
@@ -218,7 +218,7 @@ aspect-ratio: 4/4;
       }
       .pc2{
         
-    font-size: var(--content1);
+    font-size: 18px;
     position: relative;
     width: 100%;
     padding: 0px;

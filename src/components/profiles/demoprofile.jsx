@@ -55,21 +55,16 @@ const profile11 = () => {
             </div>
               
             </ul>
-           </div>
-           <div className="pc1">
-          <span className="pc1-head">ACADEMIC BACKGROUND</span>
-          
-         
+            <div class="aca"><span className="pc1-head">ACADEMIC BACKGROUND</span></div></div>
+            <div class="acalist">
+            <ul>
+            <li>Ph.D, IIT Kharagpur 2016</li>
+            <br /><li>M.Tech, IIT Kharagpur 2011</li>
+            <br /><li>B.E, BESU Shibpur 2009</li>
+            
+          </ul></div>
 
-          <ul>
-            <li> Ph.D, IIT Kharagpur, 2016</li>
-            <li>M.Tech , IIT Kharagpur, 2011</li>
-            <li>B.E , BESU Shibpur, 2009</li>
-          
-            
-          </ul>
-        </div>
-            
+     
             </div>
 
             

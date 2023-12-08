@@ -74,21 +74,21 @@ const Faculty = () => {
             </div></a>
         </div>
         <div class="imageprof">
-            <a href="profile11">
+            <a href="demo">
             <img src={dk} alt="" />
             <div class="name">
             Dhirendra Kumar Rai
             </div></a>
         </div>
         <div class="imageprof">
-        <a href="profile11">
+        <a href="p6">
             <img src={nissi} alt="" />
             <div class="name">
             Nisheeth Kumar Prasad
             </div></a>
         </div>
         <div class="imageprof">
-        <a href="profile11">
+        <a href="p7">
             <img src={prof18} alt="" />
             <div class="name">
             Venkata Vamsi Koruprolu
