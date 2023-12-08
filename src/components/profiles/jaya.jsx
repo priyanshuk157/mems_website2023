@@ -6,7 +6,7 @@ import "./demo.css";
 import { FaEnvelope,  FaPhone, FaResearchgate } from "react-icons/fa";
 import Table from "react-bootstrap/Table";
 import {SiGooglescholar } from "react-icons/si";
-import prof44 from "./profimages/ghosh.jpg"
+import prof44 from "./profimages/muru.jpg"
 
 const profile11 = () => {
   return (
@@ -55,35 +55,18 @@ const profile11 = () => {
             </div>
               
             </ul>
-            <span className="pc1-head">ACADEMIC BACKGROUND</span></div>
-
-          <Table>
-            <thead>
-              <tr>
-                <th>INSTITUTE</th>
-                <th>COURSE</th>
-                <th>YEAR OF PASSING</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>IIT Kharagpur</td>
-                <td>Ph.D. </td>
-                <td>2016</td>
-              </tr>
-              <tr>
-                <td>IIT Kharagpur</td>
-                <td>M.Tech </td>
-                <td>2011</td>
-              </tr>
-              <tr>
-                <td>BESU Shibpur</td>
-                <td>B.E </td>
-                <td>2009</td>
-              </tr>
-            </tbody>
-          </Table>
+            <div class="aca"><span className="pc1-head">ACADEMIC BACKGROUND</span></div></div>
+            <div class="acalist">
+<ul>
+<li>Ph.D, Materials Research Centre, Indian Institute of Science (IISc) Bangalore, 2012</li>
+<br />
+            <li> MSc Physics, Department of Physics and Astrophysics, University of Delhi, 2004</li>
+            <br />
+            <li>BSc Physical Sciences, Maharshi Dayanand University Rohtak , 2002</li>
             
+</ul></div>
+
+       
             </div>
 
             

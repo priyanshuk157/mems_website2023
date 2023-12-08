@@ -56,34 +56,18 @@ const profile11 = () => {
             </div>
               
             </ul>
-            <span className="pc1-head">ACADEMIC BACKGROUND</span></div>
+            <div class="aca"><span className="pc1-head">ACADEMIC BACKGROUND</span></div></div>
+            <div class="acalist">
+<ul>
+<li>Ph.D, IIT Kharagpur 2016</li>
+<br />
+            <li> M.Tech IIT Kharagpur, 20011</li>
+            <br />
+            <li>B.Tech NIT Durgapur, 2009</li>
+            
+</ul></div>
 
-          <Table>
-            <thead>
-              <tr>
-                <th>INSTITUTE</th>
-                <th>COURSE</th>
-                <th>YEAR OF PASSING</th>
-              </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>IIT Kharagpur, 2016</td>
-                <td>Ph.D. Department of Metallurgical and Materials Engineering</td>
-                <td>2016</td>
-              </tr>
-              <tr>
-                <td>IIT Kharagpur</td>
-                <td>M.Tech, Department of Metallurgical and Materials Engineering</td>
-                <td>2011</td>
-              </tr>
-              <tr>
-                <td>NIT Durgapur</td>
-                <td>B.Tech, Department of Metallurgical and Materials Engineering</td>
-                <td>2009</td>
-              </tr>
-            </tbody>
-          </Table>
+         
             
             </div>
 

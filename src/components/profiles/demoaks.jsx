@@ -45,7 +45,7 @@ const profile11 = () => {
             <div className="fac-links">
             webpage :{" "}
                 <a href="https://iiti.ac.in/people/~ajaykk/index.html">
-                  {" "}
+                 
                   visit page</a>
              
              
@@ -59,7 +59,10 @@ const profile11 = () => {
             <div class="acalist">
             <ul>
             <li> Ph.D, IIT Bombay, 2014</li>
+            <br />
             <li>M.Sc. (Physics), CSJM University Kanpur, 2006</li>
+            <br />
+            <li>B.Sc C.S.J.M University, Kanpur 2003</li>
           
             
           </ul></div>

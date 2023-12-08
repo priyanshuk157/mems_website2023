@@ -56,8 +56,14 @@ const profile11 = () => {
             </div>
               
             </ul>
-            <span className="pc1-head">ACADEMIC BACKGROUND</span></div>
-
+            <div class="aca"><span className="pc1-head">ACADEMIC BACKGROUND</span></div></div>
+            <div class="acalist">
+            <ul>
+            <li>Ph.D, Department of Physics, Shivaji University Kolhapur, 2004</li>
+            <br /><li>Master’s degree, Department of Physics, Shivaji University Kolhapur,  1999</li>
+            <br /><li>Bachelor’s degree, Department of Physics, Shivaji University Kolhapur, 1997.</li>
+            
+          </ul></div>
          
             
             </div>
