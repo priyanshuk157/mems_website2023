@@ -5,8 +5,8 @@ import "./demo.css";
 import { FaEnvelope, FaHome,  FaPhone, FaResearchgate,  FaTwitterSquare } from "react-icons/fa";
 import Table from "react-bootstrap/Table";
 import {SiGooglescholar } from "react-icons/si";
-import prof44 from "./profimages/ghosh.jpg"
-// import vi from "./profimages/vinod.jpg"
+// import prof44 from "./profimages/ghosh.jpg"
+import vi from "./profimages/vinod.jpg"
 
 const profile11 = () => {
   return (
