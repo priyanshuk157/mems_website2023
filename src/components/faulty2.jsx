@@ -54,7 +54,7 @@ const faculty = () => {
             </div></a>
         </div>
         <div class="imageprof">
-            <a href="profile11">
+            <a href="demo">
             <img src={dk} alt="" />
             <div class="name">
             Dhirendra Kumar Rai

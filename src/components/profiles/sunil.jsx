@@ -54,35 +54,16 @@ const profile11 = () => {
             </div>
               
             </ul>
-            <span className="pc1-head">ACADEMIC BACKGROUND</span></div>
-
-          <Table>
-            <thead>
-              <tr>
-                <th>INSTITUTE</th>
-                <th>COURSE</th>
-                <th>YEAR OF PASSING</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>IISc Bangalore</td>
-                <td>Ph.D. </td>
-                <td>2012</td>
-              </tr>
-              <tr>
-                <td>University of Delhi</td>
-                <td>MSc Physics </td>
-                <td>2004</td>
-              </tr>
-              <tr>
-                <td>Maharshi Dayanand University Rohtak</td>
-                <td>BSc </td>
-                <td>2002</td>
-              </tr>
-            </tbody>
-          </Table>
+            <div class="aca"><span className="pc1-head">ACADEMIC BACKGROUND</span></div></div>
+            <div class="acalist">
+<ul>
+<li>Ph.D, Materials Research Centre, Indian Institute of Science (IISc) Bangalore, 2012</li>
+<br />
+            <li> MSc Physics, Department of Physics and Astrophysics, University of Delhi, 2004</li>
+            <br />
+            <li>BSc Physical Sciences, Maharshi Dayanand University Rohtak , 2002</li>
             
+</ul></div>
             </div>
 
             

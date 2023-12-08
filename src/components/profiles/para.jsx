@@ -58,32 +58,7 @@ const profile11 = () => {
             </ul>
             <span className="pc1-head">ACADEMIC BACKGROUND</span></div>
 
-          <Table>
-            <thead>
-              <tr>
-                <th>INSTITUTE</th>
-                <th>COURSE</th>
-                <th>YEAR OF PASSING</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Shivaji University Kolhapur</td>
-                <td>Ph.D. </td>
-                <td>2004</td>
-              </tr>
-              <tr>
-                <td>Shivaji University Kolhapur</td>
-                <td>M.Tech </td>
-                <td>1999</td>
-              </tr>
-              <tr>
-                <td>Shivaji University Kolhapur</td>
-                <td>B.E </td>
-                <td>1997</td>
-              </tr>
-            </tbody>
-          </Table>
+         
             
             </div>
 

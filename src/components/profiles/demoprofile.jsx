@@ -56,7 +56,7 @@ const profile11 = () => {
               
             </ul>
             <span className="pc1-head">ACADEMIC BACKGROUND</span></div>
-
+<div class="table">
           <Table>
             <thead>
               <tr>
@@ -83,7 +83,7 @@ const profile11 = () => {
               </tr>
             </tbody>
           </Table>
-            
+          </div>
             </div>
 
             
