@@ -37,6 +37,7 @@ const Events = () => {
             <tbody>
             <tr>
                 <td>24/11/2023</td>
+                <td></td>
               
                 <td>Materials Advantage Student Chapter of MEMS
 Department IIT Indore organized an International
@@ -52,13 +53,13 @@ through this symposium.<a href="https://www.freepressjournal.in/indore/iit-indor
               </tr>
               <tr>
                 <td>15/10/2023</td>
-              
+                <td></td>
                 <td>MEMS Department, IIT Indore organized an In-
 House Symposium on Engineers' Day. </td>
               </tr>
               <tr>
                 <td>13/11/2023</td>
-         
+                <td></td>
                 <td>MEMS Department, IIT Indore organized an event in
 which Mr. Vishal Kumar Rana, Scientific Officer at
 Bureau of Indian Standards (BIS) delivered a lecture
