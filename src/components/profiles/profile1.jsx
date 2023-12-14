@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../navbar";
 import Footer from "../footer";
-import "./profile.css";
+// import "./profile.css";
 import prof20 from "./profimages/prof20.jpeg"
 import { FaEnvelope, FaHome, FaLinkedin, FaPhone, FaResearchgate,  FaTwitterSquare } from "react-icons/fa";
 import {SiGooglescholar } from "react-icons/si";

@@ -59,7 +59,7 @@ grid-gap: 20px;
 
 
 .magnify {
-    position: relative;
+    position: relative  ;
     top: 0;
     left: 0;
     opacity: 0;
@@ -86,7 +86,7 @@ grid-gap: 20px;
 
 .photo{
    
-    position: absolute;
+    position: relative;
     top:0;
     left: 0;
     width: 100%;

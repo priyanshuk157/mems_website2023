@@ -63,12 +63,16 @@ const Navbar = () => {
     <>
       <nav className="navbar1">
         {/* <div className= {navScroll? "navbar" : "scroll-active"}> */}
-        <div class="nav-student-button">
+       
+        <div div className="nav-logos">
+       
+         
+          <div className="shape1"> 
+          <div class="nav-student-button">
   <a href="faculty3">
     <button class="navbar-button">Student Corner</button></a></div>
-        <div div className="nav-logos">
-         
-          <div className="shape1">   <div className="navbar-logos1"> <div > <a href="https://www.linkedin.com/in/metallurgical-engineering-and-materials-science-iit-indore-15a541274/ " target="_blank" rel="noopener noreferrer"><i>< FaLinkedin/></i> </a></div>
+          
+            <div className="navbar-logos1"> <div > <a href="https://www.linkedin.com/in/metallurgical-engineering-and-materials-science-iit-indore-15a541274/ " target="_blank" rel="noopener noreferrer"><i>< FaLinkedin/></i> </a></div>
             <div><a href="https://twitter.com/outreach_mems" target="_blank" rel="noopener noreferrer"><i>< FaTwitterSquare/></i> </a></div>
             <div><a href="https://www.instagram.com/outreach_mems/" target="_blank" rel="noopener noreferrer"><i><FaInstagram/></i> </a></div>
             <div><a href="https://www.researchgate.net/profile/Metallurgical-Engineering-And-Materials-Science-Iit-Indore" target="_blank" rel="noopener noreferrer"><i>< FaResearchgate/></i> </a></div>
@@ -108,12 +112,12 @@ const Navbar = () => {
               </li>
               <li>
                 {" "}
-                <div onMouseEnter={() => toggleTab(1)}>People </div>{" "}
-                <div className={dropdownStateCheck}>
-                  <div>
+                <div className="res-people" onClick={() => toggleTab(1)}>People </div>{" "}
+                <div  className={dropdownStateCheck}>
+                  {/* <div>
                     {" "}
                     <a href="faculty"> Faculty Members</a>{" "}
-                  </div>
+                  </div> */}
                   <div>
                     {" "}
                     <a href="faculty2"> Faculty Members2</a>{" "}
@@ -128,7 +132,7 @@ const Navbar = () => {
                     <Dropdown className="drpdwn-main" as={ButtonGroup}>
       <Button  variant="Primary"><div className="drpdwn-btn">Staff</div></Button>
 
-      <Dropdown.Toggle split variant="Primary" id="dropdown-split-basic" />
+      <Dropdown.Toggle  split variant="Primary" id="dropdown-split-basic" />
 
       <Dropdown.Menu  className="drpdwn-menu" >
         
@@ -211,7 +215,7 @@ const Navbar = () => {
             </ul>
           </div>
 
-          <div className="nav-ham" onMouseEnter={showNavbar}>
+          <div className="nav-ham" onClick={showNavbar}>
             <FaBars />
           </div>
         </div>

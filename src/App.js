@@ -62,25 +62,25 @@ import P18 from './components/profiles/vinod'
 
 
 
-import Profile1 from './components/profiles/profile1'
-import Profile2 from './components/profiles/profile2'
-import Profile3 from './components/profiles/profile3'
-import Profile4 from './components/profiles/profile4'
-import Profile5 from './components/profiles/profile5'
-import Profile6 from './components/profiles/profile6'
-import Profile7 from './components/profiles/profile7'
-import Profile8 from './components/profiles/profile8'
-import Profile9 from './components/profiles/profile9'
-import Profile10 from './components/profiles/profile10'
-import Profile11 from './components/profiles/profile11'
-import Profile12 from './components/profiles/profile12'
-import Profile13 from './components/profiles/profile13'
-import Profile14 from './components/profiles/profile14'
-import Profile15 from './components/profiles/profile15'
-import Profile16 from './components/profiles/profile16'
-import Profile17 from './components/profiles/profile17'
-import Profile18 from './components/profiles/profile18'
-import Profile19 from './components/profiles/profile19'
+// import Profile1 from './components/profiles/profile1'
+// import Profile2 from './components/profiles/profile2'
+// import Profile3 from './components/profiles/profile3'
+// import Profile4 from './components/profiles/profile4'
+// import Profile5 from './components/profiles/profile5'
+// import Profile6 from './components/profiles/profile6'
+// import Profile7 from './components/profiles/profile7'
+// import Profile8 from './components/profiles/profile8'
+// import Profile9 from './components/profiles/profile9'
+// import Profile10 from './components/profiles/profile10'
+// import Profile11 from './components/profiles/profile11'
+// import Profile12 from './components/profiles/profile12'
+// import Profile13 from './components/profiles/profile13'
+// import Profile14 from './components/profiles/profile14'
+// import Profile15 from './components/profiles/profile15'
+// import Profile16 from './components/profiles/profile16'
+// import Profile17 from './components/profiles/profile17'
+// import Profile18 from './components/profiles/profile18'
+// import Profile19 from './components/profiles/profile19'
 import Profilekd from './components/profiles/profilekd'
 import Demo from './components/profiles/demoprofile'
 import Profileran from './components/profiles/profileran'
@@ -125,7 +125,7 @@ const App = () => {
         <Route path='Postdoc' element={<PostDoc/>}></Route>
         <Route path='collab' element={<International/>}></Route>
         <Route path='ajkj' element={<Researchcomponent1/>}></Route>
-        <Route path='profile1' element={<Profile1/>}></Route>
+        {/* <Route path='profile1' element={<Profile1/>}></Route> */}
         <Route path='demo' element={<Demo/>}></Route>
 
 
@@ -169,24 +169,7 @@ const App = () => {
 
 
 
-        <Route path='profile2' element={<Profile2/>}></Route>
-        <Route path='profile3' element={<Profile3/>}></Route>
-        <Route path='profile4' element={<Profile4/>}></Route>
-        <Route path='profile5' element={<Profile5/>}></Route>
-        <Route path='profile6' element={<Profile6/>}></Route>
-        <Route path='profile7' element={<Profile7/>}></Route>
-        <Route path='profile8' element={<Profile8/>}></Route>
-        <Route path='profile9' element={<Profile9/>}></Route>
-        <Route path='profile10' element={<Profile10/>}></Route>
-        <Route path='profile11' element={<Profile11/>}></Route>
-        <Route path='profile12' element={<Profile12/>}></Route>
-        <Route path='profile13' element={<Profile13/>}></Route>
-        <Route path='profile14' element={<Profile14/>}></Route>
-        <Route path='profile15' element={<Profile15/>}></Route>
-        <Route path='profile16' element={<Profile16/>}></Route>
-        <Route path='profile17' element={<Profile17/>}></Route>
-        <Route path='profile18' element={<Profile18/>}></Route>
-        <Route path='profile19' element={<Profile19/>}></Route>
+        {/* <Route path='profile19' element={<Profile19/>}></Route> */}
         <Route path='profilekd' element={<Profilekd/>}></Route>
  <Route path='profileran' element={<Profileran/>}></Route>
  <Route path='researchcomponent1' element={<Researchcomponent1/>}></Route>

@@ -46,7 +46,7 @@ const ResearchThemes = () => {
           <div className="research-cards">
             <a href="researchcomponent6" target="_blank" rel="noopener noreferrer">
               <div className="cards-4">
-                <div className="research-text"> Energy & Environment</div>
+                <div className="research-text"> Energy, Environment & Sustainability</div>
               </div>
             </a>
             <a href="researchcomponent4" target="_blank" rel="noopener noreferrer">
@@ -240,7 +240,7 @@ const ResearchThemes = () => {
           </a>
           <a href="researchcomponent6">
             <div className="themes-blocks">
-              <div className="theme-heads">Energy & Environment</div>
+              <div className="theme-heads">Energy, Environment & Sustainability</div>
             </div>
           </a>
         </div>

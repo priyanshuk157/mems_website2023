@@ -30,7 +30,7 @@ const Researchcomponent1 = () => {
 
           <div className='heads-1' onClick={() => toggleTab(1)}><i className={toggleState === 1 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Alloy design, development, and deformation</div>
           <div className='heads-1' onClick={() => toggleTab(4)}><i className={toggleState === 4 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Electronics & Photonics</div>
-          <div className='heads-1' onClick={() => toggleTab(6)}><i className={toggleState === 6 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Energy & Environment</div>
+          <div className='heads-1' onClick={() => toggleTab(6)}><i className={toggleState === 6 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Energy, Environment & Sustainability</div>
           <div className='heads-1' onClick={() => toggleTab(5)}><i className={toggleState === 5 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Nano & Soft materials</div>
           <div className='heads-1' onClick={() => toggleTab(3)}><i className={toggleState === 3 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Strategic Materials</div>
           <div className='heads-1' onClick={() => toggleTab(2)}><i className={toggleState === 2 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Surface engineering & Materials degradation</div>
@@ -185,14 +185,14 @@ Thermodynamics & Phase transformation
           <div className="faculty-involved"><h3>Faculties</h3> </div>
           <ul>
             <li><a href="profile9">Prof. S. Samal</a> </li>
-            <li><a href="profile7">Prof. V. Kumar</a> </li>
-            <li><a href="profile6">Prof. E. P. Korimilli</a> </li>
-            <li><a href="profile11">Prof. A. Ghosh</a> </li>
-            <li><a href="profile12">Prof. H. Borkar</a> </li>
-            <li><a href="profile15">Prof. D. Basha</a> </li>
-            <li><a href="profile14">Prof. R.S Maurya</a> </li>
-            <li><a href="profile18">Prof. K.V. Vamsi</a> </li>
-            <li><a href="profile16">Prof. C. Haldar</a> </li>
+            <li><a href="p18">Prof. V. Kumar</a> </li>
+            <li><a href="p4">Prof. E. P. Korimilli</a> </li>
+            <li><a href="demo">Prof. A. Ghosh</a> </li>
+            <li><a href="p6">Prof. H. Borkar</a> </li>
+            <li><a href="p1">Prof. D. Basha</a> </li>
+            <li><a href="p12">Prof. R.S Maurya</a> </li>
+            <li><a href="p17">Prof. K.V. Vamsi</a> </li>
+            <li><a href="p2">Prof. C. Haldar</a> </li>
            
             
            
@@ -203,12 +203,12 @@ Thermodynamics & Phase transformation
         </div>
         <div  className={toggleState === 2 ? "prof-names" : " no-profnames"}  >
           <div className="faculty-involved"><h3>Faculties</h3> </div>
-          <ul>  <li><a href="profile4">Prof. S. Hosmani</a> </li>
-            <li><a href="profile8">Prof. J. Murugesan</a> </li>
-            <li><a href="profile17">Prof. N. K. Prasad</a> </li>
-            <li><a href="profile5">Prof. M. Dubey</a> </li>
-            <li><a href="profile7">Prof. V. Kumar</a> </li>
-            <li><a href="profile15"> Prof. D. Basha</a> </li>
+          <ul>  <li><a href="p15">Prof. S. Hosmani</a> </li>
+            <li><a href="p7">Prof. J. Murugesan</a> </li>
+            <li><a href="p10">Prof. N. K. Prasad</a> </li>
+            <li><a href="p9">Prof. M. Dubey</a> </li>
+            <li><a href="p18">Prof. V. Kumar</a> </li>
+            <li><a href="p1"> Prof. D. Basha</a> </li>
            
 
           </ul>
@@ -218,9 +218,11 @@ Thermodynamics & Phase transformation
           <div className="faculty-involved"><h3>Faculties</h3> </div>
           <ul>
             <li><a href="profile9"> Prof. S Samal</a> </li>
-            <li><a href="profile1">Prof. Ajay K Kushwaha</a> </li>
-            <li><a href="profile11">Prof
-            . Abhijit Ghosh</a> </li>
+            <li><a href="p5">Prof. Ajay K Kushwaha</a> </li>
+            <li><a href="demo">Prof. Abhijit Ghosh</a> </li>
+            <li><a href="p17">Prof. K.V. Vamsi</a> </li>
+
+
 
 
           </ul>
@@ -229,9 +231,9 @@ Thermodynamics & Phase transformation
         <div  className={toggleState === 4? "prof-names" : " no-profnames"}  >
           <div className="faculty-involved"><h3>Faculties</h3> </div>
           <ul>
-            <li><a href="profile1">Prof. Ajay K. Kushwaha</a> </li>
-            <li><a href="profile2">Prof. Parasharam M. Shirage</a> </li>
-            <li><a href="profile3">Prof. Rupesh Devan</a> </li>
+            <li><a href="p5">Prof. Ajay K. Kushwaha</a> </li>
+            <li><a href="p11">Prof. Parasharam M. Shirage</a> </li>
+            <li><a href="p14">Prof. Rupesh Devan</a> </li>
        
       
 
@@ -242,13 +244,13 @@ Thermodynamics & Phase transformation
         <div  className={toggleState === 5? "prof-names" : " no-profnames"}  >
           <div className="faculty-involved"><h3>Faculties</h3> </div>
           <ul>
-            <li><a href="profile2">Prof. Parasharam M. Shirage</a> </li>
-            <li><a href="profile1">Prof. Ajay K. Kushwaha</a> </li>
-            <li><a href="profile3">Prof. Rupesh Devan</a> </li>
-            <li><a href="profile10">Prof. Dhirendra K. Rai</a> </li>
+            <li><a href="p11">Prof. Parasharam M. Shirage</a> </li>
+            <li><a href="p5">Prof. Ajay K. Kushwaha</a> </li>
+            <li><a href="p14">Prof. Rupesh Devan</a> </li>
+            <li><a href="p3">Prof. Dhirendra K. Rai</a> </li>
             <li><a href="profile9">Prof. S. Samal</a> </li>
-            <li><a href="profile7">Prof. Vinod Kumar</a> </li>
-            <li><a href="profile5"> Prof. M. Dubey</a> </li>
+            <li><a href="p18">Prof. Vinod Kumar</a> </li>
+            <li><a href="p9"> Prof. M. Dubey</a> </li>
         
 
           </ul>
@@ -257,11 +259,11 @@ Thermodynamics & Phase transformation
         <div  className={toggleState === 6? "prof-names" : " no-profnames"}  >
           <div className="faculty-involved"><h3>Faculties</h3> </div>
           <ul>
-            <li><a href="profile2">Prof. P. M. Shirage</a> </li>
-            <li><a href="profile13">Prof. Sunil Kumar</a> </li>
-            <li><a href="profile3">Prof. Rupesh Devan</a> </li>
-            <li><a href="profile1">Prof. Ajay K. Kushwaha</a> </li>
-            <li><a href="profile10">Prof. Dhirendra K. Rai   </a> </li>
+            <li><a href="p11">Prof. P. M. Shirage</a> </li>
+            <li><a href="p16">Prof. Sunil Kumar</a> </li>
+            <li><a href="p14">Prof. Rupesh Devan</a> </li>
+            <li><a href="p5">Prof. Ajay K. Kushwaha</a> </li>
+            <li><a href="p3">Prof. Dhirendra K. Rai   </a> </li>
         
 
 

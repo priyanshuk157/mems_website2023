@@ -16,6 +16,9 @@ function Gallery() {
   const [name,setName] = useState()
   const [display,setDisplay] = useState(false)
 
+ 
+
+
   return ( 
    <div className='gallery'>
       <div>

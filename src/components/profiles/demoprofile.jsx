@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../navbar";
 import Footer from "../footer";
-import "./demo.css";
+import "./demo.css"
 // import { FaAngleLeft } from "react-icons/fa";
 import { FaEnvelope,  FaPhone, FaResearchgate } from "react-icons/fa";
 import Table from "react-bootstrap/Table";

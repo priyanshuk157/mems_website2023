@@ -3,7 +3,7 @@ import Navbar from '../components/navbar'
 import Footer from '../components/footer'
 import Accordion from 'react-bootstrap/Accordion';
 import './industry.css'
-
+import Table from 'react-bootstrap/Table';
 // import { FaEnvelope } from "react-icons/fa";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -230,7 +230,88 @@ const industryrelation = () => {
                <Accordion.Item eventKey="0">
         <Accordion.Header><span className='res-header'>Consultancy</span></Accordion.Header>
         <Accordion.Body><div class="ss">
-        <span>&#8226;</span> Under Construction
+        <Table striped bordered hover>
+      <thead>
+        <tr>
+          <th>Sr.No</th>
+          <th>Title</th>
+          <th>Principal Investigator</th>
+          <th>Funding Agency</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>	Determination of residual stress, α martensite content of SS316 wires and intercrystalline corrosion bend test</td>
+          <td>Dr. Nisheeth Kumar Prasad</td>
+          <td>RAYCHEM RPG PRIVATE LIMITED
+</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Investigation on the corrosion performance of the existing CRS and feasibility for the enhancement of its corrosion resistance
+</td>
+          <td>Dr. Nisheeth Kumar Prasad
+</td>
+          <td>JAIDEEP ISPAT & ALLOYS PVT. LTD.
+</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Process improvement for improved product quality
+
+</td>
+          <td>Dr. Hemant Borkar
+
+</td>
+          <td>Technofast Industries Ltd
+
+</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>To perform testing and analysis for the residual stress, α-martensite content; inter-crystalline corrosion bend test on 12mm SS316 wires
+
+</td>
+          <td>Prof. Vinod Kumar
+
+</td>
+          <td>RAYCHEM RPG PRIVATE LIMITED
+
+</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Metallurgy, micro-structure study and material selection for leaf-spring durability enhancement
+
+
+</td>
+          <td>Jayaprakash Murugesan, Vinod Kumar, Hemant Borkar, Dhirendra K Rai
+
+
+</td>
+          <td>Volvo Eicher Commecrial Vehicles
+
+
+</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>Determination of retained austenite present in the 5 OT wire samples
+
+
+</td>
+          <td>Prof. Vinod Kumar
+
+</td>
+          <td>Pengee Usha Martin Wires Pvt. Ltd. Sales
+
+
+</td>
+        </tr>
+        
+      </tbody>
+    </Table>
         </div>
         </Accordion.Body>
       </Accordion.Item>

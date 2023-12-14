@@ -2,7 +2,7 @@
 import React from "react";
 import Navbar from "../navbar";
 import Footer from "../footer";
-import "./profile.css";
+// import "./profile.css";
 import { FaEnvelope, FaHome, FaLinkedin, FaPhone, FaResearchgate,   } from "react-icons/fa";
 import {SiGooglescholar } from "react-icons/si";
 import shirage from "./profimages/shirage.jpg"
