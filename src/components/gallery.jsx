@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+
 import photo1 from './images/group_photo1.jpg'
 import photo2 from './images/group_photo2.jpg'
 import photo3 from './images/group_photo3.jpg'
@@ -6,9 +7,10 @@ import photo4 from './images/group_photo4.jpg'
 import photo5 from './images/group_photo5.jpg'
 import photo6 from './images/convocation.jpg'
 import ss1 from './images/ss1.jpg'
-
 import ss3 from './images/ss3.jpg'
+
 import {FaSearch} from "react-icons/fa"
+
 import  "./gallery.css"
 
 
