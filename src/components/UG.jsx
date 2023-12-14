@@ -1274,12 +1274,121 @@ const UG = () => {
       </thead>
       <tbody>
         <tr>
-          <td>Under Construction</td>
-          <td>-</td>
-          <td>-</td>
-        
+          <td>1</td>
+          <td>Abhishek Dhangar</td>
+          <td>190005001</td>
         </tr> 
-        
+        <tr>
+          <td>2</td>
+          <td>Anandita Prasad</td>
+          <td>190005002</td>
+        </tr> 
+        <tr>
+          <td>3</td>
+          <td>Ananya Sahu</td>
+          <td>190005003</td>
+        </tr> 
+        <tr>
+          <td>4</td>
+          <td>Ankit Pandey</td>
+          <td>190005004</td>
+        </tr> 
+        <tr>
+          <td>5</td>
+          <td>Arambh Choukse</td>
+          <td>190005005</td>
+        </tr> 
+        <tr>
+          <td>6</td>
+          <td>Arpit Vyas</td>
+          <td>190005006</td>
+        </tr> 
+        <tr>
+          <td>7</td>
+          <td>Ayush Nath</td>
+          <td>190005009</td>
+        </tr> 
+        <tr>
+          <td>8</td>
+          <td>Chhavi Rathore</td>
+          <td>190005010</td>
+        </tr> 
+        <tr>
+          <td>9</td>
+          <td>Danduprolu Lavanya</td>
+          <td>190005011</td>
+        </tr> 
+        <tr>
+          <td>10</td>
+          <td>Godi Saketh Karthikeya</td>
+          <td>190005013</td>
+        </tr> 
+        <tr>
+          <td>11</td>
+          <td>Harsh Vardhan Agrawal</td>
+          <td>190005016</td>
+        </tr> 
+        <tr>
+          <td>12</td>
+          <td>Hemant Kumar</td>
+          <td>190005017</td>
+        </tr> 
+        <tr>
+          <td>13</td>
+          <td>Indira Vashisth Medepalli</td>
+          <td>190005018</td>
+        </tr> 
+        <tr>
+          <td>14</td>
+          <td>Ishan Bharti</td>
+          <td>190005019</td>
+        </tr> 
+        <tr>
+          <td>15</td>
+          <td>Mahanya Kochhar</td>
+          <td>190005021</td>
+        </tr> 
+        <tr>
+          <td>16</td>
+          <td>Manav Tejas Trivedi</td>
+          <td>190005022</td>
+        </tr> 
+        <tr>
+          <td>17</td>
+          <td>Manish Sahoo</td>
+          <td>190005023</td>
+        </tr> 
+        <tr>
+          <td>18</td>
+          <td>Mudit Vyas</td>
+          <td>190005024</td>
+        </tr> 
+        <tr>
+          <td>19</td>
+          <td>Narayan Kabra</td>
+          <td>190005025</td>
+        </tr> 
+        <tr>
+          <td>20</td>
+          <td>Nikhil Gupta</td>
+          <td>190005026</td>
+        </tr> 
+        <tr>
+          <td>21</td>
+          <td>Niraj Kumar</td>
+          <td>190005027</td>
+        </tr> 
+        <tr>
+          <td>22</td>
+          <td>Piyush Nimbhore</td>
+          <td>190005028</td>
+        </tr> 
+        <tr>
+          <td>23</td>
+          <td>Ponna Revanth</td>
+          <td>190005029</td>
+        </tr>  
+
       </tbody>
     </Table>
     </div>
@@ -1481,12 +1590,18 @@ const UG = () => {
         </tr>
         <tr>
           <td>31</td>
+          <td>Vivek Kumar</td>
+          <td>180005035</td>
+        
+        </tr>
+        <tr>
+          <td>32</td>
           <td>Yash Sashikant Kothekar</td>
           <td>180005036</td>
         
         </tr>
         <tr>
-          <td>32</td>
+          <td>33</td>
           <td>Yugant Janardhan Nagpure</td>
           <td>180005037</td>
         
