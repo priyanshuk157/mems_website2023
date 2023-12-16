@@ -14,6 +14,7 @@ import Faculty from './components/faculty'
 import Faculty2 from './components/faulty2'
 import Faculty3 from './components/faulty3'
 import Faculty4 from './components/painting'
+import Otherfacilities from './components/otherfacilities'
 import PostDoc from './components/PostDoc'
 import Researchcomponent1 from './components/researchcomponent1'
 import Researchcomponent2 from './components/researchcomponent2'
@@ -120,6 +121,7 @@ const App = () => {
         <Route path='faculty2' element={<Faculty2/>}></Route>
         <Route path='faculty3' element={<Faculty3/>}></Route>
         <Route path='faculty4' element={<Faculty4/>}></Route>
+        <Route path='other' element={<Otherfacilities/>}></Route>
         <Route path='Postdoc' element={<PostDoc/>}></Route>
         <Route path='staff' element={<DepartmentalStaff/>}></Route>
         <Route path='Postdoc' element={<PostDoc/>}></Route>

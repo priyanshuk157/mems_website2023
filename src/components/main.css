@@ -12,8 +12,31 @@
     padding: 10px;
     gap: 50px;
     align-content: center;
-    left: 80px;
+
    
   
 }
+.info img{
+aspect-ratio: 1.2/1;
+}
 
+.info{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+   width: 500px;
+
+}
+.journeyhead{
+    position: relative;
+    text-align: center;
+    margin: 15px;
+    color: var(--red);
+    font-weight: bold;
+    font-size: 24px;
+}
+.direction{
+    position: relative;
+    font-size: 18px;
+    margin-top: 15px;
+}
