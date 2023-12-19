@@ -82,6 +82,9 @@
     font-size: var(--head1);
     margin: 2rem 0;
 }
+.research-info{
+    padding: 10px;
+}
 .prof-names{
     border-radius: 10px;
     background-color:var(--yellow);
