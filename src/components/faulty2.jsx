@@ -41,11 +41,11 @@ const Faculty = () => {
   return (
     <>
       <div>
-        <Navbar />
+        <Navbar/>
       </div>
       <span class="Faculty"><h1>FACULTY</h1></span>
      
-      <div class="photo">
+      <div class="faculty-imgs">
 
         {
         data.map((elem)=>{

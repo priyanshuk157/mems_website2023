@@ -185,6 +185,60 @@
   gap: .51px;
 
 }
+.research-section{
+  display: flex;
+  width: 1300px;
+  gap: 4rem;
+  margin: auto;
+}
+.research-secleft{
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 50%;
+}
+.research-secright{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 2rem;
+width: 50%;
+}
+.fund-plot{
+  position: relative;
+  width: 100%;
+}
+.fund-plot img{
+  position: relative;
+  width: 100%;
+}
+.consult-button{
+  background-color: rgb(43, 82, 210);
+  padding: 4px;
+  border-radius: 5px;
+  transition: all .3s;
+  
+}
+.consult-button:hover{
+  cursor: pointer;
+  padding: 8px;
+  background-color: rgb(43, 82, 210);
+  border-radius: 5px;
+  transition: all .3s;
+  box-shadow: 0px 0px 5px black;
+}
+.consult-button a{
+  text-decoration: none;
+  color: white;
+}
+.consultancy-logos{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+.consultancy-logos img{
+  height: 50px;
+}
 
 /* .themes-main-1{
     display: flex;

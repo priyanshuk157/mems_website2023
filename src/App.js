@@ -92,6 +92,10 @@ import Ug from './components/UG'
 import Pg from './components/PG'
 // import events from './components/Events';
 import Events from './components/Events';
+import Industry2 from './components/Industry2';
+import Navbar2 from './components/navbar2';
+import Consultancy from './components/consultancy';
+import Career from './components/Career';
 
 // import homepageslider from './components/homepageslider';
 
@@ -127,6 +131,10 @@ const App = () => {
         <Route path='ajkj' element={<Researchcomponent1/>}></Route>
         {/* <Route path='profile1' element={<Profile1/>}></Route> */}
         <Route path='demo' element={<Demo/>}></Route>
+        <Route path='ind2' element={<Industry2/>}></Route>
+        <Route path='nav2' element={<Navbar2/>}></Route>
+        <Route path='cons' element={<Consultancy/>}></Route>
+        <Route path='career' element={<Career/>}></Route>
 
 
 
