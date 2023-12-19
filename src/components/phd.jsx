@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from './navbar'
+import Navbar from './navbar2'
 import Footer from '../components/footer'
 import "./phd.css"
 // import prof2 from "./profiles/profimages/prof2.jpg";

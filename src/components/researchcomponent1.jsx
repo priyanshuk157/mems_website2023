@@ -1,6 +1,6 @@
 import React from 'react'
 import './research.css'
-import Navbar from './navbar'
+import Navbar from './navbar2'
 import Footer from "../components/footer";
 import { FaCaretRight } from "react-icons/fa";
 import { useState } from 'react';

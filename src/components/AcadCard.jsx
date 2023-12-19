@@ -1,6 +1,6 @@
 // import React, { useState } from 'react'
 import Footer from '../components/footer'
-import Navbar from '../components/navbar'
+import Navbar from '../components/navbar2'
 import './academic.css'
 import Accordion from 'react-bootstrap/Accordion';
 import grpphto from "./images/group_photo20232.jpg"

@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from './navbar'
+import Navbar from './navbar2'
 import Footer from './footer'
 import "./staff.css"
 import mcbairwa from "./staffimages/MaheshChandBairwa.jpg"

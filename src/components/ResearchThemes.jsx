@@ -1,6 +1,6 @@
 import React from "react";
 import "./researchtheme.css";
-import Navbar from "./navbar";
+import Navbar from "./navbar2";
 import Footer from "./footer";
 // import logo from "./images/mems_logo2.png";
 // import photo1 from "./images/XHo7a.png";

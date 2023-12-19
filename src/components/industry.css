@@ -77,6 +77,14 @@
     font-size: 28px;
 }
 .industrycard-content{
+    display: flex;
+    
     font-size: var(--content1);
+    
+}
+.industrycard-content img{
+   width: 40%;
+   margin: 0 2rem 2rem 2rem ;
+   border-radius: 10px;
     
 }

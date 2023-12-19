@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Navbar from '../components/navbar';
+import Navbar from '../components/navbar2';
 import Footer from '../components/footer';
 import Peoplecard from '../components/peoplecard'
 
