@@ -5,9 +5,10 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-import stat2 from "./images/UUG.png"
-import stat3 from "./images/ppg.png"
-import stat4 from "./images/iiii.png"
+import stat2 from "./images/niceug.png"
+import stat3 from "./images/nicepg.png"
+import stat4 from "./images/iii.png"
+
 
 
 import "./news2.css";
