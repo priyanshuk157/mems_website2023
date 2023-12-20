@@ -210,7 +210,7 @@ const Navbar2 = () => {
         <li> <a href='resources '> resources </a> </li> */}
               <li>
                 {" "}
-                <a href="ind2 "> Industry relation </a>{" "}
+                <a href="ind2 "> Industry Connect </a>{" "}
               </li>
               <li>
                 {" "}

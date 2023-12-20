@@ -160,7 +160,7 @@ display: none;
 
 }
 .dropinactive {
-  
+  display: none;
   visibility: hidden;
   flex-direction: column;
   /* justify-content: center;  */
@@ -176,7 +176,7 @@ display: none;
   height: fit-content;
   width: 13rem;
   transition: all 0.3s;
-
+z-index: 0;
   opacity: 0;
   /* justify-content: space-evenly;    */
 }
