@@ -102,6 +102,12 @@ const Facultydata = [
         link : "P16",
     },
     {
+        id : 17,
+        image : "./images/profimages/prof13.jpg",
+        name : "  Sunil Kumar",
+        link : "P16",
+    },
+    {
         id : 18,
         image : "./images/profimages/prof18.jpg",
         name : " Venkata Vamsi Koruprolu",

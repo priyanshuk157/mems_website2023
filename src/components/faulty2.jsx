@@ -30,6 +30,8 @@ import Footer from "./footer";
 // import samal from "./profiles/profimages/samal.jpg";
 
 import Facultydata from "./facultydata";
+import VisitingFacultydata from "./visitingfac";
+
 
 
 
@@ -38,6 +40,7 @@ import "./faculty2.css"
 
 const Faculty = () => {
   const [data] = useState(Facultydata);
+  const [newdata] = useState(VisitingFacultydata);
   return (
     <>
       <div>
@@ -49,7 +52,7 @@ const Faculty = () => {
 
         {
         data.map((elem)=>{
-          const {  name , image , link} = elem;
+          const {name , image , link} = elem;
           return(
             <>
              <div class="imageprof">
@@ -66,35 +69,33 @@ const Faculty = () => {
         
         )}
 
-        {/* <div class="imageprof">
-        <a href="demo">
-            <img src={gh} alt="" />
-            <div class="name">
-            Abhijit Ghosh
+        
+       
+      </div>
+      <span class="Faculty"><h1>VISITING FACULTY</h1></span>
+     
+      <div class="faculty-imgs">
+
+        {
+        newdata.map((e)=>{
+          const {  name , image , link} = e;
+          return(
+            <>
+             <div class="imageprof">
+        <a href={link}>
+            <img src={image} alt="" />
+            <div class="name">{name}
+            
             </div></a>
         </div>
-        <div class="imageprof">
-            <a href="demo">
-            <img src={dk} alt="" />
-            <div class="name">
-            Dhirendra Kumar Rai
-            </div></a>
-        </div>
-        <div class="imageprof">
-        <a href="p6">
-            <img src={nissi} alt="" />
-            <div class="name">
-            Nisheeth Kumar Prasad
-            </div></a>
-        </div>
-        <div class="imageprof">
-        <a href="p7">
-            <img src={prof18} alt="" />
-            <div class="name">
-            Venkata Vamsi Koruprolu
-            </div></a>
-           
-        </div> */}
+        
+            </>
+          )
+        }
+        
+        )}
+
+        
        
       </div>
      
