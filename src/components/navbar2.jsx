@@ -113,8 +113,8 @@ const Navbar2 = () => {
               </li>
               <li>
                 {" "}
-                <div className="res-people" onClick={() => toggleTab(1)}>People </div>{" "}
-                <div  className={dropdownStateCheck}>
+                <div className="res-people"  onPointerEnter={()=>toggleTab(1)}   >People </div>{" "}
+                <div  className={dropdownStateCheck} >
                   {/* <div>
                     {" "}
                     <a href="faculty"> Faculty Members</a>{" "}

@@ -145,25 +145,34 @@ const Industry2 = () => {
           </div>
         </div>
       </div>
-      <Accordion defaultActiveKey="-1">
-              
-                
-      <Accordion.Item eventKey="2">
-        <Accordion.Header><span className='res-header'>Internships</span></Accordion.Header>
-        <Accordion.Body><div class="ss">
-         Under Construction</div>
-        </Accordion.Body>
-      </Accordion.Item>
-      <Accordion.Item eventKey="3">
-        <Accordion.Header><span className='res-header'>Training</span></Accordion.Header>
-        <Accordion.Body><div class="ss">
-         We offer training programs for Industry person to acquire operational knowledge and skill on certain instruments <br /> We conduct focused workshops to cater to the needs of partnering   Industries in the domain of Metallurgical Engineering and Materials Science.
-        </div>
-        </Accordion.Body>
-      </Accordion.Item>
-</Accordion>
+     
      
       </div>
+      <div className="industry-cards">
+    <div className="industrycards-head">Publications</div>
+    <div className='industrycard-content'>
+    <img src={publ} alt="" />
+          
+        </div>
+        <Accordion defaultActiveKey="-1">
+              
+                
+              <Accordion.Item eventKey="2">
+                <Accordion.Header><span className='res-header'>Internships</span></Accordion.Header>
+                <Accordion.Body><div class="ss">
+                 Under Construction</div>
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="3">
+                <Accordion.Header><span className='res-header'>Training</span></Accordion.Header>
+                <Accordion.Body><div class="ss">
+                 We offer training programs for Industry person to acquire operational knowledge and skill on certain instruments <br /> We conduct focused workshops to cater to the needs of partnering   Industries in the domain of Metallurgical Engineering and Materials Science.
+                </div>
+                </Accordion.Body>
+              </Accordion.Item>
+        </Accordion>
+    </div>
+   
       </div>
     </div>
     <div>
