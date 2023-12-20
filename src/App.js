@@ -49,6 +49,8 @@ import P15 from './components/profiles/san'
 import P16 from './components/profiles/sunil'
 import P17 from './components/profiles/vamsi'
 import P18 from './components/profiles/vinod'
+import Bhallal from './components/profiles/bhallal'
+import Drpaul from './components/profiles/drpaul'
 
 
 
@@ -158,6 +160,8 @@ const App = () => {
 
 
 
+        <Route path='bhallal' element={<Bhallal/>}></Route>
+        <Route path='drpaul' element={<Drpaul/>}></Route>
 
 
 
