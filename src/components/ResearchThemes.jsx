@@ -61,7 +61,7 @@ const ResearchThemes = () => {
                 <div className="research-text"> Electronics & Photonics</div>
               </div>
             </a>
-            <a href="researchcomponent4" target="_blank" rel="noopener noreferrer">
+            <a href="researchcomponent5" target="_blank" rel="noopener noreferrer">
               {" "}
               <div className="cards-6">
                 <div className="research-text"> Nano & Soft Materials</div>
