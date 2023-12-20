@@ -15,7 +15,7 @@ const AccordianMain = () => {
          <Facilities/>
          <br/>
          <br/>
-       
+         <a href="other">Other Facilities </a>
 
 
         </Accordion.Body>
@@ -193,9 +193,22 @@ committee</span></Accordion.Header>
         <Accordion.Header > <span className='res-header'>How to reach IIT Indore</span> </Accordion.Header>
         <Accordion.Body>
           <div class="image">
+            <div class="info">
+              <span class="journeyhead">BY TRAIN</span>
 <img src="https://cse.iiti.ac.in/images/image001.png" alt="" />
-       <img src="https://cse.iiti.ac.in/images/image003.png" alt="" />
-       <img src="https://cse.iiti.ac.in/images/image005.png" alt="" />
+<div class="direction">
+Indore Railway Station is approximately 24KM from IIT Indore campus.  Taxi (approximate INR 800) or Auto-ricksha (INR 400-500) and other public transport are available the from railway station to IIT Indore campus.  For public transport, shared taxi/Auto/bus can be taken from the railway station to Bhawarkuan Square (approximately 6-7km). Then take the BUS M-19 from Bhawarkuan Square (Khandwa Road) to IIT Indore GATE-1.</div></div>
+<div class="info">
+<span class="journeyhead">BY AIR</span>
+  <img src="https://cse.iiti.ac.in/images/image003.png" alt="" />
+  <div class="direction">
+  Devi Ahilyabai Holkar International Airport has good air connectivity to major cities of India and also from UAE. The airport is approximately 32KM from IIT Indore campus. The pre-paid and post-paid taxi are available at airport for IIT Indore, the charges are approximate INR 900-1100.</div></div>
+
+<div class="info">
+<span class="journeyhead">BY BUS</span>
+  <img src="https://cse.iiti.ac.in/images/image005.png" alt="" />
+  <div class="direction">
+  Indore is well connected with bus services from various parts of MP and other nearby states. There are several bus stops in Indore for interstate buses hence plan your stop such a way, that one can easily reach to Bhawarkuan Square (Khandwa Road), then take M-19 bus to IIT Indore campus.</div> </div>
 
 
           </div>
@@ -220,7 +233,7 @@ committee</span></Accordion.Header>
       <Accordion.Item eventKey="1">
         <Accordion.Header><span className='res-header'>Accomodation facilities in IITI</span></Accordion.Header>
         <Accordion.Body>IIT Indore is a residential Institute that mandates students of all teaching programs to stay in the Hostels. This is a home away from home where students develop lifelong relationships, camaraderie, and wonderful experiences that give them a different kind of grooming. Many of our alumni inform us that it is in these hostels where they learned life skills that are taking them a long way. At the moment, IIT Indore has six hostels, out of which one is reserved for female residents and other for married students. All hostels are located close to each other, lie amidst the flora and fauna of the campus and have adjacent playgrounds which are always buzzing with physical activity. These are also close to the Academic Pods, which houses all research and undergraduate labs, the backbone of this Institute.
-        <div className="res-acc-body"> <a href="https://hostel.iiti.ac.in/"> click here to View the hostel facilities</a></div> 
+        <div className="res-acc-body"> <a href="https://hostel.iiti.ac.in/"> click here to view the accommodation facilities</a></div> 
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="5">

@@ -120,7 +120,7 @@
     overflow: hidden;
     
     width: 400px;
-    filter: brightness(0.4);
+    filter: brightness(0.6);
    
     
    
@@ -132,7 +132,7 @@
     height: 300px;
     width: 400px;
     right: 0px;
-    filter: brightness(.4);
+    filter: brightness(.6);
     z-index: 1;
 }
 .grid-item1{
