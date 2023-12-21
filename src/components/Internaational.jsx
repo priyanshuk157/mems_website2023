@@ -1,15 +1,12 @@
 import React from 'react'
-import Navbar from './navbar2'
-import Footer from '../components/footer'
+
 import IISc from './images/IISc_Master_Seal_Black.jpg'
 
 
 const Internaational = () => {
   return (
     <>
-    <div>
-      <Navbar/>
-    </div>
+  
     <div>
          <div className='ntnl-head'>NATIONAL COLLABORATION</div>
             <div className='national'>
@@ -63,9 +60,7 @@ const Internaational = () => {
             </div>
       
     </div>
-    <div>
-      <Footer/>
-    </div>
+   
     </>
   )
 }

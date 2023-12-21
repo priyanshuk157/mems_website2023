@@ -30,7 +30,7 @@ function CarouselFadeExample() {
           disableOnInteraction: false,
         }}
         speed={5000}
-        freeModeMomentum= {false}
+        freemodemomentum= "false"
         pagination={{
           clickable: false,
         }}

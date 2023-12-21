@@ -21,33 +21,29 @@
     font-size: var(--head1);
     font-weight: 600;
 }
+
+
 .heads-1{
     position: relative;
     /* background: rgba(58, 62, 138, 0.5); */
-  
-    left:   0px;
-    cursor: pointer;
-    text-decoration: none;
-    color: rgb(200, 1, 1);
+  background: var(--red);
+  border-radius: 4px;
+  padding: 5px;
     
-
-}
-.heads-1:hover{
-    color: #003f67;
-}
-.heads-1 a{
-    position: relative;
-    /* background: rgba(58, 62, 138, 0.5); */
-  
-    left:   0px;
     cursor: pointer;
     text-decoration: none;
-    color: rgb(200, 1, 1);
+    color: rgb(255, 255, 255);
      
 }
-.heads-1 a:hover{
-    color: #003f67;
+.noheads-1{
+    color: var(--red);
+
 }
+.noheads-1:hover{
+    cursor: pointer;
+    color: var(--red);
+}
+
 .indicator1{
     display: none;
     background: rgba(229, 230, 251, 0.8);
@@ -79,6 +75,7 @@
 
 }
 .research-content-head{
+    color: var(--red);
     font-size: var(--head1);
     margin: 2rem 0;
 }
@@ -106,6 +103,7 @@
         display: none;
         flex-direction: column;
         padding: 30px;
+        width: 20%;
     
     
        
@@ -131,7 +129,7 @@
 
 
 .active-content1{
-    width: 40vw;
+    width: 40%;
     text-align: justify;
     justify-content: space-evenly;
     font-size: var(--content1);

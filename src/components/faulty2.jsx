@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import Navbar from "./navbar2";
-import Footer from "./footer";
+
 // import prof1 from "./profiles/profimages/prof1.jpg";
 // import prof4 from "./profiles/profimages/prof4.png";
 // import prof6 from "./profiles/profimages/prof6.jpg";
@@ -43,9 +42,7 @@ const Faculty = () => {
   const [newdata] = useState(VisitingFacultydata);
   return (
     <>
-      <div>
-        <Navbar/>
-      </div>
+      
       <span class="Faculty"><h1>FACULTY</h1></span>
      
       <div class="faculty-imgs">
@@ -99,11 +96,7 @@ const Faculty = () => {
        
       </div>
      
-      
-
-      <div>
-        <Footer />
-      </div>
+ 
     </>
   );
 };

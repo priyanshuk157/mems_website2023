@@ -308,7 +308,7 @@ background-color:white !important;
   /* text-shadow: 0px 2px  5px black;  */
 }
 .iiti-logo img {
-  height: 8rem;
+  height: 7.4rem;
   width:auto;
 }
 .iiti {
@@ -334,7 +334,7 @@ background-color:white !important;
   justify-content: space-evenly;
   align-items: center;
   text-decoration: none;
-  color: #005a9c;
+  
 }
 .menu-link-ul li {
   list-style: none;
@@ -354,19 +354,14 @@ background-color:white !important;
 .menu-link-ul li {
   transition-property: all;
   transition-duration: 0.3s;
-  color: #005a9c;
+  
 }
 .typo {
   font-size: 45px;
   font-weight: 700;
 }
 
-.menu-link-ul li a {
-  color: #005a9c;
 
-  text-decoration: none;
-  /* font-size: larger; */
-}
 .res-people:hover{
   color: #005a9c;
   
@@ -394,15 +389,7 @@ background-color:white !important;
 
 
 }
-.menu-link-ul li a:hover{
-  color: #005a9c;
-  
-  font-weight: 600;
-  transition: all .4s;
 
-  text-decoration: none;
-  /* font-size: larger; */
-}
 
 .nav-ham {
   visibility: hidden;

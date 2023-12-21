@@ -1,7 +1,6 @@
 import React from 'react'
 import './industry.css'
-import Navbar from './navbar2'
-import Footer from "../components/footer";
+
 // import { FaCaretRight } from "react-icons/fa";
 import { useState } from 'react';
 import ve from "../components/images/volvo.png"
@@ -31,9 +30,7 @@ const Industry2 = () => {
 
   return (
     <>
-    <div>
-      <Navbar />
-    </div>
+    
     <div className='industry-butt'>
     <div className={toggleState === 1 ? " displaybutton201" : " nodispbutton201"} onClick={() => toggleTab(1)}>Our Students</div>
     <div className={toggleState === 2 ? " displaybutton202" : "  nodispbutton202"} onClick={() => toggleTab(2)}>Work With Us</div>
@@ -89,13 +86,13 @@ const Industry2 = () => {
         <div className='ind-section'>
                 <div className="sub-ind-sec9">
                 Our Students got placed in companies like  
-                    <div class="slide-track">
+                    <div className="slide-track">
                       
 
-                          <img class="aclogo"src={accenture} width="250" alt="" />
-                          <img class="galogo" src={gs}  width="100" alt="" />
-                          <img class="rplogo" src={razorpay}  width="250" alt="" />
-                          <img class="jiologo" src={jio} width="100" alt="" />
+                          <img className="aclogo"src={accenture} width="250" alt="" />
+                          <img className="galogo" src={gs}  width="100" alt="" />
+                          <img className="rplogo" src={razorpay}  width="250" alt="" />
+                          <img className="jiologo" src={jio} width="100" alt="" />
      
 
 
@@ -159,13 +156,13 @@ const Industry2 = () => {
                 
               <Accordion.Item eventKey="2">
                 <Accordion.Header><span className='res-header'>Internships</span></Accordion.Header>
-                <Accordion.Body><div class="ss">
+                <Accordion.Body><div className="ss">
                  Under Construction</div>
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="3">
                 <Accordion.Header><span className='res-header'>Training</span></Accordion.Header>
-                <Accordion.Body><div class="ss">
+                <Accordion.Body><div className="ss">
                  We offer training programs for Industry person to acquire operational knowledge and skill on certain instruments <br /> We conduct focused workshops to cater to the needs of partnering   Industries in the domain of Metallurgical Engineering and Materials Science.
                 </div>
                 </Accordion.Body>
@@ -175,9 +172,7 @@ const Industry2 = () => {
    
       </div>
     </div>
-    <div>
-        <Footer />
-      </div>
+
     </>
   )
 }

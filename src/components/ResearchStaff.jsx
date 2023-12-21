@@ -1,6 +1,5 @@
 import React from 'react'
-import Navbar from './navbar2'
-import Footer from './footer'
+
 import "./staff.css"
 import mcbairwa from "./staffimages/MaheshChandBairwa.jpg"
 import mdhake from "./staffimages/MayurDhake.jpg"
@@ -13,10 +12,7 @@ import { FaEnvelope } from 'react-icons/fa';
 const ResearchStaff = () => {
   return (
    <>
- <div>
-                    <Navbar/>
-
-                </div>
+ 
                 <div className="faculty-head-2">Research Staffs in MEMS</div>
 <div className="faculty-main">
  
@@ -96,7 +92,7 @@ const ResearchStaff = () => {
       
         </div>
       </div>
-      <Footer/>
+      
    </>
   )
 }

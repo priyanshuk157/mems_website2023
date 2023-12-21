@@ -1,6 +1,5 @@
   import React from "react";
-import Navbar from "../navbar";
-import Footer from "../footer";
+
 import "./demo.css";
 // import { FaAngleLeft } from "react-icons/fa";
 import { FaEnvelope, FaHome, FaLinkedin, FaPhone, FaResearchgate,  } from "react-icons/fa";
@@ -11,9 +10,7 @@ import hb from "./profimages/hemanth.jpg"
 const profile11 = () => {
   return (
     <>
-      <div>
-        <Navbar />
-      </div>
+     
 
       {/*<div className="head">
         <i className="back-button">
@@ -178,9 +175,7 @@ International Journal of Metalcasting, 2023
 
       </div>
 
-      <div>
-        <Footer />
-      </div>
+    
     </>
   );
 };

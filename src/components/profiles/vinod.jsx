@@ -1,6 +1,5 @@
 import React from "react";
-import Navbar from "../navbar";
-import Footer from "../footer";
+
 import "./demo.css";
 import { FaEnvelope, FaHome,  FaPhone, FaResearchgate,  FaTwitterSquare } from "react-icons/fa";
 import Table from "react-bootstrap/Table";
@@ -11,9 +10,7 @@ import vi from "./profimages/vinod.jpg"
 const profile11 = () => {
   return (
     <>
-      <div>
-        <Navbar />
-      </div>
+     
 
       {/*<div className="head">
         <i className="back-button">
@@ -178,9 +175,7 @@ const profile11 = () => {
 
       </div>
 
-      <div>
-        <Footer />
-      </div>
+     
     </>
   );
 };

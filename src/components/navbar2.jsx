@@ -2,49 +2,27 @@ import React, { useState } from "react";
 import "./navbar2.css";
 import { FaBars } from "react-icons/fa";
 import { useRef } from "react";
-import logo from "./images/mems-logo.png"
+import logo from "./images/mems-logo.png";
+import { NavLink } from "react-router-dom";
 
+import { FaFacebook, FaInstagram, FaResearchgate } from "react-icons/fa";
 
-
-
-import { FaFacebook, FaInstagram,  FaResearchgate } from "react-icons/fa";
-// import { FaEnvelope } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaTwitterSquare } from "react-icons/fa";
-
+import { useEffect } from "react";
 
 const Navbar2 = () => {
   const navRef = useRef();
-  // const [navScroll, setNavScroll] = useState(true)
-  const [dropdown, setDropdown] = useState(false);
-  
-  // const [dropdown1, setDropdown1] = useState(false)
-  // const [lastScroll, setLastScroll] = useState(0)
-  const [toggleState, setToggleState] = useState(0);
 
-  const toggleTab = (index) => {
-    setToggleState(index);
-    setDropdown(!dropdown);
-  };
+ 
 
-  // const scrollableNavbar = ()=>{
+  const [hoverState, setHoverState] = useState(1);
 
-  //   const currentScroll = window.scrollY;
+  useEffect(() => {
+    setHoverState(hoverState);
+    console.log("dohne");
+  }, [hoverState]);
 
-  //   if(currentScroll>=lastScroll){
-  //     setNavScroll(false)
-  //   }
-
-  //   setLastScroll(currentScroll);
-
-  //   if(currentScroll<lastScroll){
-  //     setNavScroll(true)
-  //   }
-
-  // }
-  
-
-  // window.addEventListener("scroll", scrollableNavbar );
   const showNavbar = () => {
     navRef.current.classList.toggle("responsive-nav");
   };
@@ -54,41 +32,93 @@ const Navbar2 = () => {
   //   setDropdown1 (dropdown1 => !dropdown1)
   //  }
 
-  let dropdownStateCheck =
-    (toggleState === 1 || toggleState === 2) && dropdown
-      ? "dropactive "
-      : "dropinactive";
+  // let dropdownStateCheck =
+  //   (toggleState === 1 || toggleState === 2) && dropdown
+  //     ? "dropactive "
+  //     : "dropinactive";
   //  let subdownStateCheck1 = toggleState===2  && dropdown1? "dropactive1 " : "dropinactive1"
 
   return (
     <>
       <nav className="navbar1">
         {/* <div className= {navScroll? "navbar" : "scroll-active"}> */}
-       
-        <div div className="nav-logos">
-       
-         
-          <div className="shape1"> 
-          <div class="nav-student-button">
-  <a href="faculty3">
-    <button class="navbar-button">Student Corner</button></a></div>
-          
-            <div className="navbar-logos1"> <div > <a href="https://www.linkedin.com/in/metallurgical-engineering-and-materials-science-iit-indore-15a541274/ " target="_blank" rel="noopener noreferrer"><i>< FaLinkedin/></i> </a></div>
-            <div><a href="https://twitter.com/outreach_mems" target="_blank" rel="noopener noreferrer"><i>< FaTwitterSquare/></i> </a></div>
-            <div><a href="https://www.instagram.com/outreach_mems/" target="_blank" rel="noopener noreferrer"><i><FaInstagram/></i> </a></div>
-            <div><a href="https://www.researchgate.net/profile/Metallurgical-Engineering-And-Materials-Science-Iit-Indore" target="_blank" rel="noopener noreferrer"><i>< FaResearchgate/></i> </a></div>
-            <div><a href="https://www.facebook.com/profile.php?id=100092114204325" target="_blank" rel="noopener noreferrer"><i>< FaFacebook/></i> </a></div>
-            </div></div>
-            {/* <div className="shape2">  </div> */}
-        
+
+        <div className="nav-logos">
+          <div className="shape1">
+            <div className="nav-student-button">
+              <a href="faculty3">
+                <button className="navbar-button">Student Corner</button>
+              </a>
+            </div>
+
+            <div className="navbar-logos1">
+              {" "}
+              <div>
+                {" "}
+                <a
+                  href="https://www.linkedin.com/in/metallurgical-engineering-and-materials-science-iit-indore-15a541274/ "
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i>
+                    <FaLinkedin />
+                  </i>{" "}
+                </a>
+              </div>
+              <div>
+                <a
+                  href="https://twitter.com/outreach_mems"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i>
+                    <FaTwitterSquare />
+                  </i>{" "}
+                </a>
+              </div>
+              <div>
+                <a
+                  href="https://www.instagram.com/outreach_mems/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i>
+                    <FaInstagram />
+                  </i>{" "}
+                </a>
+              </div>
+              <div>
+                <a
+                  href="https://www.researchgate.net/profile/Metallurgical-Engineering-And-Materials-Science-Iit-Indore"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i>
+                    <FaResearchgate />
+                  </i>{" "}
+                </a>
+              </div>
+              <div>
+                <a
+                  href="https://www.facebook.com/profile.php?id=100092114204325"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i>
+                    <FaFacebook />
+                  </i>{" "}
+                </a>
+              </div>
+            </div>
+          </div>
+          {/* <div className="shape2">  </div> */}
         </div>
 
         <div className="main-nav active">
           <div className="iiti-logo">
-            <a href="/  " target="_blank" rel="noopener noreferrer"><img
-              src={logo}
-              alt=" okl"
-            ></img></a>
+            <a href="/  " target="_blank" rel="noopener noreferrer">
+              <img src={logo} alt=" okl"></img>
+            </a>
             {/* <img
               src={logo}
               alt=" okl"
@@ -106,68 +136,101 @@ const Navbar2 = () => {
             </div>
           </div> */}
           <div className="menu-link">
-            <ul className="menu-link-ul   " ref={navRef}>
+            <ul className="menu-link-ul" ref={navRef}>
               <li>
                 {"   "}
-                <a href="/"> about </a>{" "}
+                <NavLink
+                  to="/"
+                  className={hoverState === 1 ? "acthover" : "nonacthover"}
+                  onClick={() => setHoverState(1)}
+                >
+                  {" "}
+                  about{" "}
+                </NavLink>{" "}
               </li>
-              <li>
+              <li className="res-people">
                 {" "}
-                <div className="res-people"  onPointerEnter={()=>toggleTab(1)}>People </div>{" "}
-                <div  className={dropdownStateCheck} >
+                <div className={hoverState === 2 ? "acthover" : "nonacthover"}>
+                  People{" "}
+                </div>{" "}
+                <div className="dropactive">
                   {/* <div>
                     {" "}
                     <a href="faculty"> Faculty Members</a>{" "}
                   </div> */}
                   <div>
                     {" "}
-                    <a href="faculty2"> Faculty Members</a>{" "}
+                    <NavLink to="faculty2" onClick={() => setHoverState(2)}>
+                      {" "}
+                      Faculty Members
+                    </NavLink>{" "}
                   </div>
                   <div>
                     {" "}
-                    <a href="PostDoc"> PostDoc.</a>{" "}
+                    <NavLink to="PostDoc" onClick={() => setHoverState(2)}>
+                      {" "}
+                      PostDoc.
+                    </NavLink>{" "}
                   </div>
                   <div className="staff-hover">
                     {" "}
-                    <a href="staff"> Staff</a>{" "}
-                    <div  className="submenu-display">
-                    <div>
-                      <a href="DepartmentalStaff">Departmental Staff</a>{" "}
-                      </div>
-                      <div>
-                      <a href="ResearchStaff">Research   Staff</a>{" "}
-                      </div>
-                    </div>
-                     
-
-                  </div>
-                  <div className="staff-hover">
-                    {" "}
-                    <a href="PostDoc"> Students</a>{" "}
+                    <NavLink to="staff" onClick={() => setHoverState(2)}>
+                      {" "}
+                      Staff
+                    </NavLink>{" "}
                     <div className="submenu-display">
-                    <div>
-                      <a href="UG"> UG</a>{" "}
+                      <div>
+                        <NavLink
+                          to="DepartmentalStaff"
+                          onClick={() => setHoverState(2)}
+                        >
+                          Departmental Staff
+                        </NavLink>{" "}
                       </div>
                       <div>
-                      <a href="PG"> PG</a>{" "}
-                      </div>
-                      <div>
-                      <a href="Phd"> PhD</a>{" "}
+                        <NavLink
+                          to="ResearchStaff"
+                          onClick={() => setHoverState(2)}
+                        >
+                          Research Staff
+                        </NavLink>{" "}
                       </div>
                     </div>
                   </div>
-                 
-                   
-                   
-                    
-                  
-                  
+                  <div className="staff-hover">
+                    {" "}
+                    <NavLink to="PostDoc" onClick={() => setHoverState(2)}>
+                      {" "}
+                      Students
+                    </NavLink>{" "}
+                    <div className="submenu-display">
+                      <div>
+                        <NavLink to="UG" onClick={() => setHoverState(2)}>
+                          {" "}
+                          UG
+                        </NavLink>{" "}
+                      </div>
+                      <div>
+                        <NavLink to="PG" onClick={() => setHoverState(2)}>
+                          {" "}
+                          PG
+                        </NavLink>{" "}
+                      </div>
+                      <div>
+                        <NavLink to="Phd" onClick={() => setHoverState(2)}>
+                          {" "}
+                          PhD
+                        </NavLink>{" "}
+                      </div>
+                    </div>
+                  </div>
 
-                 
-        
                   <div>
                     {" "}
-                    <a href="alumini"> Alumni </a>{" "}
+                    <NavLink to="alumini" onClick={() => setHoverState(2)}>
+                      {" "}
+                      Alumni{" "}
+                    </NavLink>{" "}
                   </div>
                 </div>{" "}
               </li>
@@ -199,22 +262,50 @@ const Navbar2 = () => {
        </div> */}
               <li>
                 {" "}
-                <a href="academics "> academics </a>{" "}
+                <NavLink
+                  to="academics "
+                  className={hoverState === 3 ? "acthover" : "nonacthover"}
+                  onClick={() => setHoverState(3)}
+                >
+                  {" "}
+                  academics{" "}
+                </NavLink>{" "}
               </li>
               <li>
                 {" "}
-                <a href="research "> research </a>{" "}
+                <NavLink
+                  to="research "
+                  className={hoverState === 4 ? "acthover" : "nonacthover"}
+                  onClick={() => setHoverState(4)}
+                >
+                  {" "}
+                  research{" "}
+                </NavLink>{" "}
               </li>
               {/* <li> <a href='gallery '> gallery </a> </li>
         
         <li> <a href='resources '> resources </a> </li> */}
               <li>
                 {" "}
-                <a href="ind2 "> Industry Connect </a>{" "}
+                <NavLink
+                  to="ind2 "
+                  className={hoverState === 5 ? "acthover" : "nonacthover"}
+                  onClick={() => setHoverState(5)}
+                >
+                  {" "}
+                  Industry Connect{" "}
+                </NavLink>{" "}
               </li>
               <li>
                 {" "}
-                <a href="career "> Career  </a>{" "}
+                <NavLink
+                  to="career "
+                  className={hoverState === 6 ? "acthover" : "nonacthover"}
+                  onClick={() => setHoverState(6)}
+                >
+                  {" "}
+                  Careers{" "}
+                </NavLink>{" "}
               </li>
             </ul>
           </div>
@@ -229,7 +320,6 @@ const Navbar2 = () => {
       {}
     </>
   );
-  
 };
 
 export default Navbar2;

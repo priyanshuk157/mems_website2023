@@ -1,6 +1,5 @@
 import React from 'react'
-import Navbar from './navbar2'
-import Footer from './footer'
+
 import Table from 'react-bootstrap/Table';
 import "./ugpg.css"
 import Accordion from 'react-bootstrap/Accordion';
@@ -8,9 +7,7 @@ import Accordion from 'react-bootstrap/Accordion';
 const PG = () => {
   return (
  <>
-  <div>
-    <Navbar/>
-   </div>
+ 
    <div className="ug-body">
    
    
@@ -946,9 +943,7 @@ const PG = () => {
     </Accordion>
     
    </div>
-   <div>
-    <Footer/>
-   </div>
+   
  </>
   )
 }

@@ -1,6 +1,5 @@
 import React from "react";
-import Navbar from "../navbar";
-import Footer from "../footer";
+
 import "./demo.css";
 // import { FaAngleLeft } from "react-icons/fa";
 import { FaEnvelope, FaHome, FaLinkedin, FaPhone, FaResearchgate } from "react-icons/fa";
@@ -11,9 +10,7 @@ import prof1 from "./profimages/prof1.jpg"
 const profile11 = () => {
   return (
     <>
-      <div>
-        <Navbar />
-      </div>
+     
 
       {/*<div className="head">
         <i className="back-button">
@@ -181,9 +178,7 @@ const profile11 = () => {
 
       </div>
 
-      <div>
-        <Footer />
-      </div>
+     
     </>
   );
 };

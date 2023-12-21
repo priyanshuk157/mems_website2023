@@ -250,11 +250,13 @@ margin: 2rem;
     z-index: 2;
 }
 .sec-conthead{
+  display: flex;
+  justify-content: center;
     /*font-size: var(--head1);*/
     font-size: 40px;
     /*color: var(--red);*/
     color:rgb(203, 18, 18);
-    margin-bottom: 10px;
+    margin-bottom:1rem;
     z-index: 2;
 }
 .sec-conthead_news{

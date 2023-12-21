@@ -1,12 +1,9 @@
 import React from 'react'
-import Navbar2 from "./navbar2";
-import Footer from "./footer";
+
 const Consultancy = () => {
   return (
     <>
- <div>
-        <Navbar2/>
-      </div>
+ 
       <div>
       <div className="research-head">ONGOING CONSULTING PROJECTS</div>
       <div className="consulting">   
@@ -63,9 +60,7 @@ const Consultancy = () => {
 
       
       </div>
-      <div>
-        <Footer />
-      </div>
+     
     </>
   
     

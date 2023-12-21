@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../navbar";
+import Navbar from "../navbar2";
 import Footer from "../footer";
 import "./demo.css";
 import { FaEnvelope, FaHome, FaLinkedin, FaPhone, FaResearchgate,  FaTwitterSquare } from "react-icons/fa";
@@ -11,9 +11,7 @@ import prof18 from "./profimages/samal.jpg"
 const profile11 = () => {
   return (
     <>
-      <div>
-        <Navbar />
-      </div>
+      
 
       {/*<div className="head">
         <i className="back-button">
@@ -173,9 +171,7 @@ const profile11 = () => {
 
       </div>
 
-      <div>
-        <Footer />
-      </div>
+    
     </>
   );
 };

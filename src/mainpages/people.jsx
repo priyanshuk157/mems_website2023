@@ -8,9 +8,7 @@ const people = () => {
   return (
     <>
     <div className='body'>
-    <div>
-        <Navbar/>
-    </div>
+   
     <div className="head">
      
        PEOPLE
@@ -23,9 +21,7 @@ const people = () => {
      
 
     </div>
-    <div>
-        <Footer/>
-    </div>
+   
     </div>
     </>
   )

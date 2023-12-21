@@ -1,6 +1,5 @@
 import React from "react";
-import Navbar from "../navbar";
-import Footer from "../footer";
+
 import "./demo.css"
 // import { FaAngleLeft } from "react-icons/fa";
 import { FaEnvelope,  FaPhone, FaResearchgate } from "react-icons/fa";
@@ -11,9 +10,7 @@ import prof44 from "./profimages/ghosh.jpg"
 const profile11 = () => {
   return (
     <>
-      <div>
-        <Navbar />
-      </div>
+      
 
       {/*<div className="head">
         <i className="back-button">
@@ -87,7 +84,7 @@ const profile11 = () => {
         </div>
         <div className="pc1">
           <span className="pc1-head">POSITIONS HELD</span>
-          <ul>
+          
             <li>
             Assistant Professor, MEMS Department, IIT Indore, November 2017 – present
             </li>
@@ -95,7 +92,7 @@ const profile11 = () => {
            
             
             
-          </ul>
+          
         </div>
         
         
@@ -171,9 +168,7 @@ texture evolution in Fe-3.78 wt.%Si grain oriented electrical steel, Mater. Chem
 
       </div>
 
-      <div>
-        <Footer />
-      </div>
+      
     </>
   );
 };

@@ -1,6 +1,5 @@
 import React from 'react'
-import Navbar from './navbar2'
-import Footer from "./footer";
+
 import "./staff.css"
 import "./Events.css";
 import Table from "react-bootstrap/Table";
@@ -9,9 +8,7 @@ import Table from "react-bootstrap/Table";
 const Events = () => {
   return (
     <>
-    <div>
-      <Navbar />
-    </div>
+  
       
         <span class='even'><h1>Events</h1></span>
 
@@ -109,9 +106,7 @@ alloys</td>
             </div>
 
 
-      <div>
-      <Footer />
-    </div>
+      
     </>
   )
 }

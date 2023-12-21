@@ -1,6 +1,5 @@
 import React from "react";
-import Navbar from "./navbar";
-import Footer from "./footer";
+
 import Table from 'react-bootstrap/Table';
 
 
@@ -13,9 +12,7 @@ import "./other.css"
 const other = () => {
   return (
     <>
-     <div>
-        <Navbar />
-      </div>
+   
 
 
 
@@ -100,9 +97,7 @@ const other = () => {
 
 
 
-      <div>
-        <Footer />
-      </div>
+    
 
 
 

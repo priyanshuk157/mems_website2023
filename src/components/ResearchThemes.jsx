@@ -1,7 +1,6 @@
 import React from "react";
 import "./researchtheme.css";
-import Navbar from "./navbar2";
-import Footer from "./footer";
+
 // import logo from "./images/mems_logo2.png";
 // import photo1 from "./images/XHo7a.png";
 // import mt1 from "./images/material-example.jpg";
@@ -12,34 +11,33 @@ import tf from "../components/images/technofast-og.jpg"
 import rc from "../components/images/raychem-logo.png"
 import mra from "../components/images/moyra.jpg"
 import fundplot from "../components/images/chart.svg"
+import { NavLink } from "react-router-dom";
 
 const ResearchThemes = () => {
   return (
     <>
-      <div>
-        <Navbar />
-      </div>
+      
       <div className="research-head">RESEARCH THEMES</div>
 
       <div className="research-card-main">
         <div className="research-card-line">
           <div className="research-cards">
-            <a href="researchcomponent1" target="_blank" rel="noopener noreferrer">
+            <NavLink to="researchcomponent1" >
               <div className="cards-1">
                 <div className="research-text">
                   {" "}
                   Alloy design, development, and deformation
                 </div>
               </div>
-            </a>
-            <a href="researchcomponent3" target="_blank" rel="noopener noreferrer">
+            </NavLink>
+            <NavLink to="researchcomponent3" >
               {" "}
               <div className="cards-2">
                 <div className="research-text"> Strategic Materials</div>
               </div>
-            </a>
+            </NavLink>
 
-            <a href="researchcomponent2" target="_blank" rel="noopener noreferrer">
+            <NavLink to="researchcomponent2" >
               {" "}
               <div className="cards-3">
                 <div className="research-text">
@@ -47,26 +45,26 @@ const ResearchThemes = () => {
                   Surface engineering & Materials degradation
                 </div>
               </div>
-            </a>
+            </NavLink>
           </div>
           <div className="research-cards">
-            <a href="researchcomponent6" target="_blank" rel="noopener noreferrer">
+            <NavLink to="researchcomponent6" >
               <div className="cards-4">
                 <div className="research-text"> Energy, Environment & Sustainability</div>
               </div>
-            </a>
-            <a href="researchcomponent4" target="_blank" rel="noopener noreferrer">
+            </NavLink>
+            <NavLink to="researchcomponent4" >
               {" "}
               <div className="cards-5">
                 <div className="research-text"> Electronics & Photonics</div>
               </div>
-            </a>
-            <a href="researchcomponent5" target="_blank" rel="noopener noreferrer">
+            </NavLink>
+            <NavLink to="researchcomponent5" >
               {" "}
               <div className="cards-6">
                 <div className="research-text"> Nano & Soft Materials</div>
               </div>
-            </a>
+            </NavLink>
           </div>
         </div>
       </div>
@@ -226,9 +224,7 @@ const ResearchThemes = () => {
         </div>
       </div> */}
 
-      <div>
-        <Footer />
-      </div>
+     
     </>
   );
 };

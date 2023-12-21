@@ -195,34 +195,11 @@ z-index: 0;
 }
 
 .dropactive {
-  display: flex;
-  flex-direction: column;
-  /* justify-content: center; */
-  position: absolute;
-  background-color: rgb(255, 255, 255);
-  left: rem;
-
-  top: 8rem;
-  z-index: 99;
-  border-radius: 10px;
-  box-shadow: 0px 2px 5px black;
-  padding: 0px;
-  height: fit-content;
-  width: 13rem;
-  transition: all 0.3s;
+  display: none;
+ 
 }
 
-.dropactive div {
-  list-style: none;
-  position: relative;
-  padding: 15px;
-  border-radius: 10px;
-  transition: all 0.3s;
-}
-.dropactive div a {
-  color: #005a9c;
-  text-decoration: none;
-}
+
 .drpdwn-main{
   /* margin: -5px; */
   margin: -7px 0px;
@@ -269,6 +246,18 @@ background-color:white !important;
   font-size: var(--content1);
  
 
+}
+.acthover{
+  font-weight: 700;
+  color: var(--red);
+}
+.nonacthover{
+color: var(--blue);
+font-weight: 500;
+}
+.nonacthover:hover{
+color: var(--red);
+font-weight: 500;
 }
 
 .dropactive div:hover {
@@ -340,7 +329,7 @@ background-color:white !important;
   /* text-shadow: 0px 2px  5px black;  */
 }
 .iiti-logo img {
-  height: 7.3rem;
+  height: 7rem;
   width:auto;
 }
 .iiti {
@@ -366,11 +355,11 @@ background-color:white !important;
   justify-content: space-evenly;
   align-items: center;
   text-decoration: none;
-  color: #005a9c;
+  
 }
 .menu-link-ul li {
   list-style: none;
-  font-size: var(--content1);
+  
     text-transform: capitalize;
   height: 5rem;
   display: flex;
@@ -386,23 +375,44 @@ background-color:white !important;
 .menu-link-ul li {
   transition-property: all;
   transition-duration: 0.3s;
-  color: #005a9c;
+ 
 }
+
 .typo {
   font-size: 45px;
   font-weight: 700;
 }
 
-.menu-link-ul li a {
-  color: #005a9c;
 
-  text-decoration: none;
-  /* font-size: larger; */
-}
 
 .nav-ham {
   visibility: hidden;
 }
+.res-people:hover{
+  
+  .dropactive{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    left: rem;
+  
+    top: 8rem;
+    z-index: 99;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px black;
+    padding: 0px;
+    height: fit-content;
+    width: 13rem;
+    transition: all 0.3s;
+  }
+  
+  
+
+
+}
+
 
 @media (max-width: 1300px) {
   .main-nav {

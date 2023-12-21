@@ -3,6 +3,7 @@ import "./navbar.css";
 import { FaBars } from "react-icons/fa";
 import { useRef } from "react";
 import logo from "./images/mems-logo.png"
+import { NavLink } from "react-router-dom";
 
 
 
@@ -84,10 +85,10 @@ const Navbar = () => {
 
         <div className="main-nav active">
           <div className="iiti-logo">
-            <a href="/  " target="_blank" rel="noopener noreferrer"><img
+            <NavLink href="/  " target="_blank" rel="noopener noreferrer"><img
               src={logo}
               alt=" okl"
-            ></img></a>
+            ></img></NavLink>
             {/* <img
               src={logo}
               alt=" okl"
@@ -108,7 +109,7 @@ const Navbar = () => {
             <ul className="menu-link-ul   " ref={navRef}>
               <li>
                 {"   "}
-                <a href="/"> about </a>{" "}
+                <NavLink href="/"> about </NavLink>{" "}
               </li>
               <li>
                 {" "}
@@ -167,7 +168,7 @@ const Navbar = () => {
         
                   <div>
                     {" "}
-                    <a href="alumini"> Alumni </a>{" "}
+                    <NavLink to="alumini"> Alumni </NavLink>{" "}
                   </div>
                 </div>{" "}
               </li>
@@ -199,18 +200,18 @@ const Navbar = () => {
        </div> */}
               <li>
                 {" "}
-                <a href="academics "> academics </a>{" "}
+                <NavLink href="academics "> academics </NavLink>{" "}
               </li>
               <li>
                 {" "}
-                <a href="research "> research </a>{" "}
+                <NavLink href="research "> research </NavLink>{" "}
               </li>
               {/* <li> <a href='gallery '> gallery </a> </li>
         
         <li> <a href='resources '> resources </a> </li> */}
               <li>
                 {" "}
-                <a href="industry "> Industry relation </a>{" "}
+                <NavLink href="industry "> Industry relation </NavLink>{" "}
               </li>
             </ul>
           </div>

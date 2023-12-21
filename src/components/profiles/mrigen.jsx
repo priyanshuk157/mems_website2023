@@ -1,6 +1,5 @@
 import React from "react";
-import Navbar from "../navbar";
-import Footer from "../footer";
+
 import "./demo.css";
 // import { FaAngleLeft } from "react-icons/fa";
 import prof11 from "./profimages/prof11.jpg"
@@ -12,9 +11,7 @@ import {SiGooglescholar } from "react-icons/si";
 const profile11 = () => {
   return (
     <>
-      <div>
-        <Navbar />
-      </div>
+  
 
       {/*<div className="head">
         <i className="back-button">
@@ -179,9 +176,7 @@ const profile11 = () => {
 
       </div>
 
-      <div>
-        <Footer />
-      </div>
+      
     </>
   );
 };

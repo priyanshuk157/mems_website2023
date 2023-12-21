@@ -39,9 +39,7 @@ import { FaEnvelope, FaPhone } from "react-icons/fa";
 const faculty = () => {
   return (
     <>
-      <div>
-        <Navbar />
-      </div>
+     
       <span class="Faculty"><h1>Faculty</h1></span>
      
       <div class="photo">
@@ -81,9 +79,7 @@ const faculty = () => {
      
       
 
-      <div>
-        <Footer />
-      </div>
+      
     </>
   );
 };

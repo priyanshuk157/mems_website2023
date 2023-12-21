@@ -1,6 +1,5 @@
 import React from 'react'
-import Navbar from './navbar2'
-import Footer from '../components/footer'
+
 import "./phd.css"
 // import prof2 from "./profiles/profimages/prof2.jpg";
 import { FaEnvelope} from 'react-icons/fa';
@@ -62,9 +61,7 @@ import def from "./staffimages/default.jpg"
 const Phd = () => {
   return (
    <>
-   <div>
-    <Navbar/>
-   </div>
+  
    <div className="faculty-main">
         <div className="faculty-width">
           <div className="hodsec">
@@ -1282,9 +1279,7 @@ const Phd = () => {
       </div>
    
    
-   <div>
-    <Footer/>
-   </div>
+  
    
    </>
   )

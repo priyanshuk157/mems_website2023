@@ -7,7 +7,7 @@ import {Routes , Route} from 'react-router-dom'
 
 import 'bootstrap/dist/css/bootstrap.min.css';  
 import Academics from './mainpages/Academics'
-import Research from './mainpages/Research'
+import Research from './components/ResearchThemes'
 import GalleryPage from './mainpages/GalleryPage';
 import Resources from './mainpages/Resources'
 import Faculty from './components/faculty'
@@ -95,6 +95,7 @@ import Pg from './components/PG'
 import Events from './components/Events';
 import Industry2 from './components/Industry2';
 import Navbar2 from './components/navbar2';
+import Footer from './components/footer';
 import Consultancy from './components/consultancy';
 import Career from './components/Career';
 
@@ -105,6 +106,9 @@ import Career from './components/Career';
 const App = () => {
   return (
     <>
+   <div>
+    <Navbar2/>
+   </div>
     
     <div>
       {/* <div>
@@ -115,7 +119,9 @@ const App = () => {
       </div>
       <div> <Cards/></div> */}
       <Routes>
-        <Route path='/' element={<Home/>}></Route>
+        <Route path='/' element={<Home/>}>
+
+        </Route>
         
         <Route path='academics' element={<Academics/>}></Route>
         <Route path='research' element={<Research/>}></Route>
@@ -130,7 +136,7 @@ const App = () => {
         <Route path='staff' element={<DepartmentalStaff/>}></Route>
         <Route path='Postdoc' element={<PostDoc/>}></Route>
         <Route path='collab' element={<International/>}></Route>
-        <Route path='ajkj' element={<Researchcomponent1/>}></Route>
+       
         {/* <Route path='profile1' element={<Profile1/>}></Route> */}
         <Route path='demo' element={<Demo/>}></Route>
         <Route path='ind2' element={<Industry2/>}></Route>
@@ -182,12 +188,12 @@ const App = () => {
         {/* <Route path='profile19' element={<Profile19/>}></Route> */}
         <Route path='profilekd' element={<Profilekd/>}></Route>
  <Route path='profileran' element={<Profileran/>}></Route>
- <Route path='researchcomponent1' element={<Researchcomponent1/>}></Route>
- <Route path='researchcomponent2' element={<Researchcomponent2/>}></Route>
- <Route path='researchcomponent3' element={<Researchcomponent3/>}></Route>
- <Route path='researchcomponent4' element={<Researchcomponent4/>}></Route>
- <Route path='researchcomponent5' element={<Researchcomponent5/>}></Route>
- <Route path='researchcomponent6' element={<Researchcomponent6/>}></Route>
+ <Route path='research/researchcomponent1' element={<Researchcomponent1/>}></Route>
+ <Route path='research/researchcomponent2' element={<Researchcomponent2/>}></Route>
+ <Route path='research/researchcomponent3' element={<Researchcomponent3/>}></Route>
+ <Route path='research/researchcomponent4' element={<Researchcomponent4/>}></Route>
+ <Route path='research/researchcomponent5' element={<Researchcomponent5/>}></Route>
+ <Route path='research/researchcomponent6' element={<Researchcomponent6/>}></Route>
  <Route path='DepartmentalStaff' element={<DepartmentalStaff/>}></Route>
  <Route path='ResearchStaff' element={<ResearchStaff/>}></Route>
  <Route path='Phd' element={<Phd/>}></Route>
@@ -204,7 +210,7 @@ const App = () => {
         <Route path='industry' element={<Industryrelation/>}></Route>
       </Routes>
      
-      {/* <div> <Footer/></div> */}
+      <div> <Footer/></div>
       
      
       </div>

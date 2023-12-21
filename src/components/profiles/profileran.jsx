@@ -1,6 +1,5 @@
 import React from "react";
-import Navbar from "../navbar";
-import Footer from "../footer";
+
 // import "./profile.css";
 import { FaEnvelope, FaHome,  FaPhone,  } from "react-icons/fa";
 import {SiGooglescholar } from "react-icons/si";
@@ -9,9 +8,7 @@ import kd from "./profimages/kd.jpg"
 const Profile18 = () => {
   return (
     <>
-      <div>
-        <Navbar />
-      </div>
+    
 
       {/* <div className="head4">
         <i className="back-button">
@@ -166,9 +163,7 @@ const Profile18 = () => {
        
       </div>
 
-      <div>
-        <Footer />
-      </div>
+     
     </>
   );
 };

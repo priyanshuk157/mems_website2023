@@ -1,8 +1,6 @@
 import React from 'react'
 import './research.css'
-import Navbar from './navbar2'
-import Footer from "./footer";
-import { FaCaretRight } from "react-icons/fa";
+
 import { useState } from 'react';
 
 
@@ -17,29 +15,27 @@ const Researchcomponent3 = () => {
 
 
   return (
-    <><div>
-      <Navbar />
-    </div>
+    <>
     <div className="research-body">
       <div className='research-main'>
         
 
         <div className='research-heads'>
-          <div className=''><h2>Research Themes</h2></div>
+          <div className=''><h2> Themes</h2></div>
 
-          <div className='heads-1' onClick={() => toggleTab(1)}><i className={toggleState === 1 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Alloy design, development, and deformation</div>
-          <div className='heads-1' onClick={() => toggleTab(4)}><i className={toggleState === 4 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Electronics & Photonics</div>
-          <div className='heads-1' onClick={() => toggleTab(6)}><i className={toggleState === 6 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Energy, Environment & Sustainability</div>
-          <div className='heads-1' onClick={() => toggleTab(5)}><i className={toggleState === 5 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Nano & Soft materials</div>
-          <div className='heads-1' onClick={() => toggleTab(3)}><i className={toggleState === 3 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Strategic Materials</div>
-          <div className='heads-1' onClick={() => toggleTab(2)}><i className={toggleState === 2 ? "active-indicator1" : "indicator1"}><FaCaretRight /></i>Surface engineering & Materials degradation</div>
-          <div className='heads-1' > <a href="collab">Collaborations</a></div>
+          <div className={toggleState === 1 ? "heads-1" : "noheads-1"} onClick={() => toggleTab(1)}>Alloy design, development, and deformation</div>
+          <div className={toggleState === 4 ? "heads-1" : "noheads-1"} onClick={() => toggleTab(4)}>Electronics & Photonics</div>
+          <div className={toggleState === 6 ? "heads-1" : "noheads-1"} onClick={() => toggleTab(6)}>Energy, Environment & Sustainability</div>
+          <div className={toggleState === 5 ? "heads-1" : "noheads-1"} onClick={() => toggleTab(5)}>Nano & Soft materials</div>
+          <div className={toggleState === 3 ? "heads-1" : "noheads-1"} onClick={() => toggleTab(3)}>Strategic Materials</div>
+          <div className={toggleState === 2 ? "heads-1" : "noheads-1"} onClick={() => toggleTab(2)}>  Surface engineering & Materials degradation</div>
+          <div className={toggleState === 7 ? "heads-1" : "noheads-1"} > <a href="collab">Collaborations</a></div>
          
 
 
         </div>
         <div className={toggleState === 1 ? " active-content1" : " research-content"}>
-          <div className="research-content-head">Research Areas</div>
+          <div className="research-content-head"> Areas</div>
           <ul>
           <li> Alloy Design
               <p className='research-info'>
@@ -102,7 +98,7 @@ challenging environments.</p>
 
         </div>
         <div className={toggleState === 3 ? " active-content1" : " research-content"}>
-          <div className="research-content-head">Research Areas</div>
+          <div className="research-content-head">Areas</div>
        
 <ul>
 <li>Light weight alloys
@@ -138,7 +134,7 @@ exploration, medical applications, and superconducting technologies.</p>
 
         </div>
         <div className={toggleState === 2 ? " active-content1" : " research-content"}>
-          <div className="research-content-head">Research Areas</div>
+          <div className="research-content-head">Areas</div>
          <ul>
          <li>Corrosion & prevention
             <p className="research-info">Investigates the degradation of materials due to chemical reactions with their environment,
@@ -175,7 +171,7 @@ resistance, wear resistance, and overall performance.</p>
 
         </div>
         <div className={toggleState === 6 ? " active-content1" : " research-content"}>
-          <div className="research-content-head">Research Areas</div>
+          <div className="research-content-head">Areas</div>
           <ul>
           <li>New Generation Solar Cell Batteries
               <p className="research-info">Focuses on the development of advanced solar cell technologies, including next-generation photovoltaic
@@ -218,7 +214,7 @@ development of efficient filtration systems, adsorbents, and catalytic processes
 
         </div>
         <div className={toggleState === 4 ? " active-content1" : " research-content"}>
-          <div className="research-content-head">Research Areas</div>
+          <div className="research-content-head">Areas</div>
           <ul>
           <li>Thin films deposition
               <p className="research-info">Involves the application of thin layers of materials onto substrates, a critical process in the fabrication of
@@ -262,7 +258,7 @@ emitting diodes (LEDs), lasers, and photodetectors used in communication, imagin
 
         </div>
         <div className={toggleState === 5 ? " active-content1" : " research-content"}>
-          <div className="research-content-head">Research Areas</div>
+          <div className="research-content-head">Areas</div>
           <ul>
           <li>Design and Growth of Nanostructure
               <p className="research-info">Focuses on the deliberate design and controlled growth of materials at the nanoscale, aiming to tailor
@@ -310,15 +306,15 @@ properties.</p>
         <div  className={toggleState === 1 ? "prof-names" : " no-profnames"}  >
           <div className="faculty-involved"><h3>Faculties</h3> </div>
           <ul>
-            <li><a href="profile9">Prof. S. Samal</a> </li>
-            <li><a href="profile7">Prof. V. Kumar</a> </li>
-            <li><a href="profile6">Prof. E. P. Korimilli</a> </li>
-            <li><a href="profile11">Prof. A. Ghosh</a> </li>
-            <li><a href="profile12">Prof. H. Borkar</a> </li>
-            <li><a href="profile15">Prof. D. Basha</a> </li>
-            <li><a href="profile14">Prof. R.S Maurya</a> </li>
-            <li><a href="profile18">Prof. K.V. Vamsi</a> </li>
-            <li><a href="profile16">Prof. C. Haldar</a> </li>
+            <li><a href="profile9"> S. Samal</a> </li>
+            <li><a href="p18"> V. Kumar</a> </li>
+            <li><a href="p4"> E. P. Korimilli</a> </li>
+            <li><a href="demo"> A. Ghosh</a> </li>
+            <li><a href="p6"> H. Borkar</a> </li>
+            <li><a href="p1"> D. Basha</a> </li>
+            <li><a href="p12"> R.S Maurya</a> </li>
+            <li><a href="p17"> K.V. Vamsi</a> </li>
+            <li><a href="p2"> C. Haldar</a> </li>
            
             
            
@@ -329,12 +325,12 @@ properties.</p>
         </div>
         <div  className={toggleState === 2 ? "prof-names" : " no-profnames"}  >
           <div className="faculty-involved"><h3>Faculties</h3> </div>
-          <ul>  <li><a href="profile4">Prof. S. Hosmani</a> </li>
-            <li><a href="profile8">Prof. J. Murugesan</a> </li>
-            <li><a href="profile17">Prof. N. K. Prasad</a> </li>
-            <li><a href="profile5">Prof. M. Dubey</a> </li>
-            <li><a href="profile7">Prof. V. Kumar</a> </li>
-            <li><a href="profile15"> Prof. D. Basha</a> </li>
+          <ul>  <li><a href="p15"> S. Hosmani</a> </li>
+            <li><a href="p7"> J. Murugesan</a> </li>
+            <li><a href="p10"> N. K. Prasad</a> </li>
+            <li><a href="p9"> M. Dubey</a> </li>
+            <li><a href="p18"> V. Kumar</a> </li>
+            <li><a href="p1">  D. Basha</a> </li>
            
 
           </ul>
@@ -343,11 +339,13 @@ properties.</p>
         <div  className={toggleState === 3? "prof-names" : " no-profnames"}  >
           <div className="faculty-involved"><h3>Faculties</h3> </div>
           <ul>
-            <li><a href="profile9"> Prof. S Samal</a> </li>
-            <li><a href="profile1">Prof. Ajay K Kushwaha</a> </li>
-            <li><a href="profile11">Prof
-            . Abhijit Ghosh</a> </li>
-            <li><a href="profile18">Prof. K.V. Vamsi</a> </li>
+            <li><a href="profile9">  S Samal</a> </li>
+            <li><a href="p5"> Ajay K Kushwaha</a> </li>
+            <li><a href="demo"> Abhijit Ghosh</a> </li>
+            <li><a href="p17"> K.V. Vamsi</a> </li>
+
+
+
 
           </ul>
 
@@ -355,9 +353,9 @@ properties.</p>
         <div  className={toggleState === 4? "prof-names" : " no-profnames"}  >
           <div className="faculty-involved"><h3>Faculties</h3> </div>
           <ul>
-            <li><a href="profile1">Prof. Ajay K. Kushwaha</a> </li>
-            <li><a href="profile2">Prof. Parasharam M. Shirage</a> </li>
-            <li><a href="profile3">Prof. Rupesh Devan</a> </li>
+            <li><a href="p5"> Ajay K. Kushwaha</a> </li>
+            <li><a href="p11"> Parasharam M. Shirage</a> </li>
+            <li><a href="p14"> Rupesh Devan</a> </li>
        
       
 
@@ -368,13 +366,13 @@ properties.</p>
         <div  className={toggleState === 5? "prof-names" : " no-profnames"}  >
           <div className="faculty-involved"><h3>Faculties</h3> </div>
           <ul>
-            <li><a href="profile2">Prof. Parasharam M. Shirage</a> </li>
-            <li><a href="profile1">Prof. Ajay K. Kushwaha</a> </li>
-            <li><a href="profile3">Prof. Rupesh Devan</a> </li>
-            <li><a href="profile10">Prof. Dhirendra K. Rai</a> </li>
-            <li><a href="profile9">Prof. S. Samal</a> </li>
-            <li><a href="profile7">Prof. Vinod Kumar</a> </li>
-            <li><a href="profile5"> Prof. M. Dubey</a> </li>
+            <li><a href="p11"> Parasharam M. Shirage</a> </li>
+            <li><a href="p5"> Ajay K. Kushwaha</a> </li>
+            <li><a href="p14"> Rupesh Devan</a> </li>
+            <li><a href="p3"> Dhirendra K. Rai</a> </li>
+            <li><a href="profile9"> S. Samal</a> </li>
+            <li><a href="p18"> Vinod Kumar</a> </li>
+            <li><a href="p9">  M. Dubey</a> </li>
         
 
           </ul>
@@ -383,11 +381,11 @@ properties.</p>
         <div  className={toggleState === 6? "prof-names" : " no-profnames"}  >
           <div className="faculty-involved"><h3>Faculties</h3> </div>
           <ul>
-            <li><a href="profile2">Prof. P. M. Shirage</a> </li>
-            <li><a href="profile13">Prof. Sunil Kumar</a> </li>
-            <li><a href="profile3">Prof. Rupesh Devan</a> </li>
-            <li><a href="profile1">Prof. Ajay K. Kushwaha</a> </li>
-            <li><a href="profile10">Prof. Dhirendra K. Rai   </a> </li>
+            <li><a href="p11"> P. M. Shirage</a> </li>
+            <li><a href="p16"> Sunil Kumar</a> </li>
+            <li><a href="p14"> Rupesh Devan</a> </li>
+            <li><a href="p5"> Ajay K. Kushwaha</a> </li>
+            <li><a href="p3"> Dhirendra K. Rai   </a> </li>
         
 
 
@@ -396,9 +394,7 @@ properties.</p>
         </div>
       </div>
       </div>
-      <div>
-        <Footer />
-      </div></>
+     </>
 
   )
 }

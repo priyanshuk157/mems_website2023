@@ -1,6 +1,5 @@
 import React from "react";
-import Navbar from "../navbar";
-import Footer from "../footer";
+
 import "./demo.css";
 // import { FaAngleLeft } from "react-icons/fa";
 import { FaEnvelope, FaHome, FaLinkedin, FaPhone, FaResearchgate,  FaTwitterSquare } from "react-icons/fa";
@@ -11,9 +10,7 @@ import prof18 from "./profimages/prof18.jpg"
 const profile11 = () => {
   return (
     <>
-      <div>
-        <Navbar />
-      </div>
+      
 
       {/*<div className="head">
         <i className="back-button">
@@ -182,9 +179,7 @@ High-throughput estimation of planar fault energies in A3B compounds with L12 st
 
       </div>
 
-      <div>
-        <Footer />
-      </div>
+      
     </>
   );
 };

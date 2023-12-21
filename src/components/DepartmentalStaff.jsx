@@ -1,6 +1,5 @@
 import React from 'react'
-import Navbar from './navbar2'
-import Footer from './footer'
+
 import "./staff.css"
 import mcbairwa from "./staffimages/MaheshChandBairwa.jpg"
 import mdhake from "./staffimages/MayurDhake.jpg"
@@ -17,10 +16,7 @@ const DepartmentalStaff = () => {
     return (
         <>
             <div className='body'>
-                <div>
-                    <Navbar/>
-
-                </div>
+               
                
                 <div className="faculty-head-2">Office Staffs in MEMS</div>   
 
@@ -165,7 +161,7 @@ const DepartmentalStaff = () => {
         </div>
       </div>
 
-                <Footer/>
+               
             </div>
         </>
     )

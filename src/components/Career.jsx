@@ -1,16 +1,13 @@
 import React from 'react'
-import Navbar2 from "./navbar2";
-import Footer from "./footer";
+
 import { Accordion } from 'react-bootstrap';
 import "./career.css"
 const Career = () => {
   return (
     <>
-    <div>
-        <Navbar2/>
-    </div>
+   
 
-<span class="heading">CAREER</span>
+<span className="heading">CAREERS</span>
 
 <div className="career-cont">
 <Accordion className='career-accord' defaultActiveKey="-1">
@@ -59,9 +56,7 @@ Watch  out for this space
 </div>
 
    
-    <div>
-<Footer/>
-    </div>
+   
     </>
   )
 }
