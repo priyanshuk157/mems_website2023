@@ -20,7 +20,7 @@ const profile11 = () => {
         </i>
         <span>PROFILE</span>
       </div>*/}
-
+<span className="pc1-headmain">Dr. Rupesh S. Devan</span>
       <div class="main">
             <div class="left">
                 <div>
@@ -33,7 +33,7 @@ const profile11 = () => {
 
             
         <div className="pc2">
-            <span className="pc1-head">Dr. Rupesh S. Devan</span>
+           
             <ul>
               <li>Designation	: Assistant Professor</li>
               <li>Office		: Room No. 1D-414 </li>
