@@ -19,7 +19,7 @@ const Facultydata = [
     },
     {
         id : 4,
-        image : "./images/profimages/dkrai.jpg",
+        image : "./images/profimages/prof3.jpg",
         name : " Dhirendra Kumar Rai",
         link : "P3",
     },
@@ -96,10 +96,10 @@ const Facultydata = [
         link : "P15",
     },
     {
-        id : 17,
-        image : "./images/profimages/prof6.jpg",
+        id : 20,
+        image : "./images/profimages/samal.jpg",
         name : " Sumanta Samal",
-        link : "P16",
+        link : "P19",
     },
     {
         id : 17,
@@ -119,11 +119,6 @@ const Facultydata = [
         name : " Vinod Kumar",
         link : "P18",
     },
-    {
-        id : 20,
-        image : "./images/profimages/samal.jpg",
-        name : " Sumanta Samal",
-        link : "demo",
-    },
+  
 ]
 export default Facultydata
