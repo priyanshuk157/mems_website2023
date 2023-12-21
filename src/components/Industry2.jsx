@@ -80,7 +80,7 @@ const Industry2 = () => {
               </ul>
             </div>
           </div>
-          <div className="industry-cards">
+          <div className="industry-cards2">
             <div className="industrycards-head">MTech</div>
             <div className="industrycard-content">
               <ul>
@@ -148,7 +148,7 @@ const Industry2 = () => {
               </ul>
             </div>
           </div>
-          <div className="industry-cards">
+          <div className="industry-cards2">
             <div className="industrycards-head">Footprints of MEMS</div>
             <div className="industrycard-content">
               <div className="ind-section">
@@ -165,11 +165,14 @@ const Industry2 = () => {
                     <img className="rplogo" src={razorpay} width="250" alt="" />
                     <img className="jiologo" src={jio} width="100" alt="" />
                   </div>
-                </div>
-              </div>
-            </div>
-          </div>
+    
+   
+      
         </div>
+      </div>
+      </div>
+      </div>
+      </div>
       </div>
       <div
         className={
@@ -201,12 +204,16 @@ const Industry2 = () => {
               </div>
             </div>
           </div>
-          <div className="industry-cards">
-            <div className="industrycards-head">Publications</div>
-            <div className="industrycard-content">
-              <img src={publ} alt="" />
-            </div>
-            <Accordion defaultActiveKey="-1">
+         
+      <div className="industry-cards2">
+    <div className="research-head">Publications</div>
+    <div className='industrycard-content'>
+    <img src={publ} alt="" />
+          
+        </div>
+        <Accordion defaultActiveKey="-1">
+              
+                
               <Accordion.Item eventKey="2">
                 <Accordion.Header>
                   <span className="res-header">Internships</span>
@@ -216,25 +223,21 @@ const Industry2 = () => {
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="3">
-                <Accordion.Header>
-                  <span className="res-header">Training</span>
-                </Accordion.Header>
-                <Accordion.Body>
-                  <div className="ss">
-                    We offer training programs for Industry person to acquire
-                    operational knowledge and skill on certain instruments{" "}
-                    <br /> We conduct focused workshops to cater to the needs of
-                    partnering Industries in the domain of Metallurgical
-                    Engineering and Materials Science.
-                  </div>
+                
+                <Accordion.Header><span className='res-header'>Training</span></Accordion.Header>
+                <Accordion.Body><div className="ss">
+                 <ul><li>We offer training programs for Industry person to acquire operational knowledge and skill on certain instruments</li> 
+                 <br /><li> We conduct focused workshops to cater to the needs of partnering   Industries in the domain of Metallurgical Engineering and Materials Science.</li></ul>
+                </div>
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
-          </div>
-        </div>
-      </div>
+        
+     </div>
+     </div>
+     </div>
     </>
-  );
-};
+  )
+}
 
-export default Industry2;
+export default Industry2

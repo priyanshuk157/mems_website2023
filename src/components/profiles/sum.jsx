@@ -12,7 +12,7 @@ const profile11 = () => {
   return (
     <>
       
-
+      <span className="pc1-headmain">Prof. Sumanta samal</span>
       {/*<div className="head">
         <i className="back-button">
           <a href="faculty">
@@ -34,7 +34,7 @@ const profile11 = () => {
 
             
         <div className="pc2">
-            <span className="pc1-head">Prof. Sumanta samal</span>
+            
             <ul>
               <li>Designation	: Assistant Professor</li>
               <li>Office		: Room No. 1D- 411 </li>

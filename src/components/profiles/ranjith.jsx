@@ -6,7 +6,7 @@ import { FaEnvelope,  FaPhone} from "react-icons/fa";
 import Table from "react-bootstrap/Table";
 import {SiGooglescholar } from "react-icons/si";
 // import prof44 from "./profimages/ghosh.jpg"
-import kd from "./profimages/kd.jpg"
+import kd from "./profimages/ran.jpg"
 
 const profile11 = () => {
   return (
@@ -21,7 +21,7 @@ const profile11 = () => {
         </i>
         <span>PROFILE</span>
       </div>*/}
-
+<span className="pc1-headmain">Prof. Ranjith Kumar Poobalan</span>
       <div class="main">
             <div class="left">
                 <div>
@@ -34,7 +34,7 @@ const profile11 = () => {
 
             
         <div className="pc2">
-            <span className="pc1-head">Prof. Ranjith Kumar Poobalan</span>
+            
             <ul>
               <li>Designation	: Assistant Professor</li>
               <li>Office		: - </li>

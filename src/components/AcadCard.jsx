@@ -2,7 +2,7 @@
 import './academic.css'
 import Accordion from 'react-bootstrap/Accordion';
 import grpphto from "./images/group_photo20232.jpg"
-
+import stat from "./images/stat4.png"
 const AcadCard = () => {
 
   return (
@@ -46,19 +46,25 @@ Courses of Study </a></div>
       <Accordion.Item eventKey="2">
         <Accordion.Header><div className="acad-head1">Ph.D. Program</div></Accordion.Header>
         <Accordion.Body>
-        Our PhD program provides an exceptional opportunity for aspiring researchers and scholars to contribute to the field of metallurgical engineering and materials science through cutting-edge research and innovation. Under the guidance of renowned faculty members, doctoral candidates engage in independent, original research that pushes the boundaries of knowledge in their chosen area of specialization. Through a combination of coursework, seminars, and hands-on research experience, students develop critical thinking, analytical skills, and expertise to become future leaders in academia, industry, and research institutions. <br />
-        Minimum educational Qualifications (MEQs) and Qualifying Examination for Indiam applicants  criteria: <br />
+        Our PhD program provides an exceptional opportunity for aspiring researchers and scholars to contribute to the field of metallurgical engineering and materials science through cutting-edge research and innovation. Under the guidance of renowned faculty members, doctoral candidates engage in independent, original research that pushes the boundaries of knowledge in their chosen area of specialization. Through a combination of coursework, seminars, and hands-on research experience, students develop critical thinking, analytical skills, and expertise to become future leaders in academia, industry, and research institutions.
+        <br />Minimum educational Qualifications (MEQs) and Qualifying Examination for Indiam applicants  criteria:
 Masters’ degree (M.Tech. or M.E. or MS) in Metallurgy/ Materials Science and Engineering/ Mechanical/ Manufacturing/ Production Engineering/ Nanotechnology/
 Engineering Science/ Engineering Physics/Ceramics Engineering/ Electronics/ Chemical Engineering/Energy Science and Engineering (with first division as defined by the
 awarding Institute/ University) AND GATE qualified.
-OR <br />
+<br />
+<div className='bold'>OR</div>
+<br />
 B.E./ B.Tech. degree in Metallurgy/ Materials Science and Engineering/ Mechanical/ Manufacturing/ Production Engineering/ Nanotechnology/ Engineering Science/Engineering Physics/Ceramics Engineering/ Electronics/ Chemical Engineering/Energy Science and Engineering (with first division as defined by the awarding Institute/
 University) AND GATE qualified with a valid scorecard
-OR <br />
+<br />
+<div className='bold'>OR</div>
+<br />
 Master degree (M.Sc.) in Chemistry/ Physics/ Materials Science/ Electronics/ Nanoscience and Technology/Forensic Science (with first division as defined by the awarding Institute/ University) AND GATE qualified with a valid score
 card OR valid UGC-JRF/CSIR-JRF/DST Inspire fellowship/other equivalent Fellowship
 (Please refer to the main page on our academic portal Link: 
 https://academic.iiti.ac.in/phdadvt.php  for more details)
+<div className='statsimg'><img src={stat} alt="" /></div>
+
 
 
         <div className="res-acc-body"> <a href="https://academic.iiti.ac.in/Document/new2023/2023-July-PG-PhD-Rules+Policies+Curriculum+Syllabi-of-Courses%2029%20August%202023.pdf">Rules, Policies, Curriculum and
