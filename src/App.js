@@ -135,7 +135,7 @@ const App = () => {
         <Route path='Postdoc' element={<PostDoc/>}></Route>
         <Route path='staff' element={<DepartmentalStaff/>}></Route>
         <Route path='Postdoc' element={<PostDoc/>}></Route>
-        <Route path='collab' element={<International/>}></Route>
+        <Route path='research/collab' element={<International/>}></Route>
        
         {/* <Route path='profile1' element={<Profile1/>}></Route> */}
         <Route path='demo' element={<Demo/>}></Route>

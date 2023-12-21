@@ -16,7 +16,7 @@ const Career = () => {
 <Accordion.Item eventKey="4">
  <Accordion.Header><span className='res-header'>Faculty Positions</span></Accordion.Header>
  <Accordion.Body>
-We  are  hiring <a href="adv">click  here</a>
+We  are  hiring <a href=" https://www.iiti.ac.in/recruitments/faculty-positions">click  here</a>
 
  </Accordion.Body>
 </Accordion.Item>
