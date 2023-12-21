@@ -2,10 +2,11 @@ import React from "react";
 
 import "./demo.css";
 // import { FaAngleLeft } from "react-icons/fa";
-import { FaEnvelope,  FaPhone, FaResearchgate } from "react-icons/fa";
+// import "./profile.css";
+import { FaEnvelope, FaHome,  FaPhone, FaResearchgate,   } from "react-icons/fa";
 import Table from "react-bootstrap/Table";
 import {SiGooglescholar } from "react-icons/si";
-import prof44 from "./profimages/ghosh.jpg"
+import prof44 from "./profimages/rsm.jpg"
 
 const profile11 = () => {
   return (
@@ -20,7 +21,7 @@ const profile11 = () => {
         </i>
         <span>PROFILE</span>
       </div>*/}
-<span className="pc1-headmain">Prof. Abhijit Ghosh</span>
+<span className="pc1-headmain">Prof. Ram Sajeevan Maurya</span>
       <div class="main">
             <div class="left">
                 <div>
@@ -36,13 +37,14 @@ const profile11 = () => {
             <span className="pc1-head">Prof. Abhijit Ghosh</span>
             <ul>
               <li>Designation	: Assistant Professor</li>
-              <li>Office		: Room No. 1D- 608 </li>
-              <li>Email	 (<i><FaEnvelope/></i>)	: aghosh@iiti.ac.in </li>
-              <li>Contact  (<i><FaPhone/></i>)		: +91 0731 660 3287 </li>
+              <li>Office		: Chromium, POD 1D-613 </li>
+              <li>Email	 (<i><FaEnvelope/></i>)	: ramsajeevan@iiti.ac.in </li>
+              <li>Contact  (<i><FaPhone/></i>)		: +91-8309350644 </li>
             <div className="fac-links">
              
-             <a href=" https://scholar.google.com/citations?user=P9nZOBsAAAAJ&hl=en&authuser=1"target="_blank"  rel="noreferrer"> <i><SiGooglescholar/></i></a>
-             <a href="https://www.researchgate.net/profile/Abhijit-Ghosh-8"target="_blank"  rel="noreferrer"><i><FaResearchgate/></i></a>
+            <a href="https://sites.google.com/view/kvvamsi/home " target="_blank" rel="noreferrer"> <i><FaHome/></i></a>
+             <a href=" http://scholar.google.com/citations?user=6f8zrTcAAAAJ&hl=en "target="_blank"  rel="noreferrer"> <i><SiGooglescholar/></i></a>
+             <a href="https://www.researchgate.net/profile/Ram-Maurya-7 "target="_blank"  rel="noreferrer"><i><FaResearchgate/></i></a>
             
              
              
@@ -54,14 +56,13 @@ const profile11 = () => {
             </ul>
             <div class="aca"><span className="pc1-head">ACADEMIC BACKGROUND</span></div></div>
             <div class="acalist">
-<ul>
-<li>Ph.D, Materials Research Centre, Indian Institute of Science (IISc) Bangalore, 2012</li>
-<br />
-            <li> MSc Physics, Department of Physics and Astrophysics, University of Delhi, 2004</li>
-            <br />
-            <li>BSc Physical Sciences, Maharshi Dayanand University Rohtak , 2002</li>
+            <ul>
+            <li>Ph.D, Metallurgical and Materials Engineering, IIT Kharagpur, 2017</li>
+            <li>B.Tech, Metallurgical and Materials Engineering, NIT Durgapur, 2011
+</li>
+          
             
-</ul></div>
+          </ul></div>
 
         
             
@@ -75,12 +76,11 @@ const profile11 = () => {
           <span className="pc1-head">RESEARCH INTEREST</span>
           <div>
           
-        <li>Crystallographic texture and grain boundary</li>
-         
-        <li>Martensitic transformation</li>
-        <li>Creep and Fracture</li>
-        <li>Crystal Plasticity</li>
-
+          <li>         Alloys Development: Bulk metallic glasses, High Entropy Alloys, Oxide dispersion strengthen alloys, Tungsten based alloys, Metal based composites
+</li>
+              <li>  Synthesis and characterization: Powder Metallurgy, Sintering, Liquid Metallurgy, Materials structure-properties correlation</li>
+              <li>Application’s fields: Aerospace, Automobile, Bio-implant, Defense and Nuclear sector</li>
+             
 
 
           </div>
@@ -89,11 +89,15 @@ const profile11 = () => {
           <span className="pc1-head">POSITIONS HELD</span>
           <ul>
             <li>
-            Assistant Professor, MEMS Department, IIT Indore, November 2017 – present
+            Assistant Professor, Metallurgical Engineering and Materials Science, IIT Indore, 2019 – Present
             </li>
-            <li>Post Doctoral Fellow, Department of Materials Engineering, IISC Bangalore, March 2016- October 2017</li>
-           
-            
+            <li>Assistant Professor, Metallurgical and Materials Engineering, NIT Rourkela, 2018 – 2019</li>
+            <li>
+            Postdoc, Metallurgical and Materials Engineering, IIT Madras, 2017 – 2018
+            </li>
+            <li>
+            Industrial : Assistant System Engineer, TATA, Consultancy Services Ltd, 2011 – 2013
+            </li>
             
           </ul>
         </div>
@@ -113,25 +117,19 @@ const profile11 = () => {
                 <tr>
                   <td>1</td>
                   <td>
-                  V. Jain, P. Modak, S. Patra, A. Ghosh, Origin of Goss texture in grain oriented electrical steel: Role of shear bands,
-Materialia. 22 (2022) 101398.
+                  Gopi Talluri, M. Nagini, D. Arvindha Babu, B.S. Murty, R.S. Maurya, "Microstructural verification of the theoretically designed novel eutectic multi-principal element alloy", Materials Letters, 344, (2023), 134420, https://doi.org/10.1016/j.matlet.2023.134420
                   </td>
                 </tr>
                 <tr>
                   <td>2</td>
                   <td>
-                  P. Kumar, S. Samal, A. Ghosh, Effect of hot rolling and annealing on microstructure and mechanical properties of
-the Fe-Co-Cr-Ni-V-Zrx(x = 0-5) high entropy alloys, J. Alloys Compd. (2023) 172447.
-
-                    .
+                  Gopi Talluri, D. Arvindha Babu, V.S. Hariharan, B.S. Murty, R.S. Maurya, "A simplistic accelerated design methodology for eutectic multi-principal element alloys", Journal of Alloys and Compounds, 960, (2023), 170834, https://doi.org/10.1016/j.jallcom.2023.170834
                   </td>
                 </tr>
                 <tr>
                   <td>3</td>
                   <td>
-                    {" "}
-                    V. Jain, S. Patra, C. Halder, S.M. Hasan, A. Ghosh, Study on the formation of alligator crack and edge crack in high
-silicon grain oriented electrical steel during cold rolling, J. Appl. Phys. 132 (2022) 105101.
+                  V Suman, RS Maurya, M Debata, D Chaira, "Effect of Si addition on phase evolution and microstructure in Y2O3 dispersed tungsten (W) and W-based alloys synthesized via mechanical alloying and consecutive conventional sintering", Materials Today Communications, 31, (2022), 103341, https://doi.org/10.1016/j.mtcomm.2022.103341
                   </td>
                 </tr>
                 <tr>
@@ -144,8 +142,7 @@ growth in a polycrystalline Ni based superalloy, Int. J. Plast. 149 (2022) 10317
                 <tr>
                   <td>5</td>
                   <td>
-                  V. Jain, P. Kumar, S. Bagui, C. Halder, S. Patra, A. Ghosh, Comprehensive study on the through-process Goss
-texture evolution in Fe-3.78 wt.%Si grain oriented electrical steel, Mater. Chem. Phys. 309 (2023) 128428.
+                  A Sahu, RS Maurya, S Dinda, T Laha, "Phase Evolution-Dependent Nanomechanical Properties of Al86Ni8Y6 and Al86Ni6Y4.5Co2La1.5 Spark Plasma-Sintered Bulk Amorphous Composites", Metallurgical and Materials Transactions A, 51, (2020), 5110-5119, 10.1007/s11661-020-05916-9
                   </td>
                 </tr>
               </tbody>
@@ -156,7 +153,11 @@ texture evolution in Fe-3.78 wt.%Si grain oriented electrical steel, Mater. Chem
         <div className="pc1">
           <span className="pc1-head">AWARDS AND ACHIEVEMENTS</span>
           <div>
-          Inspire Faculty Award, DST, 2017
+          <ul>
+            <li>2017, National Post-Doctoral Fellowship, SERB</li>
+            <li>2019, Early Career Research Award, SERB</li>
+           
+           </ul>
           </div>
         </div>
        

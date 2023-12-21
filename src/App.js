@@ -50,6 +50,7 @@ import P15 from './components/profiles/san'
 import P16 from './components/profiles/sunil'
 import P17 from './components/profiles/vamsi'
 import P18 from './components/profiles/vinod'
+import P19 from './components/profiles/sum'
 
 
 
@@ -169,6 +170,7 @@ const App = () => {
         <Route path='p16' element={<P16/>}></Route>
         <Route path='p17' element={<P17/>}></Route>
         <Route path='p18' element={<P18/>}></Route>
+        <Route path='p19' element={<P19/>}></Route>
 
 
 
