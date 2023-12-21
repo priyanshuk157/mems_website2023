@@ -53,7 +53,7 @@ const Industry2 = () => {
           </ul>
         </div>
       </div>
-    <div className="industry-cards">
+    <div className="industry-cards2">
     <div className="industrycards-head">MTech</div>
     <div className='industrycard-content'>
           <ul>
@@ -79,12 +79,12 @@ const Industry2 = () => {
           </ul>
         </div>
     </div>
-      <div className="industry-cards">
+      <div className="industry-cards2">
       <div className="industrycards-head">Footprints of MEMS</div>
       <div className='industrycard-content'>
       
         <div className='ind-section'>
-                <div className="sub-ind-sec9">
+                <div className="sub-ind">
                 Our Students got placed in companies like  
                     <div className="slide-track">
                       
@@ -145,8 +145,8 @@ const Industry2 = () => {
      
      
       </div>
-      <div className="industry-cards">
-    <div className="industrycards-head">Publications</div>
+      <div className="industry-cards2">
+    <div className="research-head">Publications</div>
     <div className='industrycard-content'>
     <img src={publ} alt="" />
           
@@ -163,7 +163,8 @@ const Industry2 = () => {
               <Accordion.Item eventKey="3">
                 <Accordion.Header><span className='res-header'>Training</span></Accordion.Header>
                 <Accordion.Body><div className="ss">
-                 We offer training programs for Industry person to acquire operational knowledge and skill on certain instruments <br /> We conduct focused workshops to cater to the needs of partnering   Industries in the domain of Metallurgical Engineering and Materials Science.
+                 <ul><li>We offer training programs for Industry person to acquire operational knowledge and skill on certain instruments</li> 
+                 <br /><li> We conduct focused workshops to cater to the needs of partnering   Industries in the domain of Metallurgical Engineering and Materials Science.</li></ul>
                 </div>
                 </Accordion.Body>
               </Accordion.Item>

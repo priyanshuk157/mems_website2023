@@ -47,6 +47,15 @@
   color: #C44536;
   font-size: var(--content2)
 }
+.statsimg{
+  margin-top: 2rem;
+  position: relative;
+  display: flex;
+  aspect-ratio: 1/1;
+  height: 400px;
+  justify-content: center;
+  left: 300px;
+}
 @media(max-width:600px){
   .acad-body{
     display: flex;

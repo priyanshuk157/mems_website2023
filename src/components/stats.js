@@ -16,12 +16,14 @@ const Stats = () => {
    <>
    <Swiper
    style={{
-    "--swiper-navigation-color": "#000",
-    "--swiper-navigation-size": "0px",
+    "--swiper-navigation-size": "25px",
+    "--swiper-navigation-top-offset": "90%",
+    "--swiper-navigation-sides-offset": "0px",
+    "--swiper-navigation-color": "var(--black)"
    
   }}    
       autoplay={{
-        delay: 4000,
+        delay: 5000,
         disableOnInteraction: false,
       }}
         slidesPerView={1}
