@@ -49,6 +49,10 @@
     font-size: 18px;
    
 }
+.pc11{
+    margin-left: auto;
+    margin-right: auto;
+}
 .pc1-head{
     color:var(--red);
     position: relative;
