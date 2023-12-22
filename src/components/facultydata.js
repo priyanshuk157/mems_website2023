@@ -119,6 +119,6 @@ const Facultydata = [
         name : " Vinod Kumar",
         link : "P18",
     },
-  
+    
 ]
 export default Facultydata

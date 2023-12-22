@@ -12,6 +12,7 @@
     background-color: var(--yellow);
     padding: 40px;
     /* margin: 10px 10px; */
+   
     width: 40%;
     /* left: 5%; */
    
@@ -52,8 +53,7 @@
     color:var(--red);
     position: relative;
     font-size: 30px;
-    margin-top:1rem ;
-    margin-bottom: 2rem;
+    
    
 }
 .pc1-headmain{
@@ -63,7 +63,7 @@
     display: flex;
     justify-content: center;
     margin: 2rem;
-    margin-top: .5rem;
+   
    
 }
 .aca{
@@ -92,7 +92,7 @@
     position: relative;
     display: flex;
     width: 1300px;
-margin: auto;
+    margin: auto;
     }
 
 
@@ -101,6 +101,7 @@ margin: auto;
     display: flex;
     gap: 2rem;
     flex-direction: column;
+   
 }
 
 @media (max-width:600px){
