@@ -11,8 +11,10 @@ import prof1 from "./profimages/drpaul.jpg"
 const drpaul = () => {
   return (
     <>
-      
-      <span className="pc1-headmain">Prof. Dr. Ahoutou Paul KOUAKOU</span>
+      <div>
+        <Navbar />
+      </div>
+
       {/*<div className="head">
         <i className="back-button">
           <a href="faculty">
@@ -34,7 +36,7 @@ const drpaul = () => {
 
             
         <div className="pc2">
-            
+            <span className="pc1-head">Prof. Dr. Ahoutou Paul KOUAKOU</span>
             <ul>
               <li>Designation	: Assistant Professor</li>
               <li>Office		:-- </li>
@@ -60,7 +62,7 @@ const drpaul = () => {
 
             
             <div class="right">
-            <div className="pc11">
+            <div className="pc1">
               
         <div className="pc1">
           <span className="pc1-head">RESEARCH INTEREST</span>
@@ -117,7 +119,9 @@ const drpaul = () => {
 
       </div>
 
-     
+      <div>
+        <Footer />
+      </div>
     </>
   );
 };

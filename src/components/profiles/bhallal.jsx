@@ -11,9 +11,10 @@ import prof1 from "./profimages/prof19.jpg"
 const bhallal = () => {
   return (
     <>
-    
-     
-    <span className="pc1-headmain">Prof. N B Ballal</span>
+      <div>
+        <Navbar />
+      </div>
+
       {/*<div className="head">
         <i className="back-button">
           <a href="faculty">
@@ -35,7 +36,7 @@ const bhallal = () => {
 
             
         <div className="pc2">
-           
+            <span className="pc1-head">Prof. N B Ballal</span>
             <ul>
               <li>Designation	: Assistant Professor</li>
               <li>Office		:-- </li>
@@ -169,7 +170,9 @@ const bhallal = () => {
 
       </div>
 
-   
+      <div>
+        <Footer />
+      </div>
     </>
   );
 };

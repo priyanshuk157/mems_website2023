@@ -15,7 +15,7 @@ const AccordianMain = () => {
          <Facilities/>
          <br/>
          <br/>
-         <a href="other">Other Facilities </a>
+         <div className="res-acc-body"><a href="other">Other Facilities </a></div>
 
 
         </Accordion.Body>

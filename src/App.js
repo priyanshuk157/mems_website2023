@@ -178,6 +178,8 @@ const App = () => {
 
 
 
+        <Route path='bhallal' element={<Bhallal/>}></Route>
+        <Route path='drpaul' element={<Drpaul/>}></Route>
 
 
 
