@@ -89,7 +89,9 @@
     display: flex;
     
     font-size: var(--content1);
-    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
     
 }
 .industrycard-content img{
