@@ -61,9 +61,9 @@ const Industry2 = () => {
                 <li>
                   About Curriculum : Our students undergo a rigorous curriculum
                   in Metallurgy and Material Science. The BTech program requires
-                  each student to complete X credits to obtain a degree in
+                  each student to complete 146.5 credits to obtain a degree in
                   Metallurgy and Material Science at IIT Indore. <br />
-                  This includes A courses and B labs, which impart theoretical
+                  This includes 49 courses and 12 labs, which impart theoretical
                   and practical knowledge in various domains of materials
                   engineering.{" "}
                 </li>
@@ -94,7 +94,7 @@ const Industry2 = () => {
                   and hands-on experience, fostering a strong foundation for
                   research and innovation.
                   <br />
-                  This includes A courses and B labs which imparts theoretical
+                  This includes 9 courses and 4 labs which imparts theoretical
                   and practical knowledge in various domains of materials
                   engineering.{" "}
                 </li>
@@ -120,30 +120,22 @@ const Industry2 = () => {
               <img src={publ} alt="" />
               <ul>
                 <li>
-                  MTech students at IIT Indore experience a comprehensive and
-                  advanced academic journey in their chosen fields.{" "}
+                The department conducts annual progress seminar to review the progress of thesis.{" "}
                 </li>
                 <li>
                   {" "}
-                  The MTech programs are designed to provide in-depth knowledge
-                  and hands-on experience, fostering a strong foundation for
-                  research and innovation.
+                  The institute provides funds for travel to international conferences which provides 
+                  exposure to research groups and cultures across the globe.
                   <br />
-                  This includes A courses and B labs which imparts theoretical
-                  and practical knowledge in various domains of materials
-                  engineering.{" "}
+                  Some of our Students obtained prestigious PMRF funding to this PhD tenure.{" "}
                 </li>
                 <li>
-                  The curriculum emphasizes a balance between theoretical
-                  understanding and practical application, ensuring that MTech
-                  graduates are well-equipped for challenges in academia,
-                  industry, and research.
+                Our Student actively take part in Annual Student Symposiums conducted within department 
+                which is entirely conducted by the students itself.
                 </li>
                 <li>
-                  Beyond academics, the vibrant campus life offers opportunities
-                  for networking, participation in seminars, and involvement in
-                  various extracurricular activities, contributing to the
-                  holistic development of MTech students at IIT Indore.
+                IIT Indore has an active materials advantage chapter where Student become the members 
+                of the MA Student program and avail advantages to 4 different materials societies.
                 </li>
               </ul>
             </div>
