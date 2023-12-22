@@ -151,9 +151,9 @@ const Industry2 = () => {
           <div className="industry-cards2">
             <div className="industrycards-head">Footprints of MEMS</div>
             <div className="industrycard-content">
-              <div className="ind-section">
-                <div className="sub-ind-sec9">
-                  Our Students got placed in companies like
+           
+              
+                  
                   <div className="slide-track">
                     <img
                       className="aclogo"
@@ -168,8 +168,7 @@ const Industry2 = () => {
     
    
       
-        </div>
-      </div>
+     
       </div>
       </div>
       </div>
