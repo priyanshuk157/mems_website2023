@@ -11,9 +11,7 @@ import prof1 from "./profimages/drpaul.jpg"
 const drpaul = () => {
   return (
     <>
-      <div>
-        <Navbar />
-      </div>
+    <span className="pc1-headmain">Dr. Ahoutou Paul KOUAKOU</span>
 
       {/*<div className="head">
         <i className="back-button">
@@ -36,7 +34,7 @@ const drpaul = () => {
 
             
         <div className="pc2">
-            <span className="pc1-head">Prof. Dr. Ahoutou Paul KOUAKOU</span>
+            <span className="pc1-head"> Dr. Ahoutou Paul KOUAKOU</span>
             <ul>
               <li>Designation	: Assistant Professor</li>
               <li>Office		:-- </li>
@@ -119,9 +117,7 @@ const drpaul = () => {
 
       </div>
 
-      <div>
-        <Footer />
-      </div>
+     
     </>
   );
 };
