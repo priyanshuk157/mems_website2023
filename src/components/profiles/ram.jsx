@@ -34,7 +34,7 @@ const profile11 = () => {
 
             
         <div className="pc2">
-            <span className="pc1-head">Prof. Abhijit Ghosh</span>
+            
             <ul>
               <li>Designation	: Assistant Professor</li>
               <li>Office		: Chromium, POD 1D-613 </li>
