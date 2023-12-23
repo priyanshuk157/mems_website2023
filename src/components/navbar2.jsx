@@ -174,7 +174,7 @@ const Navbar2 = () => {
                   </div>
                   <div className="staff-hover">
                     {" "}
-                    <NavLink to="staff" onClick={() => setHoverState(2)}>
+                    <NavLink  onClick={() => setHoverState(2)}>
                       {" "}
                       Staff
                     </NavLink>{" "}
@@ -199,7 +199,7 @@ const Navbar2 = () => {
                   </div>
                   <div className="staff-hover">
                     {" "}
-                    <NavLink to="PostDoc" onClick={() => setHoverState(2)}>
+                    <NavLink  onClick={() => setHoverState(2)}>
                       {" "}
                       Students
                     </NavLink>{" "}
