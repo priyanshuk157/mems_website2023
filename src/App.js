@@ -107,9 +107,11 @@ import Career from './components/Career';
 
 // import Home from './components/Home'
 const App = () => {
+  
+
   return (
     <>
-   <div>
+   <div >
     <Navbar2/>
    </div>
     
@@ -141,7 +143,7 @@ const App = () => {
         <Route path='research/collab' element={<International/>}></Route>
        
         {/* <Route path='profile1' element={<Profile1/>}></Route> */}
-        <Route path='demo' element={<Demo/>}></Route>
+        <Route path='faculty2/demo' element={<Demo/>}></Route>
         <Route path='ind2' element={<Industry2/>}></Route>
         <Route path='nav2' element={<Navbar2/>}></Route>
         <Route path='cons' element={<Consultancy/>}></Route>
@@ -153,33 +155,32 @@ const App = () => {
 
 
 
-        <Route path='p1' element={<P1/>}></Route>
+        <Route path='faculty2/p1' element={<P1/>}></Route>
 
-        <Route path='p2' element={<P2/>}></Route>
-        <Route path='p3' element={<P3/>}></Route>
-        <Route path='p4' element={<P4/>}></Route>
-        <Route path='p5' element={<P5/>}></Route>
-        <Route path='p6' element={<P6/>}></Route>
-        <Route path='p7' element={<P7/>}></Route>
-        <Route path='p8' element={<P8/>}></Route>
-        <Route path='p9' element={<P9/>}></Route>
-        <Route path='p10' element={<P10/>}></Route>
-        <Route path='p11' element={<P11/>}></Route>
-        <Route path='p12' element={<P12/>}></Route>
-        <Route path='p13' element={<P13/>}></Route>
-        <Route path='p14' element={<P14/>}></Route>
-        <Route path='p15' element={<P15/>}></Route>
-        <Route path='p16' element={<P16/>}></Route>
-        <Route path='p17' element={<P17/>}></Route>
-        <Route path='p18' element={<P18/>}></Route>
-        <Route path='p19' element={<P19/>}></Route>
-        <Route path='bhallal' element={<Bhallal/>}></Route>
-        <Route path='drpaul' element={<Drpaul/>}></Route>
+        <Route path='faculty2/p2' element={<P2/>}></Route>
+        <Route path='faculty2/p3' element={<P3/>}></Route>
+        <Route path='faculty2/p4' element={<P4/>}></Route>
+        <Route path='faculty2/p5' element={<P5/>}></Route>
+        <Route path='faculty2/p6' element={<P6/>}></Route>
+        <Route path='faculty2/p7' element={<P7/>}></Route>
+        <Route path='faculty2/p8' element={<P8/>}></Route>
+        <Route path='faculty2/p9' element={<P9/>}></Route>
+        <Route path='faculty2/p10' element={<P10/>}></Route>
+        <Route path='faculty2/p11' element={<P11/>}></Route>
+        <Route path='faculty2/p12' element={<P12/>}></Route>
+        <Route path='faculty2/p13' element={<P13/>}></Route>
+        <Route path='faculty2/p14' element={<P14/>}></Route>
+        <Route path='faculty2/p15' element={<P15/>}></Route>
+        <Route path='faculty2/p16' element={<P16/>}></Route>
+        <Route path='faculty2/p17' element={<P17/>}></Route>
+        <Route path='faculty2/p18' element={<P18/>}></Route>
+        <Route path='faculty2/p19' element={<P19/>}></Route>
+        <Route path='faculty2/bhallal' element={<Bhallal/>}></Route>
+        <Route path='faculty2/drpaul' element={<Drpaul/>}></Route>
 
 
 
-        <Route path='bhallal' element={<Bhallal/>}></Route>
-        <Route path='drpaul' element={<Drpaul/>}></Route>
+       
 
 
 
@@ -194,8 +195,8 @@ const App = () => {
 
 
         {/* <Route path='profile19' element={<Profile19/>}></Route> */}
-        <Route path='profilekd' element={<Profilekd/>}></Route>
- <Route path='profileran' element={<Profileran/>}></Route>
+        <Route path='faculty2/profilekd' element={<Profilekd/>}></Route>
+ <Route path='faculty2/profileran' element={<Profileran/>}></Route>
  <Route path='research/researchcomponent1' element={<Researchcomponent1/>}></Route>
  <Route path='research/researchcomponent2' element={<Researchcomponent2/>}></Route>
  <Route path='research/researchcomponent3' element={<Researchcomponent3/>}></Route>

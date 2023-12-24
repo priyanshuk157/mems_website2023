@@ -1,28 +1,26 @@
-import React, { useState } from "react";
+
 import "./navbar2.css";
 import { FaBars } from "react-icons/fa";
 import { useRef } from "react";
 import logo from "./images/mems-logo.png";
-import { NavLink } from "react-router-dom";
+import { NavLink,  useLocation } from "react-router-dom";
 
 import { FaFacebook, FaInstagram, FaResearchgate } from "react-icons/fa";
-
 import { FaLinkedin } from "react-icons/fa";
 import { FaTwitterSquare } from "react-icons/fa";
-import { useEffect } from "react";
+
 
 const Navbar2 = () => {
   const navRef = useRef();
+  const {pathname}  = useLocation();
 
  
 
-  const [hoverState, setHoverState] = useState(1);
 
-  useEffect(() => {
-    setHoverState(hoverState);
-    console.log("dohne");
-  }, [hoverState]);
+ 
 
+  
+  
   const showNavbar = () => {
     navRef.current.classList.toggle("responsive-nav");
   };
@@ -61,7 +59,7 @@ const Navbar2 = () => {
                   rel="noopener noreferrer"
                 >
                   <i>
-                    <FaLinkedin />
+                    <FaLinkedin/>
                   </i>{" "}
                 </a>
               </div>
@@ -141,8 +139,16 @@ const Navbar2 = () => {
                 {"   "}
                 <NavLink
                   to="/"
-                  className={hoverState === 1 ? "acthover" : "nonacthover"}
-                  onClick={() => setHoverState(1)}
+                  className={(pathname === '/' )
+                   || (pathname === '/events' ) 
+                   || (pathname === '/resources' ) 
+                   || (pathname === '/gallery' ) 
+                   || (pathname === '/other' ) 
+             
+                    ? "acthover" : "nonacthover"}
+                
+
+                  
                 >
                   {" "}
                   about{" "}
@@ -150,9 +156,44 @@ const Navbar2 = () => {
               </li>
               <li className="res-people">
                 {" "}
-                <div className={hoverState === 2 ? "acthover" : "nonacthover"}>
+               
+                        <div className={(pathname === "/faculty2") 
+                || (pathname === "/PostDoc") 
+                || (pathname === "/DepartmentalStaff") 
+                || (pathname === "/ResearchStaff") 
+                || (pathname === "/UG") 
+                || (pathname === "/PG") 
+                || (pathname === "/Phd") 
+                || (pathname === "/faculty2/demo") 
+                || (pathname === "/faculty2/P5") 
+                || (pathname === "/faculty2/P2") 
+                || (pathname === "/faculty2/P3") 
+                || (pathname === "/faculty2/P1") 
+                || (pathname === "/faculty2/P4") 
+                || (pathname === "/faculty2/P6") 
+                || (pathname === "/faculty2/P7") 
+                || (pathname === "/faculty2/P8") 
+                || (pathname === "/faculty2/P9") 
+                || (pathname === "/faculty2/P10") 
+                || (pathname === "/faculty2/P11") 
+                || (pathname === "/faculty2/P12") 
+                || (pathname === "/faculty2/P13") 
+                || (pathname === "/faculty2/P14") 
+                || (pathname === "/faculty2/P15") 
+                || (pathname === "/faculty2/P19") 
+                || (pathname === "/faculty2/P16") 
+                || (pathname === "/faculty2/P17") 
+                || (pathname === "/faculty2/P18") 
+                || (pathname === "/faculty2/bhallal") 
+                || (pathname === "/faculty2/drpaul") 
+                
+                
+                ? "acthover" : "nonacthover"}>
                   People{" "}
                 </div>{" "}
+                    
+                
+              
                 <div className="dropactive">
                   {/* <div>
                     {" "}
@@ -160,21 +201,21 @@ const Navbar2 = () => {
                   </div> */}
                   <div>
                     {" "}
-                    <NavLink to="faculty2" onClick={() => setHoverState(2)}>
+                    <NavLink to="faculty2">
                       {" "}
                       Faculty Members
                     </NavLink>{" "}
                   </div>
                   <div>
                     {" "}
-                    <NavLink to="PostDoc" onClick={() => setHoverState(2)}>
+                    <NavLink to="PostDoc" >
                       {" "}
                       PostDoc.
                     </NavLink>{" "}
                   </div>
                   <div className="staff-hover">
                     {" "}
-                    <NavLink  onClick={() => setHoverState(2)}>
+                    <NavLink  >
                       {" "}
                       Staff
                     </NavLink>{" "}
@@ -182,15 +223,14 @@ const Navbar2 = () => {
                       <div>
                         <NavLink
                           to="DepartmentalStaff"
-                          onClick={() => setHoverState(2)}
-                        >
+                                                  >
                           Departmental Staff
                         </NavLink>{" "}
                       </div>
                       <div>
                         <NavLink
                           to="ResearchStaff"
-                          onClick={() => setHoverState(2)}
+                          
                         >
                           Research Staff
                         </NavLink>{" "}
@@ -199,25 +239,25 @@ const Navbar2 = () => {
                   </div>
                   <div className="staff-hover">
                     {" "}
-                    <NavLink  onClick={() => setHoverState(2)}>
+                    <NavLink  >
                       {" "}
                       Students
                     </NavLink>{" "}
                     <div className="submenu-display">
                       <div>
-                        <NavLink to="UG" onClick={() => setHoverState(2)}>
+                        <NavLink to="UG" >
                           {" "}
                           UG
                         </NavLink>{" "}
                       </div>
                       <div>
-                        <NavLink to="PG" onClick={() => setHoverState(2)}>
+                        <NavLink to="PG" >
                           {" "}
                           PG
                         </NavLink>{" "}
                       </div>
                       <div>
-                        <NavLink to="Phd" onClick={() => setHoverState(2)}>
+                        <NavLink to="Phd" >
                           {" "}
                           PhD
                         </NavLink>{" "}
@@ -227,7 +267,7 @@ const Navbar2 = () => {
 
                   <div>
                     {" "}
-                    <NavLink to="alumini" onClick={() => setHoverState(2)}>
+                    <NavLink to="alumini" >
                       {" "}
                       Alumni{" "}
                     </NavLink>{" "}
@@ -264,8 +304,8 @@ const Navbar2 = () => {
                 {" "}
                 <NavLink
                   to="academics "
-                  className={hoverState === 3 ? "acthover" : "nonacthover"}
-                  onClick={() => setHoverState(3)}
+                  className={pathname=== "/academics" ? "acthover" : "nonacthover"}
+                  
                 >
                   {" "}
                   academics{" "}
@@ -275,8 +315,17 @@ const Navbar2 = () => {
                 {" "}
                 <NavLink
                   to="research "
-                  className={hoverState === 4 ? "acthover" : "nonacthover"}
-                  onClick={() => setHoverState(4)}
+                  className={(pathname=== "/research" ) 
+                  || (pathname=== "/research/researchcomponent1" )
+                  || (pathname=== "/research/researchcomponent2" )
+                  || (pathname=== "/research/researchcomponent3" )
+                  || (pathname=== "/research/researchcomponent4" )
+                  || (pathname=== "/research/researchcomponent5" )
+                  || (pathname=== "/research/researchcomponent6" )
+
+                  
+                  ? "acthover" : "nonacthover"}
+                 
                 >
                   {" "}
                   research{" "}
@@ -289,8 +338,8 @@ const Navbar2 = () => {
                 {" "}
                 <NavLink
                   to="ind2 "
-                  className={hoverState === 5 ? "acthover" : "nonacthover"}
-                  onClick={() => setHoverState(5)}
+                  className={pathname=== "/ind2" ? "acthover" : "nonacthover"}
+                  
                 >
                   {" "}
                   Industry Connect{" "}
@@ -300,8 +349,8 @@ const Navbar2 = () => {
                 {" "}
                 <NavLink
                   to="career "
-                  className={hoverState === 6 ? "acthover" : "nonacthover"}
-                  onClick={() => setHoverState(6)}
+                  className={pathname=== "/career" ? "acthover" : "nonacthover"}
+                  
                 >
                   {" "}
                   Careers{" "}
