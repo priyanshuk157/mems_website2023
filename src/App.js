@@ -101,6 +101,7 @@ import Navbar2 from './components/navbar2';
 import Footer from './components/footer';
 import Consultancy from './components/consultancy';
 import Career from './components/Career';
+import Hidenavbar from './components/Hidenavbar';
 
 // import homepageslider from './components/homepageslider';
 
@@ -111,9 +112,7 @@ const App = () => {
 
   return (
     <>
-   <div >
-    <Navbar2/>
-   </div>
+
     
     <div>
       {/* <div>
@@ -123,7 +122,13 @@ const App = () => {
       <Slider/>
       </div>
       <div> <Cards/></div> */}
+     <Hidenavbar>
+     <Navbar2/>
+     </Hidenavbar>
+      
+      </div>
       <Routes>
+      
         <Route path='/' element={<Home/>}>
 
         </Route>
@@ -219,10 +224,12 @@ const App = () => {
         <Route path='industry' element={<Industryrelation/>}></Route>
       </Routes>
      
-      <div> <Footer/></div>
-      
      
-      </div>
+      
+      <Hidenavbar>
+      <Footer/>
+     </Hidenavbar>
+      
     </>
   )   
  
