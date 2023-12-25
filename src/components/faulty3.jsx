@@ -28,7 +28,9 @@ import Accordion from 'react-bootstrap/Accordion';
 import gh from "./profiles/profimages/gai.jpeg";
 import dance from "./profiles/profimages/dance.jpeg";
 import painting from "./profiles/profimages/painting.jpeg";
-
+import pclub from "./profiles/profimages/pclub.jpg";
+import snt from "./profiles/profimages/snt.jpg";
+import robo from "./profiles/profimages/robo.jpg";
 import photo from "./profiles/profimages/graphy.jpeg";
 
 
@@ -94,17 +96,17 @@ We encourage you to actively participate in the vibrant IIT Indore community. Sh
   <div class="imagesdiv">
       <span class="cult">TECH</span>
       <div class="x">
-        <div class="zoom"><img src={dance} alt="" />
+        <div class="zoom"><img src={pclub} alt="" />
           <div class="up">P-Club</div>
 
         </div>
-    <a href="faculty4"><div class="zoom"><img src={painting} alt="" />
+    <a href="faculty4"><div class="zoom"><img src={robo} alt="" />
 
     
 <div class="up">Robotics</div>
 
     </div ></a>
-    <div class="zoom"><img src={photo} alt="" />
+    <div class="zoom"><img src={snt} alt="" />
 <div class="up2">Tech-events</div>
 
     </div>
