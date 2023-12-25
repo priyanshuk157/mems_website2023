@@ -32,7 +32,7 @@ import pclub from "./profiles/profimages/pclub.jpg";
 import snt from "./profiles/profimages/snt.jpg";
 import robo from "./profiles/profimages/robo.jpg";
 import photo from "./profiles/profimages/graphy.jpeg";
-
+import techgroup from "./profiles/profimages/techphoto.jpg";
 
 
 
@@ -69,24 +69,25 @@ We encourage you to actively participate in the vibrant IIT Indore community. Sh
     <div class="back">
       <span class="cult">Culturals</span>
       <div class="x">
-        <div class="zoom"><img src={dance} alt="" />
+      <a href="https://www.instagram.com/d_alphazcrew/?hl=en"><div class="zoom"><img src={dance} alt="" />
           <div class="up">Dance</div>
 
-        </div>
+        </div></a>
         <a href="faculty4"><div class="zoom"><img src={painting} alt="" />
 
     
         <div class="up">Arts</div>
 
         </div ></a>
-    <div class="zoom"><img src={photo} alt="" />
+        <a href="https://www.instagram.com/mystichues/?hl=en"><div class="zoom"><img src={photo} alt="" />
 <div class="up2">Photography</div>
 
-    </div>
+    </div></a>
+    <a href="faculty4">
     <div class="zoom"><img src={gh} alt="" />
 <div class="up">Gallery</div>
 
-    </div></div>
+    </div></a></div>
     </div> 
 </div> </div>
 
@@ -96,24 +97,27 @@ We encourage you to actively participate in the vibrant IIT Indore community. Sh
   <div class="imagesdiv">
       <span class="cult">TECH</span>
       <div class="x">
-        <div class="zoom"><img src={pclub} alt="" />
+      <a href="http://progclub.iiti.ac.in/"> <div class="zoom"><img src={pclub} alt="" />
           <div class="up">P-Club</div>
 
-        </div>
-    <a href="faculty4"><div class="zoom"><img src={robo} alt="" />
+        </div></a>
+    <a href="https://www.instagram.com/roboticsclub_iitindore"><div class="zoom"><img src={robo} alt="" />
 
     
 <div class="up">Robotics</div>
 
     </div ></a>
+    <a href="http://gymkhana.iiti.ac.in//technicals/index.html">
     <div class="zoom"><img src={snt} alt="" />
 <div class="up2">Tech-events</div>
 
-    </div>
-    <div class="zoom"><img src={gh} alt="" />
+    </div></a>
+    <a href="faculty4">
+    <div class="zoom"><img src={techgroup} alt="" />
 <div class="up">Gallery</div>
 
-    </div></div>
+    </div>
+    </a></div>
 </div>
   
 </div>
