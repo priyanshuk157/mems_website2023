@@ -98,6 +98,7 @@ import Pg from './components/PG'
 import Events from './components/Events';
 import Industry2 from './components/Industry2';
 import Navbar2 from './components/navbar2';
+import Otherinfo from './components/otherinfo';
 import Footer from './components/footer';
 import Consultancy from './components/consultancy';
 import Career from './components/Career';
@@ -151,6 +152,7 @@ const App = () => {
         <Route path='faculty2/demo' element={<Demo/>}></Route>
         <Route path='ind2' element={<Industry2/>}></Route>
         <Route path='nav2' element={<Navbar2/>}></Route>
+        <Route path='oi' element={<Otherinfo/>}></Route>
         <Route path='cons' element={<Consultancy/>}></Route>
         <Route path='career' element={<Career/>}></Route>
 
