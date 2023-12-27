@@ -54,14 +54,7 @@ aspect-ratio: 4/4;
  list-style: none;
 
 }
-.fac-links{
-    display: flex;
-    gap: 20px;
-}
-.fac-links a{
-    color: rgb(42, 41, 41);
-    font-size: 18px;
-}
+
 .profileimg-name{
     position: relative;
     font-size: var(--content2);

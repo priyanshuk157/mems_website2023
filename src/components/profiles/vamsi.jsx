@@ -21,8 +21,8 @@ const profile11 = () => {
         <span>PROFILE</span>
       </div>*/}
 <span className="pc1-headmain">Prof. K. V. Vamsi</span>
-      <div class="main">
-            <div class="left">
+      <div className="main">
+            <div className="left">
                 <div>
                 <img src={prof18} alt="" />
                
@@ -45,19 +45,12 @@ const profile11 = () => {
              <a href="https://www.researchgate.net/profile/K-V-Vamsi "target="_blank"  rel="noreferrer"><i><FaResearchgate/></i></a>
              <a href="https://twitter.com/kvvamsi "target="_blank"  rel="noreferrer"><i><FaTwitterSquare/></i></a>
              <a href="https://www.linkedin.com/in/kvvamsi/ "target="_blank"  rel="noreferrer"> <i><FaLinkedin/></i></a>
-             
-             
-             
-             
-              
-              
-             
-            </div>
+              </div>
               
             </ul>
-            <div class="aca"><span className="pc1-head">ACADEMIC BACKGROUND</span></div></div>
+            <div className="aca"><span className="pc1-head">ACADEMIC BACKGROUND</span></div></div>
 
-            <div class="acalist">
+            <div className="acalist">
             <ul>
             <li>Ph.D., Materials Engineering, Indian Institute of Science, 2018</li>
             <br /><li>M.E., Materials Engineering, Indian Institute of Science, 2009.
@@ -69,7 +62,7 @@ const profile11 = () => {
             </div>
 
             
-            <div class="right">
+            <div className="right">
             <div className="pc1">
               
         <div className="pc1">

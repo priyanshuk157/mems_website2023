@@ -129,7 +129,7 @@ const section = () => {
               <div className="gallery-grid2">
                 <img className="grid-itemx" src={convopic} alt="" />
               </div>
-              <div className="eventx">Conference/Seminar/Courses</div>
+              {/* <div className="eventx">Conference/Seminar/Courses</div> */}
             </div>
           </NavLink>
         </div>
@@ -143,7 +143,7 @@ const section = () => {
                 <img className="grid-itemx" src={re} alt="" />
               </div>
 
-              <div className="eventx">click here to check our RESOURCES</div>
+              {/* <div className="eventx">click here to check our RESOURCES</div> */}
             </div>
           </NavLink>
         </div>

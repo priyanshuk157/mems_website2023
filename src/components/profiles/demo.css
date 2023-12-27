@@ -108,6 +108,10 @@
     flex-direction: column;
    
 }
+.fac-links{
+   display: flex;
+   color: black !important;
+}
 
 @media (max-width:600px){
     .head{
