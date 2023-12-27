@@ -45,7 +45,7 @@ const faculty = () => {
     <>
      
 <div class="navbar">
-    <a href="faculty3">Home</a>
+    <a href="Studentcorner">Home</a>
     <a href="oi">Other Info</a>
     <a href="/">Main Website</a>
     <a href="#contact">Contact</a>
@@ -116,7 +116,7 @@ We encourage you to actively participate in the vibrant IIT Indore community. Sh
     <div class="zoom"><img src={techgroup} alt="" />
 <div class="up">Gallery</div>
 
-    </div>
+    </div>  
     </a></div>
 </div>
   

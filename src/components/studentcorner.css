@@ -188,6 +188,7 @@ body {
     width: 250px;
     border-radius: 10px;
     filter: brightness(.5);
+    filter: drop-shadow(0px 0px 10px rgb(183, 183, 183));
 
   }
   .up{

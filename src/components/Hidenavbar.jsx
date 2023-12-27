@@ -7,7 +7,7 @@ const Hidenavbar = ({children}) => {
     const [navshow , setNavshow] = useState(false)
 
     useEffect(()=>{
-        if( location.pathname === "/faculty3"){
+        if( location.pathname === "/Studentcorner" || location.pathname === "/faculty4" || location.pathname === "/oi"  ){
             setNavshow(false)
         }else{
             setNavshow(true)
@@ -15,7 +15,7 @@ const Hidenavbar = ({children}) => {
     },[location])
   return (
     <>
-     <div>{ navshow && children}
+     <div>{navshow && children}
       
     </div></>
    
