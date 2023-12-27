@@ -2,6 +2,8 @@ import "./Slider.css"
 import jai from "./images/yeih.jpg"
 import jai1 from "./images/statimg.jpg"
 import jai2 from "./images/statimg2.jpg"
+
+import newimage from "./images/WhatsApp Image 2023-12-27 at 2.30.02 PM.jpeg"
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
@@ -41,7 +43,7 @@ function CarouselFadeExample() {
         <SwiperSlide><div><img src={jai1} alt="" /></div></SwiperSlide>
         <SwiperSlide><div><img src={jai2} alt="" /></div></SwiperSlide>
         <SwiperSlide><div><img src={jai} alt="" /></div></SwiperSlide>
-        <SwiperSlide><div><img src={jai} alt="" /></div></SwiperSlide>
+        <SwiperSlide><div><img src={newimage} alt="" /></div></SwiperSlide>
         
       </Swiper>
    
