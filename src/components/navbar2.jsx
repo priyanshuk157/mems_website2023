@@ -44,7 +44,7 @@ const Navbar2 = () => {
         <div className="nav-logos">
           <div className="shape1">
             <div className="nav-student-button">
-              <NavLink to="faculty3">
+              <NavLink to="Studentcorner">
                 <button className="navbar-button">Student Corner</button>
               </NavLink>
             </div>

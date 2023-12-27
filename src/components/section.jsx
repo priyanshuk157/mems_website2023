@@ -15,7 +15,7 @@ const section = () => {
   return (
     <>
       <div className="studentcbutton">
-        <a href="faculty3">
+        <a href="Studentcorner">
           <button className="button">Student Corner</button>
         </a>
       </div>
@@ -75,20 +75,27 @@ const section = () => {
 
         <div className="vision">
           <div className="sec-conthead">VISION AND MISSION</div>
-          <div>Vision</div>
+          <div className="subsubhead">Vision</div>
           To emerge as a globally esteemed institution, our vision at the Department of Metallurgical Engineering and Materials Science is to educate and mentor the forthcoming generation of engineers, scientists, and entrepreneurs. Our unwavering commitment is to contribute significantly to the economic and social development of India and the world.
 
           <br /> <br />
-          <div>Mission</div>
-          <div>Educational Excellence:</div>
+          <div className="subsubhead">Mission</div>
+          <span className="subsubhead2">Educational Excellence:</span>
           Cultivating excellence in our students, our mission is to provide a comprehensive education encompassing fundamentals of advanced materials and metallurgical engineering topics. Our goal is to equip them with the essential skills for success in academia and industry.
-          <div>Educational Excellence:</div>
-          Cultivating excellence in our students, our mission is to provide a comprehensive education encompassing fundamentals of advanced materials and metallurgical engineering topics. Our goal is to equip them with the essential skills for success in academia and industry.
-          <div>Educational Excellence:</div>
-          Cultivating excellence in our students, our mission is to provide a comprehensive education encompassing fundamentals of advanced materials and metallurgical engineering topics. Our goal is to equip them with the essential skills for success in academia and industry.
-          <div>Educational Excellence:</div>
-          Cultivating excellence in our students, our mission is to provide a comprehensive education encompassing fundamentals of advanced materials and metallurgical engineering topics. Our goal is to equip them with the essential skills for success in academia and industry.
- 
+          <span className="subsubhead2">Cutting-Edge Research:</span>
+          Undertaking innovative research is integral to our mission. We focus on the design, processing, characterization, and application of novel materials, aiming to make pioneering contributions that advance the boundaries of knowledge.
+
+          <span className="subsubhead2">
+Promoting Innovation and Entrepreneurship:
+</span>
+          We are dedicated to fostering a culture of innovation and entrepreneurship. Our mission includes providing a conducive environment for translational research through collaboration with relevant industries, thereby contributing to the practical application of research outcomes.
+          <span className="subsubhead2">
+Community Engagement and Outreach:
+</span>
+          Our commitment extends beyond academic boundaries to engage with the broader community. Through meticulously planned outreach programs, we aim to promote awareness of science and technology, facilitating a positive impact on society.
+<br />
+In adherence to these principles, we aspire to set new academic and research excellence standards, becoming a beacon of transformative education and innovation in materials science and engineering.
+
           
         </div>
       </div>

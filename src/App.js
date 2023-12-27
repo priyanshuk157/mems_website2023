@@ -12,7 +12,7 @@ import GalleryPage from './mainpages/GalleryPage';
 import Resources from './mainpages/Resources'
 import Faculty from './components/faculty'
 import Faculty2 from './components/faulty2'
-import Faculty3 from './components/faulty3'
+import Studentcorner from './components/studentcorner'
 import Faculty4 from './components/painting'
 import Otherfacilities from './components/otherfacilities'
 import PostDoc from './components/PostDoc'
@@ -140,7 +140,7 @@ const App = () => {
         <Route path='resources' element={<Resources/>}></Route>
         <Route path='faculty' element={<Faculty/>}></Route>
         <Route path='faculty2' element={<Faculty2/>}></Route>
-        <Route path='faculty3' element={<Faculty3/>}></Route>
+        <Route path='Studentcorner' element={<Studentcorner/>}></Route>
         <Route path='faculty4' element={<Faculty4/>}></Route>
         <Route path='other' element={<Otherfacilities/>}></Route>
         <Route path='Postdoc' element={<PostDoc/>}></Route>
