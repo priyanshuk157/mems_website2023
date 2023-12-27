@@ -21,10 +21,10 @@ const Newssection = () => {
    <>
    <Swiper
    style={{
-    "--swiper-navigation-size": "35px",
-    "--swiper-navigation-top-offset": "90%",
+    "--swiper-navigation-size": "25px",
+    "--swiper-navigation-top-offset": "50%",
     "--swiper-navigation-sides-offset": "10px",
-    "--swiper-navigation-color": "var(--black)"
+    "--swiper-navigation-color": "black"
   }}    
       autoplay={{
         delay: 6000,

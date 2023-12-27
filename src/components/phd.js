@@ -5,15 +5,14 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-import stat2 from "./images/niceug.png"
 import stat3 from "./images/nicepg.png"
-import stat4 from "./images/iii.png"
+import stat from "./images/stat4.png"
+
 import publ from "../components/images/iiii.png";
 
 
-
-import "./news2.css";
-const Stats = () => {
+import "./phdcss.css";
+const phd = () => {
   return (
    <>
    <Swiper
@@ -39,10 +38,10 @@ const Stats = () => {
         className="mySwiper"
       >
        <div class="imagesize">
-        <SwiperSlide><div className='stats-content2'><img src={stat2} alt='' /></div></SwiperSlide>
-        <SwiperSlide><div className='stats-content2'><img src={stat3} alt='' /></div></SwiperSlide>
-        <SwiperSlide><div className='stats-content2'><img src={stat4} alt='' /></div></SwiperSlide>
         <SwiperSlide><div className='stats-content2'><img src={publ} alt='' /></div></SwiperSlide>
+        <SwiperSlide><div className='stats-content2'><img src={stat3} alt='' /></div></SwiperSlide>
+        <SwiperSlide><div className='stats-content2'><img src={stat} alt='' /></div></SwiperSlide>
+        
       </div>
         {/* <SwiperSlide>Slide 4</SwiperSlide>
         <SwiperSlide>Slide 5</SwiperSlide>
@@ -55,4 +54,4 @@ const Stats = () => {
   )
 }
 
-export default Stats
+export default phd

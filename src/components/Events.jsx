@@ -26,17 +26,15 @@ const Events = () => {
             <thead>
               <tr>
                 <th><div class="bold">DATE</div></th>
-                <th>   </th>
-                <th>   </th>
-                <th>   </th>
-                
-                <th><div class="bold">EVENTS</div></th>
+                <th>             </th>
+                <th>             </th>
+              
+                <th><div class="bold2">EVENTS</div></th>
               </tr>
             </thead>
             <tbody>
             <tr>
                 <td>24/11/2023</td>
-                <td></td>
                 <td></td>
                 <td></td>
               
@@ -56,13 +54,13 @@ through this symposium.<a href="https://www.freepressjournal.in/indore/iit-indor
                 <td>15/10/2023</td>
                 <td></td>
                 <td></td>
-                <td></td>
+                
+                
                 <td>MEMS Department, IIT Indore organized an In-
 House Symposium on Engineers' Day. </td>
               </tr>
               <tr>
                 <td>13/11/2023</td>
-                <td></td>
                 <td></td>
                 <td></td>
                 <td>MEMS Department, IIT Indore organized an event in
@@ -76,7 +74,6 @@ alloys</td>
               
               <tr>
                 <td>14/12/2022</td>
-                <td></td>
                 <td></td>
                 <td></td>
               
