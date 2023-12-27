@@ -18,6 +18,7 @@ import jio from "../mainpages/mainpageimages/BjxmtD.webp";
 // import walmart from "./mainpageimages/walmart.png"
 import gs from "../mainpages/mainpageimages/Goldman_Sachs.png";
 import razorpay from "../mainpages/mainpageimages/Razorpay.jpg";
+import Stats from "./phd";
 
 const Industry2 = () => {
   const [toggleState, setToggleState] = useState(1);
@@ -59,23 +60,16 @@ const Industry2 = () => {
               <img src={convo} alt="" />
               <ul>
                 <li>
-                  About Curriculum : Our students undergo a rigorous curriculum
-                  in Metallurgy and Material Science. The BTech program requires
-                  each student to complete 146.5 credits to obtain a degree in
-                  Metallurgy and Material Science at IIT Indore. <br />
-                  This includes 49 courses and 12 labs, which impart theoretical
-                  and practical knowledge in various domains of materials
-                  engineering.{" "}
+                Our Metallurgy and Material Science BTech program at IIT Indore is rigorous, requiring 146.5 credits for graduation. With 49 courses and 12 labs, students gain theoretical and practical expertise in materials engineering. The seventh semester focuses on industry-connected projects, offering hands-on experience within research groups of leading companies.
+{" "}
+<br />
                 </li>
                 <li>
-                  An entire semester (7th) is dedicated to a project where
-                  students work in a research group of a company, providing
-                  exposure to research and the industry environment.{" "}
+                Our curriculum prioritises practical learning, featuring 12 labs that provide essential hands-on experience, preparing students for industry demands.{" "}
+                <br />
                 </li>
                 <li>
-                  Additionally, students actively participate in several
-                  national tests and competitions associated with the clubs
-                  within IIT Indore, fostering a culture of teamwork.
+                Students actively participate in national tests and competitions, fostering teamwork and aligning them with industry dynamics. Our goal is to equip graduates for successful Metallurgy and Material Science careers by blending academic excellence with real-world applications.
                 </li>
               </ul>
             </div>
@@ -85,31 +79,20 @@ const Industry2 = () => {
             <div className="industrycard-content">
               <ul>
                 <li>
-                  MTech students at IIT Indore experience a comprehensive and
-                  advanced academic journey in their chosen fields.{" "}
+                At IIT Indore, our MTech programs offer a comprehensive academic journey focusing on practical application. The curriculum includes nine courses and four labs, ensuring a balanced understanding of materials engineering{" "}
                 </li>
                 <li>
                   {" "}
-                  The MTech programs are designed to provide in-depth knowledge
-                  and hands-on experience, fostering a strong foundation for
-                  research and innovation.
+                  Graduates emerge well-prepared for academic, industry, and research challenges, equipped with valuable skills for seamless integration into real-world scenarios.
                   <br />
                   This includes 9 courses and 4 labs which imparts theoretical
                   and practical knowledge in various domains of materials
                   engineering.{" "}
                 </li>
                 <li>
-                  The curriculum emphasizes a balance between theoretical
-                  understanding and practical application, ensuring that MTech
-                  graduates are well-equipped for challenges in academia,
-                  industry, and research.
+                Beyond academics, our vibrant campus life fosters holistic development. Opportunities for networking, seminar participation, and extracurricular engagement make IIT Indore MTech graduates ideal candidates for industry partnerships and job opportunities. Join us to access a talent pool with the skills and knowledge your industry demands.
                 </li>
-                <li>
-                  Beyond academics, the vibrant campus life offers opportunities
-                  for networking, participation in seminars, and involvement in
-                  various extracurricular activities, contributing to the
-                  holistic development of MTech students at IIT Indore.
-                </li>
+             
               </ul>
               <img src={workshop} alt="" />
             </div>
@@ -117,26 +100,27 @@ const Industry2 = () => {
           <div className="industry-cards">
             <div className="industrycards-head">PhD</div>
             <div className="industrycard-content">
-              <img src={publ} alt="" />
+              <div className="stat"><Stats /></div>
+            
               <ul>
+              Our PhD program at IIT Indore is a dynamic hub of innovation and excellence, intricately weaving a tapestry of academic rigor and industry relevance.
+              <br />
+
                 <li>
-                The department conducts annual progress seminar to review the progress of thesis.{" "}
+                Progress Review and Global Exposure: Annual progress seminars ensure continual refinement of theses, complemented by institute-funded international conference travel for a global research perspective.{" "}
                 </li>
                 <li>
                   {" "}
-                  The institute provides funds for travel to international conferences which provides 
-                  exposure to research groups and cultures across the globe.
-                  <br />
-                  Some of our Students obtained prestigious PMRF funding to this PhD tenure.{" "}
+                  Prestigious Fellowships and Student Symposia: PhD scholars secure esteemed PMRF funding and actively engage in student-led symposiums, showcasing their research prowess and academic leadership.
+                  
                 </li>
-                <li>
-                Our Student actively take part in Annual Student Symposiums conducted within department 
-                which is entirely conducted by the students itself.
-                </li>
-                <li>
-                IIT Indore has an active materials advantage chapter where Student become the members 
-                of the MA Student program and avail advantages to 4 different materials societies.
-                </li>
+                
+                <li>Materials Advantage Chapter: Our active MA chapter (https://materialadvantage.org/ add as a hyperlink on MA) connects students with four materials societies, fostering academic growth and networking opportunities.
+</li>
+<br />
+                Our PhD graduates embody a fusion of advanced research skills and practical experience, making them valuable assets in both industry and academia. We invite industry partners to harness this talent pool, offering opportunities for impactful collaborations. Additionally, our graduates are well-suited for postdoctoral research positions, contributing to cutting-edge scientific advancements. 
+                
+
               </ul>
             </div>
           </div>

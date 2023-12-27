@@ -60,44 +60,36 @@ const section = () => {
           </div>
           <div className="sec-cont">
             <div className="sec-conthead">About The Department</div>
-            Welcome to the home page of Department of Metallurgical Engineering
-            and Materials Science! <br />
+            We extend a cordial welcome to the official homepage of the Department of Metallurgical Engineering and Materials Science (MEMS). <br />
             <br />
-            The Department of MEMS was initially started as a Center for
-            Materials Science Engineering comprising of faculty from Schools of
-            basic sciences and engineering. Upon its progress in short period of
-            time, the center for MSE was made in to full fledged Department of
-            Metallurgical Engineering and Materials Science from 2016.
+            Originally inaugurated as the Center for Materials Science Engineering, comprising faculty from the Schools of Basic Sciences and Engineering, the department rapidly progressed. In a short span, the Center for Materials Science Engineering evolved into the fully-fledged Department of Metallurgical Engineering and Materials Science in 2016.
+
             <br />
             <br />
-            Materials continue to play a vital role in almost every
-            technological advancement since the beginning of civilization. The
-            emphasis of the Department is to promote multidisciplinary research
-            to find amicable solutions for the real- world problems and work on
-            the cutting-edge research problems that benefits society. The key
-            research focus of the Department is to understand the processing,
-            structure of several classes of materials and correlate them to the
-            properties and thus enhancing their performance.
+            Materials have historically been pivotal in driving technological advancements since the inception of civilization. The Department's primary objective is to champion multidisciplinary research, seeking comprehensive solutions to real-world challenges, and delving into cutting-edge research problems that contribute significantly to societal advancement.
+            <br />
+            <br />
+            At the heart of our research endeavors lies a focused commitment to comprehending the processing and structure of diverse material classes. This understanding is pivotal in establishing correlations with material properties, ultimately enhancing their performance. Our department stands as a beacon for rigorous academic pursuits and impactful contributions to the realm of materials science and engineering.
           </div>
         </div>
 
         <div className="vision">
           <div className="sec-conthead">VISION AND MISSION</div>
-          To be among the institutes of world-class by educating and mentoring
-          the next generation of engineers, scientists, and entrepreneurs in
-          order to contribute to the economic and social development of India &
-          world.
+          <div>Vision</div>
+          To emerge as a globally esteemed institution, our vision at the Department of Metallurgical Engineering and Materials Science is to educate and mentor the forthcoming generation of engineers, scientists, and entrepreneurs. Our unwavering commitment is to contribute significantly to the economic and social development of India and the world.
+
           <br /> <br />
-          Educate our students in fundamental-to-advanced topics in materials &
-          metallurgical engineering to enable them with necessary skills to
-          succeed in academia and industry. <br /> <br />
-          Innovative research focused on design, processing, characterization,
-          and application of novel materials. <br /> <br />
-          Encourage innovation & entrepreneurship and provide conducive
-          environment for translational research by collaborating with relevant
-          industries. <br /> <br />
-          Engage with broader community via outreach programs to promote science
-          & technology awareness
+          <div>Mission</div>
+          <div>Educational Excellence:</div>
+          Cultivating excellence in our students, our mission is to provide a comprehensive education encompassing fundamentals of advanced materials and metallurgical engineering topics. Our goal is to equip them with the essential skills for success in academia and industry.
+          <div>Educational Excellence:</div>
+          Cultivating excellence in our students, our mission is to provide a comprehensive education encompassing fundamentals of advanced materials and metallurgical engineering topics. Our goal is to equip them with the essential skills for success in academia and industry.
+          <div>Educational Excellence:</div>
+          Cultivating excellence in our students, our mission is to provide a comprehensive education encompassing fundamentals of advanced materials and metallurgical engineering topics. Our goal is to equip them with the essential skills for success in academia and industry.
+          <div>Educational Excellence:</div>
+          Cultivating excellence in our students, our mission is to provide a comprehensive education encompassing fundamentals of advanced materials and metallurgical engineering topics. Our goal is to equip them with the essential skills for success in academia and industry.
+ 
+          
         </div>
       </div>
 

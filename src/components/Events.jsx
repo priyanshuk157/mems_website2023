@@ -26,14 +26,16 @@ const Events = () => {
             <thead>
               <tr>
                 <th><div class="bold">DATE</div></th>
-                <th>   </th>
-                
-                <th><div class="bold">EVENTS</div></th>
+                <th>             </th>
+                <th>             </th>
+              
+                <th><div class="bold2">EVENTS</div></th>
               </tr>
             </thead>
             <tbody>
             <tr>
                 <td>24/11/2023</td>
+                <td></td>
                 <td></td>
               
                 <td>Materials Advantage Student Chapter of MEMS
@@ -51,11 +53,15 @@ through this symposium.<a href="https://www.freepressjournal.in/indore/iit-indor
               <tr>
                 <td>15/10/2023</td>
                 <td></td>
+                <td></td>
+                
+                
                 <td>MEMS Department, IIT Indore organized an In-
 House Symposium on Engineers' Day. </td>
               </tr>
               <tr>
                 <td>13/11/2023</td>
+                <td></td>
                 <td></td>
                 <td>MEMS Department, IIT Indore organized an event in
 which Mr. Vishal Kumar Rana, Scientific Officer at
@@ -68,6 +74,7 @@ alloys</td>
               
               <tr>
                 <td>14/12/2022</td>
+                <td></td>
                 <td></td>
               
                 <td>Dr. Rupesh S. Devan is serving as an Editor for the Chinese J of Physics; Elsevier <a href="https://www.sciencedirect.com/journal/chinese-journal-of-physics/about/editorial-board">Details</a></td>

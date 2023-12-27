@@ -9,7 +9,16 @@
 }
 .bold{
     font-weight: bold;
+    
 }
+.bold2{
+    font-weight: bold;
+    position: relative;
+    display: flex;
+    
+    
+}
+
 .ind-section{
     border-radius: 20px;
 }
