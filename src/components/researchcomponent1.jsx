@@ -316,7 +316,7 @@ properties.</p>
         <div  className={toggleState === 1 ? "prof-names" : " no-profnames"}  >
           <div className="faculty-involved"><h3>Faculties</h3> </div>
           <ul>
-            <li><a href="profile9"> S. Samal</a> </li>
+            <li><a href="p19"> S. Samal</a> </li>
             <li><a href="p18"> V. Kumar</a> </li>
             <li><a href="p4"> E. P. Korimilli</a> </li>
             <li><a href="demo"> A. Ghosh</a> </li>
@@ -325,7 +325,7 @@ properties.</p>
             <li><a href="p12"> R.S Maurya</a> </li>
             <li><a href="p17"> K.V. Vamsi</a> </li>
             <li><a href="p2"> C. Haldar</a> </li>
-           
+
             
            
 
@@ -349,7 +349,7 @@ properties.</p>
         <div  className={toggleState === 3? "prof-names" : " no-profnames"}  >
           <div className="faculty-involved"><h3>Faculties</h3> </div>
           <ul>
-            <li><a href="profile9">  S Samal</a> </li>
+            <li><a href="p19">  S Samal</a> </li>
             <li><a href="p5"> Ajay K Kushwaha</a> </li>
             <li><a href="demo"> Abhijit Ghosh</a> </li>
             <li><a href="p17"> K.V. Vamsi</a> </li>
@@ -380,7 +380,7 @@ properties.</p>
             <li><a href="p5"> Ajay K. Kushwaha</a> </li>
             <li><a href="p14"> Rupesh Devan</a> </li>
             <li><a href="p3"> Dhirendra K. Rai</a> </li>
-            <li><a href="profile9"> S. Samal</a> </li>
+            <li><a href="p19"> S. Samal</a> </li>
             <li><a href="p18"> Vinod Kumar</a> </li>
             <li><a href="p9">  M. Dubey</a> </li>
         

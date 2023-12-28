@@ -184,8 +184,7 @@ const Navbar2 = () => {
                 || (pathname === "/faculty2/P16") 
                 || (pathname === "/faculty2/P17") 
                 || (pathname === "/faculty2/P18") 
-                || (pathname === "/faculty2/bhallal") 
-                || (pathname === "/faculty2/drpaul") 
+                
                 
                 
                 ? "acthover" : "nonacthover"}>
@@ -322,6 +321,28 @@ const Navbar2 = () => {
                   || (pathname=== "/research/researchcomponent4" )
                   || (pathname=== "/research/researchcomponent5" )
                   || (pathname=== "/research/researchcomponent6" )
+                  || (pathname === "/research/demo") 
+                || (pathname === "/research/p5") 
+                || (pathname === "/research/p2") 
+                || (pathname === "/research/P3") 
+                || (pathname === "/research/p1") 
+                || (pathname === "/research/p4") 
+                || (pathname === "/research/p6") 
+                || (pathname === "/research/p7") 
+                || (pathname === "/research/p8") 
+                || (pathname === "/research/p9") 
+                || (pathname === "/research/p10") 
+                || (pathname === "/research/p11") 
+                || (pathname === "/research/p12") 
+                || (pathname === "/research/p13") 
+                || (pathname === "/research/p14") 
+                || (pathname === "/research/p15") 
+                || (pathname === "/research/p19") 
+                || (pathname === "/research/p16") 
+                || (pathname === "/research/p17") 
+                || (pathname === "/research/p18") 
+                || (pathname === "/research/bhallal") 
+                || (pathname === "/research/drpaul") 
 
                   
                   ? "acthover" : "nonacthover"}

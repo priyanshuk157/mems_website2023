@@ -151,7 +151,9 @@ committee</span></Accordion.Header>
               <li>Dr. K. V. Vamsi (Convener)</li>
               <li>Dr. Chandan Haldar</li>
               <li>Dr. Nishith Kumar Prasad</li>
-              <li>
+              <br />
+              <li> 
+              <b>Student representatives</b>   : 
                 <br/> Mr. Priyanshu, Ms. Aditi, Pratik
               </li>
             </ul>
