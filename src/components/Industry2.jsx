@@ -115,7 +115,7 @@ const Industry2 = () => {
                   
                 </li>
                 
-                <li>Materials Advantage Chapter: Our active MA chapter (https://materialadvantage.org/ add as a hyperlink on MA) connects students with four materials societies, fostering academic growth and networking opportunities.
+                <li>Materials Advantage Chapter: Our active MA chapter <a href="https://materialadvantage.org/">https://materialadvantage.org/</a> connects students with four materials societies, fostering academic growth and networking opportunities.
 </li>
 <br />
                 Our PhD graduates embody a fusion of advanced research skills and practical experience, making them valuable assets in both industry and academia. We invite industry partners to harness this talent pool, offering opportunities for impactful collaborations. Additionally, our graduates are well-suited for postdoctoral research positions, contributing to cutting-edge scientific advancements. 
@@ -181,7 +181,7 @@ const Industry2 = () => {
           </div>
          
       <div className="industry-cards2">
-    <div className="research-head">Publications</div>
+    <div className="research-head">No Of Theses Submited</div>
     <div className='industrycard-content'>
     <img src={publ} alt="" />
           

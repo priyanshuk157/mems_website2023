@@ -40,19 +40,19 @@ const Facilities = () => {
           </div>
           <div className="facility-images">
             <img src={electrochemical} alt="" /> Electerochemical Work Station
-            <br />Location: MOM Lab
+            <br />Location: -
           </div> 
           <div className="facility-images">
             {" "}
             <img src={fluoroscence} alt="" />
             Fluorescence
-            <br />Location: MOM Lab
+            <br />Location:-
           </div>
           <div className="facility-images">
             {" "}
             <img src={fretting} alt="" />
             Fretting Wear Machine
-            <br />Location: MOM Lab
+            <br />Location:-
           </div>
           <div className="facility-images">
             {" "}
@@ -64,7 +64,7 @@ const Facilities = () => {
             {" "}
             <img src={solarcell} alt="" />
             Solar Cell Simulator
-            <br />Location: MOM Lab
+            <br />Location:-
           </div>
           <div className="facility-images">
             {" "}
@@ -86,13 +86,13 @@ const Facilities = () => {
             {" "}
             <img src={uvspectro} alt="" />
             UV Spectrometer
-            <br />Location: MOM Lab
+            <br />Location:-
           </div>
           <div className="facility-images">
             {" "}
             <img src={xraydiff} alt="" />
             X-ray diff
-            <br />Location: MOM Lab
+            <br />Location:-
           </div>
 
           <div className="facility-images">

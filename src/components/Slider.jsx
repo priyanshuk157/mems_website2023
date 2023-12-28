@@ -43,7 +43,7 @@ function CarouselFadeExample() {
         <SwiperSlide><div><img src={jai1} alt="" /></div></SwiperSlide>
         <SwiperSlide><div><img src={jai2} alt="" /></div></SwiperSlide>
         <SwiperSlide><div><img src={jai} alt="" /></div></SwiperSlide>
-        <SwiperSlide><div><img src={newimage} alt="" /></div></SwiperSlide>
+        <SwiperSlide><div className="resize"><img src={newimage} alt="" /></div></SwiperSlide>
         
       </Swiper>
    
