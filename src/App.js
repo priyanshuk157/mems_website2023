@@ -150,6 +150,7 @@ const App = () => {
        
         {/* <Route path='profile1' element={<Profile1/>}></Route> */}
         <Route path='faculty2/demo' element={<Demo/>}></Route>
+        <Route path='research/demo' element={<Demo/>}></Route>
         <Route path='ind2' element={<Industry2/>}></Route>
         <Route path='nav2' element={<Navbar2/>}></Route>
         <Route path='oi' element={<Otherinfo/>}></Route>
@@ -163,25 +164,44 @@ const App = () => {
 
 
         <Route path='faculty2/p1' element={<P1/>}></Route>
+        <Route path='research/p1' element={<P1/>}></Route>
 
         <Route path='faculty2/p2' element={<P2/>}></Route>
+        <Route path='research/p2' element={<P2/>}></Route>
         <Route path='faculty2/p3' element={<P3/>}></Route>
+        <Route path='research/p3' element={<P3/>}></Route>
         <Route path='faculty2/p4' element={<P4/>}></Route>
+        <Route path='research/p4' element={<P4/>}></Route>
         <Route path='faculty2/p5' element={<P5/>}></Route>
+        <Route path='research/p5' element={<P5/>}></Route>
         <Route path='faculty2/p6' element={<P6/>}></Route>
+        <Route path='research/p6' element={<P6/>}></Route>
         <Route path='faculty2/p7' element={<P7/>}></Route>
+        <Route path='research/p7' element={<P7/>}></Route>
         <Route path='faculty2/p8' element={<P8/>}></Route>
+        <Route path='research/p8' element={<P8/>}></Route>
         <Route path='faculty2/p9' element={<P9/>}></Route>
+        <Route path='research/p9' element={<P9/>}></Route>
         <Route path='faculty2/p10' element={<P10/>}></Route>
+        <Route path='research/p10' element={<P10/>}></Route>
         <Route path='faculty2/p11' element={<P11/>}></Route>
+        <Route path='research/p11' element={<P11/>}></Route>
         <Route path='faculty2/p12' element={<P12/>}></Route>
+        <Route path='research/p12' element={<P12/>}></Route>
         <Route path='faculty2/p13' element={<P13/>}></Route>
+        <Route path='research/p13' element={<P13/>}></Route>
         <Route path='faculty2/p14' element={<P14/>}></Route>
+        <Route path='research/p14' element={<P14/>}></Route>
         <Route path='faculty2/p15' element={<P15/>}></Route>
+        <Route path='research/p15' element={<P15/>}></Route>
         <Route path='faculty2/p16' element={<P16/>}></Route>
+        <Route path='research/p16' element={<P16/>}></Route>
         <Route path='faculty2/p17' element={<P17/>}></Route>
+        <Route path='research/p17' element={<P17/>}></Route>
         <Route path='faculty2/p18' element={<P18/>}></Route>
+        <Route path='research/p18' element={<P18/>}></Route>
         <Route path='faculty2/p19' element={<P19/>}></Route>
+        <Route path='research/p19' element={<P19/>}></Route>
         <Route path='faculty2/bhallal' element={<Bhallal/>}></Route>
         <Route path='faculty2/drpaul' element={<Drpaul/>}></Route>
 
