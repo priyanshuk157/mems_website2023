@@ -181,7 +181,7 @@ const Industry2 = () => {
           </div>
          
       <div className="industry-cards2">
-    <div className="research-head">No Of Theses Submited</div>
+    <div className="research-head">Number Of Theses Submited</div>
     <div className='industrycard-content'>
     <img src={publ} alt="" />
           
