@@ -56,11 +56,11 @@ const profile11 = () => {
             <div class="aca"><span className="pc1-head">ACADEMIC BACKGROUND</span></div></div>
             <div class="acalist">
             <ul>
-            <li>Ph.D, Materials Science and Engineering, Indian Institute of Technology, Kanpur, India, 2021</li>
-           <br /> <li>Master of Technology, Metallurgical Engineering, Indian Institute of Technology (BHU), Varanasi, Uttar Pradesh, India, 2015
+            <li>Ph.D (Materials Science and Engineering), IIT Kanpur, 2021</li>
+           <br /> <li>M.Tech (Metallurgical Engineering), IIT (BHU), Varanasi, 2015
 
 </li>
-            <br /><li>Bachelor of Technology, Metallurgical Engineering, National Institute of Technology, Raipur, Chattisgarh, India, 2012
+            <br /><li>B.Tech (Metallurgical Engineering), NIT Raipur, 2012
 .</li>
             
           </ul></div>

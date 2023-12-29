@@ -54,8 +54,8 @@ const profile11 = () => {
             <div class="aca"><span className="pc1-head">ACADEMIC BACKGROUND</span></div></div>
             <div class="acalist">
             <ul>
-            <li>Ph.D, Department of Materials Engineering, Indian Institute of Science, Bangalore, 2014</li>
-            <br /><li>Master’s degree, Department of Physics, Sri Venkateswara University, Tirupati, 2007</li>
+            <li>Ph.D, (Department of Materials Engineering), IISc Bangalore, 2014</li>
+            <br /><li>Master’s degree, (Department of Physics), Sri Venkateswara University, Tirupati, 2007</li>
             <br /><li>Bachelor’s degree, (Mathematics, Physics and Electronics), Sri Krishna Devaraya University, 2005</li>
             
           </ul></div>
@@ -83,7 +83,7 @@ const profile11 = () => {
           <span className="pc1-head">POSITIONS HELD</span>
           <ul>
             <li>
-            Assistant Professor, Department of Metallurgical Engineering and Materials Science, Indian Institute of Technology INDORE, Indore, From Oct 2019– To (Continuing)
+            Assistant Professor, Department of Metallurgical Engineering and Materials Science, Indian Institute of Technology INDORE, Indore, From Oct 2019– present
             </li>
             <li>Postdoc, National Institute for Materials Science, Tsukuba, Japan, From Sep 2014– To Sep 2019</li>
             

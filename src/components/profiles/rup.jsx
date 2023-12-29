@@ -35,7 +35,7 @@ const profile11 = () => {
         <div className="pc2">
            
             <ul>
-              <li>Designation	: Assistant Professor</li>
+              <li>Designation	: Associate Professor</li>
               <li>Office		: Room No. 1D-414 </li>
               <li>Email	 (<i><FaEnvelope/></i>)	: rupes@iiti.ac.in</li>
               <li>Contact  (<i><FaPhone/></i>)		:  +91-0731-6603244 </li>
@@ -58,9 +58,9 @@ const profile11 = () => {
             <div class="aca"><span className="pc1-head">ACADEMIC BACKGROUND</span></div></div>
             <div class="acalist">
             <ul>
-            <li>Ph.D, Department of Physics, Shivaji University, Kolhapur, 2007</li>
+            <li>Ph.D (Department of Physics), Shivaji University, Kolhapur, 2007</li>
             <br />
-            <li>M.Sc., Department of Physics, Shivaji University, Kolhapur, 2004</li>
+            <li>M.Sc. (Department of Physics), Shivaji University, Kolhapur, 2004</li>
             <br />
             <li>B.Sc., Shivaji University, Kolhapur, 2002.</li>
             

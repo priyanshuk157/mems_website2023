@@ -73,10 +73,12 @@ const profile11 = () => {
           <div>
           
         <li>Crystallographic texture and grain boundary</li>
+        <li>Physical Metallurgy</li>
+        <li>Mechanical Metallurgy</li>
          
-        <li>Martensitic transformation</li>
+        {/* <li>Martensitic transformation</li>
         <li>Creep and Fracture</li>
-        <li>Crystal Plasticity</li>
+        <li>Crystal Plasticity</li> */}
 
 
 
@@ -153,7 +155,7 @@ texture evolution in Fe-3.78 wt.%Si grain oriented electrical steel, Mater. Chem
         <div className="pc1">
           <span className="pc1-head">AWARDS AND ACHIEVEMENTS</span>
           <div>
-          Inspire Faculty Award, DST, 2017
+          
           </div>
         </div>
        

@@ -55,8 +55,8 @@ const profile11 = () => {
             <div class="aca"><span className="pc1-head">ACADEMIC BACKGROUND</span></div></div>
             <div class="acalist">
             <ul>
-            <li> Ph.D, Department of Chemistry, Indian Institute of Technology Bombay, 2013</li>
-            <br /><li>Master’s degree, Department of Chemistry, Banaras Hindu University, 2006</li>
+            <li> Ph.D (Department of Chemistry), IIT Bombay, 2013</li>
+            <br /><li>Master’s degree (Department of Chemistry), Banaras Hindu University, 2006</li>
             <br /><li>Bachelor’s degree, Udai Pratap Autonomous College, 2004</li>
           
             
@@ -145,7 +145,12 @@ const profile11 = () => {
             </Table>
           </div>
         </div>
-       
+        <div className="pc1">
+          <span className="pc1-head">AWARDS AND ACHIEVEMENTS</span>
+          <div>
+          "Best Researcher Award" by International Research Awards on New Science Innovations (NESIN)(2020)
+          </div>
+        </div>
         
        
         

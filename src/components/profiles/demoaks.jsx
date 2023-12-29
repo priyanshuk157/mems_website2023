@@ -35,8 +35,8 @@ const profile11 = () => {
         <div className="pc2">
             
             <ul>
-              <li>Designation	: Assistant Professor</li>
-              <li>Office		: Room No. 1D- 305 </li>
+              <li>Designation	: HoD and Associate Professor</li>
+              <li>Office		: Room No. 1D- 301 </li>
               <li>Email	 (<i><FaEnvelope/></i>)	: akk@iiti.ac.in </li>
               <li>Contact  (<i><FaPhone/></i>)		: +91 731 660 3250</li>
             <div className="fac-links">
@@ -59,7 +59,7 @@ const profile11 = () => {
             <br />
             <li>M.Sc. (Physics), CSJM University Kanpur, 2006</li>
             <br />
-            <li>B.Sc C.S.J.M University, Kanpur 2003</li>
+            <li>B.Sc, C.S.J.M University, Kanpur 2003</li>
           
             
           </ul></div>
@@ -73,12 +73,12 @@ const profile11 = () => {
         <div className="pc1">
           <span className="pc1-head">RESEARCH INTEREST</span>
           <div>
-          
-        <li>Design and growth of nanomaterials/thin films</li>
-         
+          <li>Material Science: Nano and Energy Engineering</li>
+
+        {/* <li>Design and growth of nanomaterials/thin films</li>
         <li>Optical and transport properties of semiconductors</li>
         <li>2-D materials based electronic devices</li>
-        <li>Energy efficient coatings</li>
+        <li>Energy efficient coatings</li> */}
 
 
 

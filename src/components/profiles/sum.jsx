@@ -11,7 +11,7 @@ const profile11 = () => {
   return (
     <>
       
-      <span className="pc1-headmain">Prof. Sumanta samal</span>
+      <span className="pc1-headmain">Prof. Sumanta Samal</span>
       {/*<div className="head">
         <i className="back-button">
           <a href="faculty">
@@ -35,7 +35,7 @@ const profile11 = () => {
         <div className="pc2">
             
             <ul>
-              <li>Designation	: Assistant Professor</li>
+              <li>Designation	: Associate Professor</li>
               <li>Office		: Room No. 1D- 411 </li>
               <li>Email	 (<i><FaEnvelope/></i>)	: sumanta@iiti.ac.in</li>
               <li>Contact  (<i><FaPhone/></i>)		: +91 0731-660-3252 </li>
@@ -57,12 +57,12 @@ const profile11 = () => {
             <div class="aca"><span className="pc1-head">ACADEMIC BACKGROUND</span></div></div>
             <div class="acalist">
             <ul>
-            <li>Ph.D, Dept. of Materials Science and Engineering, Indian Institute of Technology Kanpur, India, 2014</li>
-            <br /><li>M.Tech., Dept. of Metallurgical and Materials Engineering, National Institute of Technology (NIT) Rourkela, India, 2009
+            <li>Ph.D (Materials Science and Engineering), IIT Kanpur, 2014</li>
+            <br /><li>M.Tech. (Metallurgical and Materials Engineering), (NIT) Rourkela, 2009
 
 </li>
-<br /><li>M.Sc., Physics (Specialization in solid state physics), Utkal University, Bhubaneswar, Odisha, India, 2007</li>
-           <br /> <li>B.Sc. [with Physics (Hons)], M.P.C. (Autonomous) College, Baripada, Odisha, India, 2005</li>
+<br /><li>M.Sc., Physics (Specialization in solid state physics), Utkal University, Bhubaneswar, 2007</li>
+           <br /> <li>B.Sc. [with Physics (Hons)], M.P.C. (Autonomous) College, Baripada, 2005</li>
             
           </ul></div>
 

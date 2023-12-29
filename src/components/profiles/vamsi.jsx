@@ -52,10 +52,10 @@ const profile11 = () => {
 
             <div className="acalist">
             <ul>
-            <li>Ph.D., Materials Engineering, Indian Institute of Science, 2018</li>
-            <br /><li>M.E., Materials Engineering, Indian Institute of Science, 2009.
+            <li>Ph.D. (Materials Engineering), Indian Institute of Science, 2018</li>
+            <br /><li>M.E. (Materials Engineering), Indian Institute of Science, 2009.
 </li>
-            <br /><li>B.E., Metallurgical Engineering, Andhra University College of Engineering, 2006.</li>
+            <br /><li>B.E. (Metallurgical Engineering), Andhra University College of Engineering, 2006.</li>
             
           </ul></div>
             
@@ -70,7 +70,7 @@ const profile11 = () => {
           <div>
           
           <ul>
-              <li>          Alloy design, Structure-property correlations, High-throughput methods. 
+              <li>Alloy design, Structure-property correlations, High-throughput methods. 
 </li>
               <li>  Atomistic simulations based on density functional theory, Computational thermodynamics, Integrated Computational Materials Engineering (ICME).</li>
               <li>Planar fault energies, Deformation pathways, High temperature deformation.</li>

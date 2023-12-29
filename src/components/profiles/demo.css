@@ -118,6 +118,9 @@
    margin: 5px;
    gap: 10px;
 }
+.fac-links a i{
+    color: black;
+}
 
 @media (max-width:600px){
     .head{
