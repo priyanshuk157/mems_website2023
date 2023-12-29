@@ -17,7 +17,7 @@ import { Pagination, Navigation } from 'swiper/modules';
 
 
 function CarouselFadeExample() {
-  const [swiperRef, setSwiperRef] = useState(null);
+  const [ setSwiperRef] = useState(null);
   
   return (
     <>
