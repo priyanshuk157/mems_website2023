@@ -35,7 +35,7 @@ const profile11 = () => {
         <div className="pc2">
             
             <ul>
-              <li>Designation	: Assistant Professor</li>
+              <li>Designation	: Associate Professor</li>
               <li>Office		: Room No. 1D- 416 </li>
               <li>Email	 (<i><FaEnvelope/></i>)	: sunil@iiti.ac.in </li>
               <li>Contact  (<i><FaPhone/></i>)		: 07324-306-3281</li>
@@ -54,9 +54,9 @@ const profile11 = () => {
             <div class="aca"><span className="pc1-head">ACADEMIC BACKGROUND</span></div></div>
             <div class="acalist">
 <ul>
-<li>Ph.D, Materials Research Centre, Indian Institute of Science (IISc) Bangalore, 2012</li>
+<li>Ph.D, Materials Research Centre, IISc Bangalore, 2012</li>
 <br />
-            <li> MSc Physics, Department of Physics and Astrophysics, University of Delhi, 2004</li>
+            <li> MSc Physics (Department of Physics and Astrophysics), University of Delhi, 2004</li>
             <br />
             <li>BSc Physical Sciences, Maharshi Dayanand University Rohtak , 2002</li>
             

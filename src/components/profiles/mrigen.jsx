@@ -36,7 +36,7 @@ const profile11 = () => {
         <div className="pc2">
            
             <ul>
-              <li>Designation	: Assistant Professor</li>
+              <li>Designation	: Associate Professor</li>
               <li>Office		: Room No. 1D- 412 </li>
               <li>Email	 (<i><FaEnvelope/></i>)	: mdubey@iiti.ac.in </li>
               <li>Contact  (<i><FaPhone/></i>)		:3258</li>
@@ -57,10 +57,10 @@ const profile11 = () => {
             <div class="aca"><span className="pc1-head">ACADEMIC BACKGROUND</span></div></div>
             <div class="acalist">
             <ul>
-            <li> PhD- Indian Institute of Technology Guwahati, Department of Chemistry, July 2011</li>
-            <br /><li>Master’s degree, Department of Chemistry, University of Allahabad, 2005</li>
+            <li> PhD, (Department of Chemistry), IIT Guwahati, 2011</li>
+            <br /><li>MSc, University of Allahabad, 2005</li>
             <br /><li>
- Bachelor’s degree, University of Allahabad, 2003
+ BSc, University of Allahabad, 2003
 </li>
           
             

@@ -36,7 +36,7 @@ const profile11 = () => {
         <div className="pc2">
          
             <ul>
-              <li>Designation	: Assistant Professor</li>
+              <li>Designation	: Professor</li>
               <li>Office		:  POD D 414 </li>
               <li>Email	 (<i><FaEnvelope/></i>)	: pmshirage@iiti.ac.in</li>
               <li>Contact  (<i><FaPhone/></i>)		:0731 6603330 </li>
@@ -56,9 +56,9 @@ const profile11 = () => {
             <div class="aca"><span className="pc1-head">ACADEMIC BACKGROUND</span></div></div>
             <div class="acalist">
             <ul>
-            <li>Ph.D, Department of Physics, Shivaji University Kolhapur, 2004</li>
-            <br /><li>Master’s degree, Department of Physics, Shivaji University Kolhapur,  1999</li>
-            <br /><li>Bachelor’s degree, Department of Physics, Shivaji University Kolhapur, 1997.</li>
+            <li>Ph.D (Department of Physics), Shivaji University Kolhapur, 2004</li>
+            <br /><li>Master’s degree (Department of Physics), Shivaji University Kolhapur,  1999</li>
+            <br /><li>Bachelor’s degree (Department of Physics), Shivaji University Kolhapur, 1997.</li>
             
           </ul></div>
          

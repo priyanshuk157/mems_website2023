@@ -58,7 +58,7 @@ const profile11 = () => {
 <ul>
 <li>Ph.D, IIT Kharagpur 2016</li>
 <br />
-            <li> M.Tech IIT Kharagpur, 20011</li>
+            <li> M.Tech IIT Kharagpur, 2011</li>
             <br />
             <li>B.Tech NIT Durgapur, 2009</li>
             

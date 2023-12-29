@@ -36,7 +36,7 @@ const profile11 = () => {
         <div className="pc2">
             
             <ul>
-              <li>Designation	: Assistant Professor</li>
+              <li>Designation	: Associate Professor</li>
               <li>Office		: Room No. 1D- 607 </li>
               <li>Email	 (<i><FaEnvelope/></i>)	: eswar@iiti.ac.in </li>
               <li>Contact  (<i><FaPhone/></i>)		: ​+91 731-2438700  </li>
@@ -58,11 +58,11 @@ const profile11 = () => {
             <div class="aca"><span className="pc1-head">ACADEMIC BACKGROUND</span></div></div>
             <div class="acalist">
 <ul>
-<li>Ph.D, Materials Research Centre, Indian Institute of Science (IISc) Bangalore, 2012</li>
+<li>Ph.D (Materials Engineering), (IISc) Bangalore, 2011</li>
 <br />
-            <li> MSc Physics, Department of Physics and Astrophysics, University of Delhi, 2004</li>
+            <li> M.E (Metallurgy),(IISc) Bangalore, 2004</li>
             <br />
-            <li>BSc Physical Sciences, Maharshi Dayanand University Rohtak , 2002</li>
+            <li>B.Tech (Metallurgical Engineering), NIT Warangal , 2002</li>
             
 </ul></div>
 
@@ -79,9 +79,10 @@ const profile11 = () => {
           <div>
           
           <li>Mechanical behavior of materials </li>
-              <li> High strain rate deformation</li>
+              <li> High strain rate deformation behaviour of Materials</li>
               <li>Nanoindentation, Small scale mechanical testing</li>
-              <li>Surface Engineering, and Failure analysis of materials</li>
+              <li>Surface Engineering, and Failure analysis of steels</li>
+              <li>Archaeometallurgy</li>
 
 
 

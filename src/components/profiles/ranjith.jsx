@@ -56,11 +56,11 @@ const profile11 = () => {
             <div class="aca"><span className="pc1-head">ACADEMIC BACKGROUND</span></div></div>
             <div class="acalist">
             <ul>
-            <li>Ph.D, Material Research Centre, Indian Institute of Science (IISc), 2022</li>
-            <br /><li>Master of Science (M.Sc) Physics, National Institute of Technology Tiruchirappalli (NIT-T), 2014
+            <li>Ph.D, Material Research Centre, (IISc), 2022</li>
+            <br /><li>M.Sc (Physics), (NIT-T), 2014
 
 </li>
-            <br /><li>Bachelor of Science (B.Sc) Physics, Madras Christian College (MCC), 2012</li>
+            <br /><li>B.Sc Physics, Madras Christian College, 2012</li>
             
           </ul></div>
 

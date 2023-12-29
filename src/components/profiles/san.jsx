@@ -37,7 +37,7 @@ const profile11 = () => {
         <div className="pc2">
            
             <ul>
-              <li>Designation	: Assistant Professor</li>
+              <li>Designation	: Associate Professor</li>
               <li>Office		: Room No. 1D- 415 </li>
               <li>Email	 (<i><FaEnvelope/></i>)	: sshosmani@iiti.ac.in </li>
               <li>Contact  (<i><FaPhone/></i>)		: +91-731-6603243 </li>
@@ -59,9 +59,9 @@ const profile11 = () => {
             <div class="aca"><span className="pc1-head">ACADEMIC BACKGROUND</span></div></div>
             <div class="acalist">
             <ul>
-            <li> Ph.D, Max-Planck-Institute for Metals Research, Stuttgart and University of Stuttgart, Germany, 2006</li>
-            <br /><li>M.Tech., Department of Metallurgical Engineering and Materials Science, IIT Bombay, 2003</li>
-            <br /><li> B.E., Department of Metallurgical Engineering, REC (currently NIT), Nagpur, and Nagpur University, 2001</li>
+            <li> Ph.D Max-Planck-Institute for Metals Research, Stuttgart and University of Stuttgart, Germany, 2006</li>
+            <br /><li>M.Tech. (Metallurgical Engineering and Materials Science), IIT Bombay, 2003</li>
+            <br /><li> B.E. (Department of Metallurgical Engineering), REC (currently NIT), Nagpur, and Nagpur University, 2001</li>
             
           </ul></div>
 

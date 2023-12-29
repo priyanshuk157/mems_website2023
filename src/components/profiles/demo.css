@@ -112,6 +112,9 @@
    display: flex;
    color: black !important;
 }
+.fac-links a i{
+    color: black;
+}
 
 @media (max-width:600px){
     .head{

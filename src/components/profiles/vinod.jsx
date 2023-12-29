@@ -35,7 +35,7 @@ const profile11 = () => {
         <div className="pc2">
            
             <ul>
-              <li>Designation	: Assistant Professor</li>
+              <li>Designation	: Associate Professor</li>
               <li>Office		: Room No. 1D- 412 </li>
               <li>Email	 (<i><FaEnvelope/></i>)	:vkt@iiti.ac.in</li>
               <li>Contact  (<i><FaPhone/></i>)		: + 91-7324-306-3251 </li>

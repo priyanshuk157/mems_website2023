@@ -54,9 +54,9 @@ const profile11 = () => {
             <div class="aca"><span className="pc1-head">ACADEMIC BACKGROUND</span></div></div>
             <div class="acalist">
             <ul>
-            <li>Ph.D, Department of Materials Science and Engineering, IIT Kanpur, 2021</li>
-            <br /><li>M.Tech, Department of Metallurgical and Materials Engineering, MNIT Jaipur, 2015</li>
-            <br /><li>B.Tech, Department of Metallurgical Engineering, BPUT Rourkela, 2013</li>
+            <li>Ph.D (Materials Science and Engineering), IIT Kanpur, 2021</li>
+            <br /><li>M.Tech (Metallurgical and Materials Engineering), MNIT Jaipur, 2015</li>
+            <br /><li>B.Tech (Department of Metallurgical Engineering), BPUT Rourkela, 2013</li>
             
           </ul></div>
 
