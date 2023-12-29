@@ -8,11 +8,8 @@ import um from "../components/images/Logo_UshaMartin.png";
 import tf from "../components/images/technofast-og.jpg";
 import rc from "../components/images/raychem-logo.png";
 import mra from "../components/images/moyra.jpg";
-import fundplot from "../components/images/chart.svg";
-import { Accordion } from "react-bootstrap";
 import convo from "../components/images/convocation.jpg";
 import workshop from "../components/images/irina.jpg";
-import publ from "../components/images/iiii.png";
 import accenture from "../mainpages/mainpageimages/accenture.png";
 import jio from "../mainpages/mainpageimages/BjxmtD.webp";
 // import walmart from "./mainpageimages/walmart.png"
