@@ -53,6 +53,8 @@ Watch  out for this space
 
 </Accordion>
 
+<div className='foot-hgt-adjst'></div>
+
 </div>
 
    

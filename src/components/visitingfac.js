@@ -5,12 +5,7 @@ const VisitingFacultydata = [
         name : "   N B Ballal  ",
         link : "bhallal",
     },
-    {
-        id : 2,
-        image : "./images/profimages/drpaul.jpg",
-        name : " Ahoutou Paul",
-        link : "drpaul",
-    },
+   
    
 ]
 export default VisitingFacultydata

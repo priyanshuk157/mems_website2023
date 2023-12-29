@@ -18,7 +18,8 @@ import jio from "../mainpages/mainpageimages/BjxmtD.webp";
 // import walmart from "./mainpageimages/walmart.png"
 import gs from "../mainpages/mainpageimages/Goldman_Sachs.png";
 import razorpay from "../mainpages/mainpageimages/Razorpay.jpg";
-import Stats from "./phd";
+import groupphoto from "./images/group_photo1.jpg"
+import Stats from "./phd1";
 
 const Industry2 = () => {
   const [toggleState, setToggleState] = useState(1);
@@ -100,22 +101,25 @@ const Industry2 = () => {
           <div className="industry-cards">
             <div className="industrycards-head">PhD</div>
             <div className="industrycard-content">
-              <div className="stat"><Stats /></div>
+            <img src={groupphoto} alt="" />
             
               <ul>
               Our PhD program at IIT Indore is a dynamic hub of innovation and excellence, intricately weaving a tapestry of academic rigor and industry relevance.
-              <br />
+<hr />
 
                 <li>
-                Progress Review and Global Exposure: Annual progress seminars ensure continual refinement of theses, complemented by institute-funded international conference travel for a global research perspective.{" "}
+
+
+              
+                <b > Progress Review and Global Exposure</b>: Annual progress seminars ensure continual refinement of theses, complemented by institute-funded international conference travel for a global research perspective.{" "}
                 </li>
                 <li>
                   {" "}
-                  Prestigious Fellowships and Student Symposia: PhD scholars secure esteemed PMRF funding and actively engage in student-led symposiums, showcasing their research prowess and academic leadership.
+ <b> Prestigious Fellowships and Student Symposia</b>                 : PhD scholars secure esteemed PMRF funding and actively engage in student-led symposiums, showcasing their research prowess and academic leadership.
                   
                 </li>
                 
-                <li>Materials Advantage Chapter: Our active MA chapter <a href="https://materialadvantage.org/">https://materialadvantage.org/</a> connects students with four materials societies, fostering academic growth and networking opportunities.
+                <li> <b>Materials Advantage Chapter</b>: Our active  <a href="https://materialadvantage.org/">MA chapter</a> connects students with four materials societies, fostering academic growth and networking opportunities.
 </li>
 <br />
                 Our PhD graduates embody a fusion of advanced research skills and practical experience, making them valuable assets in both industry and academia. We invite industry partners to harness this talent pool, offering opportunities for impactful collaborations. Additionally, our graduates are well-suited for postdoctoral research positions, contributing to cutting-edge scientific advancements. 
@@ -155,17 +159,11 @@ const Industry2 = () => {
         }
       >
         <div className="industry-main">
-          <div className="industry-cards">
-            <div className="research-section">
-              <div className="research-secleft">
-                <div className="research-head">FUNDING</div>
-
-                <div className="fund-plot">
-                  <img src={fundplot} alt="" />
-                </div>
-              </div>
-              <div className="research-secright">
-                <div className="research-head">CONSULTANCY</div>
+        <div className="industry-cards">
+            <div className="industrycards-head">Consultancy</div>
+            <div className="industrycard-content">
+            <div className="research-secright">
+               
                 <div className="consultancy-logos">
                   <img src={ve} alt="" />
                   <img src={um} alt="" />
@@ -177,6 +175,84 @@ const Industry2 = () => {
                   <a href="cons">Click for more details</a>
                 </div>
               </div>
+              <ul>
+                <li>
+                Our Metallurgy and Material Science BTech program at IIT Indore is rigorous, requiring 146.5 credits for graduation. With 49 courses and 12 labs, students gain theoretical and practical expertise in materials engineering. The seventh semester focuses on industry-connected projects, offering hands-on experience within research groups of leading companies.
+{" "}
+<br />
+                </li>
+                <li>
+                Our curriculum prioritises practical learning, featuring 12 labs that provide essential hands-on experience, preparing students for industry demands.{" "}
+                <br />
+                </li>
+                <li>
+                Students actively participate in national tests and competitions, fostering teamwork and aligning them with industry dynamics. Our goal is to equip graduates for successful Metallurgy and Material Science careers by blending academic excellence with real-world applications.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="industry-cards2">
+            <div className="industrycards-head">Internships</div>
+            <div className="industrycard-content">
+              <ul>
+                <li>
+             look out for this page
+                </li>
+             
+              </ul>
+              <img src={workshop} alt="" />
+            </div>
+          </div>
+          <div className="industry-cards">
+            <div className="industrycards-head">Training</div>
+            <div className="industrycard-content">
+              <div className="stat"><Stats/></div>
+            
+              <ul>
+             
+              
+
+
+<li>We offer training programs for Industry person to acquire operational knowledge and skill on certain instruments</li> 
+                 <br /><li> We conduct focused workshops to cater to the needs of partnering   Industries in the domain of Metallurgical Engineering and Materials Science.</li>
+                
+
+              </ul>
+            </div>
+          </div>
+          <div className="industry-cards2">
+            <div className="industrycards-head">Footprints of MEMS</div>
+            <div className="industrycard-content">
+           
+              
+                  
+                  <div className="slide-track">
+                    <img
+                      className="aclogo"
+                      src={accenture}
+                      width="250"
+                      alt=""
+                    />
+                    <img className="galogo" src={gs} width="100" alt="" />
+                    <img className="rplogo" src={razorpay} width="250" alt="" />
+                    <img className="jiologo" src={jio} width="100" alt="" />
+                  </div>
+    
+   
+      
+     
+      </div>
+      </div>
+          <div className="industry-cards">
+            <div className="research-section">
+              <div className="research-secleft">
+                <div className="research-head">FUNDING</div>
+
+                <div className="fund-plot">
+                  <img src={fundplot} alt="" />
+                </div>
+              </div>
+            
             </div>
           </div>
          
@@ -201,8 +277,7 @@ const Industry2 = () => {
                 
                 <Accordion.Header><span className='res-header'>Training</span></Accordion.Header>
                 <Accordion.Body><div className="ss">
-                 <ul><li>We offer training programs for Industry person to acquire operational knowledge and skill on certain instruments</li> 
-                 <br /><li> We conduct focused workshops to cater to the needs of partnering   Industries in the domain of Metallurgical Engineering and Materials Science.</li></ul>
+                 <ul></ul>
                 </div>
                 </Accordion.Body>
               </Accordion.Item>

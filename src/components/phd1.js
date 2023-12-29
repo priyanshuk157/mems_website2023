@@ -12,7 +12,7 @@ import publ from "../components/images/iiii.png";
 
 
 import "./phdcss.css";
-const phd = () => {
+const phd1 = () => {
   return (
    <>
    <Swiper
@@ -54,4 +54,4 @@ const phd = () => {
   )
 }
 
-export default phd
+export default phd1

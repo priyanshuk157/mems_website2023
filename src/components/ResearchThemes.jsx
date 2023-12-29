@@ -30,13 +30,35 @@ const ResearchThemes = () => {
                 </div>
               </div>
             </NavLink>
+            <NavLink to="researchcomponent4" >
+              {" "}
+              <div className="cards-5">
+                <div className="research-text"> Electronics & Photonics</div>
+              </div>
+            </NavLink>
+            <NavLink to="researchcomponent6" >
+              <div className="cards-4">
+                <div className="research-text"> Energy, Environment & Sustainability</div>
+              </div>
+            </NavLink>
+            
+           
+          </div>
+          <div className="research-cards">
+           
+         
+            <NavLink to="researchcomponent5" >
+              {" "}
+              <div className="cards-6">
+                <div className="research-text"> Nano & Soft Materials</div>
+              </div>
+            </NavLink>
             <NavLink to="researchcomponent3" >
               {" "}
               <div className="cards-2">
                 <div className="research-text"> Strategic Materials</div>
               </div>
             </NavLink>
-
             <NavLink to="researchcomponent2" >
               {" "}
               <div className="cards-3">
@@ -46,25 +68,7 @@ const ResearchThemes = () => {
                 </div>
               </div>
             </NavLink>
-          </div>
-          <div className="research-cards">
-            <NavLink to="researchcomponent6" >
-              <div className="cards-4">
-                <div className="research-text"> Energy, Environment & Sustainability</div>
-              </div>
-            </NavLink>
-            <NavLink to="researchcomponent4" >
-              {" "}
-              <div className="cards-5">
-                <div className="research-text"> Electronics & Photonics</div>
-              </div>
-            </NavLink>
-            <NavLink to="researchcomponent5" >
-              {" "}
-              <div className="cards-6">
-                <div className="research-text"> Nano & Soft Materials</div>
-              </div>
-            </NavLink>
+
           </div>
         </div>
       </div>
