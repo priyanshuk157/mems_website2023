@@ -220,70 +220,8 @@ const Industry2 = () => {
               </ul>
             </div>
           </div>
-          <div className="industry-cards2">
-            <div className="industrycards-head">Footprints of MEMS</div>
-            <div className="industrycard-content">
-           
-              
-                  
-                  <div className="slide-track">
-                    <img
-                      className="aclogo"
-                      src={accenture}
-                      width="250"
-                      alt=""
-                    />
-                    <img className="galogo" src={gs} width="100" alt="" />
-                    <img className="rplogo" src={razorpay} width="250" alt="" />
-                    <img className="jiologo" src={jio} width="100" alt="" />
-                  </div>
-    
-   
-      
-     
-      </div>
-      </div>
-          <div className="industry-cards">
-            <div className="research-section">
-              <div className="research-secleft">
-                <div className="research-head">FUNDING</div>
-
-                <div className="fund-plot">
-                  <img src={fundplot} alt="" />
-                </div>
-              </div>
-            
-            </div>
-          </div>
-         
-      <div className="industry-cards2">
-    <div className="research-head">Number Of Theses Submited</div>
-    <div className='industrycard-content'>
-    <img src={publ} alt="" />
-          
-        </div>
-        <Accordion defaultActiveKey="-1">
-              
-                
-              <Accordion.Item eventKey="2">
-                <Accordion.Header>
-                  <span className="res-header">Internships</span>
-                </Accordion.Header>
-                <Accordion.Body>
-                  <div className="ss">Under Construction</div>
-                </Accordion.Body>
-              </Accordion.Item>
-              <Accordion.Item eventKey="3">
-                
-                <Accordion.Header><span className='res-header'>Training</span></Accordion.Header>
-                <Accordion.Body><div className="ss">
-                 <ul></ul>
-                </div>
-                </Accordion.Body>
-              </Accordion.Item>
-            </Accordion>
         
-     </div>
+    
      </div>
      </div>
     </>
