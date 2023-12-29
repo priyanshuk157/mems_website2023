@@ -256,7 +256,7 @@ const Navbar2 = () => {
                         </NavLink>{" "}
                       </div>
                       <div>
-                        <NavLink to="Phd" >
+                        <NavLink to="Ppd" >
                           {" "}
                           PhD
                         </NavLink>{" "}

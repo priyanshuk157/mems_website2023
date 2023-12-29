@@ -203,7 +203,8 @@ margin: 2rem;
   font-weight: bold;
   margin: 5px;
   position: relative;
-  
+  display: block;
+  justify-content: left;
   text-align: left;
   
  

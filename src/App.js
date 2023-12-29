@@ -23,7 +23,7 @@ import Researchcomponent3 from './components/researchcomponent3'
 import Researchcomponent4 from './components/researchcomponent4'
 import Researchcomponent5 from './components/researchcomponent5'
 import Researchcomponent6 from './components/researchcomponent6'
-import Phd from './components/phd'
+import Phd from './components/phd2'
 
 
 
@@ -232,7 +232,7 @@ const App = () => {
  <Route path='research/researchcomponent6' element={<Researchcomponent6/>}></Route>
  <Route path='DepartmentalStaff' element={<DepartmentalStaff/>}></Route>
  <Route path='ResearchStaff' element={<ResearchStaff/>}></Route>
- <Route path='Phd' element={<Phd/>}></Route>
+ <Route path='Ppd' element={<Phd/>}></Route>
  <Route path='UG' element={<Ug/>}></Route>
  <Route path='PG' element={<Pg/>}></Route>
  <Route path='alumini' element={<Alumini/>}></Route>
