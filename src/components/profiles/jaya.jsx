@@ -42,8 +42,8 @@ Dr. Jayaprakash Murugesan</span>
               <li>Contact  (<i><FaPhone/></i>)		: - </li>
             <div className="fac-links">
              
-             <a href=" https://scholar.google.com/citations?user=P9nZOBsAAAAJ&hl=en&authuser=1"target="_blank"  rel="noreferrer"> <i><SiGooglescholar/></i></a>
-             <a href="https://www.researchgate.net/profile/Abhijit-Ghosh-8"target="_blank"  rel="noreferrer"><i><FaResearchgate/></i></a>
+             <a href=" https://scholar.google.com/citations?user=QpLQQqsAAAAJ&hl=en&oi=ao"target="_blank"  rel="noreferrer"> <i><SiGooglescholar/></i></a>
+             {/* <a href="https://www.researchgate.net/profile/Abhijit-Ghosh-8"target="_blank"  rel="noreferrer"><i><FaResearchgate/></i></a> */}
             
              
              
@@ -111,7 +111,7 @@ Dr. Jayaprakash Murugesan</span>
                 <tr>
                   <td>1</td>
                   <td>
-                  M Patel,Jayaprakash Murugesan , Fretting Wear and Corrosion Behavior of an Al-ZrO2/Ni hybrid Composite Developed
+                  M Patel,Jayaprakash Murugesan , Fretting Wear and Corrosion Behaviour of an Al-ZrO2/Ni hybrid Composite Developed
                   by Friction Stir Processing, Indian Institute of Metals, 2022, 75, 1525-1534
                   </td>
                 </tr>
@@ -126,7 +126,7 @@ Dr. Jayaprakash Murugesan</span>
                 <tr>
                   <td>3</td>
                   <td>
-                  Jayaprakas M, M.Okazaki, Y. Miyashita, Y. Otsuka and Y. Mutoh, Fretting fatigue behavior of austenitic stainless steels
+                  Jayaprakas M, M.Okazaki, Y. Miyashita, Y. Otsuka and Y. Mutoh, Fretting fatigue behaviour of austenitic stainless steels
                   considering the mean stress and overload effect, Trans. of Indian Institue of Metals, 2017, 70, 597-603
                   </td>
                 </tr>
@@ -134,7 +134,7 @@ Dr. Jayaprakash Murugesan</span>
                   <td>4</td>
                   <td>
                  Wahab J.A, Ghazali M.J, Sajuri Z, Otsuka Y, Jayaprakash M, Nakamura S, Baharin A.F.S., Effects of micro-grooves on tribological
-                 behavior of plasma sprayed alumina-13% titania coatings, Ceramics International, 2017, 43,8, 6410-6416
+                 behaviour of plasma sprayed alumina-13% titania coatings, Ceramics International, 2017, 43,8, 6410-6416
                   </td>
                 </tr>
                 <tr>

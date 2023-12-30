@@ -43,7 +43,7 @@ const profile11 = () => {
             <div className="fac-links">
             <a href="https://drdubey.wixsite.com/iiti" target="_blank" rel="noreferrer"> <i><FaHome/></i></a>
              <a href="https://scholar.google.com/citations?user=9P83G5AAAAAJ "target="_blank"  rel="noreferrer"> <i><SiGooglescholar/></i></a>
-             <a href="https://www.researchgate.net/profile/Dr-Ajay-Kushwaha-2"target="_blank"  rel="noreferrer"><i><FaResearchgate/></i></a>
+             <a href="https://www.researchgate.net/profile/Mrigendra-Dubey"target="_blank"  rel="noreferrer"><i><FaResearchgate/></i></a>
              {/* <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fajaykushwaha_%3Flang%3Den "target="_blank"  rel="noreferrer"><i><FaTwitterSquare/></i></a> */}
              <a href="https://in.linkedin.com/in/dr-mrigendra-dubey-a013331a6"target="_blank"  rel="noreferrer"> <i><FaLinkedin/></i></a>
              

@@ -40,10 +40,10 @@ const profile11 = () => {
               <li>Email	 (<i><FaEnvelope/></i>)	:vkt@iiti.ac.in</li>
               <li>Contact  (<i><FaPhone/></i>)		: + 91-7324-306-3251 </li>
             <div className="fac-links">
-            <a href="http://people.iiti.ac.in/~dkr/ " target="_blank" rel="noreferrer"> <i><FaHome/></i></a>
+            <a href="http://people.iiti.ac.in/~vkt/ " target="_blank" rel="noreferrer"> <i><FaHome/></i></a>
              <a href="  http://scholar.google.co.in/citations?user=n782qToAAAAJ  "target="_blank"  rel="noreferrer"> <i><SiGooglescholar/></i></a>
-             <a href="https://www.researchgate.net/profile/Dr-Ajay-Kushwaha-2"target="_blank"  rel="noreferrer"><i><FaResearchgate/></i></a>
-             <a href="@Dhirend59162402"target="_blank"  rel="noreferrer"><i><FaTwitterSquare/></i></a>
+             {/* <a href="https://www.researchgate.net/profile/Dr-Ajay-Kushwaha-2"target="_blank"  rel="noreferrer"><i><FaResearchgate/></i></a> */}
+             {/* <a href="@Dhirend59162402"target="_blank"  rel="noreferrer"><i><FaTwitterSquare/></i></a> */}
              
               
               

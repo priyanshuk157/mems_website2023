@@ -52,8 +52,8 @@ const profile11 = () => {
 
             <div className="acalist">
             <ul>
-            <li>Ph.D. (Materials Engineering), Indian Institute of Science, 2018</li>
-            <br /><li>M.E. (Materials Engineering), Indian Institute of Science, 2009.
+            <li>Ph.D. (Materials Engineering), IISc Bangalore, 2018</li>
+            <br /><li>M.E. (Materials Engineering), IISc Bangalore, 2009.
 </li>
             <br /><li>B.E. (Metallurgical Engineering), Andhra University College of Engineering, 2006.</li>
             

@@ -118,7 +118,7 @@ const profile11 = () => {
                 <tr>
                   <td>1</td>
                   <td>
-                  R. Jain, M.R. Rahul, P. Chakraborty, R. K. Sabat, S. Samal, N. Park,G. Phanikumar, R. Tewari, Integrated modeling, ANN, and experimental approach to understand the hot deformation behavior of Co-Cr-Fe-Ni-V high entropy alloy , Journal of Materials Research and Technology, Vol. 25, pp. 840-854, 2023
+                  R. Jain, M.R. Rahul, P. Chakraborty, R. K. Sabat, S. Samal, N. Park,G. Phanikumar, R. Tewari, Integrated modeling, ANN, and experimental approach to understand the hot deformation behaviour of Co-Cr-Fe-Ni-V high entropy alloy , Journal of Materials Research and Technology, Vol. 25, pp. 840-854, 2023
                   </td>
                 </tr>
                 <tr>
@@ -132,7 +132,7 @@ const profile11 = () => {
                 <tr>
                   <td>3</td>
                   <td>
-                  Piyush Kumar, Reliance Jain, M.R. Rahul, Abhijit Ghosh, S. Samal, Gandham Phanikumar, High temperature deformation behavior and processing maps of FeCoNiCrAlTi dual phase high entropy alloy, Metals and Materials International, 27 February 2023, doi: 10.1007/s12540-023-01399-6
+                  Piyush Kumar, Reliance Jain, M.R. Rahul, Abhijit Ghosh, S. Samal, Gandham Phanikumar, High temperature deformation behaviour and processing maps of FeCoNiCrAlTi dual phase high entropy alloy, Metals and Materials International, 27 February 2023, doi: 10.1007/s12540-023-01399-6
                   </td>
                 </tr>
                 <tr>
@@ -144,7 +144,7 @@ const profile11 = () => {
                 <tr>
                   <td>5</td>
                   <td>
-                  Sandeep Jain, Piyush Kumar, Vinod Kumar, Abhijit Ghosh,,S. Samal, Solidification simulation of single-phase Fe-Co-Cr-Ni-V high entropy alloy, Philosophical Magazine, pp. 1-21, doi: 10.1080/14786435.2022.2084793, 2022.
+                  Sandeep Jain, Piyush Kumar, Vinod Kumar, Abhijit Ghosh, S. Samal, Solidification simulation of single-phase Fe-Co-Cr-Ni-V high entropy alloy, Philosophical Magazine, pp. 1-21, doi: 10.1080/14786435.2022.2084793, 2022.
                   </td>
                 </tr>
               </tbody>
