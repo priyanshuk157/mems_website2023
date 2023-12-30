@@ -39,7 +39,7 @@ const profile11 = () => {
               <li>Designation	: Associate Professor</li>
               <li>Office		: Room No. 1D- 412 </li>
               <li>Email	 (<i><FaEnvelope/></i>)	: mdubey@iiti.ac.in </li>
-              <li>Contact  (<i><FaPhone/></i>)		:3258</li>
+              <li>Contact  (<i><FaPhone/></i>)		:ext. 3258</li>
             <div className="fac-links">
             <a href="https://drdubey.wixsite.com/iiti" target="_blank" rel="noreferrer"> <i><FaHome/></i></a>
              <a href="https://scholar.google.com/citations?user=9P83G5AAAAAJ "target="_blank"  rel="noreferrer"> <i><SiGooglescholar/></i></a>
