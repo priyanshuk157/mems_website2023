@@ -89,13 +89,8 @@ Dr. Jayaprakash Murugesan</span>
           <li>
             Associate Professor, Department of Metallurgical Engineering and Materials Science, IIT Indore
             </li>
-            <li></li>
-            <li>
-           
-            </li>
-            <li>
             
-            </li>
+      
             
             
           </ul>
