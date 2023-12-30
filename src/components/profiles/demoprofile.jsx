@@ -55,9 +55,9 @@ const profile11 = () => {
             <div class="aca"><span className="pc1-head">ACADEMIC BACKGROUND</span></div></div>
             <div class="acalist">
             <ul>
-            <li>Ph.D, IIT Kharagpur 2016</li>
-            <br /><li>M.Tech, IIT Kharagpur 2011</li>
-            <br /><li>B.E, BESU Shibpur 2009</li>
+            <li>Ph.D, IIT Kharagpur, 2016</li>
+            <br /><li>M.Tech, IIT Kharagpur, 2011</li>
+            <br /><li>B.E, BESU Shibpur, 2009</li>
             
           </ul></div>
 
@@ -119,8 +119,8 @@ Materialia. 22 (2022) 101398.
                 <tr>
                   <td>2</td>
                   <td>
-                  P. Kumar, S. Samal, A. Ghosh, Effect of hot rolling and annealing on microstructure and mechanical properties of
-the Fe-Co-Cr-Ni-V-Zrx(x = 0-5) high entropy alloys, J. Alloys Compd. (2023) 172447.
+                  P. Kumar, S. Samal, A. Ghosh,Sandeep Jain, Vinod Kumar, Solidification simulation of single-phase Fe-Co-Cr-Ni-V high entropy alloy,
+                  Philosophical Magazine, (2022) 102, 18, 1832-1852
 
                     .
                   </td>

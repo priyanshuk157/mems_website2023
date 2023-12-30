@@ -35,7 +35,7 @@ const profile11 = () => {
         <div className="pc2">
           
             <ul>
-              <li>Designation	: Assistant Professor</li>
+              <li>Designation	: Associate Professor</li>
               <li>Office		: Room No. 1D- 418 </li>
               <li>Email	 (<i><FaEnvelope/></i>)	: dkrai@iiti.ac.in </li>
               <li>Contact  (<i><FaPhone/></i>)		: +91-731660-3278 </li>
@@ -43,7 +43,7 @@ const profile11 = () => {
              
             <a href="http://people.iiti.ac.in/~dkr/ " target="_blank" rel="noreferrer"> <i><FaHome/></i></a>
              <a href="  https://scholar.google.com/citations?user=pFwwR8UAAAAJ  "target="_blank"  rel="noreferrer"> <i><SiGooglescholar/></i></a>
-             <a href="https://www.researchgate.net/profile/Dr-Ajay-Kushwaha-2"target="_blank"  rel="noreferrer"><i><FaResearchgate/></i></a>
+             <a href="https://www.researchgate.net/profile/Dhirendra-Rai"target="_blank"  rel="noreferrer"><i><FaResearchgate/></i></a>
              <a href="@Dhirend59162402"target="_blank"  rel="noreferrer"><i><FaTwitterSquare/></i></a>
              {/* <a href="https://in.linkedin.com/in/dr-ajay-k-kushwaha-16b46a49?trk=public_post_feed-actor-name "target="_blank"  rel="noreferrer"> <i><FaLinkedin/></i></a> */}
               

@@ -42,7 +42,7 @@ const profile11 = () => {
               <li>Contact  (<i><FaPhone/></i>)		: ​+91 731-2438700  </li>
             <div className="fac-links">
              
-            <a href="https://sites.google.com/view/kvvamsi/home " target="_blank" rel="noreferrer"> <i><FaHome/></i></a>
+            <a href="https://sites.google.com/view/eswarprasad/home" target="_blank" rel="noreferrer"> <i><FaHome/></i></a>
              <a href=" https://scholar.google.co.in/citations?user=LiDYSBQAAAAJ&hl=en  "target="_blank"  rel="noreferrer"> <i><SiGooglescholar/></i></a>
              <a href="https://www.researchgate.net/profile/Eswar-Prasad-K "target="_blank"  rel="noreferrer"><i><FaResearchgate/></i></a>
              <a href="https://twitter.com/EKorimilli "target="_blank"  rel="noreferrer"><i><FaTwitterSquare/></i></a>
@@ -78,7 +78,7 @@ const profile11 = () => {
           <span className="pc1-head">RESEARCH INTEREST</span>
           <div>
           
-          <li>Mechanical behavior of materials </li>
+          <li>Mechanical behaviour of materials </li>
               <li> High strain rate deformation behaviour of Materials</li>
               <li>Nanoindentation, Small scale mechanical testing</li>
               <li>Surface Engineering, and Failure analysis of steels</li>
@@ -126,7 +126,7 @@ const profile11 = () => {
                 <tr>
                   <td>1</td>
                   <td>
-                  A.Sharma, A.Tripathi, Sree Harsha Nandam, Horst Hahn, K.Eswar Prasad, Role of Indenter geometry on the deformation behavior in a Pd-Si based metallic and nanoglass, Journal of Alloys and Compounds 933 (2023)  167693, https://doi.org/10.1016/j.jallcom.2022.167693
+                  A.Sharma, A.Tripathi, Sree Harsha Nandam, Horst Hahn, K.Eswar Prasad, Role of Indenter geometry on the deformation behaviour in a Pd-Si based metallic and nanoglass, Journal of Alloys and Compounds 933 (2023)  167693, https://doi.org/10.1016/j.jallcom.2022.167693
                   </td>
                 </tr>
                 <tr>
@@ -145,7 +145,7 @@ const profile11 = () => {
                 <tr>
                   <td>4</td>
                   <td>
-                  T. Dixit, I. Singh, K. Eswar Prasad, Room and high-temperature dry sliding wear behavior of Boron modified as-cast Ti-6Al-4V alloys against hardened steel, Wear 420-421 (2019) 207-214. https://doi.org/10.1016/j.wear.2018.10.021
+                  T. Dixit, I. Singh, K. Eswar Prasad, Room and high-temperature dry sliding wear behaviour of Boron modified as-cast Ti-6Al-4V alloys against hardened steel, Wear 420-421 (2019) 207-214. https://doi.org/10.1016/j.wear.2018.10.021
                   </td>
                 </tr>
                 <tr>

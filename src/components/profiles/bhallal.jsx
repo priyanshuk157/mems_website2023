@@ -2,9 +2,9 @@ import React from "react";
 
 import "./demo.css";
 // import { FaAngleLeft } from "react-icons/fa";
-import { FaEnvelope,   FaPhone } from "react-icons/fa";
+import { FaEnvelope,   FaPhone, FaResearchgate } from "react-icons/fa";
 import Table from "react-bootstrap/Table";
-import {SiGooglescholar } from "react-icons/si";
+// import {SiGooglescholar } from "react-icons/si";
 import prof1 from "./profimages/prof19.jpg"
 
 const bhallal = () => {
@@ -35,14 +35,14 @@ const bhallal = () => {
         <div className="pc2">
            
             <ul>
-              <li>Designation	: Assistant Professor</li>
+              <li>Designation	: Professor</li>
               <li>Office		:-- </li>
               <li>Email	 (<i><FaEnvelope/></i>)	: nbb@iitb.ac.in </li>
               <li>Contact  (<i><FaPhone/></i>)		: +91-22-2576-7610 </li>
             <div className="fac-links">
             
-             <a href=" https://scholar.google.com/citations?user=Jc4fgVQAAAAJ&hl=en"target="_blank"  rel="noreferrer"> <i><SiGooglescholar/></i></a>
-            
+             {/* <a href=" https://scholar.google.com/citations?user=Jc4fgVQAAAAJ&hl=en"target="_blank"  rel="noreferrer"> <i><SiGooglescholar/></i></a> */}
+             <a href="https://www.researchgate.net/profile/N-Ballal-2"target="_blank"  rel="noreferrer"><i><FaResearchgate/></i></a>
              
              
              
@@ -88,15 +88,15 @@ const bhallal = () => {
         <div className="pc1">
           <span className="pc1-head">POSITIONS HELD</span>
           <ul>
-            <li>
-            Lecturer: Dec 1979-Oct1982
-            </li>
-            <li>Assistant Professor: Oct1982-Mar1988
+            <li>Emeritus Fellow : Aug2015-Continued
 </li>
             <li>Professor : Mar 1988-July2015
 </li>
-            <li>Emeritus Fellow : Aug2015-Continued
+            <li>Assistant Professor: Oct1982-Mar1988
 </li>
+            <li>
+            Lecturer: Dec 1979-Oct1982
+            </li>
             
           </ul>
         </div>

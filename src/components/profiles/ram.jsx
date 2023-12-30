@@ -42,7 +42,7 @@ const profile11 = () => {
               <li>Contact  (<i><FaPhone/></i>)		: +91-8309350644 </li>
             <div className="fac-links">
              
-            <a href="https://sites.google.com/view/kvvamsi/home " target="_blank" rel="noreferrer"> <i><FaHome/></i></a>
+            {/* <a href="https://sites.google.com/view/kvvamsi/home " target="_blank" rel="noreferrer"> <i><FaHome/></i></a> */}
              <a href=" http://scholar.google.com/citations?user=6f8zrTcAAAAJ&hl=en "target="_blank"  rel="noreferrer"> <i><SiGooglescholar/></i></a>
              <a href="https://www.researchgate.net/profile/Ram-Maurya-7 "target="_blank"  rel="noreferrer"><i><FaResearchgate/></i></a>
             
@@ -136,8 +136,8 @@ const profile11 = () => {
                 <tr>
                   <td>4</td>
                   <td>
-                  K. Barat, A. Ghosh, A. Doharey, S. Mukherjee, A. Karmakar, Crystallographic evaluation of low cycle fatigue crack
-growth in a polycrystalline Ni based superalloy, Int. J. Plast. 149 (2022) 103174.
+                  Wahida R Ilaham, Ram S Maurya, Tapas Laha, "Investigation of high-temperature oxidation behavior of silicon added 14Cr nanostructured ferritic alloys synthesized via mechanical alloying and spark plasma sintering",
+                  Materials Research Express 6 (2019) 1150-1156.
                   </td>
                 </tr>
                 <tr>
