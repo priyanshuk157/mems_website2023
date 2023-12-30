@@ -129,7 +129,7 @@ const profile11 = () => {
                 <tr>
                   <td>5</td>
                   <td>
-                  D. A. Basha, N.Ravishankar and K.Chattopadhyay. Phase stability behavior of nanoscaled Bi-Pb alloys with peritectic composition in Zn matrix  Scripta Materialia 143 (2018) 68-71. http://dx.doi.org/10.1016/j.scriptamat.2017.09.012
+                  D. A. Basha, N.Ravishankar and K.Chattopadhyay. Phase stability behaviour of nanoscaled Bi-Pb alloys with peritectic composition in Zn matrix  Scripta Materialia 143 (2018) 68-71. http://dx.doi.org/10.1016/j.scriptamat.2017.09.012
                   </td>
                 </tr>
               </tbody>

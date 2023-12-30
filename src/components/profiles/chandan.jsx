@@ -40,7 +40,7 @@ const profile11 = () => {
               <li>Email	 (<i><FaEnvelope/></i>)	: chalder@iiti.ac.in </li>
               <li>Contact  (<i><FaPhone/></i>)		: +91 0731 660 3182 </li>
             <div className="fac-links">
-            <a href="https://iiti.ac.in/people/~ajaykk " target="_blank" rel="noreferrer"> <i><FaHome/></i></a>
+            {/* <a href="https://iiti.ac.in/people/~ajaykk " target="_blank" rel="noreferrer"> <i><FaHome/></i></a> */}
              <a href=" https://scholar.google.com/citations?user=Jc4fgVQAAAAJ&hl=en"target="_blank"  rel="noreferrer"> <i><SiGooglescholar/></i></a>
              <a href="https://www.researchgate.net/profile/Chandan-Halder"target="_blank"  rel="noreferrer"><i><FaResearchgate/></i></a>
              
@@ -163,7 +163,7 @@ const profile11 = () => {
         <div className="pc1">
           <span className="pc1-head">AWARDS AND ACHIEVEMENTS</span>
           <div>
-          Inspire Faculty Award, DST, 2017
+          {/* Inspire Faculty Award, DST, 2017 */}
           </div>
         </div>
        

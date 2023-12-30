@@ -77,7 +77,7 @@ const profile11 = () => {
           <div>
           <ul>
               <li>          Lightweight material</li>
-              <li>  Deformation behavior</li>
+              <li>  Deformation behaviour</li>
               <li>Crystallographic texture and microstructural characterization</li>
               <li>Additive manufacuring</li>
             </ul>
@@ -118,7 +118,7 @@ const profile11 = () => {
                 <tr>
                   <td>1</td>
                   <td>
-                  Hemant Borkar, Salem Seifeddine, Anders EW Jarfors, In-situ EBSD study of deformation behavior
+                  Hemant Borkar, Salem Seifeddine, Anders EW Jarfors, In-situ EBSD study of deformation behaviour
   of Al–Si–Cu alloys during tensile testing, Materials &amp; Design, 2015, 84, 36-47
                   </td>
                 </tr>
@@ -132,7 +132,7 @@ const profile11 = () => {
                 <tr>
                   <td>3</td>
                   <td>
-                  H Borkar, M Hoseini, M Pekguleryuz, Effect of strontium on flow behavior and texture evolution
+                  H Borkar, M Hoseini, M Pekguleryuz, Effect of strontium on flow behaviour and texture evolution
 during the hot deformation of Mg–1 wt% Mn alloy, Materials Science and Engineering: A, 2012, 537, 49-57
                   </td>
                 </tr>

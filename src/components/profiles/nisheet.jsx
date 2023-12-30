@@ -111,7 +111,7 @@ const profile11 = () => {
                 <tr>
                   <td>1</td>
                   <td>
-                  N.K. Prasad, H. Kancharla, B. Bhushan, S. Kundu and K. Mondal, Effect of Al and Zn addition on the active behavior of the high P pig iron-based composite anodes, J. Appl. Electrochem. 53 (2023) 141-165.
+                  N.K. Prasad, H. Kancharla, B. Bhushan, S. Kundu and K. Mondal, Effect of Al and Zn addition on the active behaviour of the high P pig iron-based composite anodes, J. Appl. Electrochem. 53 (2023) 141-165.
                   </td>
                 </tr>
                 <tr>
@@ -130,7 +130,7 @@ const profile11 = () => {
                 <tr>
                   <td>4</td>
                   <td>
-                  N.K. Prasad, A.S. Pathak, S. Kundu and K. Mondal, Influence of deaeration, Cl- ion and strong oxidizer on the active behavior of the high phosphorus containing pig iron and subsequent effect on the sacrificial anode behavior, Met. Mater. Int. 28 (2022) 2083 - 2102.
+                  N.K. Prasad, A.S. Pathak, S. Kundu and K. Mondal, Influence of deaeration, Cl- ion and strong oxidizer on the active behaviour of the high phosphorus containing pig iron and subsequent effect on the sacrificial anode behaviour, Met. Mater. Int. 28 (2022) 2083 - 2102.
                   </td>
                 </tr>
                 <tr>

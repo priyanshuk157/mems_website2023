@@ -42,7 +42,7 @@ const profile11 = () => {
             <div className="fac-links">
              
             <a href="https://iiti.ac.in/people/~sunil/ " target="_blank" rel="noreferrer"> <i><FaHome/></i></a>
-             <a href=" scholar.google.com/citations?user=oAfP0CAAAAAJ&hl=en  "target="_blank"  rel="noreferrer"> <i><SiGooglescholar/></i></a>
+             {/* <a href="scholar.google.com/citations?user=oAfP0CAAAAAJ&hl=en"target="_blank"  rel="noreferrer"> <i><SiGooglescholar/></i></a> */}
              
              
               
@@ -114,7 +114,7 @@ const profile11 = () => {
                 <tr>
                   <td>1</td>
                   <td>
-                  S Saxena, H N Vasavan, M Badole, A K Das, S Deswal, P Kumar, and S Kumar*, “Tailored P2/O3 phase-dependent electrochemical behavior of Mn-based cathode for sodium-ion batteries ” Journal of Energy Storage, 64 (2023), 107242, https://doi.org/10.1016/j.est.2023.107242 
+                  S Saxena, H N Vasavan, M Badole, A K Das, S Deswal, P Kumar, and S Kumar*, “Tailored P2/O3 phase-dependent electrochemical behaviour of Mn-based cathode for sodium-ion batteries ” Journal of Energy Storage, 64 (2023), 107242, https://doi.org/10.1016/j.est.2023.107242 
                   </td>
                 </tr>
                 <tr>
