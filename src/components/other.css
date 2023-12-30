@@ -1,5 +1,7 @@
-.heading{
+.other-heading{
     display: flex;
+    justify-content: center;
+    font-size: var(--head1);
   
     color: var(--red);
 }

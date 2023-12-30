@@ -3,7 +3,7 @@ import React from "react";
 import "./demo.css";
 // import { FaAngleLeft } from "react-icons/fa";
 // import "./profile.css";
-import { FaEnvelope, FaHome,  FaPhone, FaResearchgate,   } from "react-icons/fa";
+import { FaEnvelope,   FaPhone, FaResearchgate,   } from "react-icons/fa";
 import Table from "react-bootstrap/Table";
 import {SiGooglescholar } from "react-icons/si";
 import prof44 from "./profimages/rsm.jpg"

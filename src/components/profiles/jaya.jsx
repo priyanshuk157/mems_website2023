@@ -2,7 +2,7 @@ import React from "react";
 
 import "./demo.css";
 // import { FaAngleLeft } from "react-icons/fa";
-import { FaEnvelope,  FaPhone, FaResearchgate } from "react-icons/fa";
+import { FaEnvelope,  FaPhone } from "react-icons/fa";
 import {SiGooglescholar } from "react-icons/si";
 import Table from "react-bootstrap/Table";
 import prof44 from "./profimages/muru.jpg";
@@ -89,13 +89,7 @@ Dr. Jayaprakash Murugesan</span>
           <li>
             Associate Professor, Department of Metallurgical Engineering and Materials Science, IIT Indore
             </li>
-            <li></li>
-            <li>
-           
-            </li>
-            <li>
-            
-            </li>
+         
             
             
           </ul>

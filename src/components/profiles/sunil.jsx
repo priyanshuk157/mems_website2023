@@ -4,7 +4,6 @@ import "./demo.css";
 // import { FaAngleLeft } from "react-icons/fa";
 import { FaEnvelope, FaHome,  FaPhone,    } from "react-icons/fa";
 import Table from "react-bootstrap/Table";
-import {SiGooglescholar } from "react-icons/si";
 import prof13 from "./profimages/prof13.jpg"
 
 const profile11 = () => {

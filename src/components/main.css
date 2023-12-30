@@ -1,9 +1,29 @@
-.res-acc-body{
+.res-acc-body-button{
+   
     display: flex;
+    justify-content: center;
     position: relative;
     padding:10px 10px;
     
 }
+.res-acc-body-button a{
+    background: var(--blue);
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding:10px 10px;
+    
+}
+.res-acc-body-button a:hover{
+ 
+    box-shadow: 0px 0px  5px black;
+    padding: 13px;
+    transition: all .1s; 
+    
+}
+
 
 .image{
     display: flex;

@@ -18,8 +18,8 @@ const other = () => {
 
 
 
-<span className="heading">Other Facilities</span>
-<div className="list">
+<div className="other-heading">Other Facilities</div>
+<div className="other-list">
 <Table striped>
       <thead>
         <tr>
