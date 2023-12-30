@@ -172,19 +172,28 @@ const Industry2 = () => {
                   <a href="cons">Click for more details</a>
                 </div>
               </div>
+              
               <ul>
-                <li>
-                Our Metallurgy and Material Science BTech program at IIT Indore is rigorous, requiring 146.5 credits for graduation. With 49 courses and 12 labs, students gain theoretical and practical expertise in materials engineering. The seventh semester focuses on industry-connected projects, offering hands-on experience within research groups of leading companies.
+              Welcome to the Department of Metallurgical Engineering and Materials Science at IIT Indore. We excel in academic and research endeavours, offering specialized consultancy services for industries facing metallurgical and materials challenges.
+<br />
+              <br /><div className="bold">Why Choose Us:</div>
+                <li>Expert Faculty: Our accomplished team provides practical insights and expertise.
+                
 {" "}
 <br />
                 </li>
                 <li>
-                Our curriculum prioritises practical learning, featuring 12 labs that provide essential hands-on experience, preparing students for industry demands.{" "}
+                State-of-the-Art Facilities: Access cutting-edge laboratories for materials analysis.
                 <br />
                 </li>
                 <li>
-                Students actively participate in national tests and competitions, fostering teamwork and aligning them with industry dynamics. Our goal is to equip graduates for successful Metallurgy and Material Science careers by blending academic excellence with real-world applications.
+                Proven Track Record: Successfully delivered tailored solutions for diverse projects.
                 </li>
+                <br /><div className="bold">Consultancy Services:</div>
+                Collaborate with us for metallurgical process optimization, material selection, and failure analysis. Benefit from our experience, advanced facilities, and a commitment to delivering innovative solutions.
+                <br />
+                <br /><div className="bold">Get in Touch:</div>
+               Explore how partnering with us can address your industry's challenges. Contact our department <a href="memsoffice@iiti.ac.in">(memsoffice@iiti.ac.in)</a> or the relevant faculty member for customized consultancy services that drive innovation and excellence in metallurgy and materials science.
               </ul>
             </div>
           </div>

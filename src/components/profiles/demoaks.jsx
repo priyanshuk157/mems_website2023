@@ -88,19 +88,17 @@ const profile11 = () => {
           <span className="pc1-head">POSITIONS HELD</span>
           <ul>
           <li>
-              Supervised 4 Ph.D students, 6 M.Tech and 11 B.tech students.
+          Head,  Department of MEMS, IIT Indore, 03/2023 to Till Date
             </li>
-            <li>Completed 2 Research Projects.</li>
+            <li>Associate Professor, Department of MEMS, IIT Indore, 11/2022 to Till Date</li>
             <li>
-              Published 65 Journals, 10 conferences, 281 citations, 28 h-index,
-              44 i10-index.
-            </li>
-            <li>
-              Organised 3 workshops, 6 training programs, 2 short-term courses.{" "}
+            Associate Dean, Student Affairs, IIT Indore, 05/2019 to 09/2021
             </li>
             <li>
-              Given 10 Invited/Contributory talk in national / international
-              conferences.
+            INSPIRE Faculty Fellow, Department of MEMS, IIT Indore, 07/2016 to 09/2017
+            </li>
+            <li>
+            Assistant  Professor, Department of MEMS, IIT Indore, 09/2017 to 11/2022
             </li>
             
             

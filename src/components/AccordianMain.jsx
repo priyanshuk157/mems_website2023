@@ -90,6 +90,14 @@ committee</span></Accordion.Header>
             </ul>
           </div>
           <div className="resource-block">
+            <div className="head9">MEMS,IITI-Alumni Cell </div>
+            <ul>
+              <li>Dr. Khushboo Devi
+                <br />(Convener) </li>
+              <li>Dr. Eswara Prasad Korimilli </li>
+            </ul>
+          </div>
+          <div className="resource-block">
             {" "}
             <div className="head9">Departmental Common Facilities/Labs </div>
             <ul>
@@ -154,7 +162,7 @@ committee</span></Accordion.Header>
               <br />
               <li> 
               <b>Student representatives</b>   : 
-                <br/> Mr. Priyanshu, Ms. Aditi, Pratik
+                <br/> Mr. Priyanshu, Ms. Aditi, Pratik Prajn
               </li>
             </ul>
           </div>
