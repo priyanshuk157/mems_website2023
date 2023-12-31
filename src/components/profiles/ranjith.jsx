@@ -21,7 +21,7 @@ const profile11 = () => {
         </i>
         <span>PROFILE</span>
       </div>*/}
-<span className="pc1-headmain">Prof. Ranjith Kumar Poobalan</span>
+<span className="pc1-headmain"> Ranjith Kumar Poobalan</span>
       <div class="main">
             <div class="left">
                 <div>
@@ -37,9 +37,9 @@ const profile11 = () => {
             
             <ul>
               <li>Designation	: Assistant Professor</li>
-              <li>Office		: - </li>
+              <li>Office		: POD 1A, 514, 4th Floor </li>
               <li>Email	 (<i><FaEnvelope/></i>)	: ranjith@iiti.ac.in</li>
-              <li>Contact  (<i><FaPhone/></i>)		: -</li>
+              <li>Contact  (<i><FaPhone/></i>)		: +91-731-660-3333 Extn. 5597</li>
             <div className="fac-links">
              
              <a href="  https://scholar.google.com/citations?user=iTe5x74AAAAJ&hl=en&oi=ao "target="_blank"  rel="noreferrer"> <i><SiGooglescholar/></i></a>
@@ -57,7 +57,7 @@ const profile11 = () => {
             <div class="acalist">
             <ul>
             <li>Ph.D, Material Research Centre, (IISc), 2022</li>
-            <br /><li>M.Sc (Physics), (NIT-T), 2014
+            <br /><li>M.Sc in Physics, NIT Trichy, 2014
 
 </li>
             <br /><li>B.Sc Physics, Madras Christian College, 2012</li>
@@ -75,7 +75,7 @@ const profile11 = () => {
           <span className="pc1-head">RESEARCH INTEREST</span>
           <div>
           
-        <li>Thin Films </li>
+        <li>Thin films and Multilayer coatings </li>
          
         <li> Energy harvesting materials</li>
         <li>Protective Coatings</li>

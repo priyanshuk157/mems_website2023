@@ -5,7 +5,7 @@ import "./demo.css";
 import { FaEnvelope,  FaLinkedin, FaPhone, FaResearchgate } from "react-icons/fa";
 import Table from "react-bootstrap/Table";
 import {SiGooglescholar } from "react-icons/si";
-import kd from "./profimages/kd.jpg"
+import kd from "./profimages/kkk.jpg"
 
 const profile11 = () => {
   return (
@@ -20,7 +20,7 @@ const profile11 = () => {
         </i>
         <span>PROFILE</span>
       </div>*/}
-<span className="pc1-headmain">Prof. Khushubo Devi</span>
+<span className="pc1-headmain">Prof. Khushubo Devi (Tiwari)</span>
       <div class="main">
             <div class="left">
                 <div>
@@ -119,32 +119,32 @@ const profile11 = () => {
                 <tr>
                   <td>1</td>
                   <td>
-                  Khushubo Tiwari, Paliwal, M, Biwas, K.. Phase transformation of Ag–Cu alloy nanoparticle embedded in Ni matrix. Journal of Materials Research (2022), 37(23), 4124-4139
+                  Khushubo Devi Tiwari, Paliwal, M, Biwas, K.. Phase transformation of Ag–Cu alloy nanoparticle embedded in Ni matrix. Journal of Materials Research (2022), 37(23), 4124-4139
                   </td>
                 </tr>
                 <tr>
                   <td>2</td>
                   <td>
-                  Khushubo Tiwari, M. M Devi, K Biswas, K. Chattopadhyay, Phase Transformation in Nanoalloys, Progress in Materials Science, p.100794 (2021) DOI: 10.1016/j.pmatsci.2021.100794.
+                  Khushubo Devi Tiwari, M. M Devi, K Biswas, K. Chattopadhyay, Phase Transformation in Nanoalloys, Progress in Materials Science, p.100794 (2021) DOI: 10.1016/j.pmatsci.2021.100794.
                   </td>
                 </tr>
                 <tr>
                   <td>3</td>
                   <td>
                     {" "}
-                    Khushubo Tiwari, M Paliwal, M Verma, and K Biswas, Solidification Behaviour of Nanoscale Tri-phasic Bismuth-Indium-Tin Alloy Particles Embedded in Al–Cu–Fe Quasicrystalline Matrix, Journal of Alloys and Compounds, (2021) 867, 159011
+                    Khushubo Devi Tiwari, M Paliwal, M Verma, and K Biswas, Solidification Behaviour of Nanoscale Tri-phasic Bismuth-Indium-Tin Alloy Particles Embedded in Al–Cu–Fe Quasicrystalline Matrix, Journal of Alloys and Compounds, (2021) 867, 159011
                   </td>
                 </tr>
                 <tr>
                   <td>4</td>
                   <td>
-                  Khushubo Tiwari, K. Biswas, M. Palliwal, B. Majumdar, H.-J. Fecht, Melting behaviour of tri-phasic Bi44In32Sn23 alloy nanoparticle embedded in icosahedral quasicrystalline matrix, Journal of Alloys and Compounds, (2020), 834, 155160
+                  Khushubo Devi Tiwari, K. Biswas, M. Palliwal, B. Majumdar, H.-J. Fecht, Melting behaviour of tri-phasic Bi44In32Sn23 alloy nanoparticle embedded in icosahedral quasicrystalline matrix, Journal of Alloys and Compounds, (2020), 834, 155160
                   </td>
                 </tr>
                 <tr>
                   <td>5</td>
                   <td>
-                  Khushubo Tiwari, Gautam G, Kumar N, Mohan A, Mohan S. Effect of primary silicon refinement on mechanical and wear properties of a hypereutectic Al-Si alloy. Silicon. 10:2227-39 (2018)
+                  Khushubo Devi Tiwari, Gautam G, Kumar N, Mohan A, Mohan S. Effect of primary silicon refinement on mechanical and wear properties of a hypereutectic Al-Si alloy. Silicon. 10:2227-39 (2018)
                   </td>
                 </tr>
               </tbody>

@@ -1,3 +1,5 @@
+
+
 const Facultydata = [
     {
         id : 1,
