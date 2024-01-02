@@ -150,7 +150,7 @@ const profile11 = () => {
                 <tr>
                   <td>5</td>
                   <td>
-                  C.Halder, K.L. Prasanna; S. Dixit, S. Pal & S.K. Jha, “Bi-objective Optimization of Maraging Steel Produced by 
+                  C. Halder, K.L. Prasanna; S. Dixit, S. Pal & S.K. Jha, “Bi-objective Optimization of Maraging Steel Produced by 
     Vacuum Induction Melting Using Evolutionary Algorithms”, Transactions of the Indian Institute of Metals, 74(5),  
     (2021), 1193-1201, https://doi.org/10.1007/s12666-020-02153-x.
                   </td>

@@ -324,7 +324,7 @@ properties.</p>
             <li><a href="p1"> D. Basha</a> </li>
             <li><a href="p12"> R.S Maurya</a> </li>
             <li><a href="p17"> K.V. Vamsi</a> </li>
-            <li><a href="p2"> C. Haldar</a> </li>
+            <li><a href="p2"> C. Halder</a> </li>
 
             
            
@@ -341,7 +341,7 @@ properties.</p>
             <li><a href="p9"> M. Dubey</a> </li>
             <li><a href="p18"> V. Kumar</a> </li>
             <li><a href="p1">  D. Basha</a> </li>
-            <li><a href="p5">Ajay Kumar Kushwaha</a></li>
+            <li><a href="p5">Ajay K. Kushwaha</a></li>
            
 
           </ul>
@@ -355,7 +355,7 @@ properties.</p>
             <li><a href="demo"> Abhijit Ghosh</a> </li>
             <li><a href="p17"> K.V. Vamsi</a> </li>
 
-
+            <li><a href="p6"> H. Borkar</a> </li>
 
 
           </ul>

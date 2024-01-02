@@ -20,7 +20,7 @@ const profile11 = () => {
         </i>
         <span>PROFILE</span>
       </div>*/}
-<span className="pc1-headmain">Dr. Rupesh S. Devan</span>
+<span className="pc1-headmain">Prof. Rupesh S. Devan</span>
       <div class="main">
             <div class="left">
                 <div>
@@ -78,6 +78,7 @@ const profile11 = () => {
           <span className="pc1-head">RESEARCH INTEREST</span>
           <div>
           
+          <li>Photo-active materials for H2 and water treatment/remediation (OER,HER,Desalination, etc.)					 </li>
           <li>Nano-hetero-architectures </li>
               <li> Energy storage Materials</li>
               <li>Photo-active materials for H2 and water treatment</li>

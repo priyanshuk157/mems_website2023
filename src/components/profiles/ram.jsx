@@ -39,7 +39,7 @@ const profile11 = () => {
               <li>Designation	: Assistant Professor</li>
               <li>Office		: Chromium, POD 1D-613 </li>
               <li>Email	 (<i><FaEnvelope/></i>)	: ramsajeevan@iiti.ac.in </li>
-              <li>Contact  (<i><FaPhone/></i>)		: +91-8309350644 </li>
+              <li>Contact  (<i><FaPhone/></i>)		: 0731-660-3202</li>
             <div className="fac-links">
              
             {/* <a href="https://sites.google.com/view/kvvamsi/home " target="_blank" rel="noreferrer"> <i><FaHome/></i></a> */}
