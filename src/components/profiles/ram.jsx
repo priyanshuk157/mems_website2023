@@ -3,7 +3,7 @@ import React from "react";
 import "./demo.css";
 // import { FaAngleLeft } from "react-icons/fa";
 // import "./profile.css";
-import { FaEnvelope,   FaPhone, FaResearchgate,   } from "react-icons/fa";
+import { FaEnvelope,   FaPhone, FaResearchgate, FaHome  } from "react-icons/fa";
 import Table from "react-bootstrap/Table";
 import {SiGooglescholar } from "react-icons/si";
 import prof44 from "./profimages/rsm.jpg"
@@ -42,7 +42,7 @@ const profile11 = () => {
               <li>Contact  (<i><FaPhone/></i>)		: 0731-660-3202</li>
             <div className="fac-links">
              
-            {/* <a href="https://sites.google.com/view/kvvamsi/home " target="_blank" rel="noreferrer"> <i><FaHome/></i></a> */}
+            { <a href="https://ramsajeevan.wixsite.com/amorphous-metals-lab " target="_blank" rel="noreferrer"> <i><FaHome/></i></a>}
              <a href=" http://scholar.google.com/citations?user=6f8zrTcAAAAJ&hl=en "target="_blank"  rel="noreferrer"> <i><SiGooglescholar/></i></a>
              <a href="https://www.researchgate.net/profile/Ram-Maurya-7 "target="_blank"  rel="noreferrer"><i><FaResearchgate/></i></a>
             
