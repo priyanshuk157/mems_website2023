@@ -36,3 +36,42 @@
 }
 a:link { text-decoration: none; }
 
+@media (max-width: 600px) {
+    .faculty-imgs{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 30px;
+        margin: auto;
+        padding: 50px;
+        border: none;
+        max-width:100%;
+        height: fit-content;
+        z-index: 0;
+    }
+    
+    .imageprof img{
+        height: 130px;
+        width: 130px;
+        border-radius: 50%;
+        background-color: bisque;
+    }
+    .imageprof{transition: transform .2s; /* Animation */}
+    .imageprof:hover {
+        transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+      }
+    
+    
+    .name{
+        margin-top: 10px;
+        font-size: 20px;
+        justify-content: center;
+        text-align: center;
+        text-decoration: none;
+        width: 130px;
+       
+    }
+    a:link { text-decoration: none; }
+}

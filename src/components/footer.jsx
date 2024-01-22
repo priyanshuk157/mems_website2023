@@ -38,7 +38,7 @@ Indore, Madhya Pradesh, INDIA
             <div><a href="https://www.facebook.com/profile.php?id=100092114204325" target="_blank" rel="noopener noreferrer"><i>< FaFacebook/></i> </a></div>
             </div>
            
-            <div className='created'><a href="https://github.com/priyanshuk157">Designed and Maintained By Priyanshu Kumbhare</a></div>
+            <div className='created'><a href="https://github.com/priyanshuk157">Designed and Maintained By Web-dev Team MEMS</a></div>
             
         </div>
       </div>

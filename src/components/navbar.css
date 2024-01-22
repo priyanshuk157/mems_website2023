@@ -395,15 +395,7 @@ background-color:white !important;
   visibility: hidden;
 }
 
-@media (max-width: 1300px) {
-  .main-nav {
-    margin-top: 0;
-    width: 100%;
-    height: 18rem;
-    display: grid;
-    grid-template-columns: 5rem 2fr 3fr 5rem;
-  }
-}
+
 
 @media (max-width: 988px) {
   .menu-link-ul {
@@ -457,7 +449,7 @@ background-color:white !important;
     z-index: 4;
   }
 }
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   .sec {
     display: flex;
     flex-direction: column;
@@ -468,7 +460,7 @@ background-color:white !important;
   .sec-cont {
     width: 200px;
   }
-}
+} */
 
 @media (max-width: 600px) {
   .navbar1 {
@@ -479,6 +471,398 @@ background-color:white !important;
   .main-nav {
     width: 100%;
     height: 7rem;
+    display: flex;
+    justify-content: space-evenly;
+    background: transparent;
+    /* color: white; */
+    /* border: 1px solid; */
+  }
+  .iiti-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .iiti-logo img {
+    height: 4rem;
+    width: auto;
+  }
+  .menu-link-ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: 900;
+  }
+  .menu-link-ul li {
+
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: 900;
+    position: relative;
+    left: -1rem;
+  }
+  .nav-ham {
+    visibility: visible;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 20px;
+
+    cursor: pointer;
+    z-index: 100;
+  }
+  
+  .nav-2 {
+    display: flex;
+    align-items: center;
+  }
+  .menu-link-ul {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    height: 100%;
+    /* width: 100%; */
+    z-index: 3;
+
+    transition: 0.6s ease-in-out;
+    transform: translateY(-200vh);
+    background: rgba(0, 0, 0, 0.7);
+  }
+  .responsive-nav {
+    transform: none;
+  }
+
+  .mems {
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 20px;
+    /* text-shadow: 0px 2px  5px black;  */
+  }
+  .iiti {
+    font-size: 10px;
+    line-height: 20px;
+  }
+  .typo {
+    font-size: 20px;
+  }
+  .main-nav {
+    padding: 0px;
+
+    width: 100%;
+
+    display: flex;
+
+    background: transparent;
+    /* color: white; */
+    /* border: 1px solid; */
+  }
+
+  .logo {
+    position: relative;
+    padding: 5px;
+
+    width: fit-content;
+    height: 9rem;
+    background: transparent;
+    display: flex;
+
+    flex-direction: column;
+
+    /* justify-content: center; */
+
+    z-index: +1;
+    letter-spacing: 1px;
+  }
+  .res-people:hover{
+    
+  
+    .dropactive{
+      display: flex;
+      flex-direction: row ;
+      /* justify-content: center; */
+      position: relative;
+      background-color: rgb(0, 0, 0 ,0);
+      left: 0rem;
+    
+      top: 0rem;
+      z-index: 99;
+     box-shadow: none;
+      padding: 0px;
+      height: fit-content;
+      width:400px;
+      transition: all 0.3s;
+    }
+    .dropactive div {
+  
+      list-style: none;
+      position: relative;
+      padding: 6px;
+      border-radius: 0px;
+      transition: all 0.3s;
+    }
+    .dropactive div a {
+      display: flex;
+      justify-content: center ;
+      color: #ffffff;
+      font-size: 15px;
+      width: 4rem;
+      text-decoration: none;
+    }
+  }
+  .dropinactive {
+    display: flex;
+    visibility: hidden;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0);
+    
+    z-index: 9;
+    border-radius: 0px;
+    box-shadow: 0px 0px 0px black;
+    padding: 0px;
+   top: 3rem;
+    transition: all 0.3s;
+    
+    width: fit-content;
+    opacity: 0;
+    /* justify-content: space-evenly;    */
+  }
+  .staff-hover:hover{
+    .submenu-display{
+      position: relative;
+      left: 0%;
+      top: 0%;
+      display: flex;
+      flex-direction: column;
+      background-color: #ffffff00;
+      box-shadow: 0px 0px 5px black;
+      padding: 0%;
+    
+    }
+  
+  }
+  .submenu-display{
+  display: none;
+  
+  }
+ 
+  .dropinactive div a {
+    color: rgb(245, 245, 249);
+    text-decoration: none;
+    font-size: 13px;
+  }
+
+  .dropactive div:hover {
+    background-color: rgba(87, 82, 82, 0);
+  }
+  .dropactive div a:hover {
+    color: rgb(102, 104, 105);
+  }
+  .dropinactive div {
+    visibility: visible;
+    list-style: none;
+    position: relative;
+    text-align: center;
+    width: 100px;
+    transition: all 0.3s; 
+    /* justify-content: space-evenly;    */
+  }
+  .dropinactive div a {
+    text-decoration: none;
+    /* justify-content: space-evenly;    */
+  }
+  .menu-link-ul li:hover {
+    position: relative;
+    font-size: x-large;
+    /* text-shadow: 0 10px 5px black; */
+
+    /* font-size: x-large ; */
+  }
+  .navbar1 {
+    position: relative;
+    top: 0%;
+    z-index: 99;
+  }
+  .navbar {
+    transform: none;
+    transition: none;
+  }
+  .scroll-active {
+    transform: none;
+
+    transition: none;
+  }
+  .drpdwn-main{
+    margin: auto;
+  }
+.drp-btnn{
+    position: relative;
+    left: 40%;
+}
+  .drpdwn-btn{
+    position: relative;
+    font-size: 13px;
+    margin: 0px;
+    color: white;
+    text-align: none;
+    
+  
+  }
+  .nav-logos{
+    display: none ;
+    height: 20px;
+    background-color: #005a9c;
+  }
+  .navlogo-imag{
+    width: 100%;
+  }
+  .shape1{
+    height: 50px;
+    float: right;
+    width: 30%;
+    top: 40%;
+    background-color: #005a9c;
+    clip-path: polygon(0% 0%, 100%  0% ,100% 100% , 10% 100%);
+    
+  }
+  .shape2{
+    height: 30px;
+    float: right;
+    width: 2%;
+    background-color: #005a9c;
+    transform: rotate(45deg);
+    position: relative;
+  
+    left: 33px;
+    top:-20px;
+  }
+  .navbar-logos1{
+    padding-right: 20px;
+    display:flex ;
+    flex-direction: row;
+  float: right;
+    color: white;
+    text-decoration: none;
+    gap: 50px;
+  }
+  .navbar-logos1 div{
+    float: right;
+    display:flex ;
+      color: white;
+      text-decoration: none;
+      gap: 20px;
+  }
+  .navbar-logos1 div a{
+    color: white;
+      font-size: 30px;
+      text-decoration: none;
+      gap: 20px;
+  }
+}
+@media (max-width: 1300px) {
+  .nav-logos{
+ display: block;
+    height: 20px;
+    width: 100%;
+    background-color: #005a9c;
+    z-index: 1;
+    position: relative;
+    top: 0%;
+    float: right;
+  
+  }
+  .navlogo-imag{
+    width: 100%;
+  }
+  .navbar-button{
+    position: relative;
+    font-size: 14px;
+    font-weight: 900;
+    /* bottom: 0%;   */
+    /* left: -25px; */
+    padding: 10px 10px;
+    border-radius: 100px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    background-color: #ffffff;
+    border-color: #005a9c;
+  color: #005a9c;
+  border: 2px solid #005a9c;
+    transition: all 0.2s ease;
+  
+  }
+  .nav-student-button{
+    position: relative;
+  margin-right: 10px;
+    
+    float: right;
+    /* right: 20%; */
+    z-index: 2;
+    
+  }
+  .shape1{
+    position: relative;
+    height: 50px;
+    float: right;
+    width: 60%;
+    top: 40%;
+    background-color: #005a9c;
+    z-index: 2;
+    clip-path: polygon(0% 0%, 100%  0% ,100% 100% , 5% 100%);
+    
+  }
+  .shape2{
+    position: relative;
+    height: 20px;
+    
+    width: 100%;
+    background-color: #005a9c;
+    transform: rotate(45deg);
+    position: relative;
+  
+    left: 33px;
+  }
+  .navbar-logos1{
+    
+    padding-right: 20px;
+    display:flex ;
+    flex-direction: row;
+  float: right;
+    color: white;
+    text-decoration: none;
+    gap: 20px;
+  }
+  .navbar-logos1 div{
+    float: right;
+    display:flex ;
+      color: white;
+      text-decoration: none;
+      gap: 20px;
+  }
+  .navbar-logos1 div a{
+    color: white;
+      font-size: 30px;
+      text-decoration: none;
+      gap: 20px;
+  } 
+  .navbar1 {
+    position: relative;
+    top: 0%;
+    z-index: 99;
+  }
+  .main-nav {
+    width: 100%;
+    height: 6rem;
     display: flex;
     justify-content: space-evenly;
     background: transparent;
@@ -608,41 +992,7 @@ background-color:white !important;
     opacity: 0;
     /* justify-content: space-evenly;    */
   }
-  .dropactive {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;  
-    position: relative;
-    background-color: rgba(255, 255, 255, 0);
-    
-    color: white;
-    top: 3rem;
-    z-index: 99;
-    border-radius: 0%;
-    box-shadow: 0px 0px 0px black;
-    padding: 0px;
-    /* height: 4rem; */
-    width: 100%;
-    transition: all 0.3s;
-
-
-  }
-  .dropactive div {
-    list-style: none;
-    position: relative;
-    padding: 0px;
-    text-align: center;
-    border-radius: 10px;
-    transition: all 0.3s;
-    width: 100px
-  }
-  .dropactive div a {
-    color: rgb(245, 245, 249);
-    text-decoration: none;
-    font-size: 13px;
-    
-  }
+  
   .dropinactive div a {
     color: rgb(245, 245, 249);
     text-decoration: none;

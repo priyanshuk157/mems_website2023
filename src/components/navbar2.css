@@ -477,7 +477,7 @@ font-weight: 500;
     z-index: 4;
   }
 }
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   .sec {
     display: flex;
     flex-direction: column;
@@ -488,7 +488,7 @@ font-weight: 500;
   .sec-cont {
     width: 200px;
   }
-}
+} */
 
 @media (max-width: 600px) {
   .navbar1 {
@@ -541,7 +541,10 @@ font-weight: 500;
     cursor: pointer;
     z-index: 100;
   }
-  
+  .nonacthover{
+    color: var(--white);
+    font-weight: 500;
+    }
   .nav-2 {
     display: flex;
     align-items: center;
@@ -608,6 +611,8 @@ font-weight: 500;
     z-index: +1;
     letter-spacing: 1px;
   }
+  
+  
   .dropinactive {
     display: flex;
     visibility: hidden;
@@ -628,53 +633,14 @@ font-weight: 500;
     opacity: 0;
     /* justify-content: space-evenly;    */
   }
-  .dropactive {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;  
-    position: relative;
-    background-color: rgba(255, 255, 255, 0);
-    
-    color: white;
-    top: 3rem;
-    z-index: 99;
-    border-radius: 0%;
-    box-shadow: 0px 0px 0px black;
-    padding: 0px;
-    /* height: 4rem; */
-    width: 100%;
-    transition: all 0.3s;
-
-
-  }
-  .dropactive div {
-    list-style: none;
-    position: relative;
-    padding: 0px;
-    text-align: center;
-    border-radius: 10px;
-    transition: all 0.3s;
-    width: 100px
-  }
-  .dropactive div a {
-    color: rgb(245, 245, 249);
-    text-decoration: none;
-    font-size: 13px;
-    
-  }
+ 
   .dropinactive div a {
     color: rgb(245, 245, 249);
     text-decoration: none;
     font-size: 13px;
   }
 
-  .dropactive div:hover {
-    background-color: rgba(87, 82, 82, 0);
-  }
-  .dropactive div a:hover {
-    color: rgb(102, 104, 105);
-  }
+  
   .dropinactive div {
     visibility: visible;
     list-style: none;

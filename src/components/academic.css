@@ -81,6 +81,14 @@
     
   
   }
+  .acad-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 6rem;
+    border: black;
+  }
   .acad-image img{
     width: 100%;
     height: 15rem;

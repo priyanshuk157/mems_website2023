@@ -247,197 +247,228 @@ width: 50%;
   height: 50px;
 }
 
-/* .themes-main-1{
-    display: flex;
-    flex-direction: column;
- 
-  
-   gap: 3rem;
-   
-}
-.themes-main-1 a{
-  text-decoration: none;
-   
-}
-.research-theme-main{
-    display: flex;
-    align-items: center;
-   margin-top: 1rem;
-    justify-content: center;
-    gap: 7rem;
-}  
-.themes-main-2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-   
-   gap: 19rem;
-   
-    
 
-    
-
-}
-.themes-main-2 a{
- 
-text-decoration: none;
-    
-
-}
-.themes-blocks{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-  
-position: relative;
-top: 0;
-    width: 146px;
-    height:253px;
-    background-color: #005A9C;
-
-   padding: 20px;
-   text-align: center;
-  transform: rotate(0deg);
-  transition: all .3s ease-in-out;
-   z-index: 0 ;
-   
-}
-
-.themes-blocks:hover{
-  cursor: pointer;
-  z-index: 0;
-top: -1rem;
-background-color:  #024779;
-   box-shadow: 0px 13px 30px rgb(44, 43, 43);
-   background-color: #0080db;
-}
-
-.themes-blocks::before{
-    content: "";
-   
-    position: absolute;
-
-    width: inherit;
-    height: inherit;
-    background-color: inherit;
-    display: flex;
-    flex-direction: column;
-   align-items: center;
-   justify-content: space-between;
-   padding: 20px;
-   text-align: center;
-   transform: rotate(60deg);
-   transition: all .3s ease-in-out;
-   top:0;
-   left: 0;
-
-z-index: -1;
-
-   
-}
-.themes-blocks::after{
-   content: "";
-  
-   position: absolute;
-   top:0;
-   left: 0;
-    width:inherit;
-    height: inherit;
-    background-color: inherit;
-    display: flex;
-    flex-direction: column;
-   align-items: center;
-   justify-content: space-between;
-   padding: 20px;
-   text-align: center;
-   transition: all .3s ease-in-out;
-   z-index: -1;
-   transform: rotate(-60deg);
-   
-
-   
-}
-
-.research-logo{
-    display: flex;
-    
- 
-    
-    position: absolute;
-
-    width: 150px;
-    height: 263px;
-    background-color: #f8e6cc;
-    display: flex;
-    flex-direction: column;
-   align-items: center;
-   justify-content: space-between;
-   padding: 20px;
-   text-align: center;
- 
-  transition: all .3s ease-in-out;
-   
-   
-    z-index: 0;
-} 
-.research-logo::after{
-    content: "";
-    position: absolute;
-    top:0;
-    left: 0;
-     width: inherit;
-     height: inherit;
-     background-color: #f8e6cc;
-     display: flex;
-     flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    text-align: center;
-    
-    transform: rotate(-60deg);
-    z-index: -1;
- 
-    
-} 
-.research-logo::before{
-    content: "";
-    position: absolute;
-
-    width: inherit;
-    height: inherit;
-    background-color: #f8e6cc;
-    display: flex;
-    flex-direction: column;
-   align-items: center;
-   justify-content: space-between;
-   padding: 20px;
-   text-align: center;
-   transform: rotate(60deg);
-   top:0;
-   left: 0;
-z-index: -1;
-} 
-.research-logo img{
+@media (max-width: 600px){
+  .fund-plot{
     position: relative;
-    top: 10%;
-    height: 170px;
-    width:  auto;
-}
-.theme-heads{
-    /* position: relative;
-    top: 22%; */
-    /* text-align: center;
-    color: rgb(255, 255, 255);
-    font-size: 25px;
-    font-weight: 800;
+    width: 400px;
+  }
+  .fund-plot img{
+    margin: auto;
+    position: relative;
+    width: 100%;
+  }
+  .consult-button{
+    background-color: rgb(43, 82, 210);
+    padding: 4px;
+    border-radius: 5px;
+    transition: all .3s;
+    
+  }
+  .consult-button:hover{
+    cursor: pointer;
+    padding: 8px;
+    background-color: rgb(43, 82, 210);
+    border-radius: 5px;
+    transition: all .3s;
+    box-shadow: 0px 0px 5px black;
+  }
+  .consult-button a{
     text-decoration: none;
-    text-transform: uppercase;
-} */ 
+    color: white;
+  }
+  .consultancy-logos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+  }
+  .consultancy-logos img{
+    height: 50px;
+  }
+  .research-section{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    width: fit-content;
+    gap: 3rem;
+    margin: auto;
+  }
+  .research-secleft{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  }
+  .research-secright{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+  }
+  
+.research-cards{
+  display: flex;
+  justify-content: space-evenly;
+  
+  
 
 
+
+
+}
+.research-cards a{
+  text-decoration: none;
+  
+  
+
+
+
+
+}
+
+
+.table{
+  width: 93%;
+  position: relative;
+ left: 50px;
+  justify-content: center;
+}
+.cards-1{
+
+  background-image: url('./images/Alloy_and_metal_samples_-_Beryllium-Copper\,_Inconel\,_Steel\,_Titanium\,_Aluminum\,_Magnesium.jpg') ;
+  
+ 
+   background-size: 100px auto;
+
+   width: 100px;
+   height: 100px;
+   border-radius: 10px;
+   filter: brightness(1.5);
+   
+   z-index: 0;
+
+
+
+
+}
+.cards-2{
+
+  background-image: url('./images/XHo7a.png') ;
+  
+ 
+  background-size: 100px auto;
+
+  width: 100px;
+  height: 100px;
+   border-radius: 10px;
+   filter: brightness(1.5);
+   z-index: 0;
+
+
+
+
+}
+.cards-3{
+
+  background-image: url('./images/steel-rusting.jpg') ;
+  
+  background-size: 100px auto;
+
+   width: 100px;
+   height: 100px;
+   border-radius: 10px;
+   filter: brightness(1.5);
+   z-index: 0;
+
+
+
+
+}
+.cards-4{
+
+  background-image: url('./images/The-environmental-impacts-of-solar-and-wind-energy-960x640.jpg') ;
+  
+ 
+  background-size: 100px auto;
+
+  width: 100px;
+  height: 100px;
+   border-radius: 10px;
+   filter: brightness(1.5);
+   z-index: 0;
+
+
+
+
+}
+.cards-5{
+
+  background-image: url('./images/10871331-macro-of-electronic-chip-1580037479.jpg') ;
+  
+ 
+  background-size: 100px auto;
+
+  width: 100px;
+  height: 100px;
+   border-radius: 10px;
+   filter: brightness(1.2);
+   z-index: 0;
+
+
+
+
+}
+.cards-6{
+
+  background-image: url('./images/maxresdefault.jpg') ;
+  
+  background-size: 100px auto;
+
+  width: 100px;
+  height: 100px;
+   border-radius: 10px;
+   filter: brightness(1.5);
+   z-index: 0;
+
+
+
+
+}
+.research-card-main{
+  margin-bottom: 0rem;
+}
+.research-card-line{
+ display: flex;
+ flex-direction: column;
+ gap: 3rem;
+
+
+
+}
+.research-head{
+  font-size: var(--head2);
+  color: var(--red);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.research-text{
+  font-size: 12px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  
+  text-decoration: none ;
+
+  width: 100px;
+  height: 100px;
+  z-index: 2;
+}
+
+}
   
   
   
