@@ -51,7 +51,7 @@ const Facultydata = [
     },
     {
         id : 9,
-        image : "./images/profimages/kd.jpg",
+        image : "./images/profimages/kbu.jpg",
         name : " Khushubo Devi",
         link : "P8",
     },
