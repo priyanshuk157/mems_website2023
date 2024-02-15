@@ -2,6 +2,7 @@ import React from 'react'
 import './research.css'
 
 import { useState } from 'react';
+import { NavLink } from "react-router-dom";
 
 
 
@@ -30,7 +31,8 @@ const Researchcomponent1 = () => {
           <div className={toggleState === 5 ? "heads-1" : "noheads-1"} onClick={() => toggleTab(5)}>Nano & Soft materials</div>
           <div className={toggleState === 3 ? "heads-1" : "noheads-1"} onClick={() => toggleTab(3)}>Strategic Materials</div>
           <div className={toggleState === 2 ? "heads-1" : "noheads-1"} onClick={() => toggleTab(2)}>  Surface engineering & Materials degradation</div>
-          <div className={toggleState === 7 ? "heads-1" : "noheads-1"} > <a href="collab">Collaborations</a></div>
+          <div className={toggleState === 7 ? "heads-1" : "noheads-1"} > <NavLink
+           to="collab">Collaborations</NavLink></div>
          
 
 
