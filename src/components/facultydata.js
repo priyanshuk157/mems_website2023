@@ -81,10 +81,10 @@ const Facultydata = [
     },
     {
         id : 14,
-        image : "./images/profimages/ran.jpg",
+        image : "./images/profimages/ranjith.jpg"   ,
         name : " Ranjith Kumar Poobalan",
         link : "P13",
-    },
+    },  
     {
         id : 15,
         image : "./images/profimages/prof2.jpg",
@@ -119,6 +119,12 @@ const Facultydata = [
         id : 20,
         image : "./images/profimages/vinod.jpg",
         name : " Vinod Kumar",
+        link : "P18",
+    },
+    {
+        id : 21,
+        image : "./images/profimages/vivek.jpeg",
+        name : " Vivek",
         link : "P18",
     },
     
