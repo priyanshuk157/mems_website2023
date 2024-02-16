@@ -124,8 +124,8 @@ const Facultydata = [
     {
         id : 21,
         image : "./images/profimages/vivek.jpeg",
-        name : " Vivek",
-        link : "P18",
+        name : " Vivek Verma",
+        link : "P20",
     },
     
 ]

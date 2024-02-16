@@ -409,7 +409,7 @@ background-color:white !important;
     grid-template-columns: 3rem 4 fr 3fr 10rem;
   }
 }
-
+/* 
 @media (max-width: 1388px) {
   .menu-link-ul {
     position: fixed;
@@ -448,7 +448,7 @@ background-color:white !important;
     cursor: pointer;
     z-index: 4;
   }
-}
+} */
 /* @media (max-width: 600px) {
   .sec {
     display: flex;

@@ -50,6 +50,7 @@ import P15 from './components/profiles/san'
 import P16 from './components/profiles/sunil'
 import P17 from './components/profiles/vamsi'
 import P18 from './components/profiles/vinod'
+import P20 from './components/profiles/vivek'
 import P19 from './components/profiles/sum'
 import Bhallal from './components/profiles/bhallal'
 import Drpaul from './components/profiles/drpaul'
@@ -202,6 +203,8 @@ const App = () => {
         <Route path='research/p18' element={<P18/>}></Route>
         <Route path='faculty2/p19' element={<P19/>}></Route>
         <Route path='research/p19' element={<P19/>}></Route>
+        <Route path='faculty2/p20' element={<P20/>}></Route>
+        <Route path='research/p20' element={<P20/>}></Route>
         <Route path='faculty2/bhallal' element={<Bhallal/>}></Route>
         <Route path='faculty2/drpaul' element={<Drpaul/>}></Route>
 

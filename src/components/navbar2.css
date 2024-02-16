@@ -438,7 +438,7 @@ font-weight: 500;
   }
 }
 
-@media (max-width: 1388px) {
+/* @media (max-width: 1388px) {
   .menu-link-ul {
     position: fixed;
     top: 0;
@@ -476,7 +476,7 @@ font-weight: 500;
     cursor: pointer;
     z-index: 4;
   }
-}
+} */
 /* @media (max-width: 600px) {
   .sec {
     display: flex;
