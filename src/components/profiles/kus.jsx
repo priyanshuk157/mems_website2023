@@ -36,9 +36,9 @@ const profile11 = () => {
            
             <ul>
               <li>Designation	: Assistant Professor</li>
-              <li>Office		: Room No. 1D- 608 </li>
+              <li>Office		: -- </li>
               <li>Email	 (<i><FaEnvelope/></i>)	: khushubo@iiti.ac.in  </li>
-              <li>Contact  (<i><FaPhone/></i>)		:+91-8858588259 </li>
+              <li>Contact  (<i><FaPhone/></i>)		: --</li>
             <div className="fac-links">
             {/* <a href="sa" target="_blank" rel="noreferrer"> <i><FaHome/></i></a> */}
              <a href=" https://scholar.google.com/citations?user=sCL9Zl4AAAAJ&hl=en   "target="_blank"  rel="noreferrer"> <i><SiGooglescholar/></i></a>

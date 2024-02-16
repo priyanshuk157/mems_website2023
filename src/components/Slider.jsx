@@ -1,8 +1,9 @@
 import "./Slider.css"
-import jai from "./images/yeih.jpg"
+
 import jai1 from "./images/statimg.jpg"
 import jai2 from "./images/statimg2.jpg"
 import graphabstract from "./images/Graphical_Abstract_Vamsi_group.jpg"
+import graphabstract2 from "./images/MEMS Website - SK group Graphical Abstract.jpg"
 
 import newimage from "./images/WhatsApp Image 2023-12-27 at 2.30.02 PM.jpeg"
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -58,10 +59,11 @@ function CarouselFadeExample() {
       </Swiper>*/}
       <Swiper
         onSwiper={setSwiperRef}
-        slidesPerView={3}
+        slidesPerView={2}
         centeredSlides={true}
         loop={true}
-        spaceBetween={30}
+        spaceBetween={0}
+        freeMode={false}
         pagination={{
           type: 'fraction',
         }}
@@ -69,13 +71,14 @@ function CarouselFadeExample() {
         modules={[Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide><div className="img-hgt"><img src={jai} alt="" /></div></SwiperSlide>
+
         <SwiperSlide><div className="img-hgt"><img src={jai1} alt="" /></div></SwiperSlide>
+        <SwiperSlide><div className="img-hgt"><img src={graphabstract2} alt="" /></div></SwiperSlide>
         <SwiperSlide><div className="img-hgt"><img src={jai2} alt="" /></div></SwiperSlide>
         <SwiperSlide><div className="img-hgt"><img src={graphabstract} alt="" /></div></SwiperSlide>
         <SwiperSlide><div className="img-hgt"><img src={newimage} alt="" /></div></SwiperSlide>
       </Swiper>
-  
+        
    
     </div>
     </>

@@ -732,7 +732,7 @@ const Phd = () => {
 
           <div className="hodsec">
             <img
-                  src={Patil}
+                  src={def}
               className="hodimg"
               alt="okf"
             />
@@ -766,7 +766,7 @@ const Phd = () => {
 
           <div className="hodsec">
             <img
-                  src={Patil}
+                  src={def}
               className="hodimg"
               alt="okf"
             />

@@ -147,7 +147,12 @@ const App = () => {
         <Route path='Postdoc' element={<PostDoc/>}></Route>
         <Route path='staff' element={<DepartmentalStaff/>}></Route>
         <Route path='Postdoc' element={<PostDoc/>}></Route>
-        <Route path='research/collab' element={<International/>}></Route>
+        <Route path='research/researchcomponent1/collab' element={<International/>}></Route>
+        <Route path='research/researchcomponent2/collab' element={<International/>}></Route>
+        <Route path='research/researchcomponent3/collab' element={<International/>}></Route>
+        <Route path='research/researchcomponent4/collab' element={<International/>}></Route>
+        <Route path='research/researchcomponent5/collab' element={<International/>}></Route>
+        <Route path='research/researchcomponent6/collab' element={<International/>}></Route>
        
         {/* <Route path='profile1' element={<Profile1/>}></Route> */}
         <Route path='faculty2/demo' element={<Demo/>}></Route>
@@ -243,7 +248,7 @@ const App = () => {
  <Route path='stc' element={<events/>}></Route>
 
 
- <Route path='homepageslider' element={<homepageslider/>}></Route>
+ {/* <Route path='homepageslider' element={<homepageslider/>}></Route> */}
 
 
         <Route path='industry' element={<Industryrelation/>}></Route>

@@ -1,14 +1,15 @@
 .img-hgt img{
 padding: 20px;
-    height: 350px;
+    height: 300px;
+width: auto;
     border-radius: 10px;
-    
+   
 
 }
 .carousel-main{
     margin: auto;
     max-width: 1300px;
-    height: 350px;
+    height: 300px;
     /* box-shadow: 0px 0px 30px  #000; */
     border-radius: 10px;
     
@@ -17,14 +18,17 @@ padding: 20px;
 
 .swiper-container {
     height: 350px;
-    margin: 60px;
+    width: fit-content;
+    margin: 30px;
   }
   
   
   .swiper-slide {
-    padding: 20px;
-    width: 28vw;
-    /* overflow: hidden; */
+    padding: 10px;
+    height: auto
+    ;
+    width: fit-content;
+    overflow: hidden;
     background-position: top;
     background-size: cover;
     display: flex;
@@ -43,7 +47,7 @@ padding: 20px;
 
   .resize{
    
-    width: 100%;
+    width: fit-content;
     height: 330px;
     position: relative;
     display: flex;
