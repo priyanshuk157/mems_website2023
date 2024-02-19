@@ -146,17 +146,48 @@ const profile11 = () => {
             </Table>
           </div>
         </div>
-       
+        <div className="pc1">
+              <span className="pc1-head"> SELECTED PATENTS </span>
+              <div>
+                <ul>
+                  
+                  <li>
+                    {" "}
+                    “Iron-based superconducting materials including hydrogen and it’s synthesis method” , A. Iyo, H. Eisaki, K. Miyazawa, P. M. Shirage, Y. Tanaka, H. Kito,  K. Kihou , 5334120 ,Japanese Patent , 2013.
+                  </li>
+                  <li>
+                    {" "}
+                    “Method of Control of intercomponent phase difference soliton and device using it” , Y. Tanaka, A. Iyo, D. Shivagan, P. Shirage, N. Terada, K. Tokiwa and T. Watanabe , 5352855 ,Japanese Patent , 2013.
+                  </li>
+                  <li>
+                    {" "}
+                    “Iron-based superconducting materials including hydrogen and it’s synthesis method” , A. Iyo, H. Eisaki, K. Miyazawa, P. M. Shirage, Y. Tanaka, H. Kito,  K. Kihou , 5334120 ,Japanese Patent , 2013.
+                  </li>
+                  <li>
+                    {" "}
+                    “Thermo-electric power measurements on Iron based Oxypnictide Superconductors”, C.-H. Lee, K. Kihou, A. Iyo, K. Miyazawa, H. Eisaki, H. Kito and P. M. Shirage, 5267993 ,Japanese Patent , 2013.
+                  </li>
+                  <li>
+                    {" "}
+                    Model of Soliton Circuit” , Y. Tanaka, K. Mashiko, A. Iyo, D. Shivagan, P. Shirage, N. Kikuchi, K. Tonooka, N. Terada, K. Tokiwa and T. Watanabe. , 5099483 ,Japanese Patent , 2012.
+                  </li>
+                  <li>
+                    {" "}
+                    “Multiband superconductors, superconducting device using multiband superconductors, and synthesis method of multiband superconductors” , Y. Tanaka, A. Iyo, P. M. Shirage, H. Eisaki, K. Miyazawa, H. Kito,  K. Kihou , 2009-189974 ,Japanese Patent , pending.
+                  </li>
+                </ul>
+              </div>
+            </div>
         <div className="pc1">
           <span className="pc1-head">AWARDS AND ACHIEVEMENTS</span>
           <div>
-          <li>Fellow of Maharashtra Academy of Science ,2021</li>
-            <li>MRSI Medal by Materials Research Society of India,2020</li>
+          <li>Fellow of Maharashtra Academy of Science by Maharashtra Academy of Sciences ,2021</li>
+            <li>MRSI Medal by Materials Research Society of India ,2020</li>
             <li>Excellence in Teaching by IIT Indore,2016</li>
             <li>Ramanujan Fellowship by SERB- DST, Govt. of India,2013</li>
             <li>Visiting Fellowship at TIFR, Mumbai,2012</li>
             <li>Senior Scientist at AIST, Japan,2008</li>
-            <li>JSPS Postdoctoral Fellowship,2006</li>
+            <li>JSPS Postdoctoral Fellowship at JSPS Japan ,2006</li>
             <li>Awarded Invited Scientist Fellowship by Ministry of Korea (MK-21), South Korea,2004</li>
           </div>
         </div>

@@ -39,7 +39,7 @@ const profile11 = () => {
               <li>Designation	: Associate Professor</li>
               <li>Office		: Room No. 1D- 607 </li>
               <li>Email	 (<i><FaEnvelope/></i>)	: eswar@iiti.ac.in </li>
-              <li>Contact  (<i><FaPhone/></i>)		: ​+91 731-2438700  </li>
+              <li>Contact  (<i><FaPhone/></i>)		:  0731-2438700 Ext.: 3280 </li>
             <div className="fac-links">
              
             <a href="https://sites.google.com/view/eswarprasad/home" target="_blank" rel="noreferrer"> <i><FaHome/></i></a>
@@ -78,11 +78,11 @@ const profile11 = () => {
           <span className="pc1-head">RESEARCH INTEREST</span>
           <div>
           
-          <li>Mechanical behaviour of materials </li>
+          <li>Mechanical behavior of materials  </li>
               <li> High strain rate deformation behaviour of Materials</li>
+              <li>High strain rate deformation</li>
               <li>Nanoindentation, Small scale mechanical testing</li>
-              <li>Surface Engineering, and Failure analysis of steels</li>
-              <li>Archaeometallurgy</li>
+              <li>Surface Engineering, and Failure analysis of materials</li>
 
 
 

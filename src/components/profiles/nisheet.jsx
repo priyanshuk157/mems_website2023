@@ -37,8 +37,8 @@ const profile11 = () => {
             <ul>
               <li>Designation	: Assistant Professor</li>
               <li>Office		: 211(h), Hub Building (CITC) </li>
-              <li>Email	 (<i><FaEnvelope/></i>)	: nisheeth @iiti.ac.in </li>
-              <li>Contact  (<i><FaPhone/></i>)		: 7726938388</li>
+              <li>Email	 (<i><FaEnvelope/></i>)	: nisheeth@iiti.ac.in </li>
+              <li>Contact  (<i><FaPhone/></i>)		: 0731-660-3175 (O)/ 7726938388 (M)</li>
             <div className="fac-links">
             <a href="https://sites.google.com/iiti.ac.in/nisheeth/about-me " target="_blank" rel="noreferrer"> <i><FaHome/></i></a>
              <a href=" https://scholar.google.com/citations?user=vjypzxYAAAAJ&hl=en "target="_blank"  rel="noreferrer"> <i><SiGooglescholar/></i></a>
@@ -111,7 +111,7 @@ const profile11 = () => {
                 <tr>
                   <td>1</td>
                   <td>
-                  N.K. Prasad, H. Kancharla, B. Bhushan, S. Kundu and K. Mondal, Effect of Al and Zn addition on the active behaviour of the high P pig iron-based composite anodes, J. Appl. Electrochem. 53 (2023) 141-165.
+                  N.K. Prasad, H. Kancharla, B. Bhushan, S. Kundu and K. Mondal, Effect of Al and Zn addition on the active behavior of the high P pig iron-based composite anodes, J. Appl. Electrochem. 53 (2023) 141-165.
                   </td>
                 </tr>
                 <tr>
@@ -123,14 +123,16 @@ const profile11 = () => {
                 <tr>
                   <td>3</td>
                   <td>
-                 
-                    N.K. Prasad, A.S. Pathak, S. Kundu and K. Mondal, Novel hybrid sacrificial anodes based on high phosphorus pig iron and Zn, Corros. Sci. 189 (2021) 109616 - 109634.
+              
+
+ N.K. Prasad, A.S. Pathak, S. Kundu and K. Mondal, Novel hybrid sacrificial anodes based on high phosphorus pig iron and Zn, Corros. Sci. 189 (2021) 109616 - 109634.
+
                   </td>
                 </tr>
                 <tr>
                   <td>4</td>
                   <td>
-                  N.K. Prasad, A.S. Pathak, S. Kundu and K. Mondal, Influence of deaeration, Cl- ion and strong oxidizer on the active behaviour of the high phosphorus containing pig iron and subsequent effect on the sacrificial anode behaviour, Met. Mater. Int. 28 (2022) 2083 - 2102.
+                  N.K. Prasad, A.S. Pathak, S. Kundu and K. Mondal, Influence of deaeration, Cl- ion and strong oxidizer on the active behavior of the high phosphorus containing pig iron and subsequent effect on the sacrificial anode behavior, Met. Mater. Int. 28 (2022) 2083 - 2102.
                   </td>
                 </tr>
                 <tr>
@@ -143,6 +145,22 @@ const profile11 = () => {
             </Table>
           </div>
         </div>
+        <div className="pc1">
+              <span className="pc1-head"> SELECTED PATENTS </span>
+              <div>
+                <ul>
+                  
+                  <li>
+                    {" "}
+                    N.K. Prasad, A.S. Pathak, S. Kundu, M. Dutta, D. Chattopadhyay, K. Mondal, High phosphorus sacrificial anode for cathodic protection, Indian Patent, Grant No- 367529, (2021).
+                  </li>
+                  <li>
+                    {" "}
+                    N.K. Prasad, S. Choudhary, S. Chatterjee, S. Kundu, K. Mondal, High phosphorus pig iron as sacrificial anode for cathodic protection of underground mild steel structures, Indian Patent, Published, Application No- 201731029652, (2017).
+                  </li>
+                </ul>
+              </div>
+            </div>
        
         <div className="pc1">
           <span className="pc1-head">AWARDS AND ACHIEVEMENTS</span>

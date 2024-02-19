@@ -90,8 +90,7 @@ const profile11 = () => {
           <li>
             Assistant Professor, Department of Metallurgical Engineering and Materials Science, IIT Indore, September 29, 2017 – present             </li>
             <li>DST Young Scientist, Department of Chemistry, IIT Indore, September 23, 2015 – September 28, 20217</li>
-            <li>
-            Industrial : Position, Group, Company, From – To ( Year)            </li>
+        
             
             
             
