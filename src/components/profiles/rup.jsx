@@ -35,7 +35,7 @@ const profile11 = () => {
         <div className="pc2">
            
             <ul>
-              <li>Designation	: Professor</li>
+              <li>Designation	:   Associate Professor</li>
               <li>Office		: Room No. 1D-414 </li>
               <li>Email	 (<i><FaEnvelope/></i>)	: rupes@iiti.ac.in</li>
               <li>Contact  (<i><FaPhone/></i>)		:  +91-0731-6603244 </li>

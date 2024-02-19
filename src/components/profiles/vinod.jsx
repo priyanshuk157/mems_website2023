@@ -54,11 +54,11 @@ const profile11 = () => {
             <div class="aca"><span className="pc1-head">ACADEMIC BACKGROUND</span></div></div>
             <div class="acalist">
 <ul>
-<li>Ph.D, IIT Kanpur 2012</li>
+<li>Ph.D., Materials Science and Engineering, IIT Kanpur, 2012</li>
 <br />
-            <li> M.Tech Physics, IIT Kanpur 2007</li>
+            <li> M. Tech., Materials Science and Engineering, IIT Kanpur, 2007</li>
             <br />
-            <li>B. Tech NIAMT (Formerly NIFFT), Ranchi, 2004</li>
+            <li> B. Tech., Metallurgy and Materials Engineering, NIAMT (Formerly NIFFT), Ranchi, 2004</li>
             
 </ul></div>
 
@@ -79,6 +79,7 @@ const profile11 = () => {
         <li> Physical Metallurgy of multicomponent alloys</li>
         <li> Powder Metallurgy</li>
         <li> Nanomaterials</li>
+        <li>  Metal recovery from Waste</li>
 
 
 
@@ -89,6 +90,9 @@ const profile11 = () => {
           <ul>
           <li>
             Associate Professor, MEMS, IIT Indore,  Feb. 17, 2022 – Till date
+            </li>
+          <li>
+          Assistant Professor, MEMS, IIT Indore, March 30, 2017 – Feb. 16, 2022 
             </li>
             <li> Assistant Professor, MME, MNIT Jaipur, July 6, 2012 – March 29, 2017</li>
             <li>

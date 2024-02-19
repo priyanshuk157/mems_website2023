@@ -79,6 +79,7 @@ const profile11 = () => {
          
         <li> Energy harvesting materials</li>
         <li>Protective Coatings</li>
+        <li>Nanomaterials</li>
               <li>Optical Materials</li>
 
 

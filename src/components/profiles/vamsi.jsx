@@ -38,9 +38,9 @@ const profile11 = () => {
               <li>Designation	: Assistant Professor</li>
               <li>Office		: #211(b), Hub Building </li>
               <li>Email	 (<i><FaEnvelope/></i>)	:  kvvamsi@iiti.ac.in </li>
-              <li>Contact  (<i><FaPhone/></i>)		: +91-731-660-5568 </li>
+              <li>Contact  (<i><FaPhone/></i>)		: +91-731-660-3333 ext: 5568 </li>
             <div className="fac-links">
-            <a href="https://sites.google.com/view/kvvamsi/home " target="_blank" rel="noreferrer"> <i><FaHome/></i></a>
+            <a href="https://kvvamsi20.wixsite.com/vamsi" target="_blank" rel="noreferrer"> <i><FaHome/></i></a>
              <a href=" https://scholar.google.co.in/citations?user=ducGUjAAAAAJ&hl=en  "target="_blank"  rel="noreferrer"> <i><SiGooglescholar/></i></a>
              <a href="https://www.researchgate.net/profile/K-V-Vamsi "target="_blank"  rel="noreferrer"><i><FaResearchgate/></i></a>
              <a href="https://twitter.com/kvvamsi "target="_blank"  rel="noreferrer"><i><FaTwitterSquare/></i></a>

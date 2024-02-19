@@ -57,7 +57,7 @@ const profile11 = () => {
             <div class="aca"><span className="pc1-head">ACADEMIC BACKGROUND</span></div></div>
             <div class="acalist">
             <ul>
-            <li>Post-Doc IIT Madras, 2018</li>
+           
             <li>Ph.D, (Metallurgical and Materials Engineering), IIT Kharagpur, 2017</li>
             <li>B.Tech (Metallurgical and Materials Engineering), NIT Durgapur, 2011
 </li>
@@ -136,14 +136,13 @@ const profile11 = () => {
                 <tr>
                   <td>4</td>
                   <td>
-                  Wahida R Ilaham, Ram S Maurya, Tapas Laha, "Investigation of high-temperature oxidation behavior of silicon added 14Cr nanostructured ferritic alloys synthesized via mechanical alloying and spark plasma sintering",
-                  Materials Research Express 6 (2019) 1150-1156.
+                  A Sahu, RS Maurya, S Dinda, T Laha, "Phase Evolution-Dependent Nanomechanical Properties of Al86Ni8Y6 and Al86Ni6Y4.5Co2La1.5 Spark Plasma-Sintered Bulk Amorphous Composites", Metallurgical and Materials Transactions A, 51, (2020), 5110-5119, 10.1007/s11661-020-05916-9
                   </td>
                 </tr>
                 <tr>
                   <td>5</td>
                   <td>
-                  A Sahu, RS Maurya, S Dinda, T Laha, "Phase Evolution-Dependent Nanomechanical Properties of Al86Ni8Y6 and Al86Ni6Y4.5Co2La1.5 Spark Plasma-Sintered Bulk Amorphous Composites", Metallurgical and Materials Transactions A, 51, (2020), 5110-5119, 10.1007/s11661-020-05916-9
+                  Ram S. Maurya, A. Sahu, T. Laha, "Quantitative phase analysis in Al86Ni8Y6 bulk glassy alloy synthesized by consolidating mechanical alloyed amorphous powder via spark plasma sintering", Materials & Design, 93, (2016), 96-103, https://doi.org/10.1016/j.matdes.2015.12.129
                   </td>
                 </tr>
               </tbody>

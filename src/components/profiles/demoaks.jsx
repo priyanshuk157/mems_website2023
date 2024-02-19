@@ -37,9 +37,9 @@ const profile11 = () => {
             
             <ul>
               <li>Designation	: HoD and Associate Professor</li>
-              <li>Office		: Room No. 1D- 301 </li>
+              <li>Office		: 1D-610 </li>
               <li>Email	 (<i><FaEnvelope/></i>)	: akk@iiti.ac.in </li>
-              <li>Contact  (<i><FaPhone/></i>)		: +91 731 660 3478</li>
+              <li>Contact  (<i><FaPhone/></i>)		: +91 731 660 3250</li>
             <div className="fac-links">
             
             <a href="https://iiti.ac.in/people/~ajaykk " target="_blank" rel="noreferrer"> <i><FaHome/></i></a>
@@ -61,8 +61,8 @@ const profile11 = () => {
             <li> Ph.D, IIT Bombay, 2014</li>
             <br />
             <li>M.Sc. (Physics), CSJM University Kanpur, 2006</li>
-            <br />
-            <li>B.Sc, C.S.J.M University, Kanpur 2003</li>
+           
+            
           
             
           </ul></div>
@@ -76,12 +76,13 @@ const profile11 = () => {
         <div className="pc1">
           <span className="pc1-head">RESEARCH INTEREST</span>
           <div>
-          <li>Material Science: Nano and Energy Engineering</li>
+          <li>NANOMATERIALS & THIN FILMS: Metal oxides, Metals, Chalcogenides, Graphene & Maxenes</li>
           <li>
           MATERIALS PROPERTIES: Defects, Surface modification, & Opto-electronic Properties
-          </li><li>ELECTRONIC DEVICES: Resistive Memories (ReRAM), Photodetectors, Solar Cell, Power Semiconductor Devices</li>
-          <li>ELECTROCHEMISTRY: Green Hydrogen, Water Splitting, HER and OER, Electrodeposition, Electrocatalysis,  
+          </li><li>ELECTROCHEMISTRY: Green Hydrogen, Water Splitting, HER and OER, Electrodeposition, Electrocatalysis,  
   Sensors, Corrosion
+</li>
+          <li>ELECTRONIC DEVICES: Resistive Memories (ReRAM), Photodetectors, Solar Cell, Power Semiconductor Devices
 </li>
 
         {/* <li>Design and growth of nanomaterials/thin films</li>
@@ -104,10 +105,13 @@ const profile11 = () => {
             Associate Dean, Student Affairs, IIT Indore, 05/2019 to 09/2021
             </li>
             <li>
+            Assistant  Professor, Department of MEMS, IIT Indore, 09/2017 to 11/2022
+            </li>
+            <li>
             INSPIRE Faculty Fellow, Department of MEMS, IIT Indore, 07/2016 to 09/2017
             </li>
             <li>
-            Assistant  Professor, Department of MEMS, IIT Indore, 09/2017 to 11/2022
+            Scientist-I, Institute of Materials Engineering and Research (IMRE), ASTAR, Singapore, 02/2014 to 07/2016
             </li>
             
             
@@ -135,20 +139,49 @@ const profile11 = () => {
                 <tr>
                   <td>2</td>
                   <td>
-                  L Mohapatra, M Nagaraju, S Suman, Ajay K. Kushwaha, Enhancement in photocurrent conversion efficiency via recrystallization of zinc tin hydroxide nanostructures, Journal of Alloys and Compounds 928, (2022) 167127, IF: 6.2
+                  A Maurya, S Suman, A Bhardwaj, L Mohapatra, and Ajay K Kushwaha, Substrate Dependent Electrodeposition of Ni–Co Alloy for Efficient Hydrogen Evolution Reaction, Electrocatalysis 14 (1), (2023) 68-77, IF: 3.1
                   </td>
                 </tr>
                 <tr>
                   <td>3</td>
                   <td>
                     {" "}
-                    A Maurya, S Suman, A Bhardwaj, L Mohapatra, and Ajay K Kushwaha, Substrate Dependent Electrodeposition of Ni–Co Alloy for Efficient Hydrogen Evolution Reaction, Electrocatalysis 14 (1), (2023) 68-77, IF: 3.1
+                    L Mohapatra, M Nagaraju, S Suman, Ajay K. Kushwaha, Enhancement in photocurrent conversion efficiency via recrystallization of zinc tin hydroxide nanostructures, Journal of Alloys and Compounds 928, (2022) 167127, IF: 6.2
+                  </td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>
+                    {" "}
+                    Siddhartha Suman, and Ajay K. Kushwaha, Densely packed Ga2O3 nanostructured film via pH-controlled crystal growth and memristive properties, Journal of Solid State Chemistry, 313 (2022)123293, IF: 3.3
+
+                  </td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>
+                    {" "}
+                    G.K. Dalapati, Ajay K Kushwaha, M. Sharma, V. Suresh, S. Shannigrahi, S. Zhuk and S. Masudy-Panah, Transparent heat regulating (THR) materials and coatings for energy saving window applications: Impact of materials design, micro-structural, and interface quality on the THR performance , Progress in Materials Science,, 95, 42, (2018) IF 31.5. 
+
+
                   </td>
                 </tr>
               </tbody>
             </Table>
           </div>
         </div>
+        <div className="pc1">
+              <span className="pc1-head"> SELECTED PATENTS </span>
+              <div>
+                <ul>
+                  
+                  <li>
+                    {" "}
+                    Amorphous Metal Oxide films, K.L.G. Goh, H.Q. Le, and Ajay Kushwaha,  20170259300,US Patent (Patent number: 10668500).
+                  </li>
+                </ul>
+              </div>
+            </div>
        
         <div className="pc1">
           <span className="pc1-head">AWARDS AND ACHIEVEMENTS</span>

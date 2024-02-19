@@ -40,7 +40,7 @@ const profile11 = () => {
               <li>Designation	: Associate Professor</li>
               <li>Office		: Room No. 1D- 415 </li>
               <li>Email	 (<i><FaEnvelope/></i>)	: sshosmani@iiti.ac.in </li>
-              <li>Contact  (<i><FaPhone/></i>)		: +91-731-6603243 </li>
+              <li>Contact  (<i><FaPhone/></i>)		: +91-0731-660333 (Ext. 3243);  +91-731-6603243</li>
             <div className="fac-links">
              
             <a href="https://sites.google.com/site/santoshhosa/" target="_blank" rel="noreferrer"> <i><FaHome/></i></a>
@@ -149,7 +149,19 @@ const profile11 = () => {
             </Table>
           </div>
         </div>
-       
+        <div className="pc1">
+              <span className="pc1-head">BOOKS CHAPTER PUBLISHED </span>
+              <div>
+                <ul>
+                  
+                  <li>
+                    {" "}
+                    S.S. Hosmani, P. Kuppusami, R.K. Goyal: “An Introduction to Surface Alloying of Metals”, ISBN: 978-81-322-1888-3, ISSN: 2191-530X, Publisher: Springer, 2014. ( DOI: 10.1007/978-81-322-1889-0).
+
+                  </li>
+                </ul>
+              </div>
+            </div>
         <div className="pc1">
           <span className="pc1-head">AWARDS AND ACHIEVEMENTS</span>
           <div>

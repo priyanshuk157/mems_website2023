@@ -113,7 +113,8 @@ January 2023 To January 2024</li>
                   <td>1</td>
                   <td>
                   Vivek Verma, Calvin H. Belcher, Diran Apelian, and Enrique J. Lavernia. "Diffusion in High Entropy Alloy
-Systems–A Review." Progress in Materials Science; Vol. 24; 2024; pp. 101245. DOI:
+Systems–A Review." Progress in Materials Science; Vol. 24; 2024; pp. 101245. DOI:10.1016/j.pmatsci.2024.101245
+
                   </td>
                 </tr>
                 <tr>
@@ -135,7 +136,7 @@ alloys”. Journal of Materials Research; Vol. 35(2); 2020; pp.162-171, DOI: htt
                 </tr>
                 <tr>
                   <td>4</td>
-                  <td>
+                  <td>  
                   Vivek Verma, Aparna Tripathi and Kaustubh N. Kulkarni; “On Interdiffusion in FeNiCoCrMn High Entropy
 Alloy”. Journal of Phase Equilibria and Diffusion; Vol. 38(4); 2017; pp. 445-456, DOI:
 https://doi.org/10.1007/s11669-017-0579-y
@@ -158,15 +159,19 @@ pp. 661-668
           <span className="pc1-head">AWARDS AND ACHIEVEMENTS</span>
           <div>
           <ul>
-            <li>Ranked “AIR 60” in Metallurgical Engineering GATE-2012</li>
             <li>Received “2020 Gordon E. Pike Prize Paper of the Year” award for the Journal of Materials Research (JMR)
 from the Materials Research Society</li>
             <li>Received “TMS Student travel grant” from The Minerals, Metals & Materials Society (TMS) for attending the
 Materials Science & Technology (MS&T) 2019 conference at Portland, Oregon, USA</li>
-            <li>Received “Best poster presentation award” in International Workshop on High Entropy Materials (IWHEM)
-2017; Hyderabad, India</li>
             <li>Received “TMS Student travel grant” from The Minerals, Metals & Materials Society (TMS) for attending the
 TMS Annual Meeting & Exhibition 2019 conference at San Antonio, Texas, USA</li>
+            <li>Received “Overseas Visiting Doctoral Fellowship (OVDF)” by Science and Engineering Research Board (SERB) of India to pursue doctoral research at Purdue University, USA, 2019-2020 </li>
+            <li>Received “2nd Best poster presentation award” in International Conference on Materials Engineering (ICME) 2017; Kanpur, India </li>
+            <li>Received “Best poster presentation award” in International Workshop on High Entropy Materials (IWHEM)
+2017; Hyderabad, India</li>
+            <li>Ranked “AIR 60” in Metallurgical Engineering GATE-2012</li>
+            <li>Reviewer for
+Materials Science and Engineering A.</li>
            </ul>
           </div>
         </div>
