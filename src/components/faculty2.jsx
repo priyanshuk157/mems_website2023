@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 import Facultydata from "./facultydata";
 import VisitingFacultydata from "./visitingfac";
 
-
+import "./peoplecard.css"
 
 
 import "./faculty2.css"
@@ -14,7 +14,7 @@ const Faculty = () => {
   return (
     <>
       
-      <span class="Faculty"><h1>FACULTY</h1></span>
+      <div class="Faculty"><h1>FACULTY</h1></div>
      
       <div class="faculty-imgs">
 

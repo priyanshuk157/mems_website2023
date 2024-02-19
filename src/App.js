@@ -10,8 +10,8 @@ import Academics from './mainpages/Academics'
 import Research from './components/ResearchThemes'
 import GalleryPage from './mainpages/GalleryPage';
 import Resources from './mainpages/Resources'
-import Faculty from './components/faculty'
-import Faculty2 from './components/faulty2'
+
+import Faculty2 from './components/faculty2'
 import Studentcorner from './components/studentcorner'
 import Faculty4 from './components/painting'
 import Otherfacilities from './components/otherfacilities'
@@ -139,8 +139,8 @@ const App = () => {
         <Route path='research' element={<Research/>}></Route>
         <Route path='gallery' element={<GalleryPage/>}></Route>
         <Route path='resources' element={<Resources/>}></Route>
-        <Route path='faculty' element={<Faculty/>}></Route>
-        <Route path='faculty2' element={<Faculty2/>}></Route>
+     
+        <Route path='faculty' element={<Faculty2/>}></Route>
         <Route path='Studentcorner' element={<Studentcorner/>}></Route>
         <Route path='faculty4' element={<Faculty4/>}></Route>
         <Route path='other' element={<Otherfacilities/>}></Route>
@@ -155,8 +155,8 @@ const App = () => {
         <Route path='research/researchcomponent6/collab' element={<International/>}></Route>
        
         {/* <Route path='profile1' element={<Profile1/>}></Route> */}
-        <Route path='faculty2/demo' element={<Demo/>}></Route>
-        <Route path='research/demo' element={<Demo/>}></Route>
+        <Route path='faculty/AbhijitGhosh' element={<Demo/>}></Route>
+        <Route path='research/AbhijitGhosh' element={<Demo/>}></Route>
         <Route path='ind2' element={<Industry2/>}></Route>
         <Route path='nav2' element={<Navbar2/>}></Route>
         <Route path='oi' element={<Otherinfo/>}></Route>
@@ -169,49 +169,51 @@ const App = () => {
 
 
 
-        <Route path='faculty2/p1' element={<P1/>}></Route>
-        <Route path='research/p1' element={<P1/>}></Route>
+        <Route path='faculty/DudekulaAlthafBasha' element={<P1/>}></Route>
+        <Route path='research/DudekulaAlthafBasha' element={<P1/>}></Route>
 
-        <Route path='faculty2/p2' element={<P2/>}></Route>
-        <Route path='research/p2' element={<P2/>}></Route>
-        <Route path='faculty2/p3' element={<P3/>}></Route>
-        <Route path='research/p3' element={<P3/>}></Route>
-        <Route path='faculty2/p4' element={<P4/>}></Route>
-        <Route path='research/p4' element={<P4/>}></Route>
-        <Route path='faculty2/p5' element={<P5/>}></Route>
-        <Route path='research/p5' element={<P5/>}></Route>
-        <Route path='faculty2/p6' element={<P6/>}></Route>
-        <Route path='research/p6' element={<P6/>}></Route>
-        <Route path='faculty2/p7' element={<P7/>}></Route>
-        <Route path='research/p7' element={<P7/>}></Route>
-        <Route path='faculty2/p8' element={<P8/>}></Route>
-        <Route path='research/p8' element={<P8/>}></Route>
-        <Route path='faculty2/p9' element={<P9/>}></Route>
-        <Route path='research/p9' element={<P9/>}></Route>
-        <Route path='faculty2/p10' element={<P10/>}></Route>
-        <Route path='research/p10' element={<P10/>}></Route>
-        <Route path='faculty2/p11' element={<P11/>}></Route>
-        <Route path='research/p11' element={<P11/>}></Route>
-        <Route path='faculty2/p12' element={<P12/>}></Route>
-        <Route path='research/p12' element={<P12/>}></Route>
-        <Route path='faculty2/p13' element={<P13/>}></Route>
-        <Route path='research/p13' element={<P13/>}></Route>
-        <Route path='faculty2/p14' element={<P14/>}></Route>
-        <Route path='research/p14' element={<P14/>}></Route>
-        <Route path='faculty2/p15' element={<P15/>}></Route>
-        <Route path='research/p15' element={<P15/>}></Route>
-        <Route path='faculty2/p16' element={<P16/>}></Route>
-        <Route path='research/p16' element={<P16/>}></Route>
-        <Route path='faculty2/p17' element={<P17/>}></Route>
-        <Route path='research/p17' element={<P17/>}></Route>
-        <Route path='faculty2/p18' element={<P18/>}></Route>
-        <Route path='research/p18' element={<P18/>}></Route>
-        <Route path='faculty2/p19' element={<P19/>}></Route>
-        <Route path='research/p19' element={<P19/>}></Route>
-        <Route path='faculty2/p20' element={<P20/>}></Route>
-        <Route path='research/p20' element={<P20/>}></Route>
-        <Route path='faculty2/bhallal' element={<Bhallal/>}></Route>
-        <Route path='faculty2/drpaul' element={<Drpaul/>}></Route>
+        <Route path='faculty/ChandanHalder' element={<P2/>}></Route>
+        <Route path='research/ChandanHalder' element={<P2/>}></Route>
+        <Route path='faculty/DhirendraKumarRai' element={<P3/>}></Route>
+        <Route path='research/DhirendraKumarRai' element={<P3/>}></Route>
+        <Route path='faculty/EswarPrasadKormilli' element={<P4/>}></Route>
+        <Route path='research/EswarPrasadKormilli' element={<P4/>}></Route>
+        <Route path='faculty/AjayKumarKushwaha' element={<P5/>}></Route>
+        <Route path='research/AjayKumarKushwaha' element={<P5/>}></Route>
+        <Route path='faculty/HemantBorkar' element={<P6/>}></Route>
+        <Route path='research/HemantBorkar' element={<P6/>}></Route>
+        <Route path='faculty/JayaprakashMurugesan' element={<P7/>}></Route>
+        <Route path='research/JayaprakashMurugesan' element={<P7/>}></Route>
+        <Route path='faculty/KhushuboDevi' element={<P8/>}></Route>
+        <Route path='research/KhushuboDevi' element={<P8/>}></Route>
+        <Route path='faculty/MrigendraDubey' element={<P9/>}></Route>
+        <Route path='research/MrigendraDubey' element={<P9/>}></Route>
+        <Route path='faculty/NisheethKumarPrasad' element={<P10/>}></Route>
+        <Route path='research/NisheethKumarPrasad' element={<P10/>}></Route>
+        <Route path='faculty/ParasharamShirage' element={<P11/>}></Route>
+        <Route path='research/ParasharamShirage' element={<P11/>}></Route>
+        <Route path='faculty/RamSajeevanMaurya' element={<P12/>}></Route>
+        <Route path='research/RamSajeevanMaurya' element={<P12/>}></Route>
+        <Route path='faculty/RanjithKumarPoobalan
+' element={<P13/>}></Route>
+        <Route path='research/RanjithKumarPoobalan
+' element={<P13/>}></Route>
+        <Route path='faculty/RupeshDevan' element={<P14/>}></Route>
+        <Route path='research/RupeshDevan' element={<P14/>}></Route>
+        <Route path='faculty/SantoshHosmani' element={<P15/>}></Route>
+        <Route path='research/SantoshHosmani' element={<P15/>}></Route>
+        <Route path='faculty/SunilKumar' element={<P16/>}></Route>
+        <Route path='research/SunilKumar' element={<P16/>}></Route>
+        <Route path='faculty/KVVamsi' element={<P17/>}></Route>
+        <Route path='research/KVVamsi' element={<P17/>}></Route>
+        <Route path='faculty/VinodKumar' element={<P18/>}></Route>
+        <Route path='research/VinodKumar' element={<P18/>}></Route>
+        <Route path='faculty/SumantaSamal' element={<P19/>}></Route>
+        <Route path='research/SumantaSamal' element={<P19/>}></Route>
+        <Route path='faculty/VivekVerma' element={<P20/>}></Route>
+        <Route path='research/VivekVerma' element={<P20/>}></Route>
+        <Route path='faculty/bhallal' element={<Bhallal/>}></Route>
+        <Route path='faculty/drpaul' element={<Drpaul/>}></Route>
 
 
 
