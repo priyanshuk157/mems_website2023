@@ -37,7 +37,7 @@ const profile11 = () => {
         <div className="pc2">
            
             <ul>
-              <li>Designation	: Associate Professor</li>
+              <li>Designation	:Professor</li>
               <li>Office		: Room No. 1D- 415 </li>
               <li>Email	 (<i><FaEnvelope/></i>)	: sshosmani@iiti.ac.in </li>
               <li>Contact  (<i><FaPhone/></i>)		: +91-0731-660333 (Ext. 3243);  +91-731-6603243</li>
