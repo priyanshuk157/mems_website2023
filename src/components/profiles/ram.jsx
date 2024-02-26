@@ -13,6 +13,24 @@ const profile11 = () => {
     <>
      
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       {/*<div className="head">
         <i className="back-button">
           <a href="faculty">
