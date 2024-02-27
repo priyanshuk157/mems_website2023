@@ -60,6 +60,8 @@ const section = () => {
           </div>
           <div className="sec-cont">
             <div className="sec-conthead">About The Department</div>
+
+            <div className="About_department_text">
             We extend a cordial welcome to the official homepage of the Department of Metallurgical Engineering and Materials Science (MEMS). <br />
             <br />
             Originally inaugurated as the Center for Materials Science Engineering, comprising faculty from the Schools of Basic Sciences and Engineering, the department rapidly progressed. In a short span, the Center for Materials Science Engineering evolved into the fully-fledged Department of Metallurgical Engineering and Materials Science in 2016.
@@ -69,13 +71,14 @@ const section = () => {
             Materials have historically been pivotal in driving technological advancements since the inception of civilization. The Department's primary objective is to champion multidisciplinary research, seeking comprehensive solutions to real-world challenges, and delving into cutting-edge research problems that contribute significantly to societal advancement.
             <br />
             <br />
-            At the heart of our research endeavors lies a focused commitment to comprehending the processing and structure of diverse material classes. This understanding is pivotal in establishing correlations with material properties, ultimately enhancing their performance. Our department stands as a beacon for rigorous academic pursuits and impactful contributions to the realm of materials science and engineering.
+            At the heart of our research endeavors lies a focused commitment to comprehending the processing and structure of diverse material classes. This understanding is pivotal in establishing correlations with material properties, ultimately enhancing their performance. Our department stands as a beacon for rigorous academic pursuits and impactful contributions to the realm of materials science and engineering.</div>
           </div>
         </div>
 
         <div className="vision">
           <div className="sec-conthead">VISION AND MISSION</div>
           <div className="subsubhead">Vision</div>
+          <div class="vision_main_text">
           To emerge as a globally esteemed institution, our vision at the Department of Metallurgical Engineering and Materials Science is to educate and mentor the forthcoming generation of engineers, scientists, and entrepreneurs. Our unwavering commitment is to contribute significantly to the economic and social development of India and the world.
 
           <br /> <br />
@@ -94,7 +97,7 @@ Community Engagement and Outreach:
 </span>
           Our commitment extends beyond academic boundaries to engage with the broader community. Through meticulously planned outreach programs, we aim to promote awareness of science and technology, facilitating a positive impact on society.
 <br />
-In adherence to these principles, we aspire to set new academic and research excellence standards, becoming a beacon of transformative education and innovation in materials science and engineering.
+In adherence to these principles, we aspire to set new academic and research excellence standards, becoming a beacon of transformative education and innovation in materials science and engineering.</div>
 
           
         </div>

@@ -57,3 +57,8 @@
       object-fit: cover;
     }
     */
+@media(max-width:600px){
+  .swiper-cont.img{
+    display: none;
+  }
+}

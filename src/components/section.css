@@ -434,12 +434,51 @@ margin: 2rem;
 
 
 @media(max-width:600px){
-
-  .grid-itemx{
-    
-    width: 250px;
+  
+  .sec2{
+    position: relative;
+    display: flex;
     
   }
+  .name{
+    display: flex;
+    font-size: 15px;
+  }
+  .sec-img{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 70%;
+   
+    justify-content: center;
+    left: -50px;
+ 
+  }
+  
+  .hodtext1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    left:50px;
+    
+
+    
+    
+}
+
+
+
+  .grid-itemx{
+    position: relative;
+    justify-content: center;
+    width: 350px;
+    height: 250px;
+   
+    
+  }
+  
     .sub-rank{
         display: flex;
         flex-direction: column;
@@ -493,5 +532,32 @@ text-align: center;
       justify-content: center;
       gap: 2.5rem;
   }
+  
+
+  .vision{
+    width: 90%;
+  }
+  .vision_main_text{
+    font-size: smaller;
+  }
+.sec-cont{
+  width: 90%;
+}
+  .About_department_text{
+    font-size: smaller;
+  }
+ .ranking2{
+  position: relative;
+  justify-content: center;
+  left: -100px;
+  width: 50%;
+ }
+ .studentcbutton{
+  left: 85%;
+  top: 90%;
+ }
+
+ 
+ 
    
 }
