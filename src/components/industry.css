@@ -109,6 +109,12 @@ border: 2px solid var(--red);
    border-radius: 10px;
     
 }
+.industrycard-contentimg img{
+    width: 40%;
+    margin: 0 1rem 1rem 1rem ;
+    border-radius: 10px;
+     
+ }
 .slide-track img{
     filter: drop-shadow(0px 0px 5px black);
 
@@ -157,10 +163,7 @@ border: 2px solid var(--red);
         .img{
             height: 500px;
         }
-    .images_of_industry{
-        position: relative;
-        left: 40px;
-    }
+    
  
     .industry-butt{
         width: 50%;
@@ -197,7 +200,71 @@ border: 2px solid var(--red);
         width: 80%;
         left: -50px;
     }
+
+
+    .consultancy-logos{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        left: -100px;
+    }
     
+
+    .consult-button{
+        position: relative;
+        left: -90px;
+        margin-bottom: 10px;
+    }
+
+
+    .stat{
+        
+        width: 280px;
+        height: 300px;
+    }
+    
+
+    .industrycard-contentimg img{
+        position: relative;
+        justify-content: center;
+        left: 0px;
+        height: 200px;
+        width: 280px;
+
+    }
+
+    .industrycard-content img{
+        position: relative;
+        justify-content: center;
+        left: 0px;
+        height: 200px;
+        width: 280px;
+
+    }
+    .slide-track img{
+        position: relative;
+        justify-content: center;
+        left: 10px;
+        height: 100px;
+        width: 150px;
+    }
+
+    .consultancy-logos img{
+
+        position: relative;
+        justify-content: center;
+        left: 10px;
+        height: 80px;
+        width: 200px;
+
+    }
+    .stat img{
+        
+        width: 250px;
+        height: 200px;
+        position: relative;
+        left: -10px;
+    }
     
     
 }

@@ -8,3 +8,24 @@
     height: 100px ;
     
   }
+
+
+@media (max-width:600px) {
+
+ 
+.imagesize{
+  height: 50px ;
+  width: 50px;
+  
+}
+  .stats-content2{
+
+    position: relative;
+    width: 50px;
+    left: -100px;
+    
+    
+  }
+
+  
+}

@@ -199,7 +199,7 @@ const Industry2 = () => {
           </div>
           <div className="industry-cards2">
             <div className="industrycards-head">Internships</div>
-            <div className="industrycard-content">
+            <div className="industrycard-contentimg">
               <ul>
                 <li>
              look out for this page
