@@ -125,3 +125,79 @@ border: 2px solid var(--red);
     width: 350px;
 
 }
+
+
+
+
+
+
+
+
+@media (max-width:600px) {
+
+
+
+
+
+    .industry-cards{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        left: -50px;
+
+    }
+
+    .industrycard-content{
+        display: flex;
+        flex-direction: column;
+
+        width: 500px;
+    }
+        .img{
+            height: 500px;
+        }
+    .images_of_industry{
+        position: relative;
+        left: 40px;
+    }
+ 
+    .industry-butt{
+        width: 50%;
+        margin: 5px;
+        height: 70px;
+        gap: 10px;
+        position: relative;
+        left: 35px;
+        font-size: 15px;
+    }
+
+
+    .slide-track{
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        margin-top: 10px;
+      
+        left: -110px;
+
+    }
+
+    .industrycards-head{
+        position: relative;
+        text-align: center;
+        justify-content: center;
+    }
+
+
+    .industry-cards2{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        left: -50px;
+    }
+    
+    
+    
+}
