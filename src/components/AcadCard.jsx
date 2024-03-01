@@ -8,7 +8,7 @@ const AcadCard = () => {
   return (
     <>
   
-    
+       
     <span className="heading">ACADEMICS</span>
     <div className='acad-image'>
       <img src={grpphto} alt="omk" />
