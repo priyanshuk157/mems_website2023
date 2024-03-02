@@ -8,3 +8,21 @@
     font-size: var(--content2);
     font-weight: 600;
 }
+
+
+
+@media (max-width:600px) {
+
+    .ug-body{
+        width: 600px;
+        position: relative;
+        left: -100px;
+    }
+
+    .ug-tble{
+        position: relative;
+        left: -60px;
+        width: 350px;
+    }
+    
+}
