@@ -65,68 +65,34 @@ h4{
 
 
 @media(max-width:600px){
-    .stfcontainer{
-        display: flex;
-        flex-direction: row;
-        flex-grow: inherit;
-        width: 100%;
-        height:fit-content;
-        border-radius: 10px;
-        /* box-shadow: 1px 1px 7px #000; */
-        max-width: 1300px;
-       
-        background-color: var(--lightbg);
-      
-    }
-    
-    h4{
-        display: flex;
-        margin-left: 5rem;
-        padding-bottom: 1rem;
-    }
-    
-    .Rstaff{
-        margin-top: 5rem;
-        padding: 2rem;
-        align-items: center;
-        justify-content: center;
+    .faculty-width{
         display: flex;
         flex-direction: column;
-        gap: 2rem;
     }
-    
-    .stfcontainer1{
-        display: flex;
-        justify-content: space-around;
-        
+
+    .hodsec{
+        width: 370px;
+        height: 450px;
+        margin-top: 25px;
+        margin-bottom: 5px;
     }
-    
-    .stftext{
-        margin-top: 10px;
-        margin-bottom: 10px;
-        display: flex;
-        
-      
-        flex-direction: column;
-        padding-left: 4px;
-    
-    
-    }
-    
-    .stfimage{
-        display: flex;
-        justify-content: center; 
-        align-items: center;
+
+    .hodsec img{
+        height: 200px;
+        width: 200px;
        
-        padding:1rem;
-        border-radius: 10px;
-        filter: drop-shadow(0 0 10);
-        height: 100%;
     }
-    .stfimage img{
-        height: 7rem;
-        width: auto;
-    
-      
+
+    .post{
+        position: relative;
+        font-size: 20px;
+        width: 350px;
+        left: -40px;
+    }
+    .name{
+        font-size: 25px;
+        width: 300px;
+        position: relative;
+        left: -30px;
     }
 }

@@ -218,6 +218,9 @@ const industryrelation = () => {
 
 
          
+
+
+         
               <div class="work_with_us">
                 <span class="wwu">
             <h1>WORK WITH US</h1></span>
