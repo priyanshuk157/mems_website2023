@@ -8,6 +8,10 @@ import {SiGooglescholar } from "react-icons/si";
 // import prof44 from "./profimages/ghosh.jpg"
 import prof6 from "./profimages/prof6.jpg"
 
+
+
+
+
 const profile11 = () => {
   return (
     <>
@@ -114,7 +118,7 @@ const profile11 = () => {
         
         <div className="pc1">
           <span className="pc1-head">PUBLICATIONS</span>
-          <div>
+          <div className="tablepub">
             <Table>
               <thead>
                 <tr>
