@@ -38,7 +38,7 @@ const profile11 = () => {
               <li>Designation	: Associate Professor</li>
               <li>Office		: Room No. 1D- 418 </li>
               <li>Email	 (<i><FaEnvelope/></i>)	: dkrai@iiti.ac.in </li>
-              <li>Contact  (<i><FaPhone/></i>)		: +91-731660-3278 </li>
+              <li>Contact  (<i><FaPhone/></i>)		: +91-731660-3278/5118   </li>
             <div className="fac-links">
              
             <a href="http://people.iiti.ac.in/~dkr/ " target="_blank" rel="noreferrer"> <i><FaHome/></i></a>
@@ -57,7 +57,7 @@ const profile11 = () => {
             <ul>
             <li> Ph.D (Department of Chemistry), IIT Bombay, 2013</li>
             <br /><li>Master’s degree (Department of Chemistry), Banaras Hindu University, 2006</li>
-            <br /><li>Bachelor’s degree, Udai Pratap Autonomous College, 2004</li>
+            <br /><li>Bachelor’s degree, VBS Purvanchal University, Jaunpur, 2004</li>
           
             
           </ul></div>
@@ -89,7 +89,7 @@ const profile11 = () => {
           <ul>
           <li>
             Assistant Professor, Department of Metallurgical Engineering and Materials Science, IIT Indore, September 29, 2017 – present             </li>
-            <li>DST Young Scientist, Department of Chemistry, IIT Indore, September 23, 2015 – September 28, 20217</li>
+            <li>DST Young Scientist, Department of Chemistry, IIT Indore, September 23, 2015 – September 28, 2017</li>
         
             
             

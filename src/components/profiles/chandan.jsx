@@ -38,10 +38,10 @@ const profile11 = () => {
               <li>Designation	: Assistant Professor</li>
               <li>Office		:Room No. 211 (G), CITC </li>
               <li>Email	 (<i><FaEnvelope/></i>)	: chalder@iiti.ac.in </li>
-              <li>Contact  (<i><FaPhone/></i>)		:  0731 660 3182 </li>
+              <li>Contact  (<i><FaPhone/></i>)		:  (+91) 0731 660 3182 </li>
             <div className="fac-links">
             {/* <a href="https://iiti.ac.in/people/~ajaykk " target="_blank" rel="noreferrer"> <i><FaHome/></i></a> */}
-             <a href=" https://scholar.google.com/citations?user=Jc4fgVQAAAAJ&hl=en"target="_blank"  rel="noreferrer"> <i><SiGooglescholar/></i></a>
+             <a href=" https://scholar.google.com/citations?user=Jc4fgVQAAAAJ&hl=en  "target="_blank"  rel="noreferrer"> <i><SiGooglescholar/></i></a>
              <a href="https://www.researchgate.net/profile/Chandan-Halder"target="_blank"  rel="noreferrer"><i><FaResearchgate/></i></a>
              
              <a href="www.linkedin.com/in/dr-chandan-halder-0408042b"target="_blank"  rel="noreferrer"> <i><FaLinkedin/></i></a>
@@ -55,14 +55,12 @@ const profile11 = () => {
             </ul>
             <div class="aca"><span className="pc1-head">ACADEMIC BACKGROUND</span></div></div>
             <div class="acalist">
-<ul>
-<li>Ph.D, IIT Kharagpur 2016</li>
-<br />
-            <li> M.Tech IIT Kharagpur, 2011</li>
-            <br />
-            <li>B.Tech NIT Durgapur, 2009</li>
+            <ul>
+            <li>Ph.D, Department of Metallurgical and Materials Engineering, IIT Kharagpur, 2016</li>
+            <br /><li>M.Tech, Department of Metallurgical and Materials Engineering, IIT Kharagpur, 2011</li>
+            <br /><li>B.Tech, Department of Metallurgical and Materials Engineering, NIT Durgapur, 2009</li>
             
-</ul></div>
+          </ul></div>
 
          
             
@@ -77,7 +75,6 @@ const profile11 = () => {
           <div>
           
         <li>Mechanistic Diffusion Modeling</li>
-         
         <li> Multi-Scale Finite Element Modeling</li>
         <li> Modeling and Simulation of Microstructure Evolution</li>
         <li> Neural-Network based Alloy Design</li>

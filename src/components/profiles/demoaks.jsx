@@ -189,6 +189,7 @@ const profile11 = () => {
           <li>2023, Best Paper Presentation Award : 11th Asia Conference on Mechanical and Materials Engineering, Japan</li>
           <li>2017, Early Career Research Award : SERB, Gov. of India</li>
           <li>2016, INSPIRE Faculty Award : DST, Gov. of India</li>
+          <li>2013, Young Scientist Travel Grant: DST, Gov. of India</li>
           </div>
         </div>
        

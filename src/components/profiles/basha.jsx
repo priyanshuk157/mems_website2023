@@ -71,8 +71,8 @@ const profile11 = () => {
           <div>
           
           <ul>
-              <li>          Deformation behaviour of magnesium alloys.</li>
-              <li>  Crack propagation behaviour study through in-situ microscopy techniques.</li>
+              <li>  Deformation behaviour of magnesium alloys.</li>
+              <li> Crack propagation behaviour study through in-situ microscopy techniques.</li>
               <li>Phase transformation behaviour of alloy nanoparticles.</li>
             
             </ul>
