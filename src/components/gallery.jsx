@@ -23,7 +23,7 @@ function Gallery() {
 
   return ( 
    <div className='gallery'>
-      <div>
+      <div className='gallery-img'>
       <img src={ss1} className='pic img' alt="afk"  />
         <div className='magnify' onClick={()=>{setName(ss1);setDisplay(true)}}>
           <FaSearch/>
@@ -32,7 +32,7 @@ function Gallery() {
       </div>
       
         
-        <div>
+        <div className='gallery-img'>
         <img src={ss3} className='pic img' alt="afk" />
         <div className='magnify' onClick={()=>{setName(ss3);setDisplay(true)}}>
           <FaSearch/>
@@ -40,7 +40,7 @@ function Gallery() {
 
         </div>
         
-        <div>
+        <div className='gallery-img'>
         <img src={photo1} className='pic img' alt="afk" />
         <div className='magnify' onClick={()=>{setName(photo1);setDisplay(true)}}>
           <FaSearch/>
@@ -48,7 +48,7 @@ function Gallery() {
         </div>
         
         
-        <div>
+        <div className='gallery-img'>
         <img src={photo2} className='pic img' alt="afk" />
         <div className='magnify' onClick={()=>{setName(photo2);setDisplay(true)}}>
           <FaSearch/>
@@ -56,7 +56,7 @@ function Gallery() {
 
         </div>
         
-        <div>
+        <div className='gallery-img'>
         <img src={photo3} className='pic img' alt="afk" />
         <div className='magnify' onClick={()=>{setName(photo3);setDisplay(true)}}>
           <FaSearch/>
@@ -64,7 +64,7 @@ function Gallery() {
 
         </div>
        
-        <div>
+        <div className='gallery-img'>
           <img src={photo6} className='pic img' alt="afk" />  
           <div className='magnify' onClick={()=>{setName(photo6);setDisplay(true)}}>
             <FaSearch/>
@@ -72,7 +72,7 @@ function Gallery() {
 
         </div>
 
-        <div>
+        <div className='gallery-img'>
           <img src={photo4} className='pic img' alt="afk" />
           <div className='magnify' onClick={()=>{setName(photo4);setDisplay(true)}}>
             <FaSearch/>
@@ -80,7 +80,7 @@ function Gallery() {
 
         </div>
         
-       <div>
+       <div className='gallery-img'>
        <img src={photo5} className='pic img' alt="afk" />
         <div className='magnify'  onClick={()=>{setName(photo5);setDisplay(true)}}>
           <FaSearch/>
@@ -89,12 +89,12 @@ function Gallery() {
        </div>
        {display && (
           <div className={`photo`} onClick={()=>{setDisplay(false)}}>
-          <div className='inside'>
-          <img src={name} className='images' alt="afk" />
-          </div>
+            <div className='inside'>
+              <img src={name} className='images' alt="afk" />
+            </div>
         
   
-        </div>
+          </div>
        )}
        
 
