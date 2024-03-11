@@ -194,10 +194,8 @@ const App = () => {
         <Route path='research/ParasharamShirage' element={<P11/>}></Route>
         <Route path='faculty/RamSajeevanMaurya' element={<P12/>}></Route>
         <Route path='research/RamSajeevanMaurya' element={<P12/>}></Route>
-        <Route path='faculty/RanjithKumarPoobalan
-' element={<P13/>}></Route>
-        <Route path='research/RanjithKumarPoobalan
-' element={<P13/>}></Route>
+        <Route path='faculty/RanjithKumarPoobalan' element={<P13/>}></Route>
+        <Route path='research/RanjithKumarPoobalan' element={<P13/>}></Route>
         <Route path='faculty/RupeshDevan' element={<P14/>}></Route>
         <Route path='research/RupeshDevan' element={<P14/>}></Route>
         <Route path='faculty/SantoshHosmani' element={<P15/>}></Route>
