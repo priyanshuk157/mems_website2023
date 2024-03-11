@@ -32,3 +32,30 @@
 .sub-ind-sec1{
     width: 100%;
 }
+
+.table{
+    width: 93%;
+    position: relative;
+    left: 50px;
+    justify-content: center;
+  }
+
+
+@media (max-width: 1100px){
+    .ind-section{
+        border-radius: 20px;
+        width: 100%;
+        padding: 0px 25px;
+    }
+
+    .table{
+        width: 100%;
+        position: relative;
+        left: 20px;
+      }
+
+    tbody tr{
+        position: relative;
+        right: 20px;
+    }
+}
