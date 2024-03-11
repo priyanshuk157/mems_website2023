@@ -1,5 +1,5 @@
 import React from 'react'
-
+      
 import "./staff.css"
 import mcbairwa from "./staffimages/MaheshChandBairwa.jpg"
 import mdhake from "./staffimages/MayurDhake.jpg"

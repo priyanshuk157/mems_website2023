@@ -149,8 +149,8 @@ border: 2px solid var(--red);
         position: relative;
         display: flex;
         flex-direction: column;
-        width: 80%;
-        left: -50px;
+        width: 400px;
+        
 
     }
 
@@ -158,7 +158,7 @@ border: 2px solid var(--red);
         display: flex;
         flex-direction: column;
 
-        width: 500px;
+        width: 600px;
     }
         .img{
             height: 500px;
@@ -171,7 +171,7 @@ border: 2px solid var(--red);
         height: 70px;
         gap: 10px;
         position: relative;
-        left: 35px;
+        left: 90px;
         font-size: 15px;
     }
 
@@ -197,8 +197,9 @@ border: 2px solid var(--red);
         position: relative;
         display: flex;
         flex-direction: column;
-        width: 80%;
-        left: -50px;
+        width: 400px;
+        
+       
     }
 
 
@@ -206,20 +207,20 @@ border: 2px solid var(--red);
         position: relative;
         display: flex;
         flex-direction: column;
-        left: -100px;
+        left: -125px;
     }
     
 
     .consult-button{
         position: relative;
-        left: -90px;
+        left: -125px;
         margin-bottom: 10px;
     }
 
 
     .stat{
         
-        width: 280px;
+        width: 350px;
         height: 300px;
     }
     
@@ -227,7 +228,7 @@ border: 2px solid var(--red);
     .industrycard-contentimg img{
         position: relative;
         justify-content: center;
-        left: 0px;
+        left: 40px;
         height: 200px;
         width: 280px;
 
@@ -236,7 +237,7 @@ border: 2px solid var(--red);
     .industrycard-content img{
         position: relative;
         justify-content: center;
-        left: 0px;
+        left: 40px;
         height: 200px;
         width: 280px;
 
@@ -260,10 +261,16 @@ border: 2px solid var(--red);
     }
     .stat img{
         
-        width: 250px;
+        width: 300px;
         height: 200px;
         position: relative;
-        left: -10px;
+        left: -35px;
+    }
+
+    .industrycards-head{
+        width: 200px;
+        position: relative;
+        justify-content: center;
     }
     
     

@@ -121,7 +121,7 @@ const profile11 = () => {
         
         <div className="pc1">
           <span className="pc1-head">PUBLICATIONS</span>
-          <div>
+          <div className="tablepub">
             <Table>
               <thead>
                 <tr>

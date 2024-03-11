@@ -32,3 +32,13 @@
 .sub-ind-sec1{
     width: 100%;
 }
+
+
+@media (max-width:600px) {
+    .sub-ind-sec1{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        
+    }
+}

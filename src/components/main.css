@@ -60,3 +60,30 @@ aspect-ratio: 1.2/1;
     font-size: 18px;
     margin-top: 15px;
 }
+
+
+
+@media (max-width:600px) {
+    .image{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .image img{
+        height: 300px;
+        width: 300px;
+        position: relative;
+        left: -20px;
+    }
+    .direction{
+        width: 280px;
+    }
+
+    .journeyhead{
+        position: relative;
+        text-align: center;
+        left: -130px;
+    }
+    
+}

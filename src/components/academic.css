@@ -63,6 +63,8 @@
     flex-direction: column;
     align-items: center;
     padding: 1rem;
+    position: relative;
+    top: 60px;
   }
   .acad-content{
     margin: 2rem;
@@ -82,6 +84,8 @@
   
   }
   .acad-image {
+    position: relative;
+    top: 60px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -90,8 +94,9 @@
     border: black;
   }
   .acad-image img{
-    width: 100%;
-    height: 15rem;
+    width: 90%;
+    height: 20rem;
     border-radius: 10px;
+    
   }
 }
