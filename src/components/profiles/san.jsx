@@ -89,7 +89,8 @@ const profile11 = () => {
         <div className="pc1">
           <span className="pc1-head">POSITIONS HELD</span>
           <ul>
-          <li>Associate Professor, Indian Institute of Technology Indore, India (12/2018 – till date)</li>
+            <li>Professor, Indian Institute of Technology Indore, India (10/2023 – till date)</li>
+          <li>Associate Professor, Indian Institute of Technology Indore, India (12/2018 – 10/2023)</li>
           <li>Assistant Professor, Indian Institute of Technology Indore, India (04/2017 – 12/2018). </li>
           <li>Senior Manager (R&D), Bharat Forge Ltd., Pune, India (04/2015 – 04/2017) </li>
           <li>Assistant Professor, College of Engineering, Pune, India (06/2011 – 03/2015). </li>
