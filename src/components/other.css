@@ -1,8 +1,22 @@
 .heading{
-    display: flex;
-  
-    color: var(--red);
+    justify-content: center;
+    font-size: var(--head2);
+    color: #C44536;
 }
-.list{
-   
+
+.fac-list{
+        color: white;
+        top: 30px;
+        margin: 20px;
+        position: relative;
+      }
+@media (max-width: 400px) {
+  
+  #facilities-table{
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    left: 1px;
+  }
+  
 }

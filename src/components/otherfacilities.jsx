@@ -6,7 +6,7 @@ import Table from 'react-bootstrap/Table';
 
 
 
-import "./other.css"
+import "./other.css";
 
 
 const other = () => {
@@ -19,8 +19,8 @@ const other = () => {
 
 
 <span className="heading">Other Facilities</span>
-<div className="list">
-<Table striped>
+<div className="fac-list">
+    <Table striped bordered id="facilities-table">
       <thead>
         <tr>
           <th>Sr. No.</th>

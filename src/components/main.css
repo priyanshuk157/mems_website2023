@@ -4,18 +4,24 @@
     padding:10px 10px;
     
 }
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .image{
+
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     position: relative;
-    margin: 10px;
+    /* margin: 10px; */
     padding: 10px;
     gap: 50px;
     align-content: center;
-
-   
-  
 }
+
 .info img{
 aspect-ratio: 1.2/1;
 }
@@ -24,7 +30,7 @@ aspect-ratio: 1.2/1;
     position: relative;
     display: flex;
     flex-direction: column;
-   width: 500px;
+    max-width: 400px;
 
 }
 .journeyhead{
@@ -39,4 +45,14 @@ aspect-ratio: 1.2/1;
     position: relative;
     font-size: 18px;
     margin-top: 15px;
+}
+
+@media screen and (max-width:500px){
+    .info{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        max-width: 260px;
+    
+    }
 }

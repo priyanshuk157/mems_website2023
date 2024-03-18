@@ -193,28 +193,30 @@ committee</span></Accordion.Header>
 
       <Accordion.Item eventKey="0">
         <Accordion.Header > <span className='res-header'>How to reach IIT Indore</span> </Accordion.Header>
-        <Accordion.Body>
-          <div class="image">
-            <div class="info">
-              <span class="journeyhead">BY TRAIN</span>
-<img src="https://cse.iiti.ac.in/images/image001.png" alt="" />
-<div class="direction">
-Indore Railway Station is approximately 24KM from IIT Indore campus.  Taxi (approximate INR 800) or Auto-ricksha (INR 400-500) and other public transport are available the from railway station to IIT Indore campus.  For public transport, shared taxi/Auto/bus can be taken from the railway station to Bhawarkuan Square (approximately 6-7km). Then take the BUS M-19 from Bhawarkuan Square (Khandwa Road) to IIT Indore GATE-1.</div></div>
-<div class="info">
-<span class="journeyhead">BY AIR</span>
-  <img src="https://cse.iiti.ac.in/images/image003.png" alt="" />
+        <Accordion.Body >
+          <div class="box">
+            <div class="image">
+              <div class="info">
+                <span class="journeyhead">BY TRAIN</span>
+  <img src="https://cse.iiti.ac.in/images/image001.png" alt="" />
   <div class="direction">
-  Devi Ahilyabai Holkar International Airport has good air connectivity to major cities of India and also from UAE. The airport is approximately 32KM from IIT Indore campus. The pre-paid and post-paid taxi are available at airport for IIT Indore, the charges are approximate INR 900-1100.</div></div>
+  Indore Railway Station is approximately 24KM from IIT Indore campus.  Taxi (approximate INR 800) or Auto-ricksha (INR 400-500) and other public transport are available the from railway station to IIT Indore campus.  For public transport, shared taxi/Auto/bus can be taken from the railway station to Bhawarkuan Square (approximately 6-7km). Then take the BUS M-19 from Bhawarkuan Square (Khandwa Road) to IIT Indore GATE-1.</div></div>
+  <div class="info">
+  <span class="journeyhead">BY AIR</span>
+    <img src="https://cse.iiti.ac.in/images/image003.png" alt="" />
+    <div class="direction">
+    Devi Ahilyabai Holkar International Airport has good air connectivity to major cities of India and also from UAE. The airport is approximately 32KM from IIT Indore campus. The pre-paid and post-paid taxi are available at airport for IIT Indore, the charges are approximate INR 900-1100.</div></div>
 
-<div class="info">
-<span class="journeyhead">BY BUS</span>
-  <img src="https://cse.iiti.ac.in/images/image005.png" alt="" />
-  <div class="direction">
-  Indore is well connected with bus services from various parts of MP and other nearby states. There are several bus stops in Indore for interstate buses hence plan your stop such a way, that one can easily reach to Bhawarkuan Square (Khandwa Road), then take M-19 bus to IIT Indore campus.</div> </div>
+  <div class="info">
+  <span class="journeyhead">BY BUS</span>
+    <img src="https://cse.iiti.ac.in/images/image005.png" alt="" />
+    <div class="direction">
+    Indore is well connected with bus services from various parts of MP and other nearby states. There are several bus stops in Indore for interstate buses hence plan your stop such a way, that one can easily reach to Bhawarkuan Square (Khandwa Road), then take M-19 bus to IIT Indore campus.</div> </div>
 
 
+            </div>
           </div>
-         <div class="res-body-content"><div className="res-acc-body">
+         <div class="res-body-content d-flex align-items-center justify-content-center"><div className="res-acc-body">
 
 
           

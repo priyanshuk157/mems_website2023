@@ -4,7 +4,7 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 5rem;
-    left: 3%;
+    /* left: 3%; */
     
     
 }
@@ -33,4 +33,27 @@
 .Instruments_In_Use{
   text-align: center;
 
+}
+
+@media (max-width: 988px){
+  .facilities-items{
+    justify-content: center;
+    gap: 2rem;
+  }
+  .facilities-items img{
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+ }
+}
+@media (min-width: 989px){
+  .facilities-items{
+    justify-content: center;
+    gap: 2rem;
+  }
+  .facilities-items img{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
 }
