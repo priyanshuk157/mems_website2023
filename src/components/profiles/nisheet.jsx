@@ -38,7 +38,7 @@ const profile11 = () => {
               <li>Designation	: Assistant Professor</li>
               <li>Office		: 211(h), Hub Building (CITC) </li>
               <li>Email	 (<i><FaEnvelope/></i>)	: nisheeth@iiti.ac.in </li>
-              <li>Contact  (<i><FaPhone/></i>)		: 0731-660-3175 (O)/ 7726938388 (M)</li>
+              <li>Contact  (<i><FaPhone/></i>)		: +91-7316603175</li>
             <div className="fac-links">
             <a href="https://sites.google.com/iiti.ac.in/nisheeth/about-me " target="_blank" rel="noreferrer"> <i><FaHome/></i></a>
              <a href=" https://scholar.google.com/citations?user=vjypzxYAAAAJ&hl=en "target="_blank"  rel="noreferrer"> <i><SiGooglescholar/></i></a>

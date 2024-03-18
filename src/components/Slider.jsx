@@ -4,6 +4,18 @@ import jai1 from "./images/statimg.jpg"
 import jai2 from "./images/statimg2.jpg"
 import graphabstract from "./images/Graphical_Abstract_Vamsi_group.jpg"
 import graphabstract2 from "./images/MEMS Website - SK group Graphical Abstract.jpg"
+import drkga from "./images/DK Rai PPT Department webpage.jpg"
+
+
+import kbuga from "./images/G.A_Khushubo.jpg"
+import rupuga from "./images/Graphical Abstract  _ Prof. Rupesh Devan.jpg"
+import ramjiga from "./images/Graphical Abstract  MEMS faculty group - Dr Ram Sajeevan Maurya.jpg"
+import jpga from "./images/Graphical Abstract  MEMS faculty group-JP.jpg"
+import niga from "./images/Graphical Abstract_Nisheeth.jpg"
+
+
+
+
 
 import newimage from "./images/WhatsApp Image 2023-12-27 at 2.30.02 PM.jpeg"
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -15,7 +27,7 @@ import 'swiper/css/pagination';
 import "swiper/css/navigation";
 
 // import required modules
-import { Pagination, Navigation } from 'swiper/modules';
+import { Pagination, Navigation,Autoplay } from 'swiper/modules';
 
 
 function CarouselFadeExample() {
@@ -58,24 +70,44 @@ function CarouselFadeExample() {
         
       </Swiper>*/}
       <Swiper
-        onSwiper={setSwiperRef}
         slidesPerView={2}
-        centeredSlides={true}
+        
+        spaceBetween={10}
+        
+        // freeMode={true}
         loop={true}
-        spaceBetween={0}
-        freeMode={false}
-        pagination={{
-          type: 'fraction',
+        preventInteractionOnTransition={false}
+        autoplay={{
+          delay: 1,
+          disableOnInteraction: false,
         }}
+        speed={10000}
+        freemodemomentum= "true"
+        pagination={{
+          clickable: true,
+        }}
+        breakpoints={{
+          600: {
+              width:100,
+            slidesPerView:1,
+            spaceBetween:10
+          }}}
         navigation={true}
-        modules={[Pagination, Navigation]}
-        className="mySwiper"
+        modules={[Autoplay, Pagination,Navigation]}
+        className="mySwiper"nn
       >
 
         <SwiperSlide><div className="img-hgt"><img src={jai1} alt="" /></div></SwiperSlide>
         <SwiperSlide><div className="img-hgt"><img src={graphabstract2} alt="" /></div></SwiperSlide>
         <SwiperSlide><div className="img-hgt"><img src={jai2} alt="" /></div></SwiperSlide>
         <SwiperSlide><div className="img-hgt"><img src={graphabstract} alt="" /></div></SwiperSlide>
+        <SwiperSlide><div className="img-hgt"><img src={drkga} alt="" /></div></SwiperSlide>
+
+        <SwiperSlide><div className="img-hgt"><img src={jpga} alt="" /></div></SwiperSlide>
+        <SwiperSlide><div className="img-hgt"><img src={rupuga} alt="" /></div></SwiperSlide>
+        <SwiperSlide><div className="img-hgt"><img src={kbuga} alt="" /></div></SwiperSlide>
+        <SwiperSlide><div className="img-hgt"><img src={ramjiga} alt="" /></div></SwiperSlide>
+        <SwiperSlide><div className="img-hgt"><img src={niga} alt="" /></div></SwiperSlide>
         
       </Swiper>
         

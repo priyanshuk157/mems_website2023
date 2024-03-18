@@ -49,7 +49,7 @@ const profile11 = () => {
                 <i>
                   <FaPhone />
                 </i>
-                ) : 0731-660-3252{" "}
+                ) : +91-7316603252{" "}
               </li>
               <div className="fac-links">
                 <a

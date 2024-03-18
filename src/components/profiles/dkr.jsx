@@ -38,7 +38,7 @@ const profile11 = () => {
               <li>Designation	: Associate Professor</li>
               <li>Office		: Room No. 1D- 418 </li>
               <li>Email	 (<i><FaEnvelope/></i>)	: dkrai@iiti.ac.in </li>
-              <li>Contact  (<i><FaPhone/></i>)		: +91-731660-3278 </li>
+              <li>Contact  (<i><FaPhone/></i>)		: +91-7316603278 </li>
 
               <div className="homepage_div" >
               <span className="homepage" >Home Page</span>

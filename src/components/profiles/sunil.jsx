@@ -37,7 +37,7 @@ const profile11 = () => {
               <li>Designation	: Associate Professor</li>
               <li>Office		: Room No. 1D- 416 </li>
               <li>Email	 (<i><FaEnvelope/></i>)	: sunil@iiti.ac.in </li>
-              <li>Contact  (<i><FaPhone/></i>)		: 07324-306-3281</li>
+              <li>Contact  (<i><FaPhone/></i>)		: +91-73243063281</li>
             <div className="fac-links">
              
             <a href="https://iiti.ac.in/people/~sunil/ " target="_blank" rel="noreferrer"> <i><FaHome/></i></a>

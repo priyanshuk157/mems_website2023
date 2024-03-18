@@ -1,6 +1,5 @@
 {
   "name": "mems_website",
- 
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,6 +12,7 @@
     "@testing-library/user-event": "^13.5.0",
     "@types/prismjs": "^1.26.3",
     "bootstrap": "^5.2.3",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
     "instafeed.js": "^2.0.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.4",
@@ -49,5 +49,4 @@
       "last 1 safari version"
     ]
   }
-  
 }

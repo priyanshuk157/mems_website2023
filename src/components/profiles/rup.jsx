@@ -38,7 +38,7 @@ const profile11 = () => {
               <li>Designation	: Professor</li>
               <li>Office		: Room No. 1D-414 </li>
               <li>Email	 (<i><FaEnvelope/></i>)	: rupes@iiti.ac.in</li>
-              <li>Contact  (<i><FaPhone/></i>)		:  +91-0731-6603244 </li>
+              <li>Contact  (<i><FaPhone/></i>)		:  +91-7316603244 </li>
             <div className="fac-links">
              
             <a href="https://rupesh76.wixsite.com/rupesh " target="_blank" rel="noreferrer"> <i><FaHome/></i></a>

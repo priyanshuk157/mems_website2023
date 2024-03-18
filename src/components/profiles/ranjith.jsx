@@ -39,7 +39,7 @@ const profile11 = () => {
               <li>Designation	: Assistant Professor</li>
               <li>Office		: POD 1A, 514, 4th Floor </li>
               <li>Email	 (<i><FaEnvelope/></i>)	: ranjith@iiti.ac.in</li>
-              <li>Contact  (<i><FaPhone/></i>)		: +91-731-660-3333 Extn. 5597</li>
+              <li>Contact  (<i><FaPhone/></i>)		: +91-7316603333</li>
             <div className="fac-links">
              
              <a href="  https://scholar.google.com/citations?user=iTe5x74AAAAJ&hl=en&oi=ao "target="_blank"  rel="noreferrer"> <i><SiGooglescholar/></i></a>

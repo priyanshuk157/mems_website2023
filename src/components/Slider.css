@@ -1,5 +1,5 @@
 .img-hgt img{
-padding: 20px;
+
     height: 300px;
 width: auto;
     border-radius: 10px;
@@ -58,19 +58,25 @@ width: auto;
 
     .img-hgt{
 
-        height: 110px;
-        width: 100%;
-        border-radius: 0px;
+        height: 100%;
+        width: fit-content;
+        padding: 20px;
+        
+        
         
     
     }
     .carousel-main{
         margin: auto;
         /* max-width: 1300px; */
-        height: 150px ;
+        height:250px ;
         width: 100%;
         box-shadow: 0px 0px 0px 0 #000;
         border-radius: 0px;
+        gap:10px;
+        position: relative;
+        top: -30px;
+        
         
         
     }

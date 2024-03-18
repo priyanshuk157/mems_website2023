@@ -57,7 +57,7 @@ const profile11 = () => {
               <li>Designation	: Assistant Professor</li>
               <li>Office		: Chromium, POD 1D-613 </li>
               <li>Email	 (<i><FaEnvelope/></i>)	: ramsajeevan@iiti.ac.in </li>
-              <li>Contact  (<i><FaPhone/></i>)		: 0731-660-3202</li>
+              <li>Contact  (<i><FaPhone/></i>)		: +91-7316603202</li>
             <div className="fac-links">
              
             { <a href="https://ramsajeevan.wixsite.com/amorphous-metals-lab " target="_blank" rel="noreferrer"> <i><FaHome/></i></a>}

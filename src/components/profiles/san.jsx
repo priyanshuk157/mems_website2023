@@ -40,7 +40,7 @@ const profile11 = () => {
               <li>Designation	:Professor</li>
               <li>Office		: Room No. 1D- 415 </li>
               <li>Email	 (<i><FaEnvelope/></i>)	: sshosmani@iiti.ac.in </li>
-              <li>Contact  (<i><FaPhone/></i>)		: +91-0731-660333 (Ext. 3243);  +91-731-6603243</li>
+              <li>Contact  (<i><FaPhone/></i>)		: +91-0731660333</li>
             <div className="fac-links">
              
             <a href="https://sites.google.com/site/santoshhosa/" target="_blank" rel="noreferrer"> <i><FaHome/></i></a>

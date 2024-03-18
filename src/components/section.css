@@ -435,9 +435,11 @@ margin: 2rem;
 
 @media(max-width:600px){
   
+  
   .sec2{
     position: relative;
     display: flex;
+  
     
   }
   .name{
@@ -530,6 +532,7 @@ text-align: center;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
+      position: relative;
       gap: 2.5rem;
   }
   

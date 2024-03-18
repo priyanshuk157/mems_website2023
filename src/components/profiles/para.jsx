@@ -39,7 +39,7 @@ const profile11 = () => {
               <li>Designation	: Professor</li>
               <li>Office		:  POD D 414 </li>
               <li>Email	 (<i><FaEnvelope/></i>)	: pmshirage@iiti.ac.in</li>
-              <li>Contact  (<i><FaPhone/></i>)		:0731 6603330 </li>
+              <li>Contact  (<i><FaPhone/></i>)		:+91-7316603330 </li>
               <div className="fac-links">
              <a href="https://iiti.ac.in/people/~pmshirage/Group%20Leader.html " target="_blank" rel="noreferrer"> <i><FaHome/></i></a>
              <a href=" https://scholar.google.com/citations?user=hf2x04QAAAAJ&hl=en&oi=ao  "target="_blank"  rel="noreferrer"> <i><SiGooglescholar/></i></a>

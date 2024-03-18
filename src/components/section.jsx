@@ -12,6 +12,8 @@ import { NavLink } from "react-router-dom";
 // import Slider from './Slider';
 
 const section = () => {
+
+  
   return (
     <>
       <div className="studentcbutton">

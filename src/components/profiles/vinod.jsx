@@ -38,7 +38,7 @@ const profile11 = () => {
               <li>Designation	: Associate Professor</li>
               <li>Office		: Room No. 1D- 412 </li>
               <li>Email	 (<i><FaEnvelope/></i>)	:vkt@iiti.ac.in</li>
-              <li>Contact  (<i><FaPhone/></i>)		: + 91-7324-306-3251 </li>
+              <li>Contact  (<i><FaPhone/></i>)		: + 91-73243063251 </li>
             <div className="fac-links">
             <a href="http://people.iiti.ac.in/~vkt/ " target="_blank" rel="noreferrer"> <i><FaHome/></i></a>
              <a href="  http://scholar.google.co.in/citations?user=n782qToAAAAJ  "target="_blank"  rel="noreferrer"> <i><SiGooglescholar/></i></a>

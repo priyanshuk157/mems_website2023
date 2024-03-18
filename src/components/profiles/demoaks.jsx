@@ -39,7 +39,7 @@ const profile11 = () => {
               <li>Designation	: HoD and Associate Professor</li>
               <li>Office		: 1D-610 </li>
               <li>Email	 (<i><FaEnvelope/></i>)	: akk@iiti.ac.in </li>
-              <li>Contact  (<i><FaPhone/></i>)		: +91 731 660 3250</li>
+              <li>Contact  (<i><FaPhone/></i>)		: +91-7316603250</li>
             <div className="fac-links">
             
             <a href="https://iiti.ac.in/people/~ajaykk " target="_blank" rel="noreferrer"> <i><FaHome/></i></a>

@@ -38,7 +38,7 @@ const profile11 = () => {
               <li>Designation	: Assistant Professor</li>
               <li>Office		: Room No. 1D- 608 </li>
               <li>Email	 (<i><FaEnvelope/></i>)	: aghosh@iiti.ac.in </li>
-              <li>Contact  (<i><FaPhone/></i>)		:  0731 660 3287 </li>
+              <li>Contact  (<i><FaPhone/></i>)		:  +91-7316603287 </li>
             <div className="fac-links">
              
              <a href=" https://scholar.google.com/citations?user=P9nZOBsAAAAJ&hl=en&authuser=1"target="_blank"  rel="noreferrer"> <i><SiGooglescholar/></i></a>

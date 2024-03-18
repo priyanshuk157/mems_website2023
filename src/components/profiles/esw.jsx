@@ -43,7 +43,7 @@ const profile11 = () => {
               <li>Designation	: Associate Professor</li>
               <li>Office		: Room No. 1D- 607 </li>
               <li>Email	 (<i><FaEnvelope/></i>)	: eswar@iiti.ac.in </li>
-              <li>Contact  (<i><FaPhone/></i>)		:  0731-2438700 Ext.: 3280 </li>
+              <li>Contact  (<i><FaPhone/></i>)		:  +91-7312438700</li>
             <div className="fac-links">
              
             <a href="https://sites.google.com/view/eswarprasad/home" target="_blank" rel="noreferrer"> <i><FaHome/></i></a>

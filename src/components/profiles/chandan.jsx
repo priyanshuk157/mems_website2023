@@ -38,7 +38,7 @@ const profile11 = () => {
               <li>Designation	: Assistant Professor</li>
               <li>Office		:Room No. 211 (G), CITC </li>
               <li>Email	 (<i><FaEnvelope/></i>)	: chalder@iiti.ac.in </li>
-              <li>Contact  (<i><FaPhone/></i>)		:  0731 660 3182 </li>
+              <li>Contact  (<i><FaPhone/></i>)		:  +91-7316603182 </li>
             <div className="fac-links">
             {/* <a href="https://iiti.ac.in/people/~ajaykk " target="_blank" rel="noreferrer"> <i><FaHome/></i></a> */}
              <a href=" https://scholar.google.com/citations?user=Jc4fgVQAAAAJ&hl=en"target="_blank"  rel="noreferrer"> <i><SiGooglescholar/></i></a>

@@ -38,7 +38,7 @@ const profile11 = () => {
               <li>Designation	: Assistant Professor</li>
               <li>Office		: Room No. 1D- 306 </li>
               <li>Email	 (<i><FaEnvelope/></i>)	: bashada@iiti.ac.in </li>
-              <li>Contact  (<i><FaPhone/></i>)		: +917316603516 </li>
+              <li>Contact  (<i><FaPhone/></i>)		: +91-7316603516 </li>
             <div className="fac-links">
             <a href="http://mems.iiti.ac.in/Faculty.html" target="_blank" rel="noreferrer"> <i><FaHome/></i></a>
              <a href=" https://scholar.google.com/citations?user=KQosI6YAAAAJ&hl=en"target="_blank"  rel="noreferrer"> <i><SiGooglescholar/></i></a>
