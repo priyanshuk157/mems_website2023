@@ -126,7 +126,7 @@ We encourage you to actively participate in the vibrant IIT Indore community. Sh
 <div className="otherinfo">
 
 
-<div className="list">
+<div className="studentcorner-list">
 <Accordion className='acad-content' defaultActiveKey={['-1']} >
       <Accordion.Item eventKey="0">
         <Accordion.Header> <div className="acad-head1">Student Exchange Program</div></Accordion.Header>
