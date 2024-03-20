@@ -13,9 +13,9 @@ const Events = () => {
         <span class='even'><h1>Events</h1></span>
 
 
-       
-        <div className='ind-section'>
-                <div className="sub-ind-sec1">
+
+        <div className='event-section'>
+                <div className="sub-eve-sec1">
                    
 
 
