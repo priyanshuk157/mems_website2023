@@ -610,7 +610,7 @@ background-color:white !important;
     .dropactive div a {
       display: flex;
       justify-content: center ;
-      color: #ffffff;
+      color: var(--red);
       font-size: 15px;
       width: 4rem;
       text-decoration: none;
