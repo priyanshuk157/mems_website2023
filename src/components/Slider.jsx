@@ -86,12 +86,7 @@ function CarouselFadeExample() {
         pagination={{
           clickable: true,
         }}
-        breakpoints={{
-          600: {
-              width:100,
-            slidesPerView:1,
-            spaceBetween:10
-          }}}
+       
         navigation={true}
         modules={[Autoplay, Pagination,Navigation]}
         className="mySwiper"nn

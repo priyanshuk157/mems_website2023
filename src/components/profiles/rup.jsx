@@ -90,10 +90,12 @@ const profile11 = () => {
         <div className="pc1">
           <span className="pc1-head">POSITIONS HELD</span>
           <ul>
+            <li>Professor, MEMS, IIT Indore, Oct. 2023 – Present</li>
+            <li>Adjunct Professor at Multidisciplinary Academic Research Center, National Dong Hwa University, Hualien, Taiwan (Since 1st Aug. 2023)</li>
           <li>
-            Associate Professor, MEMS, IIT Indore, Dec. 2018 – Present
+            Associate Professor, MEMS, IIT Indore, Dec. 2018 – Oct. 2023
             </li>
-            <li>Adjunct Faculty, MARC, NDHU, Taiwan, Mar. 2023 – Present</li>
+            
             <li>
             Adjunct Faculty, CEVITS, IIT Indore, Apr. 2021 – Present
             </li>
