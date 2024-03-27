@@ -70,26 +70,29 @@ function CarouselFadeExample() {
         
       </Swiper>*/}
       <Swiper
-        slidesPerView={2}
+        slidesPerView={1}
         
         spaceBetween={10}
         
-        // freeMode={true}
-        loop={true}
-        preventInteractionOnTransition={false}
-        autoplay={{
-          delay: 1,
-          disableOnInteraction: false,
-        }}
-        speed={10000}
-        freemodemomentum= "true"
-        pagination={{
-          clickable: true,
-        }}
-       
-        navigation={true}
-        modules={[Autoplay, Pagination,Navigation]}
-        className="mySwiper"nn
+        style={{
+          "--swiper-navigation-size": "50px",
+          "--swiper-navigation-top-offset": "50%",
+          "--swiper-navigation-sides-offset": "10px",
+          "--swiper-navigation-color": "#005a9c"
+        }}    
+            autoplay={{
+              delay: 3000,
+              disableOnInteraction: false,
+            }}
+              
+             
+              loop={true}
+              pagination={{
+                clickable: true,
+              }}
+              navigation={true}
+              modules={[Pagination, Navigation , Autoplay]}
+              className="mySwiper"
       >
 
         <SwiperSlide><div className="img-hgt"><img src={jai1} alt="" /></div></SwiperSlide>
