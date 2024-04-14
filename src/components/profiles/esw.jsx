@@ -41,7 +41,7 @@ const profile11 = () => {
             
             <ul>
               <li>Designation	: Associate Professor</li>
-              <li>Office		: Room No. 1D- 607 </li>
+              <li>Office		: Room No. 1D- 609 </li>
               <li>Email	 (<i><FaEnvelope/></i>)	: eswar@iiti.ac.in </li>
               <li>Contact  (<i><FaPhone/></i>)		:  +91-7312438700</li>
             <div className="fac-links">
