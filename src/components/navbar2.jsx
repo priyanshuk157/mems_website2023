@@ -202,7 +202,7 @@ const Navbar2 = () => {
                     {" "}
                     <NavLink to="faculty">
                       {" "}
-                      Faculty Members
+                      Faculty
                     </NavLink>{" "}
                   </div>
                   <div>

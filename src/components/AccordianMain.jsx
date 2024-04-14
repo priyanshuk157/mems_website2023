@@ -166,7 +166,7 @@ committee</span></Accordion.Header>
               <br />
               <li> 
               <b>Student representatives</b>   : 
-                <br/> Mr. Priyanshu, Ms. Aditi, Pratik Prajn
+                <br/> Mr. Priyanshu, Ms. Aditi, Pratik Prajn, Ansh Kyal
               </li>
             </ul>
           </div>
