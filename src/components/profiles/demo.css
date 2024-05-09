@@ -125,11 +125,24 @@
 .homepage_div{
     position: relative;
     display: flex;
-    font-size: 20px;
+    font-size: 30px;
     gap: 9px;
     text-shadow: 10px;
     top: 10px;
+    filter: grayscale(1);
+ 
    
+}
+
+.links{
+    position: relative;
+    display: flex;
+    align-items: center;
+    left: 80px;
+    gap: 10px;
+    margin: 25px;
+    scale: 2;
+    filter: grayscale(1);
 }
 
 @media (max-width:600px){

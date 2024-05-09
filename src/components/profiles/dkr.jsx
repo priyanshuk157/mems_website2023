@@ -44,30 +44,21 @@ const profile11 = () => {
               <span className="homepage" >Home Page</span>
             
               <a href="http://people.iiti.ac.in/~dkr/ " target="_blank" rel="noreferrer"> <i><FaHome/></i></a></div>
-              <div className="homepage_div" >
-              <span className="homepage" >Google Scholor</span>
+           
+             
+            <div className="links">
+            <a href="  https://scholar.google.com/citations?user=pFwwR8UAAAAJ  "target="_blank"  rel="noreferrer"> <i><SiGooglescholar/></i></a>
+          
             
-              <a href="  https://scholar.google.com/citations?user=pFwwR8UAAAAJ  "target="_blank"  rel="noreferrer"> <i><SiGooglescholar/></i></a></div>
-              <div className="homepage_div" >
-              <span className="homepage" >Research Gate</span>
-            
-              <a href="https://www.researchgate.net/profile/Dhirendra-Rai"target="_blank"  rel="noreferrer"><i><FaResearchgate/></i></a></div>
-              <div className="homepage_div" >
-              <span className="homepage" >Twitter</span>
-            
-              <a href="@Dhirend59162402"target="_blank"  rel="noreferrer"><i><FaTwitterSquare/></i></a></div>
+          <a href="https://www.researchgate.net/profile/Dhirendra-Rai"target="_blank"  rel="noreferrer"><i><FaResearchgate/></i></a>
+         
+       
+          <a href="@Dhirend59162402"target="_blank"  rel="noreferrer"><i><FaTwitterSquare/></i></a>
 
-            <div className="fac-links">
-             
-            
-             
-             
-             
-             {/* <a href="https://in.linkedin.com/in/dr-ajay-k-kushwaha-16b46a49?trk=public_post_feed-actor-name "target="_blank"  rel="noreferrer"> <i><FaLinkedin/></i></a> */}
-              
-              
-             
             </div>
+              
+
+            
               
             </ul>
             <div class="aca"><span className="pc1-head">ACADEMIC BACKGROUND</span></div></div>
