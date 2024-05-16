@@ -70,16 +70,16 @@ function CarouselFadeExample() {
         
       </Swiper>*/}
       <Swiper
-        slidesPerView={2}
+        slidesPerView={1}
         
-        spaceBetween={10}
+        spaceBetween={0}
         
         // freeMode={true}
         loop={true}
         preventInteractionOnTransition={false}
         autoplay={{
           delay: 1,
-          disableOnInteraction: false,
+          disableOnInteraction: true,
         }}
         speed={10000}
         freemodemomentum= "true"
@@ -88,18 +88,18 @@ function CarouselFadeExample() {
         }}
         breakpoints={{
           600: {
-              width:100,
+              width:800,
             slidesPerView:1,
             spaceBetween:10
           }}}
-        navigation={true}
+        navigation={false}
         modules={[Autoplay, Pagination,Navigation]}
-        className="mySwiper"nn
+        className="mySwiper"
       >
 
-        <SwiperSlide><div className="img-hgt"><img src={jai1} alt="" /></div></SwiperSlide>
+        {/* <SwiperSlide><div className="img-hgt"><img src={jai1} alt="" /></div></SwiperSlide> */}
         <SwiperSlide><div className="img-hgt"><img src={graphabstract2} alt="" /></div></SwiperSlide>
-        <SwiperSlide><div className="img-hgt"><img src={jai2} alt="" /></div></SwiperSlide>
+        {/* <SwiperSlide><div className="img-hgt"><img src={jai2} alt="" /></div></SwiperSlide> */}
         <SwiperSlide><div className="img-hgt"><img src={graphabstract} alt="" /></div></SwiperSlide>
         <SwiperSlide><div className="img-hgt"><img src={drkga} alt="" /></div></SwiperSlide>
 
