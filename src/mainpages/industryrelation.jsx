@@ -24,6 +24,7 @@ import jio from "./mainpageimages/BjxmtD.webp"
 // import walmart from "./mainpageimages/walmart.png"
 import gs from "./mainpageimages/Goldman_Sachs.png"
 import razorpay from "./mainpageimages/Razorpay.jpg"
+
 // import sample from "./mainpageimages/sample.mp4"
 import { SwiperSlide } from 'swiper/react';
 
@@ -178,6 +179,10 @@ const industryrelation = () => {
                           <img class="galogo" src={gs}  width="100" alt="" />
                           <img class="rplogo" src={razorpay}  width="250" alt="" />
                           <img class="jiologo" src={jio} width="100" alt="" />
+
+
+                          
+                          
      
 
 

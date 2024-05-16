@@ -81,7 +81,7 @@ const Facultydata = [
     },
     {
         id : 14,
-        image : "./images/profimages/ranjith.jpg"   ,
+        image : "./images/profimages/ranjit_sir.jpg"   ,
         name : " Ranjith Kumar Poobalan",
         link : "RanjithKumarPoobalan",
     },  

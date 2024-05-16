@@ -2,7 +2,7 @@ import React from "react";
 
 import "./demo.css";
 // import { FaAngleLeft } from "react-icons/fa";
-import { FaEnvelope,  FaLinkedin, FaPhone, FaResearchgate } from "react-icons/fa";
+import { FaEnvelope,  FaLinkedin, FaPhone, FaResearchgate ,FaHome} from "react-icons/fa";
 import Table from "react-bootstrap/Table";
 import {SiGooglescholar } from "react-icons/si";
 import prof1 from "./profimages/prof1.jpg"
@@ -39,18 +39,26 @@ const profile11 = () => {
               <li>Office		:Room No. 211 (G), CITC </li>
               <li>Email	 (<i><FaEnvelope/></i>)	: chalder@iiti.ac.in </li>
               <li>Contact  (<i><FaPhone/></i>)		:  (+91) 0731 660 3182 </li>
-            <div className="fac-links">
+           
             {/* <a href="https://iiti.ac.in/people/~ajaykk " target="_blank" rel="noreferrer"> <i><FaHome/></i></a> */}
+            <div className="homepage_div" >
+              <span className="homepage" >Home Page</span>
+            
+              <a href="http://people.iiti.ac.in/~dkr/ " target="_blank" rel="noreferrer"> <i><FaHome/></i></a>
+              </div>
+              <div className="links">
              <a href=" https://scholar.google.com/citations?user=Jc4fgVQAAAAJ&hl=en  "target="_blank"  rel="noreferrer"> <i><SiGooglescholar/></i></a>
              <a href="https://www.researchgate.net/profile/Chandan-Halder"target="_blank"  rel="noreferrer"><i><FaResearchgate/></i></a>
              
              <a href="www.linkedin.com/in/dr-chandan-halder-0408042b"target="_blank"  rel="noreferrer"> <i><FaLinkedin/></i></a>
              
+             </div>
+             
              
               
               
              
-            </div>
+          
               
             </ul>
             <div class="aca"><span className="pc1-head">ACADEMIC BACKGROUND</span></div></div>

@@ -15,6 +15,34 @@ import jio from "../mainpages/mainpageimages/BjxmtD.webp";
 // import walmart from "./mainpageimages/walmart.png"
 import gs from "../mainpages/mainpageimages/Goldman_Sachs.png";
 import razorpay from "../mainpages/mainpageimages/Razorpay.jpg";
+
+
+
+import axxela from "../mainpages/mainpageimages/axxela.png"
+import deo from "../mainpages/mainpageimages/deolitte.png"
+import dolat from "../mainpages/mainpageimages/dolot.jpeg"
+import faxoc from "../mainpages/mainpageimages/faxoc.png"
+import groww from "../mainpages/mainpageimages/groww.png"
+import media from "../mainpages/mainpageimages/media.jpeg"
+import sahaj from "../mainpages/mainpageimages/sahaj.png"
+import tre from "../mainpages/mainpageimages/tredence.png"
+import tre2 from "../mainpages/mainpageimages/tresca.jpeg"
+
+import deqode from "../mainpages/mainpageimages/deqode.png"
+import mecon from "../mainpages/mainpageimages/mecon.png"
+import adani from "../mainpages/mainpageimages/adani.png"
+import mittal from "../mainpages/mainpageimages/mittal.png"
+import regain from "../mainpages/mainpageimages/regain.png"
+import unity from "../mainpages/mainpageimages/unity.jpeg"
+import tata from "../mainpages/mainpageimages/tata.png"
+
+
+
+
+
+
+
+
 import groupphoto from "./images/group_photo1.jpg"
 import Stats from "./phd1";
 
@@ -139,8 +167,29 @@ const Industry2 = () => {
                       alt=""
                     />
                     <img className="galogo" src={gs} width="100" alt="" />
-                    <img className="rplogo" src={razorpay} width="250" alt="" />
+                    <img className="xxlogo" src={razorpay} width="250" alt="" />
                     <img className="jiologo" src={jio} width="100" alt="" />
+
+                    <img className="galogo" src={axxela} width="100" alt="" />
+                    <img className="rplogo" src={deo} width="250" alt="" />
+                    <img className="jiologo" src={dolat} width="100" alt="" />
+                    <img className="galogo" src={faxoc} width="100" alt="" />
+                    <img className="rplogo" src={groww} width="250" alt="" />
+                    <img className="jiologo" src={media} width="100" alt="" />
+                    <img className="galogo" src={sahaj} width="100" alt="" />
+                    <img className="rplogo" src={tre} width="250" alt="" />
+                    <img className="jiologo" src={tre2} width="100" alt="" />
+
+                    <img className="jiologo" src={unity} width="100" alt="" />
+                    <img className="galogo" src={tata} width="100" alt="" />
+                    <img className="rplogo" src={deqode} width="250" alt="" />
+                    <img className="jiologo" src={mecon} width="100" alt="" />
+                    <img className="galogo" src={adani} width="100" alt="" />
+                    <img className="rplogo" src={mittal} width="250" alt="" />
+                    <img className="jiologo" src={regain} width="100" alt="" />
+
+
+
                   </div>
     
    
