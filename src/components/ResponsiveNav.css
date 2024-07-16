@@ -1,0 +1,54 @@
+.main-nav-600{
+    height: 8rem;
+}
+
+.menu-600{
+    padding: 3rem;
+        background-color: rgba(0, 0, 0, 0.733);
+        width: 50%;
+        height: 100%;
+        position: fixed;
+        z-index: 4;
+        display: flex;
+        flex-direction: column;
+    align-items: center;
+        gap: 10vh;
+       
+}
+.submenu-600{
+    padding: 3rem;
+        background-color: rgba(0, 0, 0, 0.733);
+        width: 50%;
+        height: 30%;
+        position: fixed;
+        top: 20%;
+        left: 45%;  
+        z-index: 5;
+        display: flex;
+        flex-direction: column;
+    align-items: center;
+        gap: 5vh;
+       
+}
+.menu-600 div{
+    color: white;
+}
+
+.logo-600 a img{
+        width: 70%;
+        
+}
+.logo-600 {
+        position: relative;
+        display: flex;
+        justify-content: space-evenly;
+        
+}
+ 
+.nav-ham-600{
+    margin: auto;
+margin-right: 2rem;
+      width: 24px;
+
+      
+}

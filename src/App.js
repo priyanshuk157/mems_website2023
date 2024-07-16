@@ -104,13 +104,33 @@ import Footer from './components/footer';
 import Consultancy from './components/consultancy';
 import Career from './components/Career';
 import Hidenavbar from './components/Hidenavbar';
+import ResponsiveNav from './components/ResponsiveNav';
+import { useState } from 'react';
+import { useEffect } from 'react';
+
 
 // import homepageslider from './components/homepageslider';
 
 
 // import Home from './components/Home'
 const App = () => {
-  
+
+const [isMobile, setIsMobile] = useState(false)
+
+const handleResize = () => {
+  if(window.innerWidth < 600){
+    setIsMobile(true)
+  }else{
+    setIsMobile(false)
+  }
+}
+useEffect(() => {
+  window.addEventListener('resize', handleResize)
+
+  return () => {
+    window.removeEventListener('resize', handleResize)
+  }
+}, [])
 
   return (
     <>
@@ -125,7 +145,8 @@ const App = () => {
       </div>
       <div> <Cards/></div> */}
      <Hidenavbar>
-     <Navbar2/>
+      {isMobile ? <ResponsiveNav/> :  <Navbar2/>   }
+     
      </Hidenavbar>
       
       </div>
