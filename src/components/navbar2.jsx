@@ -212,6 +212,13 @@ const Navbar2 = () => {
                       PostDoc.
                     </NavLink>{" "}
                   </div>
+                  <div>
+                    {" "}
+                    <NavLink to="ResearchStaff" >
+                      {" "}
+                      Visiting Scientist/Fellow
+                    </NavLink>{" "}
+                  </div>
                   <div className="staff-hover">
                     {" "}
                     <NavLink  >
@@ -226,14 +233,7 @@ const Navbar2 = () => {
                           Departmental Staff
                         </NavLink>{" "}
                       </div>
-                      <div>
-                        <NavLink
-                          to="ResearchStaff"
-                          
-                        >
-                          Research Staff
-                        </NavLink>{" "}
-                      </div>
+                      
                     </div>
                   </div>
                   <div className="staff-hover">

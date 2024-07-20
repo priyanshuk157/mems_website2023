@@ -15,7 +15,7 @@ const ResearchStaff = () => {
   return (
    <>
  
-                <div className="faculty-head-2">Research Staffs in MEMS</div>
+                <div className="faculty-head-2">Visiting Scientist/fellow</div>
 <div className="faculty-main">
  
         <div className="faculty-width">
@@ -31,7 +31,7 @@ const ResearchStaff = () => {
                 <div className="name">  Dr. Ahoutou Paul KOUAKOU    </div>
                 <div className="post">Email	 (<i><FaEnvelope/></i>)	:-</div>
                 
-                <div className="post">Designation: Assistant Professor </div>
+                <div className="post">Designation: Visiting Professor </div>
                 
                
               </div>
