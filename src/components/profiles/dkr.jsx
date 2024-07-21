@@ -97,7 +97,9 @@ const profile11 = () => {
           <span className="pc1-head">POSITIONS HELD</span>
           <ul>
           <li>
-            Assistant Professor, Department of Metallurgical Engineering and Materials Science, IIT Indore, September 29, 2017 – present             </li>
+          Associate Professor, Department of Metallurgical Engineering and Materials Science, IIT Indore, 2024 – present             </li>
+          <li>
+            Assistant Professor, Department of Metallurgical Engineering and Materials Science, IIT Indore, September 29, 2017 – 2024             </li>
             <li>DST Young Scientist, Department of Chemistry, IIT Indore, September 23, 2015 – September 28, 2017</li>
         
             
