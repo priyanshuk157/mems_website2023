@@ -10,12 +10,12 @@ import { FaEnvelope } from 'react-icons/fa';
 // import samina from "./staffimages/sameena_rapphik.jpg"
 // import ankush from "./staffimages/ankush_marodkar.png"
 import drdre from "./staffimages/drpaul.jpg"
-
+import Underconstruction from './underconstruction'
 const ResearchStaff = () => {
   return (
    <>
- 
-                <div className="faculty-head-2">Visiting Scientist/fellow</div>
+  <div><Underconstruction/></div>
+                {/* <div className="faculty-head-2">Visiting Scientist/fellow</div>
 <div className="faculty-main">
  
         <div className="faculty-width">
@@ -40,7 +40,7 @@ const ResearchStaff = () => {
           
       
         </div>
-      </div>
+      </div> */}
       
    </>
   )
