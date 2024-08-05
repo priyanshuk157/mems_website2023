@@ -33,20 +33,20 @@ committee</span></Accordion.Header>
           <div className="resource-block">
             <div className="head9">DPGC </div>
             <ul>
-              <li>Dr. Sumanta Samal (Convener)</li>
-              <li>Dr. Dhirendra Kumar Rai</li>
-              <li>Dr. Nishith Kumar Prasad</li>
-              <li>Dr. Dudekula Althaf Basha (HOD)</li>
+              <li>Prof. Dhirendra Kumar Rai (Convener)</li>
+              <li>Prof. Nishith Kumar Prasad</li>
+              <li>Prof. Vivek Verma (HOD) (ex-officio) </li>
+              <li>Prof. Dudekula Althaf Basha</li>
             </ul>
           </div>
           <div className="resource-block">
             {" "}
             <div className="head9">DUGC</div>
             <ul>
-              <li>Dr. Hemant Borkar (Convener)</li>
-              <li>Dr. M. Dubey</li>
-              <li>Dr. Jayaprakash Murugesan</li>
-              <li>Dr. Sunil Kumar (HOD)</li>
+              <li>Prof. Hemant Borkar (Convener)</li>
+              <li>Prof. Ranjith K. Poobalan</li>
+              <li>Prof. Ram Sajeevan Maurya</li>
+              <li>Prof. Sunil Kumar (HOD)(Ex- Officio)</li>
             </ul>
           </div>
           
@@ -54,115 +54,123 @@ committee</span></Accordion.Header>
             {" "}
             <div className="head9">Library Committee </div>
             <ul>
-              <li>Dr. Sunil Kumar (Convener)</li>
-              <li>Dr. Abhijit Ghosh</li>
-              <li>Dr. Sumanta Samal</li>
+              <li>Prof. Sumanta Samal (Convener)</li>
+              <li>Prof. Abhijit Ghosh</li>
+              <li>Prof. Khushubo Devi </li>
+              <li>Prof. Rupesh S. Devan </li>
             </ul>
           </div>
           <div className="resource-block">
             {" "}
             <div className="head9">Outreach Activities</div>
             <ul>
-              <li>Dr. Ram Sajeevan Maurya (Convener)</li>
-              <li>Dr. Dudekula Althaf Basha</li>
-              <li>Dr. Nishith Kumar Prasad HOD</li>
+              <li>Prof. Nishith Kumar Prasad (Convener)</li>
+              <li>Prof. Ranjith K. Poobalan</li>
+              <li>Prof. K.V. Vamsi</li>
+              <li>Prof. Khushubo Devi</li>
             </ul>
           </div>
           <div className="resource-block">
             {" "}
             <div className="head9">Placement & Industry Relations </div>
             <ul>
-              <li>Dr. Nishith Kumar Prasad (Convener) </li>
-              <li>Dr. Chandan Haldar</li>
-              <li>Dr. Hemant Borkar</li>
+              <li>Prof. Vinod Kumar (Convener) </li>
+              <li>Prof. Chandan Haldar</li>
+              <li>Prof. Vivek Verma</li>
+              <li>Prof. Eswar K. Prasad</li>
             </ul>
           </div>
           <div className="resource-block">
             {" "}
             <div className="head9">Annual Report and RTI </div>
             <ul>
-              <li>Dr. Chandan Haldar (Convener)</li>
-              <li>Dr. Vinod Kumar</li>
-              <li>Dr. Ram Sajeevan Maurya</li>
+              <li>Prof. Chandan Haldar (Convener)</li>
+              <li>Prof. Vinod Kumar</li>
+              <li>Prof. Sumanta Samal</li>
+              <li>Prof. Ranjith K. Poobalan</li>
             </ul>
           </div>
           
           <div className="resource-block">
             <div className="head9">DFM Secretary </div>
             <ul>
-              <li>Dr. Dhirendra Kumar Rai </li>
+              <li>Prof. Vivek Verma </li>
             </ul>
           </div>
           <div className="resource-block">
-            <div className="head9">MEMS,IITI-Alumni Cell </div>
+            <div className="head9">Alumni Relation </div>
             <ul>
-              <li>Dr. Khushboo Devi
-                <br />(Convener) </li>
-              <li>Dr. Eswara Prasad Korimilli </li>
+              <li>Prof. Parasharam M Shirage (Convener)</li>
+              <li>Prof. Vinod Kumar</li>
+              <li>Prof. Sunil Kumar</li>
+              <li>Prof. Khushubo Devi</li>
             </ul>
           </div>
           <div className="resource-block">
             {" "}
             <div className="head9">Departmental Common Facilities/Labs </div>
             <ul>
-              <li>HOD (ex officio) (Convener) Dr. Hemant Borkar</li>
-              <li>Dr. Ram Sajeevan Maurya</li>
-              <li>Dr. Dhirendra Kumar Rai</li>
+              <li>HOD (ex officio) (Convener) Prof. Sumanta Samal</li>
+              <li>Prof. Hemant Borkar</li>
+              <li>Prof. Dhirendra Kumar Rai</li>
+              <li>Prof. Vivek Verma</li>
+              <li>Prof. Ranjith K. Poobalan</li>
             </ul>
           </div>
           <div className="resource-block">
             {" "}
             <div className="head9">SEM</div>
             <ul>
-              <li>Dr. Ajay Kumar Kushwaha (Convener)</li>
+              <li>Prof. Ajay Kumar Kushwaha (Professor-Incharge)</li>
               <li>Prof. P. M. Shirage</li>
-              <li>Dr. Dhirendra Rai</li>
+              <li>Prof. Dhirendra K. Rai</li>
             </ul>
           </div>
           <div className="resource-block">
             {" "}
             <div className="head9">XRD</div>
             <ul>
-              <li>Dr. Rupesh Devan (Convener)</li>
-              <li>Dr. Abhijit Ghosh</li>
-              <li>Dr. Sunil Kumar</li>
+              <li>Prof. Rupesh S. Devan (Professor-Incharge)</li>
+              <li>Prof. Abhijit Ghosh</li>
+              <li>Prof. Sunil Kumar</li>
             </ul>
           </div>
           <div className="resource-block">
             <div className="head9">Computational</div>
             <ul>
-              <li>Dr. Chandan Haldar (Convener)</li>
-              <li>Dr. Sumanta Samal</li>
-              <li>Dr. K. V. Vamsi</li>
+              <li>Prof. Chandan Haldar (Professor-Incharge)</li>
+              <li>Prof. Sumanta Samal</li>
+              <li>Prof. V.K. Vamsi</li>
             </ul>
           </div>
           <div className="resource-block">
             {" "}
             <div className="head9">UTM</div>
             <ul>
-              <li>Dr. Eswar Prasad (Convener)</li>
-              <li>Dr. Jayaprakash</li>
-              <li>Dr. Abhijeet Gosh</li>
-              <li>Dr. Santosh Hosmani</li>
+              <li>Prof. Eswar Prasad (Professor-Incharge)</li>
+              <li>Prof. Jayaprakash</li>
+              <li>Prof. Abhijeet Gosh</li>
+              <li>Prof. Santosh Hosmani</li>
             </ul>
           </div>
           <div className="resource-block">
             {" "}
             <div className="head9">SPS</div>
             <ul>
-              <li>Dr. Vinod Kumar (Convener)</li>
-              <li>Dr. Ram Sajeevan Maurya</li>
-              <li>Dr. Sumanta Samal</li>
-              <li>Prof. P. M. Shirage</li>
+              <li>Prof. Vinod Kumar (Professor-Incharge)</li>
+              <li>Prof. Ram Sajeevan Maurya</li>
+              <li>Prof. Sumanta Samal</li>
+              <li>Prof. Sunil Kumar</li>
             </ul>
           </div>
           <div className="resource-block">
             {" "}
             <div className="head9">Website </div>
             <ul>
-              <li>Dr. K. V. Vamsi (Convener)</li>
-              <li>Dr. Chandan Haldar</li>
-              <li>Dr. Nishith Kumar Prasad</li>
+              <li>Prof. Venkata Vamsi (Convener)</li>
+              <li>Prof. Chandan Haldar</li>
+              <li>Prof. Nishith Kumar Prasad</li>
+              <li>Prof. Abhijit Ghosh</li>
               <br />
               <li> 
               <b>Student representatives</b>   : 
@@ -173,12 +181,20 @@ committee</span></Accordion.Header>
           <div className="resource-block">
             <div className="head9">Safety</div>
             <ul>
-              <li>Dr. M. Dubey (Convener)</li>
-              <li>Dr. Vinod Kumar</li>
+              <li>Prof. M. Dubey (Convener)</li>
+              <li>Prof. Vinod Kumar</li>
               <li>Prof. Parasharam M Shirage</li>
+              <li>Prof. Jayaprakash Murugesan</li>
             </ul>
           </div>
-
+          <div className="resource-block">
+            <div className="head9">Department Finance Advisory Committee</div>
+            <ul>
+              <li>HOD (ex officio) (Convener) Prof. Jayaprakash Murugesan</li>
+              <li>Prof. D.A. Basha</li>
+              <li>Prof. Eshwar K. Prasad</li>
+            </ul>
+          </div>
 
 
 
