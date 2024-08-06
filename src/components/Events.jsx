@@ -34,10 +34,61 @@ const Events = () => {
             </thead>
             <tbody>
             <tr>
-                <td>24/11/2023</td>
+                <td>16/07/2024</td>
                 <td></td>
                 <td></td>
               
+                <td>A textbook titled "Material Science and Engineering" written by Dr. Vinod Kumar and Dr. Nisheeth K. Prasad (MEMS Department, IIT Indore) has been published online by AICTE.
+                  The book is as per AICTE model syllabus and designed for 2nd year Diploma Students of Mechanical Engineering.
+                  <a href="https://lnkd.in/dTcri2rm">details</a></td>
+              </tr>
+              <tr>
+                <td>24/05/2024</td>
+                <td></td>
+                <td></td>
+              
+                <td>Research group of Prof. Rupesh S. Devan (Professor, Department of Metallurgical Engineering and Materials Science, IIT Indore) granted a patent for an invention entitled " A molten salt solid-state reaction- based process to obtain a high purity Ti3AlC2 Max Phase"</td>
+              </tr>
+                <td>11/07/2024</td>
+                <td></td>
+                <td></td>
+              
+                <td>Department of Metallurgical Engineering and Materials Science, IIT Indore is organized an International Conference on "Energy and Environmental Materials (E2M)"</td>
+                <a href="https://e2m.iiti.ac.in/">details</a>
+              <tr>
+                <td>02/02/2024</td>
+                <td></td>
+                <td></td>
+              
+                <td>One article from the Research group of Dr. Dhirendra Kumar Rai Titled: "Two-dimensional Ti3C2Tx MXene nanosheets for CO2 electroreduction in aqueous electrolytes" published last year has been chosen as outstanding articles in Energy Advances authored by researchers in India.</td>
+                <a href="https://pubs.rsc.org/en/content/articlelanding/2023/ya/d3ya00117b">details</a>
+              </tr>
+              <tr>
+                <td>23/01/2024</td>
+                <td></td>
+                <td></td>
+              
+                <td>Dr. Pankaj Mohanty (Lecturer in the Department of Physics, University of Johannesburg) delivered an expert lecture titled " Structural and Magnetic Properties of Cr-based Rare-earth Oxides in the Department of Metallurgical Engineering and Materials Science (MEMS).</td>
+                </tr>
+                <tr>
+                <td>15/01/2024</td>
+                <td></td>
+                <td></td>
+              
+                <td>Materials Advantage Student Chapter of Department of Metallurgical Engineering and Materials Science, IIT Indore hosted one-day workshop-cum-training program (hybrid mode) on "Thermodynamic Insights for Materials Design A CALPHAD Perspective".
+                The workshop featured expert talks and basic training on CALPHAD.</td>
+              </tr>
+              <tr>
+                <td>04/01/2024</td>
+                <td></td>
+                <td></td>
+              
+                <td>Mr. Santosh Bimli, Research scholar, MEMS Department IIT Indore has received Best Oral Presentation Award under the guidance of Prof. Rupesh S. Devan at Global Conference for decarbonisation of Energy and Materials (GC-DEM) held at NTU Singapore.</td>
+              </tr>
+                <td>24/11/2023</td>
+                <td></td>
+                <td></td>
+              <tr>
                 <td>Materials Advantage Student Chapter of MEMS
 Department IIT Indore organized an International
 Symposium on "Physical Metallurgy of High-Entropy
