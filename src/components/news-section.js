@@ -17,6 +17,7 @@ import aj from "./images/ajay.jpg"
 import hema from "./images/heman.jpg"
 import book from "./images/book.png"
 import ne from "./images/ne.png"
+import pkc from "./images/pkc.png"
 import "./news.css";
 const Newssection = () => {
   return (
@@ -83,7 +84,9 @@ The book is as per AICTE model syllabus and designed for 2nd year Diploma Studen
 It can be downloaded from AICTE website link: https://lnkd.in/dTcri2rm
 Congratulations to Dr. Vinod Kumar and Dr. Nisheeth K. Prasad for the achievement!
 </div></SwiperSlide>
-
+<SwiperSlide><div className='swiper-cont'> <img src={pkc} alt='oky' /> Prof. Kamanio Chattopadhyay (Professor, IISc Bangalore) visited us on June 5, 2024. During his visit he interacted with Faculties and Research Scholars of the Department. He also visited Labs of the Department.
+Thanks Prof. Kamanio Chattopadhyay for visiting us!
+</div></SwiperSlide>
        
 
 
