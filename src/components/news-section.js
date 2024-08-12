@@ -15,6 +15,7 @@ import nk from "./images/nk.jpg"
 import af from "./images/af.jpg"
 import aj from "./images/ajay.jpg"
 import hema from "./images/heman.jpg"
+import ne from "./images/ne.png"
 import "./news.css";
 const Newssection = () => {
   return (
@@ -72,6 +73,10 @@ Khan, Dr. Amit and Dr. Himanshu during his visit.</div> </SwiperSlide>
         <SwiperSlide><div className='swiper-cont'> <img src={subhash} alt='oky' /> Mr. Subhash Chand Yadav, Research Scholar in the Department of Metallurgical Engineerihng and Materials Science has successfully defended his Thesis</div></SwiperSlide>
         <SwiperSlide><div className='swiper-cont'>  <img src={isro} alt='oky' /> MEMS Department, IIT Indore Welcomed Prof. Bhanu Pant, Former Outstanding Scientist and Group Director Materials and Metallurgy Group at Vikram Sarabhai Space Centre, ISRO and Professor College of Engineering, Pune.</div> </SwiperSlide>
         <SwiperSlide><div className='swiper-cont'> <img src={convo} alt='oky' /> IIT Indore conducted its 11th Convocation on July 15, 2023 in which Prof. Dr. Volker Epping, President, Leibniz University Hannover Germany graced the occasion as Chief Guest and Shri S. 'Kris' Gopalakrishnan, Chairman Axilor Ventures, Co-founder Infosys and President ISF graced the occasion as Guest of Honor.
+</div></SwiperSlide>
+
+<SwiperSlide><div className='swiper-cont'> <img src={ne} alt='oky' /> A Departmental Orientation Program was organized for new PG and Ph.D students on July 24, 2024. Students got a brief idea about the Department and course curriculum. They also got briefed about Laboratory Safety. New students got an opportunity to interact with Faculties, Staff and their seniors and resolve their queries.
+MEMS Department welcomes all new PG and Ph.D students and wishes them the best for their Research and Future endeavors.
 </div></SwiperSlide>
 
        
