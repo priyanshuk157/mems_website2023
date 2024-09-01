@@ -36,7 +36,7 @@ const profile11 = () => {
             
             <ul>
               <li>Designation	: Assistant Professor</li>
-              <li>Office		: #211(b), Hub Building </li>
+              <li>Office		: Room No. FC 502, Learning Resource Center </li>
               <li>Email	 (<i><FaEnvelope/></i>)	:  kvvamsi@iiti.ac.in </li>
               <li>Contact  (<i><FaPhone/></i>)		: +91-7316603333</li>
             <div className="fac-links">

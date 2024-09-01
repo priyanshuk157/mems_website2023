@@ -43,6 +43,14 @@ const Newssection = () => {
         modules={[Pagination, Navigation , Autoplay]}
         className="mySwiper"
       >
+        <SwiperSlide><div className='swiper-cont'> <img src={book} alt='oky' /> A textbook titled "Material Science and Engineering" written by Dr. Vinod Kumar and Dr. Nisheeth K. Prasad (MEMS Department, IIT Indore) has been online published by AICTE on July 16, 2024.
+The book is as per AICTE model syllabus and designed for 2nd year Diploma Students of Mechanical Engineering.
+It can be downloaded from AICTE website link: https://lnkd.in/dTcri2rm
+Congratulations to Dr. Vinod Kumar and Dr. Nisheeth K. Prasad for the achievement!
+</div></SwiperSlide>
+<SwiperSlide><div className='swiper-cont'> <img src={pkc} alt='oky' /> Prof. Kamanio Chattopadhyay (Professor, IISc Bangalore) visited us on June 5, 2024. During his visit he interacted with Faculties and Research Scholars of the Department. He also visited Labs of the Department.
+Thanks Prof. Kamanio Chattopadhyay for visiting us!
+</div></SwiperSlide>
         <SwiperSlide><div className='swiper-cont'>  <img src={k} alt='oky' /> Department of MEMS delighted to welcome new faculty Dr. Khushubo Devi. A warm welcome and lots of good wishes on becoming part of our Department!!.
 
 She pursued her PhD from IIT Kanpur and later worked as a Post-Doc at Max-Planck-Institut für Eisenforschung GmbH, Germany</div> </SwiperSlide>
@@ -79,14 +87,7 @@ Khan, Dr. Amit and Dr. Himanshu during his visit.</div> </SwiperSlide>
 <SwiperSlide><div className='swiper-cont'> <img src={ne} alt='oky' /> A Departmental Orientation Program was organized for new PG and Ph.D students on July 24, 2024. Students got a brief idea about the Department and course curriculum. They also got briefed about Laboratory Safety. New students got an opportunity to interact with Faculties, Staff and their seniors and resolve their queries.
 MEMS Department welcomes all new PG and Ph.D students and wishes them the best for their Research and Future endeavors.
 </div></SwiperSlide>
-<SwiperSlide><div className='swiper-cont'> <img src={book} alt='oky' /> A textbook titled "Material Science and Engineering" written by Dr. Vinod Kumar and Dr. Nisheeth K. Prasad (MEMS Department, IIT Indore) has been online published by AICTE on July 16, 2024.
-The book is as per AICTE model syllabus and designed for 2nd year Diploma Students of Mechanical Engineering.
-It can be downloaded from AICTE website link: https://lnkd.in/dTcri2rm
-Congratulations to Dr. Vinod Kumar and Dr. Nisheeth K. Prasad for the achievement!
-</div></SwiperSlide>
-<SwiperSlide><div className='swiper-cont'> <img src={pkc} alt='oky' /> Prof. Kamanio Chattopadhyay (Professor, IISc Bangalore) visited us on June 5, 2024. During his visit he interacted with Faculties and Research Scholars of the Department. He also visited Labs of the Department.
-Thanks Prof. Kamanio Chattopadhyay for visiting us!
-</div></SwiperSlide>
+
        
 
 
