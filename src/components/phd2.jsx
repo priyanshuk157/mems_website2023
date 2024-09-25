@@ -306,7 +306,7 @@ const Phd = () => {
                 <div className="post"> Email	 (<i><FaEnvelope/></i>)	:phd2001105003@iiti.ac.in</div>
                 <div className="post"> Year Of Joining : 2020  </div>
                 <div className="post"> Research Area		:Energy storage</div>
-                <div className="post"> Faculty Advisor 		: Dr. Dhirendra Kumar Rai,Dr. Mrigendra Dubey</div>
+                <div className="post"> Faculty Advisor 		: Dr. Dhirendra Kumar Rai</div>
                
               </div>
             </div>
