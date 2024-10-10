@@ -5,7 +5,8 @@ import {
   useLocation,
 } from "react-router-dom";
 import WwwiitbacinByHtmltodesi from "./pages/WwwiitbacinByHtmltodesi";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+import NewsNavbar from './components/NewsNavbar';
 
 function App() {
   const action = useNavigationType();
@@ -43,10 +44,26 @@ function App() {
     }
   }, [pathname]);
 
+  // Flash News State
+  const [news, setNews] = useState("Breaking News: Welcome to our website!");
+
   return (
-    <Routes>
-      <Route path="/" element={<WwwiitbacinByHtmltodesi />} />
-    </Routes>
+    <div className="App">
+      {/* Flash News Navbar */}
+      <NewsNavbar news={news} />
+
+      {/* Main Routes */}
+      <Routes>
+        <Route path="/" element={<WwwiitbacinByHtmltodesi />} />
+      </Routes>
+
+      {/* Other content below */}
+      <div>
+        <h1>Your Main Content Goes Here</h1>
+        {/* Rest of your app components */}
+      </div>
+    </div>
   );
 }
+
 export default App;

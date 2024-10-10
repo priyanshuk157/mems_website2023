@@ -1,0 +1,38 @@
+.news-navbar {
+  background-color: #ffcc00; /* Background color for the news bar */
+  color: black; /* Text color */
+  padding: 10px; /* Padding around the text */
+  font-weight: bold; /* Bold text */
+  text-align: center; /* Center the text */
+  overflow: hidden; /* Prevents content overflow */
+  position: relative; /* Positioning context */
+  width: 100%; /* Full width */
+}
+
+.news-scroll {
+  display: inline-block; /* Ensure it behaves like an inline element */
+  white-space: nowrap; /* Prevent line breaks */
+  animation: scroll 10s linear infinite; /* Animation for scrolling */
+}
+
+/* Keyframes for scrolling animation */
+@keyframes scroll {
+  0% {
+    transform: translateX(100%); /* Start from the right */
+  }
+  100% {
+    transform: translateX(-100%); /* End at the left */
+  }
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+  .news-navbar {
+    font-size: 14px; /* Smaller font size for mobile */
+    padding: 5px; /* Reduced padding for mobile */
+  }
+
+  .news-scroll {
+    animation-duration: 8s; /* Faster animation on mobile */
+  }
+}
