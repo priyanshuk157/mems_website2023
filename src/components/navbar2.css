@@ -73,6 +73,15 @@ margin-right: 10px;
   z-index: 2;
   
 }
+.nav-student-button2{
+  position: relative;
+margin-right: 10px;
+  padding-right: 10px;
+  float: right;
+  /* right: 20%; */
+  z-index: 2;
+  
+}
 .shape1{
   position: relative;
   height: 50px;
@@ -98,6 +107,7 @@ margin-right: 10px;
 .navbar-logos1{
   
   padding-right: 20px;
+  padding-bottom: 15px;
   display:flex ;
   flex-direction: row;
 float: right;

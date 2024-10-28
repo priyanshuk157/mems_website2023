@@ -3,6 +3,7 @@ import "./navbar2.css";
 import { FaBars } from "react-icons/fa";
 import { useRef } from "react";
 import logo from "./images/mems-logo.png";
+import pdfs from "./images/Phdpp.pdf";
 import { NavLink,  useLocation } from "react-router-dom";
 
 import { FaFacebook, FaInstagram, FaResearchgate } from "react-icons/fa";
@@ -40,9 +41,11 @@ const Navbar2 = () => {
     <>
       <nav className="navbar1">
         {/* <div className= {navScroll? "navbar" : "scroll-active"}> */}
-
+        
         <div className="nav-logos">
+          
           <div className="shape1">
+          
             <div className="nav-student-button">
               <NavLink to="Studentcorner">
                 <button className="navbar-button">Student Corner</button>
@@ -107,8 +110,13 @@ const Navbar2 = () => {
                   </i>{" "}
                 </a>
               </div>
+            </div><div className="nav-student-button2">
+              <a a href={pdfs} id="pdfLink" target="_blank">
+                <button className="navbar-button">Prospective students</button>
+              </a>
             </div>
           </div>
+          
           {/* <div className="shape2">  </div> */}
         </div>
 

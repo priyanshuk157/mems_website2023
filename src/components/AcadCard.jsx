@@ -3,6 +3,7 @@ import './academic.css'
 import Accordion from 'react-bootstrap/Accordion';
 import grpphto from "./images/group_photo20232.jpg"
 import stat from "./images/stat4.png"
+
 const AcadCard = () => {
 
   return (
