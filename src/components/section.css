@@ -191,6 +191,7 @@ margin: 2rem;
   font-size: 24px;
   color: var(--red);
   position: relative;
+  
   display: flex;
   justify-content: left;
   font-weight: bold;
@@ -271,6 +272,10 @@ margin: 2rem;
     font-size: 20px;
     font-weight: 800;
     z-index: 2;
+}
+.heading{
+  padding: 30px;
+
 }
 .sec-conthead{
   display: flex;

@@ -321,6 +321,17 @@ const Navbar2 = () => {
               <li>
                 {" "}
                 <NavLink
+                  to="hoddesk "
+                  className={pathname=== "/career" ? "acthover" : "nonacthover"}
+                  
+                >
+                  {" "}
+                  HOD Desk {" "}
+                </NavLink>{" "}
+              </li>
+              <li>
+                {" "}
+                <NavLink
                   to="research "
                   className={(pathname=== "/research" ) 
                   || (pathname=== "/research/researchcomponent1" )
