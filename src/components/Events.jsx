@@ -1,5 +1,5 @@
 import React from 'react'
-
+import logo from "./images/IIT INDORE (1).jpg";
 import "./staff.css"
 import "./Events.css";
 import Table from "react-bootstrap/Table";
@@ -33,6 +33,20 @@ const Events = () => {
               </tr>
             </thead>
             <tbody>
+
+
+            <tr>
+                <td>7/11/2024</td>
+                <td></td>
+                <td></td>
+              
+                <td>Dept of Metallurgical Engineering and Materials Science, (IIT Indore) is organizing a 5-Day Workshop on "Advanced Materials Processing and Characterization" during 19-23 December, 2024 in IIT Indore Campus. 
+                <a a href={logo} id="pdfLink" target="_blank">
+                details
+              </a></td>
+              </tr>
+
+
             <tr>
                 <td>16/07/2024</td>
                 <td></td>

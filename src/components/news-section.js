@@ -9,7 +9,7 @@ import subhash from "./images/subhash.jpg"
 import isro from "./images/isro.jpg"
 import k from "./images/kusenter.jpg"
 import r from "./images/ranenter.jpg"
-
+import vksir from "./images/vksiri.jpg"
 import ira from "./images/irina.jpg"
 import nk from "./images/nk.jpg"
 import af from "./images/af.jpg"
@@ -43,6 +43,11 @@ const Newssection = () => {
         modules={[Pagination, Navigation , Autoplay]}
         className="mySwiper"
       >
+
+<SwiperSlide><div className='swiper-cont'> <img src={vksir} alt='oky' /> Dr. K V Vamsi, Assistant Professor at Department of Metallurgical Engineering and Materials Science, IIT Indore delivered an invited talk on "Design of L12 Precipitate Strengthened Alloys" at MGIT, Hyderabad. 
+</div></SwiperSlide>
+
+
         <SwiperSlide><div className='swiper-cont'> <img src={book} alt='oky' /> A textbook titled "Material Science and Engineering" written by Dr. Vinod Kumar and Dr. Nisheeth K. Prasad (MEMS Department, IIT Indore) has been online published by AICTE on July 16, 2024.
 The book is as per AICTE model syllabus and designed for 2nd year Diploma Students of Mechanical Engineering.
 It can be downloaded from AICTE website link: https://lnkd.in/dTcri2rm
