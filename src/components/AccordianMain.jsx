@@ -43,10 +43,10 @@ committee</span></Accordion.Header>
             {" "}
             <div className="head9">DUGC</div>
             <ul>
-              <li>Prof. Hemant Borkar (Convener)</li>
+              <li>Prof. Ramsajeevan Maurya (Convener)</li>
+              <li>Prof. Hemant Borkar</li>
+              <li>Prof. Sunil Kumar</li>
               <li>Prof. Ranjith K. Poobalan</li>
-              <li>Prof. Ram Sajeevan Maurya</li>
-              <li>Prof. Sunil Kumar (HOD)(Ex- Officio)</li>
             </ul>
           </div>
           
