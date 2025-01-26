@@ -1,7 +1,7 @@
 import "./Slider.css"
 
-import jai1 from "./images/statimg.jpg"
-import jai2 from "./images/statimg2.jpg"
+import jai2 from "./images/gd.png"
+
 import graphabstract from "./images/Graphical_Abstract_Vamsi_group.jpg"
 import graphabstract2 from "./images/MEMS Website - SK group Graphical Abstract.jpg"
 import drkga from "./images/DK Rai PPT Department webpage.jpg"
@@ -94,7 +94,7 @@ function CarouselFadeExample() {
               modules={[Pagination, Navigation , Autoplay]}
               className="mySwiper"
       >
-
+        <SwiperSlide><div className="img-hgt"><img src={jai2} alt="" /></div></SwiperSlide>
         {/* <SwiperSlide><div className="img-hgt"><img src={jai1} alt="" /></div></SwiperSlide> */}
         <SwiperSlide><div className="img-hgt"><img src={graphabstract2} alt="" /></div></SwiperSlide>
         {/* <SwiperSlide><div className="img-hgt"><img src={jai2} alt="" /></div></SwiperSlide> */}

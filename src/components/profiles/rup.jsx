@@ -37,7 +37,7 @@ const profile11 = () => {
             <ul>
               <li>Designation	: Professor</li>
               <li>Office		: Room No. 1D-414 </li>
-              <li>Email	 (<i><FaEnvelope/></i>)	: rupes@iiti.ac.in</li>
+              <li>Email	 (<i><FaEnvelope/></i>)	: rupesh@iiti.ac.in</li>
               <li>Contact  (<i><FaPhone/></i>)		:  +91-7316603244 </li>
             <div className="fac-links">
              

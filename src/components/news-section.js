@@ -5,6 +5,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 import convo from "./images/convocation.jpg"
+import ayas from "./images/gd.png"
 import subhash from "./images/subhash.jpg"
 import isro from "./images/isro.jpg"
 import k from "./images/kusenter.jpg"
@@ -30,7 +31,7 @@ const Newssection = () => {
     "--swiper-navigation-color": "black"
   }}    
       autoplay={{
-        delay: 6000,
+        delay: 600000,
         disableOnInteraction: false,
       }}
         slidesPerView={1}
@@ -43,6 +44,11 @@ const Newssection = () => {
         modules={[Pagination, Navigation , Autoplay]}
         className="mySwiper"
       >
+
+<SwiperSlide><div className='swiper-cont'> <img src={ayas} alt='oky' /> The Department of Metallurgical Engineering and Materials Science (MEMS) at IIT Indore is excited to celebrate its first Department Day on 1st February 2025. Organized by the students and faculty, the event will feature engaging activities, expert talks, and cultural programs, showcasing the spirit and achievements of MEMS. Join us as we celebrate innovation and excellence!
+</div></SwiperSlide>
+
+
 
 <SwiperSlide><div className='swiper-cont'> <img src={vksir} alt='oky' /> Dr. K V Vamsi, Assistant Professor at Department of Metallurgical Engineering and Materials Science, IIT Indore delivered an invited talk on "Design of L12 Precipitate Strengthened Alloys" at MGIT, Hyderabad. 
 </div></SwiperSlide>

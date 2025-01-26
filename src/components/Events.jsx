@@ -1,5 +1,7 @@
 import React from 'react'
 import logo from "./images/IIT INDORE (1).jpg";
+
+
 import "./staff.css"
 import "./Events.css";
 import Table from "react-bootstrap/Table";
@@ -33,7 +35,22 @@ const Events = () => {
               </tr>
             </thead>
             <tbody>
+            <tr>
+                <td>1/2/2025</td>
+                <td></td>
+                <td></td>
+              
+                <td>The Department of Metallurgy Engineering and Materials Science (MEMS) at IIT Indore is excited to celebrate its first Department Day on 1st February 2025. Organized by the students and faculty, the event will feature engaging activities, expert talks, and cultural programs, showcasing the spirit and achievements of MEMS. Join us as we celebrate innovation and excellence!
+                {/* <a a href={logo} id="pdfLink" target="_blank">
+                details
+              </a> */}
+              
+              
+              </td>
+              </tr>
 
+
+           
 
             <tr>
                 <td>7/11/2024</td>
