@@ -1,4 +1,3 @@
-
 import "./navbar2.css";
 import { FaBars } from "react-icons/fa";
 import { useRef } from "react";
@@ -159,7 +158,7 @@ const Navbar2 = () => {
                   
                 >
                   {" "}
-                  about{" "}
+                  Home{" "}
                 </NavLink>{" "}
               </li>
               <li className="res-people">
@@ -318,7 +317,7 @@ const Navbar2 = () => {
                   academics{" "}
                 </NavLink>{" "}
               </li>
-              <li>
+              {/* <li>
                 {" "}
                 <NavLink
                   to="hoddesk "
@@ -326,8 +325,78 @@ const Navbar2 = () => {
                   
                 >
                   {" "}
-                  HOD Desk {" "}
+                  About {" "}
                 </NavLink>{" "}
+              </li> */}
+
+
+<li className="res-people">
+                {" "}
+               
+                        <div className={(pathname === "/faculty2") 
+                || (pathname === "/PostDoc") 
+                || (pathname === "/DepartmentalStaff") 
+                || (pathname === "/ResearchStaff") 
+                || (pathname === "/UG") 
+                || (pathname === "/PG") 
+                || (pathname === "/Phd") 
+                || (pathname === "/faculty2/demo") 
+                || (pathname === "/faculty2/P5") 
+                || (pathname === "/faculty2/P2") 
+                || (pathname === "/faculty2/P3") 
+                || (pathname === "/faculty2/P1") 
+                || (pathname === "/faculty2/P4") 
+                || (pathname === "/faculty2/P6") 
+                || (pathname === "/faculty2/P7") 
+                || (pathname === "/faculty2/P8") 
+                || (pathname === "/faculty2/P9") 
+                || (pathname === "/faculty2/P10") 
+                || (pathname === "/faculty2/P11") 
+                || (pathname === "/faculty2/P12") 
+                || (pathname === "/faculty2/P13") 
+                || (pathname === "/faculty2/P14") 
+                || (pathname === "/faculty2/P15") 
+                || (pathname === "/faculty2/P19") 
+                || (pathname === "/faculty2/P16") 
+                || (pathname === "/faculty2/P17") 
+                || (pathname === "/faculty2/P18") 
+                
+                
+                
+                ? "acthover" : "nonacthover"}>
+                  About{" "}
+                </div>{" "}
+                    
+                
+              
+                <div className="dropactive">
+                  {/* <div>
+                    {" "}
+                    <a href="faculty"> Faculty Members</a>{" "}
+                  </div> */}
+                  <div>
+                    {" "}
+                    <NavLink
+                  to="hoddesk "
+                  className={pathname=== "/career" ? "acthover" : "nonacthover"}
+                  
+                >
+                      {" "}
+                      HOD Desk
+                    </NavLink>{" "}
+                  </div>
+                  <div>
+                    {" "}
+                    <NavLink to="resources?expand=2">
+                      Department Committees
+                    </NavLink>{" "}
+                  </div>
+                  
+                  
+                  
+
+                  
+                </div>{" "}
               </li>
               <li>
                 {" "}

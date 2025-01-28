@@ -1,9 +1,19 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
 import Accordion from 'react-bootstrap/Accordion';
 import Facilities from './Facilities';
 import "./main.css"
 
-const AccordianMain = () => {
+const AccordianMain = ({ defaultExpandedIndex }) => {
+  const [expandedIndex, setExpandedIndex] = useState(defaultExpandedIndex);
+
+  useEffect(() => {
+    setExpandedIndex(defaultExpandedIndex);
+  }, [defaultExpandedIndex]);
+
+  const handleToggle = (index) => {
+    setExpandedIndex(expandedIndex === index ? null : index);
+  };
+
   return (
     <div className="resources-main">
        <Accordion defaultActiveKey="-1">
